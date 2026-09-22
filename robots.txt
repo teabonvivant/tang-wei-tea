@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://teabonvivant.github.io/tang-wei-tea/sitemap.xml
