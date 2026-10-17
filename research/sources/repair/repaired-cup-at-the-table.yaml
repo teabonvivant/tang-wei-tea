@@ -1,0 +1,122 @@
+slug: repaired-cup-at-the-table
+checked_on: 2026-10-17
+facts:
+  - claim: "不少博物館收藏了口沿或碗身帶金漆修補的日本茶碗。"
+    source_url: https://museum.wales/collections/online/object/04b56eb7-2ff0-3bfb-973e-634b84dbf489
+    source_title: >-
+      Museum Wales Collections Online — Chawan
+    support: >-
+      "Tea bowl, red raku ('aka raku') ware ... gold lacquer ('kintsugi') repair running from lip to foot."
+    confidence: high
+  - claim: "（同上，第二例）日本茶碗口沿有金漆修補，獲博物館收藏。"
+    source_url: https://sammlung-digital.museumangewandtekunst.de/detailpage/collection/e97e620d-9986-43ad-8438-aecb186a6ffd
+    source_title: >-
+      Museum Angewandte Kunst Frankfurt — muji Karatsu chawan (Inv. 17242)
+    support: >-
+      "Another special feature can be seen on the lip of the bowl, where there is an area of gold lacquer repair (kintsugi)"；年代 Mid Edo, 18th century。
+    confidence: high
+  - claim: "一般認為，金繕在日本與茶道的器物關係很深。"
+    source_url: https://en.wikipedia.org/wiki/Kintsugi
+    source_title: >-
+      Wikipedia — Kintsugi
+    support: >-
+      "Kintsugi became closely associated with ceramic vessels used for chanoyu"（另有 Smithsonian si.edu snapshot 搜尋摘要稱 16 世紀末隨茶的實踐而流行，但該頁 403 未能直接打開）
+    confidence: medium
+  - claim: "修補的痕跡本身也被人欣賞。"
+    source_url: https://asia-archive.si.edu/friday-fave-tea-bowl
+    source_title: >-
+      Smithsonian National Museum of Asian Art — Friday Fave: Tea Bowl
+    support: >-
+      "The broken object is not only fixed, but somehow transformed." 及 "some people may have deliberately broken their bowls so that they could make a plain vessel more interesting and valuable"
+    confidence: medium
+  - claim: "傳統做法是用天然漆把裂縫接合，最後才在漆上撒金粉。"
+    source_url: https://asia-archive.si.edu/friday-fave-tea-bowl
+    source_title: >-
+      Smithsonian National Museum of Asian Art — Friday Fave: Tea Bowl
+    support: >-
+      "It was repaired using powdered gold sprinkled over repairs made in lacquer."
+    confidence: high
+  - claim: "金繕用的漆是天然漆（urushi）。"
+    source_url: https://unframed.lacma.org/2021/08/04/repair-and-recycle-practicing-kintsugi-conservators
+    source_title: >-
+      LACMA Unframed — Repair and Recycle: Practicing Kintsugi with Conservators
+    support: >-
+      "It's urushi, a Japanese lacquer that comes from an urushi tree that mainly grows in China, Korea, and Japan."
+    confidence: high
+  - claim: "也有人用黃銅粉代替金粉。"
+    source_url: https://unframed.lacma.org/2021/08/04/repair-and-recycle-practicing-kintsugi-conservators
+    source_title: >-
+      LACMA Unframed — Repair and Recycle: Practicing Kintsugi with Conservators
+    support: >-
+      brass powder was used instead of gold because "gold powder is much more expensive than brass powder."
+    confidence: high
+  - claim: "天然漆需要時間才乾透（要看漆是否已經乾透）。"
+    source_url: https://unframed.lacma.org/2021/08/04/repair-and-recycle-practicing-kintsugi-conservators
+    source_title: >-
+      LACMA Unframed — Repair and Recycle: Practicing Kintsugi with Conservators
+    support: >-
+      "It will take another week in the humidification chamber for the urushi to set completely."
+    confidence: high
+  - claim: "合成膠等家用黏合劑與專業材料性質不同，外觀相近卻不一樣（簡易修補性質不同）。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: >-
+      V&A — Caring for your ceramic objects and floor tiles
+    support: >-
+      "common household adhesives are inappropriate. Some are too thick or rapidly discolour, whilst others bond almost instantaneously"
+    confidence: medium
+  - claim: "食物接觸材料裏的化學物遷移，一般會隨溫度、酸度和接觸時間而增加。"
+    source_url: https://www.cfs.gov.hk/tc_chi/programme/programme_rafs/programme_rafs_fcm_01_04_Baby_Bottles_Tableware.html
+    source_title: >-
+      香港食物安全中心 — 風險評估研究第47號報告書：嬰兒奶瓶和兒童餐具的安全問題
+    support: >-
+      "一般來說，化學物遷移會受溫度、脂肪含量、酸性和接觸時間的影響而增加。"
+    confidence: high
+  - claim: "食物安全中心建議避免使用表面有破損的餐具。"
+    source_url: https://www.cfs.gov.hk/tc_chi/programme/programme_rafs/programme_rafs_fcm_01_04_Baby_Bottles_Tableware.html
+    source_title: >-
+      香港食物安全中心 — 風險評估研究第47號報告書
+    support: >-
+      "避免使用表面有破損或已損壞的餐具。"
+    confidence: high
+  - claim: "修補過的器物，始終比沒有破過的弱。"
+    source_url: https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html
+    source_title: >-
+      Canadian Conservation Institute Notes — Care of Ceramics and Glass
+    support: >-
+      "A repaired object is always weaker than one that has not been broken."
+    confidence: high
+  - claim: "接合處受冷熱時較易出問題（耐熱要多照顧）。"
+    source_url: https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/ceramics-glass-preventive-conservation.html
+    source_title: >-
+      Canadian Conservation Institute — Caring for ceramic and glass objects
+    support: >-
+      "The joints between the cup and the base are inherently weak and can separate when stressed by heat or cold."；"Ceramic objects might have been broken and repaired and will be weaker at these points."
+    confidence: medium
+  - claim: "拿起時托住器身，不要只捏着口沿。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: >-
+      V&A — Caring for your ceramic objects and floor tiles
+    support: >-
+      "Support the body of the object evenly using both hands" ；"Avoid lifting an object by the rim or parts that protrude ... may have been repaired in the past."
+    confidence: high
+  - claim: "修補杯用溫水手洗，避開修補位置，不放洗碗機，不要整隻泡在水裏。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: >-
+      V&A — Caring for your ceramic objects and floor tiles
+    support: >-
+      "Do not use a dishwasher to clean valued ceramics."；"Restorations and repairs are always more sensitive to cleaning than the original ceramic ... some old adhesives dissolve in water ... keeping water away from the repair."；水溫見 CCI Notes "Water temperature should be lukewarm or cooler."（「不要整隻泡」為據此推出的保守建議）
+    confidence: medium
+  - claim: "綠茶、白茶水溫較低，烏龍、普洱水溫較高。"
+    source_url: https://yunnansourcing.com/pages/brewing-guide-for-green-black-oolong-and-pu-erh-teas
+    source_title: >-
+      Yunnan Sourcing — Brewing guide for green, black, oolong and pu-erh teas
+    support: >-
+      綠茶／白茶 "close to 85C"；烏龍 "close to 95C (or higher)"；普洱 "as hot as possible (95c-100c)"
+    confidence: medium
+  - claim: "上茶席前檢查接縫有沒有變色、起翹或新裂紋。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: >-
+      V&A — Caring for your ceramic objects and floor tiles
+    support: >-
+      "Old repairs often indicate structural weakness ... Many paints and varnishes will discolour over time."；CCI preventive："Old repairs could discolour, swell or fall apart."
+    confidence: medium

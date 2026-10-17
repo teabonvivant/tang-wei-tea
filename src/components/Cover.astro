@@ -1,0 +1,14 @@
+---
+import { Picture } from 'astro:assets';
+import { imgInfo } from '../lib/site';
+interface Props { src: string | ImageMetadata; alt: string; sizes?: string; priority?: boolean; vt?: string; class?: string; }
+const { src, alt, sizes = '(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw', priority = false, vt, class: cls } = Astro.props;
+const info = typeof src === 'string' ? imgInfo(src) : null;
+---
+<div class:list={['ph', cls]} style={vt ? `view-transition-name: ${vt}` : undefined}>
+  {info ? (
+    <img src={info.src} srcset={info.srcset} sizes={info.srcset ? sizes : undefined} width={info.width} height={info.height} alt={alt} aria-hidden={alt === '' ? 'true' : undefined} loading={priority ? 'eager' : 'lazy'} fetchpriority={priority ? 'high' : undefined} decoding={priority ? 'sync' : 'async'} />
+  ) : (
+    <Picture src={src as ImageMetadata} alt={alt} aria-hidden={alt === '' ? 'true' : undefined} formats={['avif', 'webp']} fallbackFormat="jpg" widths={[480, 768, 1040, 1536]} sizes={sizes} priority={priority} />
+  )}
+</div>

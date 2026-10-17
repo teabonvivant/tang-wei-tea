@@ -1,0 +1,32 @@
+---
+// 裂紋地圖：一隻碗的線稿，五條金色裂紋各連到修器目錄的一個群組。
+// 零 JavaScript：裂紋是 SVG 連結（可用 Tab 聚焦），旁邊有等效的文字連結列表。
+import { clusters, u } from '../lib/site';
+interface Props { counts: Record<string, number>; }
+const { counts } = Astro.props;
+const cracks: Record<string, string> = {
+  look: 'M116 148 C 132 186, 110 214, 124 250 S 134 292, 140 308',
+  method: 'M202 166 C 190 200, 214 226, 206 262 S 196 304, 204 328',
+  material: 'M290 168 C 304 204, 278 232, 288 270 S 300 320, 296 348',
+  table: 'M376 166 C 364 200, 388 228, 378 262 S 368 300, 374 324',
+  people: 'M452 140 C 442 176, 466 200, 456 236 S 442 270, 446 294',
+};
+---
+<div class="crackmap" data-crackmap>
+  <svg class="gold-draw" viewBox="0 0 560 420" role="group" aria-label="裂紋地圖：一隻碗上的五條裂紋，各連到一個主題群組">
+    <ellipse class="bowl" cx="280" cy="110" rx="230" ry="56" />
+    <path class="bowl" d="M50 110 C 60 280, 170 380, 280 380 C 390 380, 500 280, 510 110" />
+    <path class="bowl" d="M212 379 L222 402 H338 L348 379" />
+    {clusters.map((c) => (
+      <a class="crack" data-c={c.id} href={`#cluster-${c.id}`} aria-label={`${c.name}，${counts[c.id] ?? 0} 篇`}>
+        <path class="hit" d={cracks[c.id]} />
+        <path class="gold-line" pathLength="1" d={cracks[c.id]} />
+      </a>
+    ))}
+  </svg>
+  <div class="crack-links">
+    {clusters.map((c) => (
+      <a data-c={c.id} href={`#cluster-${c.id}`}><strong>{c.name}</strong><span>{c.blurb}</span></a>
+    ))}
+  </div>
+</div>

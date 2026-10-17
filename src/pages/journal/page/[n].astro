@@ -1,0 +1,23 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageIntro from '../../../components/PageIntro.astro';
+import JournalList from '../../../components/JournalList.astro';
+import { allArticles } from '../../../lib/site';
+export async function getStaticPaths() {
+  const all = await allArticles();
+  const PER = 12;
+  const pages = Math.ceil(all.length / PER);
+  return Array.from({ length: pages - 1 }, (_, i) => i + 2).map((n) => ({
+    params: { n: String(n) },
+    props: { items: all.slice((n - 1) * PER, n * PER), page: n, pages, total: all.length },
+  }));
+}
+const { items, page, pages, total } = Astro.props;
+---
+<Base title={`茶間筆記 第 ${page} 頁｜唐娓老師`} description={`茶間筆記與茶逢知己全部文章，第 ${page} 頁，共 ${pages} 頁。`} path={`/journal/page/${page}/`}>
+  <PageIntro title="茶間筆記" english="Notes on tea & everyday life." intro="一百篇日常茶筆記，加上唐老師的「茶逢知己」。" />
+  <section class="wrap" style="padding-bottom:128px">
+    <p class="muted" style="margin-bottom:24px">全部文章，共 {total} 篇 · 第 {page} / {pages} 頁</p>
+    <JournalList items={items} page={page} pages={pages} />
+  </section>
+</Base>

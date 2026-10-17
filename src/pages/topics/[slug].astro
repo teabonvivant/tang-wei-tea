@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import JournalList from '../../components/JournalList.astro';
+import Arrow from '../../components/Arrow.astro';
+import { topicList, topicArticles, u } from '../../lib/site';
+export async function getStaticPaths() {
+  return Promise.all(topicList.map(async (t) => ({ params: { slug: t.slug }, props: { t, items: await topicArticles(t.slug) } })));
+}
+const { t, items } = Astro.props;
+---
+<Base title={t.title} description={t.description} path={`/topics/${t.slug}/`}>
+  <PageIntro title={t.name} english={t.english} intro={t.pageIntro} />
+  <section class="wrap" style="padding-bottom:128px">
+    <p class="muted" style="margin-bottom:24px">{t.name}，共 {items.length} 篇</p>
+    <JournalList items={items} current={t.slug} />
+    {(t.slug === 'vessels' || t.slug === 'hosting') && (
+      <p style="margin-top:64px"><a class="text-link" href={u('/repair/')}><span>器物破損了？讀讀「修器」</span><Arrow /></a></p>
+    )}
+  </section>
+</Base>

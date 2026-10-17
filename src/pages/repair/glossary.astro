@@ -1,0 +1,34 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import { allTerms, termUsage, glossaryGroups, glossaryGroupNames, u } from '../../lib/site';
+const terms = await allTerms();
+const usage = await termUsage();
+const byId = Object.fromEntries(terms.map((t) => [t.id, t]));
+const groups = glossaryGroups.map((g) => ({ g, items: terms.filter((t) => t.data.group === g) })).filter((x) => x.items.length);
+---
+<Base title="修補小詞典｜唐娓老師" description="金繕、鋦瓷、開片、生漆……修器文章裏用到的詞，按器物、破損、方法、材料與安全分組，每條都附出處文章。" path="/repair/glossary/">
+  <PageIntro title="修補小詞典" english="A small glossary for mending." intro="文章裏用虛線標出的詞，都在這裏。每條先給一句短解，再補上詳細一點的說明，並列出見於哪幾篇。" />
+  <section class="wrap" style="padding-bottom:128px">
+    <nav class="glossary-index" aria-label="詞條分組">
+      {groups.map(({ g }) => <a href={`#g-${g}`}>{glossaryGroupNames[g]}</a>)}
+    </nav>
+    {groups.map(({ g, items }) => (
+      <section class="glossary-group" id={`g-${g}`} aria-labelledby={`h-${g}`}>
+        <h2 id={`h-${g}`}>{glossaryGroupNames[g]}</h2>
+        <div>
+          {items.map((t) => (
+            <article class="entry" id={t.id}>
+              <h3>{t.data.term}</h3>
+              {t.data.aka.length > 0 && <p class="aka">又稱：{t.data.aka.join('、')}</p>}
+              <p class="short">{t.data.short}</p>
+              <p class="body">{t.data.body}</p>
+              {t.data.seeAlso.length > 0 && <p class="see"><span>相關：</span>{t.data.seeAlso.map((s) => <a href={`#${s.id}`}>{byId[s.id].data.term}</a>)}</p>}
+              {(usage.get(t.id) ?? []).length > 0 && <p class="see"><span>見於：</span>{(usage.get(t.id) ?? []).map((r) => <a href={u(`/repair/${r.id}/`)}>{r.data.title}</a>)}</p>}
+            </article>
+          ))}
+        </div>
+      </section>
+    ))}
+  </section>
+</Base>

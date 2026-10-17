@@ -1,0 +1,14 @@
+---
+import { u, wa } from '../lib/site';
+const { deep = false } = Astro.props;
+---
+<section class="wrap conversation">
+  <p class="serif">一杯茶的時間，足夠開始一段對話。</p>
+  <div class="conversation-actions">
+    <p>無論是剛接觸中國茶，還是想談茶席與文化合作，都歡迎直接找我。</p>
+    <div style="display:flex;flex-wrap:wrap;gap:16px;align-items:center">
+      <a class:list={['button', { 'on-deep': deep }]} href={wa('你好，我想查詢茶藝課程或合作。')}>WhatsApp 查詢</a>
+      <a class="text-link" href={u('/contact/')}>聯絡唐老師</a>
+    </div>
+  </div>
+</section>

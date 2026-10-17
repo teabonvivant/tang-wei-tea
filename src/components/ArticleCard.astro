@@ -1,0 +1,17 @@
+---
+import Cover from './Cover.astro';
+import { u } from '../lib/site';
+interface Props {
+  href: string; title: string; excerpt: string; cover: string | ImageMetadata; alt: string;
+  category?: string; date?: string; vt?: string; variant?: 'default' | 'feature' | 'row'; sizes?: string; priority?: boolean;
+}
+const { href, title, excerpt, cover, alt, category, date, vt, variant = 'default', sizes, priority } = Astro.props;
+---
+<article class:list={['card', variant === 'default' ? '' : variant]}>
+  <a class="cover-link" href={u(href)} tabindex="-1" aria-hidden="true"><Cover src={cover} alt="" vt={vt} sizes={sizes} priority={priority} /></a>
+  <div class="info" style="display:grid;gap:8px;align-content:start">
+    {(category || date) && <div class="meta">{category && <span>{category}</span>}{date && <span>{date}</span>}</div>}
+    <h3><a href={u(href)}>{title}</a></h3>
+    <p>{excerpt}</p>
+  </div>
+</article>

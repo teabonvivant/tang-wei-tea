@@ -1,0 +1,27 @@
+---
+import Base from '../layouts/Base.astro';
+import PageIntro from '../components/PageIntro.astro';
+import { u } from '../lib/site';
+import cols from '../data/columns.json';
+const items = [...cols].sort((a, b) => b.date.localeCompare(a.date));
+const fmt = (d: string) => d.replaceAll('-', '.');
+---
+<Base title="茶逢知己｜唐娓老師" description="唐娓老師香港經濟日報專欄，茶葉、器物、教學與日常的專欄選編及原刊目錄。" path="/columns/">
+  <PageIntro title="茶逢知己" english="Essays by Tang Wei." intro="唐娓老師的香港經濟日報專欄。讀一片葉的來處，也讀茶與人的相處。" />
+  <section class="wrap section" style="padding-top:0">
+    <p class="label">唐娓 · 香港經濟日報專欄</p>
+    <h2 class="h2" style="margin:8px 0 16px">全部 34 篇篇目</h2>
+    <p class="muted" style="margin-bottom:32px;max-width:var(--measure)">收錄專欄目錄中的 34 篇文章，從茶葉、器物，讀到教學與日常。2025 年 6 月至 2026 年 2 月，已收錄 33 篇專欄選編，原刊於《香港經濟日報》世情館。</p>
+    <ol class="plain-list">
+      {items.map((c) => (
+        <li>
+          {c.slug ? (
+            <a class="row-link" href={u(`/journal/${c.slug}/`)}><span class="label">{fmt(c.date)}</span><h3>{c.title}</h3><span class="label">專欄選編</span></a>
+          ) : (
+            <div class="row-link" style="display:grid;gap:4px;padding:20px 0"><span class="label">{fmt(c.date)}</span><h3>{c.title}</h3><span class="label">暫未收錄選編</span></div>
+          )}
+        </li>
+      ))}
+    </ol>
+  </section>
+</Base>

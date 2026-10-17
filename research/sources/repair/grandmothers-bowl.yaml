@@ -1,0 +1,143 @@
+slug: grandmothers-bowl
+checked_on: 2026-10-17
+facts:
+  - claim: "專業守則要求處理前記錄器物的材料、狀況和相關歷史。"
+    source_url: https://www.culturalheritage.org/conservation-at-work/uphold-professional-standards/code
+    source_title: >-
+      American Institute for Conservation — Code of Ethics and Guidelines for Practice
+    support: >-
+      Guideline 25："They also should include, as appropriate, a description of structure, materials, condition, and pertinent history."
+    confidence: high
+  - claim: "保存機構提醒，器物上的修補是它歷史的一部分，應該記錄下來。"
+    source_url: https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/ceramics-glass-preventive-conservation.html
+    source_title: >-
+      Canadian Conservation Institute — Caring for ceramic and glass objects
+    support: >-
+      "Repairs are an important part of an object's history and should be documented."
+    confidence: high
+  - claim: "舊修補（如鋦釘）也是家史的一部分，值得保留。"
+    source_url: https://www.getty.edu/art/exhibitions/fragment_to_vase/
+    source_title: >-
+      Getty — Fragment to Vase: Approaches to Ceramic Restoration
+    support: >-
+      古代修補 "today conservators preserve them as historical evidence."；"Its current reconstruction exposes the ancient breaks, making visible the vase's history."
+    confidence: medium
+  - claim: "從前的人用金屬釘把裂開的器物拉緊，繼續使用。"
+    source_url: https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html
+    source_title: >-
+      Canadian Conservation Institute Notes — Care of Ceramics and Glass
+    support: >-
+      "Metal rivets were commonly used to hold pieces together, especially on objects that were used even though broken."；另見 Smithsonian NMAA："the traditional Chinese method of using staples to repair ceramics"（https://asia-archive.si.edu/friday-fave-tea-bowl）
+    confidence: high
+  - claim: "鐵或銅造的鋦釘日久可能生鏽，令瓷面染上污漬；沒有鬆脫一般不建議拔走。"
+    source_url: https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html
+    source_title: >-
+      Canadian Conservation Institute Notes — Care of Ceramics and Glass
+    support: >-
+      "If the rivets are iron or copper, the pottery may be stained by metal corrosion."；建議除非已鬆脫或嚴重損害外觀，否則不移除。
+    confidence: high
+  - claim: "膠已發黃、變脆的，要當作器物隨時可能散開來處理。"
+    source_url: https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html
+    source_title: >-
+      Canadian Conservation Institute Notes — Care of Ceramics and Glass
+    support: >-
+      "If a piece has yellow, brittle adhesive on it, assume that it is fragile and might fall apart."
+    confidence: high
+  - claim: "老化的膠很多時已經溶不掉，真要拆應交給修復師。"
+    source_url: https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html
+    source_title: >-
+      Canadian Conservation Institute Notes — Care of Ceramics and Glass
+    support: >-
+      "Old adhesives often become insoluble as they age, making removal difficult."；"If an adhesive must be removed, consult a conservator."
+    confidence: high
+  - claim: "可再處理：選用日後能拆下重做的材料。"
+    source_url: https://www.getty.edu/art/exhibitions/fragment_to_vase/
+    source_title: >-
+      Getty — Fragment to Vase
+    support: >-
+      "Getty conservators use only reversible materials, ensuring the long-term preservation and appreciation of ceramic works."；AIC Guideline 23："Such compensation should be reversible"
+    confidence: high
+  - claim: "家用萬能膠一般很難清除，會令之後的修補更費功夫。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: >-
+      V&A — Caring for your ceramic objects and floor tiles
+    support: >-
+      "common household adhesives are inappropriate ... All such products are difficult to remove and will make any future repair work more complex and time consuming."
+    confidence: high
+  - claim: "修補方法可選金繕讓裂痕看得見（以漆接合、撒金粉）。"
+    source_url: https://asia-archive.si.edu/friday-fave-tea-bowl
+    source_title: >-
+      Smithsonian National Museum of Asian Art — Friday Fave: Tea Bowl
+    support: >-
+      "It was repaired using powdered gold sprinkled over repairs made in lacquer."
+    confidence: high
+  - claim: "也可以選補色，讓器物看來接近原貌（低調補色）。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: >-
+      V&A — Caring for your ceramic objects and floor tiles
+    support: >-
+      "Some modern resins allow breaks to be joined almost invisibly ... Areas of loss will have often been filled with plaster or resin materials and then painted to disguise them."
+    confidence: high
+  - claim: "修補過的碗，始終比沒有破過的弱。"
+    source_url: https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html
+    source_title: >-
+      Canadian Conservation Institute Notes — Care of Ceramics and Glass
+    support: >-
+      "A repaired object is always weaker than one that has not been broken."
+    confidence: high
+  - claim: "部分傳統陶器，特別是古舊、磨損嚴重或顏色鮮豔的，釉面和彩繪可能含鉛；洗擦、煲煮都去不掉；無法檢測就考慮不要盛食物。"
+    source_url: https://www.fda.gov/food/environmental-contaminants-food/questions-and-answers-lead-glazed-traditional-pottery
+    source_title: >-
+      U.S. FDA — Questions and Answers on Lead-Glazed Traditional Pottery
+    support: >-
+      "Lead may be present in the glazes or decorations covering the surface of some traditional pottery."；問題類型列 "antique"、"damaged or excessively worn"、"brightly decorated in orange, red, or yellow"；"no amount of washing, boiling, or other process can remove lead from pottery."；無法測試或確認製造者時，考慮不用來盛食物。
+    confidence: high
+  - claim: "天然漆會刺激部分人的皮膚。"
+    source_url: https://unframed.lacma.org/2021/08/04/repair-and-recycle-practicing-kintsugi-conservators
+    source_title: >-
+      LACMA Unframed — Repair and Recycle: Practicing Kintsugi with Conservators
+    support: >-
+      urushi "comes from the poison ivy family and irritates the skin and throat of sensitive people."
+    confidence: high
+  - claim: "窗台前有人走動、窗門開關容易碰跌；陽光直曬帶來的冷熱變化對器物和舊修補不好。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: >-
+      V&A — Caring for your ceramic objects and floor tiles
+    support: >-
+      "Try to avoid displaying ceramics in areas where people frequently pass ... for example window sills in front of an opening window."；"Sudden changes in temperatures, for example, from direct sunlight or spotlights may trigger such a response. Old restorations or repairs may be more vulnerable to the environment."
+    confidence: high
+  - claim: "下面墊一塊軟布，防止器物滑移及刮花底部。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: >-
+      V&A — Caring for your ceramic objects and floor tiles
+    support: >-
+      "One way to prevent creep is to place a piece of chamois leather under the ceramic ... Avoid placing an object on a rough surface as it may scratch the base."
+    confidence: medium
+  - claim: "拿起時雙手托住碗身，不要捏着碗口。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: >-
+      V&A — Caring for your ceramic objects and floor tiles
+    support: >-
+      "Support the body of the object evenly using both hands"；"Avoid lifting an object by the rim"
+    confidence: high
+  - claim: "清洗用溫水手洗，避開修補位置，不放洗碗機。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: >-
+      V&A — Caring for your ceramic objects and floor tiles
+    support: >-
+      "Do not use a dishwasher to clean valued ceramics."；"keeping water away from the repair."；水溫見 CCI Notes "Water temperature should be lukewarm or cooler."
+    confidence: high
+  - claim: "家人意見不一時，先做記錄、拍照、分開包好碎片等可延後的安排。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: >-
+      V&A — Caring for your ceramic objects and floor tiles
+    support: >-
+      意外破損時 "collect all the fragments ... Place large pieces into a tray or box, padding or loosely wrapping them"；"Resist the temptation to try to fit any pieces back together"（「先做可延後安排」為據此的建議）
+    confidence: medium
+  - claim: "修補之後把照片、修補方法和用料寫下，跟器物放在一起。"
+    source_url: https://www.culturalheritage.org/conservation-at-work/uphold-professional-standards/code
+    source_title: >-
+      American Institute for Conservation — Code of Ethics and Guidelines for Practice
+    support: >-
+      Guideline 27：maintain "dated documentation that includes a record or description of techniques or procedures involved."
+    confidence: high

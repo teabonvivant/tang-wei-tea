@@ -1,0 +1,83 @@
+slug: is-it-real-gold
+checked_on: 2026-10-17
+facts:
+  - claim: "傳統金繕先以天然漆接合裂縫，金粉在最後階段施於漆面"
+    source_url: https://kintsugi-kobo.com/dougu-kit/kinpun/
+    source_title: 金継ぎ工房：金継ぎの金粉選び
+    support: "漆は「指で触ると少し跡がつくが、指にほとんど付かない」くらいの指觸乾燥のタイミングで金粉を蒔く（金粉蒔於漆面）；Columbia edblog: lacquer paste works as both the adhesive binder and infills for lacunae."
+    confidence: high
+  - claim: "金粉要在漆將乾未乾、手指一碰只留淺痕時蒔上；太濕或太乾都附不牢"
+    source_url: https://kintsugi-kobo.com/dougu-kit/kinpun/
+    source_title: 金継ぎ工房：金継ぎの金粉選び
+    support: "指で触ると少し跡がつくが、指にほとんど付かない」くらいの指触乾燥のタイミングで金粉を蒔く；濕或乾過頭粉附着不佳。"
+    confidence: high
+  - claim: "消粉由金箔磨細而成，是金粉中最細最薄的，啞光，一般蒔後不打磨；因薄而容易磨出底層"
+    source_url: https://hatoya-f.com/real-kintsugi/makie-powder01/
+    source_title: 鳩屋：金継ぎで使う蒔絵粉の種類とその特徴
+    support: "金箔を細かく擦り潰して、パウダー状にしたもの（蒔絵粉のなかで最も細かく、薄いもの）；光沢が弱く、マットな表情；基本的には研がない、磨かないで、蒔きっ放しで使う；摩耗して下地が出てきやすい。"
+    confidence: high
+  - claim: "一般金繕以消粉或丸粉完成；消粉無光澤，丸粉有光澤，丸粉要多一兩道工序（漆固定後研磨）"
+    source_url: https://hakatashitsugei.jpn.org/%E9%87%91%E7%B6%99%E3%81%8E%E3%81%AE%E4%BB%95%E4%B8%8A%E3%81%92%E3%81%AE%E3%81%AF%E3%81%AA%E3%81%97/
+    source_title: 博多漆藝：金継ぎの仕上げのはなし
+    support: "一般的な金継ぎは消粉か丸粉で仕上げます；消粉：光沢なし；丸粉：光沢あり；丸粉は蒔いた後に漆で固めて磨くため１～２工程多くなります。"
+    confidence: high
+  - claim: "丸粉是地金銼成粉再加工成球狀，有厚度，可研出磨亮，較耐磨"
+    source_url: https://hatoya-f.com/real-kintsugi/makie-powder01/
+    source_title: 鳩屋：金継ぎで使う蒔絵粉の種類とその特徴
+    support: "地金をヤスリでおろしたヤスリ粉を、球体に加工したもの；研ぎ出したり、磨いたりできる；消し粉、平極粉に比べると厚み（体積）があるので、耐摩耗性が高い。"
+    confidence: high
+  - claim: "真綿是蠶繭煮過拉薄的絲綿，不易起靜電，用來沾粉、撫過漆面把粉蒔勻壓平"
+    source_url: https://kintsugiatelierrikka.substack.com/p/08
+    source_title: 金継ぎAtelier六花 #08 金継ぎ道具解説・後編
+    support: "真綿は蚕の繭を煮て薄く伸ばした絹の綿で、静電気が起きにくいため粉蒔きに重宝されます；真綿に粉をつけて優しく撫で付け、十分に粉を蒔き詰めていく。（鳩屋：立っている粉を寝かせる）"
+    confidence: high
+  - claim: "除金粉外，也可貼金箔或銀箔，或用銀、錫等其他金屬"
+    source_url: https://hakatashitsugei.jpn.org/%E9%87%91%E7%B6%99%E3%81%8E%E3%81%AE%E4%BB%95%E4%B8%8A%E3%81%92%E3%81%AE%E3%81%AF%E3%81%AA%E3%81%97/
+    source_title: 博多漆藝：金継ぎの仕上げのはなし
+    support: "金箔や銀箔を貼る；銀 丸粉磨き；錫 消粉；その他：真鍮、銅、アルミニウムなど。"
+    confidence: high
+  - claim: "黃銅是銅和鋅的合金"
+    source_url: https://kintsugi-kobo.com/dougu-kit/kinpun/
+    source_title: 金継ぎ工房：金継ぎの金粉選び
+    support: "真鍮は銅＋亜鉛の合金であり……"
+    confidence: high
+  - claim: "黃銅粉顏色明亮；純金消粉與黃銅粉每克價錢相差十倍上下（純金消粉每克約五千至一萬日圓，黃銅粉每克數百至一千日圓）"
+    source_url: https://itowocashi.com/blogs/utsuwa-how-to/kintsugi-real-gold
+    source_title: itowocashi：金継ぎの金粉｜本物（純金）と代用品の4つの違い
+    support: "真鍮粉は明るくギラついた金色；純金消粉は1gあたり5,000〜10,000円程度；真鍮粉は1gあたり数百円〜1,000円程度。（商戶部落格，文中只寫倍數不寫價錢）"
+    confidence: medium
+  - claim: "博物館修復人員示範金繕時以黃銅粉代替金粉，因金粉貴得多"
+    source_url: https://unframed.lacma.org/2021/08/04/repair-and-recycle-practicing-kintsugi-conservators
+    source_title: "LACMA Unframed：Repair and Recycle: Practicing Kintsugi with Conservators"
+    support: "Brass powder stands in for gold, since gold powder is much more expensive than brass powder."
+    confidence: high
+  - claim: "黃銅粉幾個月至一年左右可能氧化變暗；純金化學性質穩定不變色"
+    source_url: https://itowocashi.com/blogs/utsuwa-how-to/kintsugi-real-gold
+    source_title: itowocashi：金継ぎの金粉｜本物（純金）と代用品の4つの違い
+    support: "数ヶ月〜1年ほど経つと、真鍮粉は酸化によって黒ずんだり変色したりすることがあります；純金は化学的に安定しており変色しない。（文中以「有修補工房的資料提到」轉述）"
+    confidence: medium
+  - claim: "簡易套裝的「金粉」可能是雲母珠光顏料，配合環氧樹脂；有廠方寫明其環氧樹脂未經食品安全測試"
+    source_url: https://www.totalboat.com/products/kintsugi-epoxy-repair-project-kit
+    source_title: TotalBoat Kintsugi Epoxy Repair Project Kit
+    support: "Black Diamond Mica Powder Pigment (Color: Pure Gold)；TotalBoat Thixo Fast Cure epoxy has not been tested for food-safe use."
+    confidence: high
+  - claim: "純金一般認為接觸食物不會溶出"
+    source_url: https://itowocashi.com/blogs/utsuwa-how-to/kintsugi-real-gold
+    source_title: itowocashi：金継ぎの金粉｜本物（純金）と代用品の4つの違い
+    support: "純金は化学的に不活性で、食品と触れても溶け出す心配がありません。（文中用「一般認為」）"
+    confidence: medium
+  - claim: "黃銅長時間接觸酸性或鹹的食物，可能變色或溶出成分，建議避免用於食物接觸位置"
+    source_url: https://kintsugi-kobo.com/dougu-kit/kinpun/
+    source_title: 金継ぎ工房：金継ぎの金粉選び
+    support: "酸や塩分の多い料理と長時間接触すると、表面が変色したり、成分が溶け出す可能性があります；建議口觸面避免使用真鍮粉，宜用於練習或裝飾品。"
+    confidence: medium
+  - claim: "金屬粉本身的安全性並非一律有保證；整件修補是否適合盛茶取決於底下接合材料"
+    source_url: https://kintsugi-kobo.com/dougu-kit/kinpun/
+    source_title: 金継ぎ工房：金継ぎの金粉選び
+    support: "粉そのものの安全性が一律に保証されているわけではない。（底層漆／膠決定用途為文中建議性推論）"
+    confidence: medium
+  - claim: "光線、角度和拍攝設定會令金色看起來不同，照片不宜作判斷（一般觀察，文中以參考語氣表達）"
+    source_url: https://itowocashi.com/blogs/utsuwa-how-to/kintsugi-real-gold
+    source_title: itowocashi：金継ぎの金粉｜本物（純金）と代用品の4つの違い
+    support: "文章比較純金消粉「深みのある落ち着いた輝き」與真鍮粉「明るくギラついた金色」的外觀差異；拍攝條件影響顏色屬一般常識，無專門來源。"
+    confidence: low

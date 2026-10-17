@@ -1,0 +1,103 @@
+slug: when-a-cup-breaks
+checked_on: 2026-10-17
+facts:
+  - claim: "器物受撞後碎片可以飛到頗遠的位置，要仔細找齊，不論多小。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: "V&A Ceramics and Glass Conservation Studio: Caring for your ceramic objects and floor tiles (2018)"
+    support: "Then collect all the fragments, no matter how small. Fragments can travel a distance after impact, so look carefully to find all the pieces."
+    confidence: high
+  - claim: "大片碎片放在托盤或盒子裏，用乾淨軟紙墊着或輕包；細碎的裝進可封口小袋。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: "V&A: Caring for your ceramic objects and floor tiles"
+    support: "Place large pieces into a tray or box, padding or loosely wrapping them with clean acid-free tissue paper. Use self-sealing bags for small pieces."
+    confidence: high
+  - claim: "碎片互相碰撞會磨損斷口邊緣，斷口的邊比想像中脆弱。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: "V&A: Caring for your ceramic objects and floor tiles"
+    support: "Resist the temptation to try to fit any pieces back together - edges are always fragile. （分開墊放的指示同段）"
+    confidence: medium
+  - claim: "盡量別用手指摸斷口，手上的污漬會沾到斷面，之後造成麻煩。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: "V&A: Caring for your ceramic objects and floor tiles"
+    support: "Try not to touch the broken edges, as fingers can transfer dirt causing problems later."
+    confidence: high
+  - claim: "黏性標籤日後未必容易撕乾淨，不宜貼在碎片上。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: "V&A: Caring for your ceramic objects and floor tiles"
+    support: "Avoid sticky labels, which can be difficult to remove."
+    confidence: high
+  - claim: "如打算申請保險，要在移動任何東西之前先拍下現場。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: "V&A: Caring for your ceramic objects and floor tiles"
+    support: "If you are likely to make an insurance claim, photograph the scene of the accident immediately before anything is moved."
+    confidence: high
+  - claim: "不要自己試着把碎片拼起來。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: "V&A: Caring for your ceramic objects and floor tiles"
+    support: "Resist the temptation to try to fit any pieces back together - edges are always fragile."
+    confidence: high
+  - claim: "保存修復專業守則要求動手之前先仔細檢查，並留下文字和圖像紀錄。"
+    source_url: https://www.culturalheritage.org/conservation-at-work/uphold-professional-standards/code
+    source_title: "American Institute for Conservation: Code of Ethics and Guidelines for Practice"
+    support: "Guideline 25: Before any intervention, the conservation professional should make a thorough examination... Guideline 24: When appropriate, the records should be both written and pictorial."
+    confidence: high
+  - claim: "家用膠水有些太稠、有些很快變色、有些幾乎即黏只有一次機會對準；全部都難以清除，令日後修補更複雜費時。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: "V&A: Caring for your ceramic objects and floor tiles"
+    support: "common household adhesives are inappropriate. Some are too thick or rapidly discolour, whilst others bond almost instantaneously, giving a brief chance to get it right. All such products are difficult to remove and will make any future repair work more complex and time consuming."
+    confidence: high
+  - claim: "修補多片碎器前會先不上膠試排（乾拼），看清次序。"
+    source_url: https://lakesidepottery.com/Pages/Pottery-tips/mending-multi-piece-pottery-ceramic-assembly.htm
+    source_title: "Lakeside Pottery: Mending multi-piece pottery"
+    support: "Always perform a dry run before applying adhesive. ... Pre-segregate the broken pieces into logical sub-sections and perform a dry run for every segment."
+    confidence: high
+  - claim: "黏合次序錯了，前面黏好的部分會擋住後面的碎片；一片偏了，其餘也跟着偏。"
+    source_url: https://con3057-2223-storiesofconservation.coursework.lincoln.ac.uk/?p=198
+    source_title: "University of Lincoln conservation coursework: Staffordshire Spaniel Ceramic"
+    support: "a dry run was done to make sure there was no risk of lock out... lock-out: where pieces are adhered together in the wrong order and access is no longer possible to put a piece back... a single misaligned piece will push the rest out of alignment"
+    confidence: medium
+  - claim: "保存修復個案中，會替每片碎片編號，再按計劃逐片接回。"
+    source_url: https://cincinnatiartmuseum.org/about/blog/behind-the-scenes-in-conservation-18th-century-islamic-ceramic-vessel/
+    source_title: "Cincinnati Art Museum: Behind the Scenes in Conservation, 18th-century Islamic ceramic vessel"
+    support: "a template of the fragments is created, and each piece is given a number, then a step-by-step plan is made to reattach each piece in an order to ensure the best alignment."
+    confidence: high
+  - claim: "保存修復講求所用材料日後可以拆除、重新處理（可再處理）。"
+    source_url: https://www.getty.edu/art/exhibitions/fragment_to_vase/
+    source_title: "Getty Villa: Fragment to Vase: Approaches to Ceramic Restoration"
+    support: "Getty conservators use only reversible materials, ensuring the long-term preservation and appreciation of ceramic works."
+    confidence: high
+  - claim: "（同上，補充）專業守則要求補配可逆，並考慮材料對日後處理的影響。"
+    source_url: https://www.culturalheritage.org/conservation-at-work/uphold-professional-standards/code
+    source_title: "AIC Code of Ethics and Guidelines for Practice"
+    support: "Guideline 23: Such compensation should be reversible. Guideline 22: weigh benefits of materials against possible effects on future treatment."
+    confidence: high
+  - claim: "金繕用天然漆（urushi），對敏感的人會刺激皮膚；漆要放在潮濕環境中花時間才乾硬。"
+    source_url: https://unframed.lacma.org/2021/08/04/repair-and-recycle-practicing-kintsugi-conservators
+    source_title: "LACMA Unframed: Repair and Recycle: Practicing Kintsugi with Conservators"
+    support: "urushi, a Japanese lacquer that comes from an urushi tree... irritates the skin and throat of sensitive people... It will take another week in the humidification chamber for the urushi to set completely."
+    confidence: high
+  - claim: "低溫燒成的陶器胎質鬆而多孔，會吸水，含污的水可造成污漬；瓷和炻器燒成溫度高，較堅硬。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: "V&A: Caring for your ceramic objects and floor tiles"
+    support: "The low-fired wares, including earthenware and terracotta, are relatively soft and porous... Low-fired ceramics with porous bodies will absorb water, and if the water contains dirt, this may cause staining. Therefore, avoid water contact with unglazed or partially glazed earthenware."
+    confidence: high
+  - claim: "斷口留下水痕，日後修補時接縫會更顯眼。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: "V&A: Caring for your ceramic objects and floor tiles"
+    support: "much can go wrong: misaligned dirty joins, the improper use of adhesives causing stains（推論：髒污斷口令接縫不理想；屬引申）"
+    confidence: low
+  - claim: "碰撞造成的裂並不穩定，再受力可能延長。"
+    source_url: https://gotheborg.com/glossary/crack.shtml
+    source_title: "Gotheborg.com Glossary: Crack"
+    support: "A later crack caused by an impact implies... the object is now in an unstable condition that might be worsened by even a modest amount of further pressure. Even lifting an object with an unstable crack might cause further damage."
+    confidence: medium
+  - claim: "拿起器物時用兩手平均承托器身。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: "V&A: Caring for your ceramic objects and floor tiles"
+    support: "Support the body of the object evenly using both hands, considering the weight and size."
+    confidence: high
+  - claim: "有裂的杯先不要再注熱水（保守建議）。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: "V&A: Caring for your ceramic objects and floor tiles"
+    support: "Sudden changes in temperatures... may trigger such a response（製作缺陷器物出現胎裂或開片）；配合 gotheborg 指受損裂縫不穩定。屬保守引申。"
+    confidence: medium

@@ -1,0 +1,144 @@
+slug: what-is-kintsugi
+checked_on: 2026-10-17
+notes: >
+  folklife.si.edu、si.edu、britishmuseum.org、pubmed 於 2026-10-17 以 WebFetch／curl 打開均回 403 或需 cookies，未採用。
+  起源年代與「足利義政送碗回中國」故事來源不一，正文不寫具體人名年份，只寫「說法不一」。
+facts:
+  - claim: "金繕日文寫作「金継ぎ」，中文亦稱金繼，意為以金承繼、以金修繕。"
+    source_url: "https://zh.wikipedia.org/zh-hk/金繼"
+    source_title: "維基百科：金繼"
+    support: |-
+      "條目名稱為「金繼」，日文「金継ぎ」，別稱「金繕」；「以金子去承繼」「以金子去修繕」。"
+    confidence: medium
+  - claim: "傳統金繕以天然漆（urushi）修補，並在漆上撒金粉。"
+    source_url: "https://cool.culturalheritage.org/byform/mailing-lists/cdl/2015/0937.html"
+    source_title: "Conservation DistList：Pitt Rivers Museum 金繼工作坊公告"
+    support: |-
+      "Kintsugi is the repair of damaged or broken ceramics using urushi lacquer and most commonly, gold powder."
+    confidence: high
+  - claim: "生漆是漆樹的樹液。"
+    source_url: "https://kintsugi-kit.com/blogs/tsugu-tsugu-columns/traditional-kintsugi-vs-modern-kintsugi"
+    source_title: "Tsugu Tsugu：Traditional Kintsugi vs Modern Kintsugi"
+    support: |-
+      "Urushi lacquer is the sap of the lacquer tree."
+    confidence: high
+  - claim: "漆樹主要生長在中國、韓國和日本。"
+    source_url: "https://unframed.lacma.org/2021/08/04/repair-and-recycle-practicing-kintsugi-conservators"
+    source_title: "LACMA Unframed：Repair and Recycle: Practicing Kintsugi with Conservators"
+    support: |-
+      "It's urushi, a Japanese lacquer that comes from an urushi tree that mainly grows in China, Korea, and Japan."
+    confidence: high
+  - claim: "接合用麥漆，由生漆、麵粉和水搓揉而成。"
+    source_url: "https://chimahaga.com/pages/about-kintsugi"
+    source_title: "Chimahaga：What is Kintsugi?"
+    support: |-
+      "a paste called \"mugi urushi,\" which is made by kneading raw urushi, flour, and water."（維基百科 Kintsugi 亦載 mugi urushi 為生漆與麵粉混合）
+    confidence: medium
+  - claim: "錆漆是生漆混合砥粉和水的膏，用來填補縫隙凹位。"
+    source_url: "https://chimahaga.com/pages/about-kintsugi"
+    source_title: "Chimahaga：What is Kintsugi?"
+    support: |-
+      "fill the grooves with sabi urushi, a paste of raw urushi, tonoko, and water."（維基百科：sabi urushi 為生漆混合黏土）
+    confidence: medium
+  - claim: "填補後上黑漆或弁柄漆，硬後磨平，反覆上漆打磨使接縫順滑。"
+    source_url: "https://chimahaga.com/pages/about-kintsugi"
+    source_title: "Chimahaga：What is Kintsugi?"
+    support: |-
+      "scrape off the excess and apply black urushi over it"；"file off any excess on the surface" 再上黑漆或弁柄漆使接縫平整。
+    confidence: medium
+  - claim: "最後一層薄漆未乾時撒上金粉，漆硬後抹去多餘金粉；金在最外層。"
+    source_url: "https://chimahaga.com/pages/about-kintsugi"
+    source_title: "Chimahaga：What is Kintsugi?"
+    support: |-
+      最後薄塗弁柄漆，未乾時撒金粉；"Wait about a week for the bengara urushi to harden."；"Wipe off excess gold dust on the surface with a tissue wet with water to complete the process."
+    confidence: medium
+  - claim: "施金也可用銀粉等其他金屬粉。"
+    source_url: "https://en.wikipedia.org/wiki/Kintsugi"
+    source_title: "Wikipedia：Kintsugi"
+    support: |-
+      "mending the areas of breakage with urushi lacquer dusted or mixed with powdered gold, silver, or platinum"
+    confidence: medium
+  - claim: "有工作坊為減低成本，以黃銅／青銅粉代替金粉；金粉比黃銅粉貴得多。"
+    source_url: "https://unframed.lacma.org/2021/08/04/repair-and-recycle-practicing-kintsugi-conservators"
+    source_title: "LACMA Unframed：Repair and Recycle"
+    support: |-
+      "Usually gold powder would be used, but gold powder is much more expensive than brass powder"；Pitt Rivers 工作坊公告："Repairs will be made with bronze powder instead of gold powder"
+    confidence: high
+  - claim: "用漆修補陶瓷的做法也見於中國、越南和韓國的陶瓷，並非日本獨有。"
+    source_url: "https://zh.wikipedia.org/zh-hk/金繼"
+    source_title: "維基百科：金繼"
+    support: |-
+      條目指此技術也見於中國、越南和韓國的陶瓷器物，雖以日本工匠聞名，但並非日本獨有。
+    confidence: medium
+  - claim: "天然漆要在濕度高、溫度適中的環境裏硬化，濕度約七成至八成多、溫度約二十至三十度。"
+    source_url: "https://kintsugi-kit.com/blogs/tsugu-tsugu-columns/traditional-kintsugi-vs-modern-kintsugi"
+    source_title: "Tsugu Tsugu：Traditional Kintsugi vs Modern Kintsugi"
+    support: |-
+      urushi needs "70-85% of humidity and 20-30°C" to harden.（維基百科另稱 furo 內約 90% 濕度）
+    confidence: medium
+  - claim: "做金繕會把修補品放入漆室（保持潮濕的櫃或箱）讓漆硬化。"
+    source_url: "https://unframed.lacma.org/2021/08/04/repair-and-recycle-practicing-kintsugi-conservators"
+    source_title: "LACMA Unframed：Repair and Recycle"
+    support: |-
+      "the urushi needs to set a little bit and that's done by putting it in a humidification chamber"；維基百科：furo 為存放修補品使漆硬化的空間。
+    confidence: high
+  - claim: "工序時間：接合後約一星期，填補及每次上漆後各等數天，施金後再約一星期；全程快則約一個月。"
+    source_url: "https://chimahaga.com/pages/about-kintsugi"
+    source_title: "Chimahaga：What is Kintsugi?"
+    support: |-
+      "Wait about a week for it to harden."；"Wait for about three days for the sabi urushi to harden."；"a broken pottery can take up to a month to complete."
+    confidence: medium
+  - claim: "完整修復一般需兩三個月；修好後建議放一段時間（至少一個月）才使用。"
+    source_url: "https://kintsugi-kit.com/pages/3-steps-to-start-kintsugi-at-home"
+    source_title: "Tsugu Tsugu：Kintsugi Beginner's Guide"
+    support: |-
+      a full restoration commonly takes "2-3 months"；"It is recommended that you start using the item at least 1 month after it was repaired."
+    confidence: medium
+  - claim: "漆樹與毒葛同科，未乾的漆刺激敏感者的皮膚和喉嚨。"
+    source_url: "https://unframed.lacma.org/2021/08/04/repair-and-recycle-practicing-kintsugi-conservators"
+    source_title: "LACMA Unframed：Repair and Recycle"
+    support: |-
+      "it is actually toxic. It comes from the poison ivy family and irritates the skin and throat of sensitive people."
+    confidence: high
+  - claim: "做金繕要戴手套、遮蓋手臂。"
+    source_url: "https://kintsugi-kit.com/pages/3-steps-to-start-kintsugi-at-home"
+    source_title: "Tsugu Tsugu：Kintsugi Beginner's Guide"
+    support: |-
+      "Raw urushi lacquer is known for its capacity to cause strong allergic reactions"；"we strongly recommend to use gloves and cover your arms when doing kintsugi."
+    confidence: high
+  - claim: "漆完全乾透後，一般很少再引起過敏。"
+    source_url: "https://chimahaga.com/pages/faq"
+    source_title: "Chimahaga：FAQ"
+    support: |-
+      "If the urushi is completely dry, it is very unlikely that you will have an allergic reaction."
+    confidence: medium
+  - claim: "現代金繕多用環氧樹脂等合成膠配金屬粉，約一天至十天完成；部分環氧樹脂固化後食品安全，很多則不是。"
+    source_url: "https://kintsugi-kit.com/blogs/tsugu-tsugu-columns/traditional-kintsugi-vs-modern-kintsugi"
+    source_title: "Tsugu Tsugu：Traditional Kintsugi vs Modern Kintsugi"
+    support: |-
+      "Using synthetic adhesives such as epoxy resin"；"as little as one day to about ten days"；"Some epoxy resins are designed to be food-safe once fully cured, but many are not."
+    confidence: medium
+  - claim: "另有用金屬釘跨過裂縫扣緊碎片的修法（鋦瓷），是中國傳統修補方法。"
+    source_url: "https://asia-archive.si.edu/friday-fave-tea-bowl"
+    source_title: "Smithsonian National Museum of Asian Art：Friday Fave: Tea Bowl"
+    support: |-
+      "It became a graceful alternative to the traditional Chinese method of using staples to repair ceramics."；維基百科："small holes are drilled on either side of a crack and metal staples are bent to hold the pieces together."
+    confidence: high
+  - claim: "金繕與日本茶道關係密切，一般認為隨茶道流行起來。"
+    source_url: "https://en.wikipedia.org/wiki/Kintsugi"
+    source_title: "Wikipedia：Kintsugi"
+    support: |-
+      kintsugi "became closely associated with ceramic vessels used for chanoyu (Japanese tea ceremony)."；LACMA：kintsugi 在十六世紀的日本已流行。
+    confidence: medium
+  - claim: "博物館藏有幾百年前（十七世紀）的日本茶碗，碎後以漆接合、撒金粉修補。"
+    source_url: "https://asia-archive.si.edu/friday-fave-tea-bowl"
+    source_title: "Smithsonian National Museum of Asian Art：Friday Fave: Tea Bowl"
+    support: |-
+      "This Japanese tea bowl from the 17th century"；"It was repaired using powdered gold sprinkled over repairs made in lacquer."
+    confidence: high
+  - claim: "金繕起源說法不一，流傳故事多屬傳說。"
+    source_url: "https://en.wikipedia.org/wiki/Kintsugi"
+    source_title: "Wikipedia：Kintsugi"
+    support: |-
+      "kintsugi may have originated when Japanese shōgun Ashikaga Yoshimasa sent a damaged Chinese tea bowl back to China"（用 may have，未有定論）；zh 維基：未提供確切起始年代。
+    confidence: low

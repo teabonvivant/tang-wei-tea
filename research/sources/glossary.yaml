@@ -1,0 +1,588 @@
+checked: '2026-10-17'
+note: 內部來源檔，不發佈。support 為原文摘錄或撮要；commercial = 金繼工房或材料商網站，confidence 一般為 medium。
+entries:
+- id: jin-shan
+  facts:
+  - claim: 金繼又稱金繕（金繕い）
+    source_url: https://zh.wikipedia.org/zh-hk/金繼
+    source_title: 維基百科：金繼
+    support: 金繼（金継ぎ），也稱為金繕（金繕い）
+    confidence: high
+  - claim: 金繕い是較舊的稱呼
+    source_url: https://ja.wikipedia.org/wiki/金継ぎ
+    source_title: Wikipedia（日文）：金継ぎ
+    support: 古くは金繕い（きんつくろい）と言われた
+    confidence: high
+  - claim: 以漆黏合碎片，最後在薄塗的漆上撒金粉
+    source_url: https://chimahaga.com/pages/about-kintsugi
+    source_title: Chimahaga：What is Kintsugi?
+    support: fragments are put back together with urushi... gold powder on top of a thin coat of bengara urushi
+    confidence: high
+  - claim: 漆在溫濕度合適的漆室中乾固
+    source_url: https://ja.wikipedia.org/wiki/金継ぎ
+    source_title: Wikipedia（日文）：金継ぎ
+    support: 箱型の棚にて適切な湿度と温度を保ち乾燥させる
+    confidence: high
+  - claim: 修理痕跡不隱藏，接受為器物一部分
+    source_url: https://nichigopress.jp/?p=25688
+    source_title: 日豪プレス：金継ぎ紹介
+    support: 修理跡を隠さず、器の一部として受け入れる（撮要）
+    confidence: medium
+  - claim: 工序以星期至月計
+    source_url: https://kintsugi-kobo.com/knowledge/kintsugi-hikaku/
+    source_title: 金継ぎ工房：本漆金継ぎと簡易金継ぎの違い
+    support: 本漆金継ぎ：乾燥に数週間〜数ヶ月
+    confidence: medium
+- id: jin-ji
+  facts:
+  - claim: 金繼取以金承繼之意，又稱金繕
+    source_url: https://zh.wikipedia.org/zh-hk/金繼
+    source_title: 維基百科：金繼
+    support: 「以金子去承繼」之意，也稱為金繕
+    confidence: high
+  - claim: 簡易金繼用合成漆、新漆，嚴格來說不算金繼
+    source_url: https://ja.wikipedia.org/wiki/金継ぎ
+    source_title: Wikipedia（日文）：金継ぎ
+    support: 天然の漆を用いずに合成漆や新うるし…厳密には金継ぎではない
+    confidence: high
+  - claim: 簡易金繼用環氧樹脂、新漆、黃銅粉；建議主要作擺設
+    source_url: https://kintsugi-kobo.com/knowledge/kintsugi-hikaku/
+    source_title: 金継ぎ工房：本漆金継ぎと簡易金継ぎの違い
+    support: 簡易金継ぎ：エポキシ接着剤や新うるし、真鍮粉…主にインテリアとして使う
+    confidence: medium
+- id: sheng-qi
+  facts:
+  - claim: 生漆是漆樹皮層採集的乳白色黏稠汁液，別名大漆、生漆；主要成分漆酚易致皮膚過敏
+    source_url: https://zh.wikipedia.org/zh-hk/大漆
+    source_title: 維基百科：大漆
+    support: 從漆樹皮層採集的乳白色黏稠性汁液…生漆的主要成分是漆酚，容易引起皮膚過敏
+    confidence: high
+  - claim: 漆乾固是漆酶催化漆酚與氧反應的高分子化，需高濕度
+    source_url: https://scienceportal.jst.go.jp/stories/20231115_w01/
+    source_title: JST Science Portal：漆の硬化（ウルシオールとラッカーゼ）
+    support: 高温多湿の環境で…ラッカーゼという酵素が働き…酸化反応によってウルシオールが高分子樹脂に変化する
+    confidence: high
+  - claim: 生漆沾皮膚可致嚴重皮疹，須戴手套
+    source_url: https://chimahaga.com/blogs/journal/%E9%87%91%E7%B6%99%E3%81%8E%E3%81%AB%E5%BF%85%E8%A6%81%E3%81%AA%E9%81%93%E5%85%B7%E3%81%A8%E6%9D%90%E6%96%99
+    source_title: Chimahaga（器修理工房）：Necessary Tools and Materials for Kintsugi
+    support: Urushi can cause a severe rash if it gets on the skin, so be sure to wear gloves
+    confidence: high
+  - claim: 漆會刺激敏感人士的皮膚
+    source_url: https://unframed.lacma.org/2021/08/04/repair-and-recycle-practicing-kintsugi-conservators
+    source_title: 'LACMA Unframed：Repair and Recycle: Practicing Kintsugi with Conservators'
+    support: It comes from the poison ivy family and irritates the skin and throat of sensitive people.
+    confidence: high
+  - claim: 沾到先用油拭去再以肥皂清洗
+    source_url: https://wacrafts.com/lacquer/kintsugi-guide
+    source_title: wacrafts：金継ぎのやり方｜本漆と簡易を図解
+    support: まず油で拭き取ってから石鹸で手洗いすると落とし残しが減ります
+    confidence: medium
+  - claim: 漆乾燥後一般較穩定（無毒）
+    source_url: https://zh.wikipedia.org/zh-hk/大漆
+    source_title: 維基百科：大漆
+    support: 放置乾燥後就變得無毒
+    confidence: medium
+- id: mai-qi
+  facts:
+  - claim: 麥漆以小麥粉、水與生漆調成，是修復的基本接着材料
+    source_url: https://ja.wikipedia.org/wiki/金継ぎ
+    source_title: Wikipedia（日文）：金継ぎ
+    support: 小麦粉と水を練ったものに生漆を合わせて作る；修復の基本となる接着材料
+    confidence: high
+  - claim: 以麥漆黏合碎片
+    source_url: https://chimahaga.com/pages/about-kintsugi
+    source_title: Chimahaga：What is Kintsugi?
+    support: a paste called "mugi urushi," which is made by kneading raw urushi, flour, and water
+    confidence: high
+  - claim: 工序間等待數日至數星期，配比各家不一（文章不列比例）
+    source_url: https://wacrafts.com/lacquer/kintsugi-guide
+    source_title: wacrafts：金継ぎのやり方｜本漆と簡易を図解
+    support: 工程間の待ち時間は…「数日〜数週間を目安」；具体的な配合比率は記事中に示されていません
+    confidence: medium
+- id: xiu-qi
+  facts:
+  - claim: 錆漆以生漆、砥粉、水調成，用以填縫
+    source_url: https://chimahaga.com/blogs/journal/%E9%87%91%E7%B6%99%E3%81%8E%E3%81%AB%E5%BF%85%E8%A6%81%E3%81%AA%E9%81%93%E5%85%B7%E3%81%A8%E6%9D%90%E6%96%99
+    source_title: Chimahaga（器修理工房）：Necessary Tools and Materials for Kintsugi
+    support: 'sabi-urushi ... scrape off after it has hardened; Tonoko: rock made into a very fine powder'
+    confidence: high
+  - claim: 錆漆是漆加砥粉，用來補缺並作研磨成形的底
+    source_url: https://wacrafts.com/lacquer/kintsugi-guide
+    source_title: wacrafts：金継ぎのやり方｜本漆と簡易を図解
+    support: 錆漆は漆に砥の粉を混ぜたもので、失われた部分を補い
+    confidence: high
+  - claim: 刻苧（刻そ漆）加麻纖維及木粉，補較大缺損
+    source_url: https://ja.wikipedia.org/wiki/金継ぎ
+    source_title: Wikipedia（日文）：金継ぎ
+    support: 麦漆に麻繊維の刻そ綿と木粉を混ぜ…欠損部分を補う材料
+    confidence: high
+- id: qi-shi
+  facts:
+  - claim: 漆室是保持溫濕度令漆乾燥的箱型櫃
+    source_url: https://ja.wikipedia.org/wiki/金継ぎ
+    source_title: Wikipedia（日文）：金継ぎ
+    support: 「漆室」…箱型の棚にて適切な湿度と温度を保ち乾燥させる
+    confidence: high
+  - claim: 漆乾固需濕度 60至80%、溫度 20至30°C，超過 40°C 不乾
+    source_url: https://scienceportal.jst.go.jp/stories/20231115_w01/
+    source_title: JST Science Portal：漆の硬化（ウルシオールとラッカーゼ）
+    support: 高湿度（60～80パーセント）と一定温度（20～30度）内である必要があり、温度が40度を超えると乾かなくなる
+    confidence: high
+  - claim: 修復者以加濕箱控制漆的乾燥
+    source_url: https://unframed.lacma.org/2021/08/04/repair-and-recycle-practicing-kintsugi-conservators
+    source_title: 'LACMA Unframed：Repair and Recycle: Practicing Kintsugi with Conservators'
+    support: We are using the humidification chamber to control the drying of the urushi.
+    confidence: high
+- id: gu-hua
+  facts:
+  - claim: 天然漆乾固為酵素作用下的氧化聚合，不是水分蒸發
+    source_url: https://scienceportal.jst.go.jp/stories/20231115_w01/
+    source_title: JST Science Portal：漆の硬化（ウルシオールとラッカーゼ）
+    support: 空気中の水分から取り込んだ酸素とウルシオールとの酸化反応によって…高分子樹脂に変化する
+    confidence: high
+  - claim: 約半年才宜使用，之後仍繼續硬化
+    source_url: https://kintsugikurashi.co.jp/howto/workshop/kyodo/
+    source_title: 金継ぎ暮らし：金継ぎの強度は？修理後の扱い方
+    support: およそ半年が目安…その後も硬化は続きます
+    confidence: medium
+  - claim: 本漆實用前需數星期至數月
+    source_url: https://wacrafts.com/lacquer/kintsugi-guide
+    source_title: wacrafts：金継ぎのやり方｜本漆と簡易を図解
+    support: 本漆では、実用に向かうまでに数週間から数か月の幅を見ておくのが自然です
+    confidence: medium
+- id: jin-fen
+  facts:
+  - claim: 金繼用金粉基本上為純金
+    source_url: https://chimahaga.com/blogs/journal/%E9%87%91%E7%B6%99%E3%81%8E%E3%81%AB%E5%BF%85%E8%A6%81%E3%81%AA%E9%81%93%E5%85%B7%E3%81%A8%E6%9D%90%E6%96%99
+    source_title: Chimahaga（器修理工房）：Necessary Tools and Materials for Kintsugi
+    support: Basically, gold powder used in kintsugi is pure gold.
+    confidence: high
+  - claim: 金粉按粒子形狀大小分消粉、平極粉（延粉）、丸粉
+    source_url: https://kintsugi-kit.com/blogs/tsugu-tsugu-columns/different-types-of-finishing-techniques-of-traditional-kintsugi
+    source_title: 'Tsugu Tsugu（金繼材料商）：Traditional Kintsugi: Finishing Your Repair with Gold Powder'
+    support: Keshi-fun presents the smallest particles… Maru-fun presents the largest… Nobe-fun stands halfway
+    confidence: medium
+  - claim: 金粉施於未乾的漆上
+    source_url: https://chimahaga.com/pages/about-kintsugi
+    source_title: Chimahaga：What is Kintsugi?
+    support: gold powder on top of it [thin coat of bengara urushi]
+    confidence: high
+  - claim: 黃銅粉比金粉便宜得多
+    source_url: https://unframed.lacma.org/2021/08/04/repair-and-recycle-practicing-kintsugi-conservators
+    source_title: 'LACMA Unframed：Repair and Recycle: Practicing Kintsugi with Conservators'
+    support: gold powder is much more expensive than brass powder
+    confidence: high
+  - claim: 黃銅粉會變色，口部宜避免
+    source_url: https://kintsugi-kobo.com/dougu-kit/kinpun/
+    source_title: 金継ぎ工房：金継ぎの金粉選び（消粉・丸粉・真鍮）
+    support: 真鍮粉：変色や成分の溶け出しの可能性…口に触れる部分は避けるのが無難
+    confidence: medium
+- id: xiao-fen
+  facts:
+  - claim: 消粉粒子最小
+    source_url: https://kintsugi-kit.com/blogs/tsugu-tsugu-columns/different-types-of-finishing-techniques-of-traditional-kintsugi
+    source_title: 'Tsugu Tsugu（金繼材料商）：Traditional Kintsugi: Finishing Your Repair with Gold Powder'
+    support: Keshi-fun presents the smallest particles of gold of all.
+    confidence: medium
+  - claim: 消粉由純金箔碎成
+    source_url: https://chimahaga.com/blogs/journal/there-are-various-types-of-kintsugi
+    source_title: Chimahaga：The Various Types of Kintsugi
+    support: Keshifun is a very fine-grained pure gold powder made from pure gold leaf that has been ground into powder form.
+    confidence: medium
+  - claim: 以真綿（絲綿球）施消粉
+    source_url: https://shop-kintsugi.com/product/silk-for-kintsugi/
+    source_title: Shop Kintsugi：金継ぎ用真綿
+    support: 昔から金継ぎ・蒔絵の消粉仕上げに使うものを真綿と呼びます
+    confidence: medium
+  - claim: 消粉光澤啞而柔和，撒後即可，但易磨損
+    source_url: https://kintsugi-kobo.com/dougu-kit/kinpun/
+    source_title: 金継ぎ工房：金継ぎの金粉選び（消粉・丸粉・真鍮）
+    support: マットで柔らかい…蒔きっぱなしだと摩耗しやすい
+    confidence: medium
+  - claim: 消粉不需粉固及研磨
+    source_url: https://hatoya-f.com/real-kintsugi/how-to-marufun-makie01/
+    source_title: hatoya：丸粉を蒔く（金継ぎ蒔絵のやり方）
+    support: 消し粉は…「蒔きっ放しで終了」
+    confidence: medium
+- id: wan-fen
+  facts:
+  - claim: 丸粉為球狀、粒子最大
+    source_url: https://kintsugi-kobo.com/dougu-kit/kinpun/
+    source_title: 金継ぎ工房：金継ぎの金粉選び（消粉・丸粉・真鍮）
+    support: 地金を削って球状に整えたもの；磨くと非常に強い光沢；剥げやすいことがある
+    confidence: medium
+  - claim: 丸粉要粉固、再分兩步研磨，工序較多；光澤最強；最耐磨
+    source_url: https://hatoya-f.com/real-kintsugi/how-to-marufun-makie01/
+    source_title: hatoya：丸粉を蒔く（金継ぎ蒔絵のやり方）
+    support: 粉固め…胴摺り磨き…呂色磨き；光沢は消し粉、平極粉よりも強く；一番耐摩耗性が高い
+    confidence: medium
+  - claim: 丸粉分號數（1號、3號）
+    source_url: https://urushivillage.com/finish-type/
+    source_title: Urushi Village：いろいろな種類の金継ぎの仕上げ方法
+    support: 丸粉1号…丸粉3号
+    confidence: medium
+- id: jin-bo
+  facts:
+  - claim: 傳統金箔以箔打紙夾金捶打，厚約萬分之一毫米
+    source_url: https://online.bunka.go.jp/special_content/intangible/209390
+    source_title: 文化遺産オンライン（日本文化廳）：縁付金箔製造
+    support: 厚さ１万分の１ミリメートルの箔を製造する工程
+    confidence: high
+  - claim: 可沿裂縫以漆貼24K金箔，效果光亮
+    source_url: https://stonehouses.co.uk/blogs/blog/the-art-of-kintsugi-embracing-imperfection-with-gold
+    source_title: Stonehouses：The Art of Kintsugi
+    support: 24 carat gold leaf gives a brilliant shine… can be applied along cracks with lacquer
+    confidence: low
+  - claim: 消粉由金箔碎成
+    source_url: https://chimahaga.com/blogs/journal/there-are-various-types-of-kintsugi
+    source_title: Chimahaga：The Various Types of Kintsugi
+    support: made from pure gold leaf that has been ground into powder form
+    confidence: medium
+- id: huang-tong-fen
+  facts:
+  - claim: 黃銅粉為銅鋅合金粉
+    source_url: https://kintsugi-kobo.com/dougu-kit/kinpun/
+    source_title: 金継ぎ工房：金継ぎの金粉選び（消粉・丸粉・真鍮）
+    support: 銅と亜鉛の合金の粉；酸や塩分の多い料理と長時間触れると、変色や成分の溶け出しの可能性
+    confidence: medium
+  - claim: 黃銅色澤近消粉，是純金代用品
+    source_url: https://chimahaga.com/blogs/journal/there-are-various-types-of-kintsugi
+    source_title: Chimahaga：The Various Types of Kintsugi
+    support: It can achieve a color and luster similar to keshifun.
+    confidence: medium
+  - claim: 黃銅會變黑
+    source_url: https://urushivillage.com/finish-type/
+    source_title: Urushi Village：いろいろな種類の金継ぎの仕上げ方法
+    support: 日常使いでない器では黒ずむことがある
+    confidence: medium
+  - claim: 部分粉末如黃銅未獲食物安全認證
+    source_url: https://kintsugi-kit.com/blogs/tsugu-tsugu-columns/different-types-of-finishing-techniques-of-traditional-kintsugi
+    source_title: 'Tsugu Tsugu（金繼材料商）：Traditional Kintsugi: Finishing Your Repair with Gold Powder'
+    support: some finishing powders, such as brass, are not certified as food safe
+    confidence: medium
+  - claim: 黃銅粉價錢遠低於金粉
+    source_url: https://unframed.lacma.org/2021/08/04/repair-and-recycle-practicing-kintsugi-conservators
+    source_title: 'LACMA Unframed：Repair and Recycle: Practicing Kintsugi with Conservators'
+    support: gold powder is much more expensive than brass powder
+    confidence: high
+- id: zhen-mian
+  facts:
+  - claim: 真綿為絲製，用於消粉收尾；平極粉、丸粉一般另法處理；各金屬粉宜分用
+    source_url: https://shop-kintsugi.com/product/silk-for-kintsugi/
+    source_title: Shop Kintsugi：金継ぎ用真綿
+    support: 絹＝シルクで作られて…消粉仕上げに使う…それぞれの金属粉に専用の真綿を使用してください
+    confidence: medium
+  - claim: 以絲綿球施消粉
+    source_url: https://kintsugi-kit.com/blogs/tsugu-tsugu-columns/different-types-of-finishing-techniques-of-traditional-kintsugi
+    source_title: 'Tsugu Tsugu（金繼材料商）：Traditional Kintsugi: Finishing Your Repair with Gold Powder'
+    support: We usually apply keshi-fun on the thinly painted urushi with silk ball.
+    confidence: medium
+- id: ju-ci
+  facts:
+  - claim: 鋦瓷工序：綁紮固定、鑽孔、敲入鋦釘、以石灰粉與糯米汁或蛋白調成的白瓷膏封護
+    source_url: https://www.dpm.org.cn/Uploads/File/2020/11/13/u5fae29630c140.pdf
+    source_title: 故宮博物院 趙守江、紀東歌：鋦釘的原理探究（PDF）
+    support: 先将破损的器物绑扎固定，后用钻具…打孔，再将锔钉的两头分别敲入…白瓷膏
+    confidence: high
+  - claim: 鋦瓷最晚元代成行業，明清鼎盛
+    source_url: https://www.dpm.org.cn/Uploads/File/2020/11/13/u5fae29630c140.pdf
+    source_title: 故宮博物院 趙守江、紀東歌：鋦釘的原理探究（PDF）
+    support: 最晚至元代，锔瓷…已经成为一种市井习俗和社会行业，至明清时期…鼎盛
+    confidence: high
+  - claim: 鋦補後保留使用功能
+    source_url: https://www.dpm.org.cn/Uploads/File/2020/11/13/u5fae29630c140.pdf
+    source_title: 故宮博物院 趙守江、紀東歌：鋦釘的原理探究（PDF）
+    support: 同时还保留着瓷器原本的使用功能
+    confidence: high
+  - claim: 孔不穿透（倒燕尾孔，孔深約壁厚三分之二）
+    source_url: https://zh.wikipedia.org/zh-hk/锔瓷
+    source_title: 維基百科：鋦瓷
+    support: 倒燕尾孔（面小內大的小孔），孔深應為壁厚的2/3左右
+    confidence: high
+  - claim: 分粗活與細活
+    source_url: https://zh.wikipedia.org/zh-hk/锔瓷
+    source_title: 維基百科：鋦瓷
+    support: 面向民間生活器皿的「粗活」……和面向工藝品的「細活」
+    confidence: high
+- id: ju-ding
+  facts:
+  - claim: 鋦釘舊稱鋦子、補釘，兩腳回勾，似扒釘，匠人自製無標準，有柳葉釘、平釘、梅花釘
+    source_url: https://www.dpm.org.cn/Uploads/File/2020/11/13/u5fae29630c140.pdf
+    source_title: 故宮博物院 趙守江、紀東歌：鋦釘的原理探究（PDF）
+    support: 锔钉，旧时也称“锔子”“补钉”…两脚回勾金属钉…柳叶钉、平钉、梅花钉
+    confidence: high
+  - claim: 以金銀銅鐵等延展性強的金屬敲擊成形
+    source_url: https://zh.wikipedia.org/zh-hk/锔瓷
+    source_title: 維基百科：鋦瓷
+    support: 用延展性強的金屬片（金、銀、銅、鐵）通過敲擊成形
+    confidence: high
+  - claim: 粗活多用鐵釘，細活用銅並有花釘；大小按器物及破損決定，品質影響耐久
+    source_url: https://www.jiangrenbaike.com/noun/20180717201.html
+    source_title: 匠人百科：锔瓷（锔艺）
+    support: 粗活…普通铁质；细活…铜锻打；花钉…
+    confidence: medium
+- id: ying-ju
+  facts:
+  - claim: 查閱來源未見硬鋦／軟鋦定義；有依據的分類為粗活／細活
+    source_url: https://zh.wikipedia.org/zh-hk/锔瓷
+    source_title: 維基百科：鋦瓷
+    support: 頁面無硬鋦軟鋦；鋦瓷技藝分為「粗活」和「細活」
+    confidence: medium
+  - claim: 匠人百科同樣只分粗活、細活
+    source_url: https://www.jiangrenbaike.com/noun/20180717201.html
+    source_title: 匠人百科：锔瓷（锔艺）
+    support: 粗活（常活）…细活（行活／秀活）
+    confidence: medium
+- id: ruan-ju
+  facts:
+  - claim: 查閱來源未見軟鋦定義；粗活修日常器皿釘粗，細活修工藝品工具細
+    source_url: https://www.jiangrenbaike.com/noun/20180717201.html
+    source_title: 匠人百科：锔瓷（锔艺）
+    support: 粗活：工具和锔钉较大较粗；细活：工具小而精确
+    confidence: medium
+  - claim: 故宮論文亦未用硬鋦／軟鋦分類
+    source_url: https://www.dpm.org.cn/Uploads/File/2020/11/13/u5fae29630c140.pdf
+    source_title: 故宮博物院 趙守江、紀東歌：鋦釘的原理探究（PDF）
+    support: 全文摘要只談鋦釘材質、造型、工序
+    confidence: medium
+- id: jin-gang-zuan
+  facts:
+  - claim: 俗語「沒有金剛鑽，別攬瓷器活」源自鋦瓷
+    source_url: https://www.dpm.org.cn/Uploads/File/2020/11/13/u5fae29630c140.pdf
+    source_title: 故宮博物院 趙守江、紀東歌：鋦釘的原理探究（PDF）
+    support: 谚语“没有金刚钻，别揽瓷器活”就是源自锔瓷技术
+    confidence: high
+  - claim: 利用鑽石硬度鑽孔；鑽具分皮鑽、弓鑽、砣鑽
+    source_url: https://zh.wikipedia.org/zh-hk/锔瓷
+    source_title: 維基百科：鋦瓷
+    support: 利用鑽石的硬度在瓷器的裂縫兩側鑽出倒燕尾孔；皮鑽、弓鑽和砣鑽
+    confidence: high
+  - claim: 鐵鑽杆鑲鑽石；器壁僅數毫米，鑽孔最難
+    source_url: https://www.jiangrenbaike.com/noun/20180717201.html
+    source_title: 匠人百科：锔瓷（锔艺）
+    support: 铁钻杆…钻头镶金刚石；有些瓷器厚度就几毫米
+    confidence: medium
+- id: kai-pian
+  facts:
+  - claim: 開片為釉面自然開裂；成因含冷卻時胎釉膨脹係數不同；宋代汝窯首先作裝飾
+    source_url: https://zh.wikipedia.org/zh-hk/開片
+    source_title: 維基百科：開片
+    support: 瓷器釉面的一種自然開裂現象…宋代汝窯…
+    confidence: medium
+  - claim: 釉與胎熱脹冷縮應相配
+    source_url: https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html
+    source_title: 加拿大文物保存研究所：Care of Ceramics and Glass — CCI Notes 5/1
+    support: the thermal expansion and contraction properties of the glaze should match those of the clay fabric
+    confidence: high
+  - claim: 開片等釉面瑕疵讓污漬及水分進入，低溫多孔胎尤甚
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: V&A：Caring for your ceramic objects and floor tiles（PDF）
+    support: Flaws such as firing cracks, crazing or pitting in the glaze, may provide a point of entry for dirt and water
+    confidence: high
+- id: bing-lie
+  facts:
+  - claim: 年久自然出現的冰裂紋與哥釉工藝開片不同
+    source_url: https://m-news.artron.net/news/20250413/n760689.html
+    source_title: 雅昌藝術網：常見的瓷器鑒定用語
+    support: 自然开支：器物年久后釉面出现局部或整体的冰裂纹，与哥釉的人工开片工艺不同
+    confidence: medium
+  - claim: 開片是釉面開裂現象
+    source_url: https://zh.wikipedia.org/zh-hk/開片
+    source_title: 維基百科：開片
+    support: 瓷器釉面的一種自然開裂現象
+    confidence: medium
+- id: chong-xian
+  facts:
+  - claim: 衝線是瓷器受衝擊形成的裂紋，在口沿者再受碰撞可能延長
+    source_url: https://epaper.gmw.cn/gmrb/html/2015-08/14/nw.D110000gmrb_20150814_1-16.htm
+    source_title: 光明日報：瓷器鑒別用語
+    support: 冲线：瓷器受到冲击形成的裂纹。若在口沿，受碰撞后可能延长
+    confidence: high
+  - claim: 窯裂是燒製時出現的裂紋，區別於使用造成者
+    source_url: https://epaper.gmw.cn/gmrb/html/2015-08/14/nw.D110000gmrb_20150814_1-16.htm
+    source_title: 光明日報：瓷器鑒別用語
+    support: 窑裂：烧制时出现的裂纹，区别于使用造成的裂纹
+    confidence: high
+  - claim: 同上定義（第二來源）
+    source_url: https://m-news.artron.net/news/20250413/n760689.html
+    source_title: 雅昌藝術網：常見的瓷器鑒定用語
+    support: 冲线：受撞击后形成的裂纹。若位于口沿，受碰撞时可能继续延长
+    confidence: medium
+  - claim: 溫度變化引起熱脹冷縮，可致破裂
+    source_url: https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html
+    source_title: 加拿大文物保存研究所：Care of Ceramics and Glass — CCI Notes 5/1
+    support: This causes expansion and contraction, which may result in breaking or cracking.
+    confidence: medium
+- id: tai
+  facts:
+  - claim: 胎由黏土礦物、摻料及雜質組成
+    source_url: https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html
+    source_title: 加拿大文物保存研究所：Care of Ceramics and Glass — CCI Notes 5/1
+    support: The body (also known as the fabric) consists of clay minerals, temper, and impurities.
+    confidence: high
+  - claim: 低溫燒成的胎多孔吸水，沾濕易染污
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: V&A：Caring for your ceramic objects and floor tiles（PDF）
+    support: Low-fired ceramics with porous bodies will absorb water…the porosity of earthenware means that it is prone to staining
+    confidence: high
+  - claim: 低溫燒成者胎質軟而多孔
+    source_url: https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html
+    source_title: 加拿大文物保存研究所：Care of Ceramics and Glass — CCI Notes 5/1
+    support: Ceramics with soft, porous fabric…have usually been fired at lower temperatures
+    confidence: high
+- id: you
+  facts:
+  - claim: 釉是熔合在胎上的玻璃層
+    source_url: https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html
+    source_title: 加拿大文物保存研究所：Care of Ceramics and Glass — CCI Notes 5/1
+    support: A glaze is a layer of glass fused to the clay fabric.
+    confidence: high
+  - claim: 釉與胎的熱脹冷縮應相配
+    source_url: https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html
+    source_title: 加拿大文物保存研究所：Care of Ceramics and Glass — CCI Notes 5/1
+    support: the thermal expansion and contraction properties of the glaze should match those of the clay fabric
+    confidence: high
+  - claim: 開片、釉面小孔令污漬及水分滲入
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: V&A：Caring for your ceramic objects and floor tiles（PDF）
+    support: crazing or pitting in the glaze, may provide a point of entry for dirt and water
+    confidence: high
+  - claim: 釉形成保護層
+    source_url: https://www.vam.ac.uk/articles/a-z-of-ceramics
+    source_title: V&A：An A–Z of Ceramics
+    support: underglaze…lies under the glaze, which forms a protective layer
+    confidence: medium
+- id: jiu-xiu
+  facts:
+  - claim: 舊膠老化後常變得不溶，難以移除；黃脆舊膠表示器物脆弱；鋦釘仍穩固則勿拆；移除膠應諮詢修復師
+    source_url: https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html
+    source_title: 加拿大文物保存研究所：Care of Ceramics and Glass — CCI Notes 5/1
+    support: Old adhesives often become insoluble…yellow, brittle adhesive…assume that it is fragile…Do not remove the rivets unless…
+    confidence: high
+  - claim: 舊修常代表結構弱點；補土上色後摸似塑膠，透光下較暗較密；部分舊膠遇水溶解
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: V&A：Caring for your ceramic objects and floor tiles（PDF）
+    support: Old repairs often indicate structural weakness…feels like plastic…appear denser and darker…some old adhesives dissolve in water
+    confidence: high
+  - claim: 古代亦以金屬釘及鋦修補；十八、十九世紀修復常移除古代修補
+    source_url: https://www.getty.edu/art/exhibitions/fragment_to_vase/
+    source_title: Getty Villa：Fragment to Vase
+    support: repaired using…metal pinning and stapling
+    confidence: medium
+- id: gan-pin
+  facts:
+  - claim: 正式黏合前，有時以膠紙暫接碎片以安排組裝次序
+    source_url: https://archeologie.culture.gouv.fr/ocean-indien/en/sherds-ceramic-ware-conservation
+    source_title: 法國文化部考古（印度洋）：Sherds, ceramic ware conservation
+    support: piece part of the object together "with blanks" using adhesive crepe tape…organise the reassembly
+    confidence: high
+  - claim: 先排開碎片，逐邊檢查可接合處
+    source_url: https://www.qaronline.org/blog/2018-03-15/conservation-highlights-ceramics
+    source_title: 'QAR Online：Conservation Highlights: Piecing It All Together'
+    support: The sherds are laid out, and broken edges are checked against each other for possible joins.
+    confidence: high
+  - claim: 先做試拼以免「鎖死」（次序錯誤令碎片放不回）
+    source_url: https://con3057-2223-storiesofconservation.coursework.lincoln.ac.uk/?p=198
+    source_title: 林肯大學保存課程：Staffordshire Spaniel Ceramic
+    support: lock-out…pieces are adhered together in the wrong order…a dry run was done
+    confidence: medium
+  - claim: 博物館建議一般人勿自行拼合碎片，斷口脆弱
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: V&A：Caring for your ceramic objects and floor tiles（PDF）
+    support: Resist the temptation to try to fit any pieces back together - edges are always fragile.
+    confidence: high
+- id: sui-pian-bian-hao
+  facts:
+  - claim: 修復時製作碎片模板並逐片編號，訂出逐步黏合計劃
+    source_url: https://cincinnatiartmuseum.org/about/blog/behind-the-scenes-in-conservation-18th-century-islamic-ceramic-vessel/
+    source_title: 辛辛那提美術館：Behind the Scenes in Conservation
+    support: a template of the fragments is created, and each piece is given a number
+    confidence: medium
+  - claim: 碎片按原位置整理成分佈圖
+    source_url: https://con3057-2223-storiesofconservation.coursework.lincoln.ac.uk/?p=198
+    source_title: 林肯大學保存課程：Staffordshire Spaniel Ceramic
+    support: the fragments were organised into their corresponding original locations in a shatter diagram
+    confidence: medium
+  - claim: 倫理守則要求準確完整的檢查及處理記錄
+    source_url: https://www.culturalheritage.org/conservation-at-work/uphold-professional-standards/code
+    source_title: 美國保存協會：Code of Ethics and Guidelines for Practice
+    support: accurate, complete, and permanent records of examination, sampling, scientific investigation, and treatment
+    confidence: high
+  - claim: 避免黏性標籤；小碎片用自封袋
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: V&A：Caring for your ceramic objects and floor tiles（PDF）
+    support: Avoid sticky labels, which can be difficult to remove. Use self-sealing bags for small pieces.
+    confidence: high
+- id: ke-zai-chu-li
+  facts:
+  - claim: 修復人員很少是最後一個處理者；材料不應妨礙日後檢查；補缺應可逆
+    source_url: https://www.culturalheritage.org/conservation-at-work/uphold-professional-standards/code
+    source_title: 美國保存協會：Code of Ethics and Guidelines for Practice
+    support: will rarely be the last entrusted…do not adversely affect cultural property or its future examination…compensation should be reversible
+    confidence: high
+  - claim: 家用膠難以移除，令日後修補更複雜
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: V&A：Caring for your ceramic objects and floor tiles（PDF）
+    support: All such products are difficult to remove and will make any future repair work more complex
+    confidence: high
+  - claim: 五分鐘環氧樹脂屬不穩定膠
+    source_url: https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html
+    source_title: 加拿大文物保存研究所：Care of Ceramics and Glass — CCI Notes 5/1
+    support: Amateur repairs done with unstable adhesives, such as five-minute epoxies
+    confidence: high
+  - claim: 可逆是保存修復的關鍵原則
+    source_url: https://archeologie.culture.gouv.fr/ocean-indien/en/sherds-ceramic-ware-conservation
+    source_title: 法國文化部考古（印度洋）：Sherds, ceramic ware conservation
+    support: Reversibility and intelligibility are the keys to every conservation action.
+    confidence: high
+- id: shi-pin-jie-chu
+  facts:
+  - claim: 食物接觸材料化學物可遷移；遷移隨溫度、脂肪、酸性、接觸時間增加；避免使用表面破損餐具
+    source_url: https://www.cfs.gov.hk/tc_chi/programme/programme_rafs/programme_rafs_fcm_01_04_Baby_Bottles_Tableware.html
+    source_title: 香港食物安全中心：嬰兒奶瓶和兒童餐具的安全問題
+    support: 化學物遷移會受溫度、脂肪含量、酸性和接觸時間的影響而增加；避免使用表面有破損或已損壞的餐具
+    confidence: high
+  - claim: 日本合成樹脂正面表列制度全面實施後，含氰基丙烯酸酯膠或腰果漆的製品用於食器屬違法
+    source_url: https://ja.wikipedia.org/wiki/金継ぎ
+    source_title: Wikipedia（日文）：金継ぎ
+    support: シアノアクリレート系接着剤やカシュー系塗料…食器への使用は違法となった
+    confidence: medium
+  - claim: 簡易金繼素材原則上不可用於接觸食物部分，宜作擺設
+    source_url: https://kintsugi-kobo.com/knowledge/kintsugi-hikaku/
+    source_title: 金継ぎ工房：本漆金継ぎと簡易金継ぎの違い
+    support: 簡易金継ぎの素材は食品に触れる部分へ原則使えなくなった
+    confidence: medium
+  - claim: 本漆完全硬化後可作食器
+    source_url: https://kintsugi-kobo.com/knowledge/kintsugi-hikaku/
+    source_title: 金継ぎ工房：本漆金継ぎと簡易金継ぎの違い
+    support: 完全に硬化すると食器として使える
+    confidence: medium
+- id: nai-re
+  facts:
+  - claim: 宜避免熱水、長時間浸泡、洗碗機、微波爐、焗爐；95°C 之說多無出處
+    source_url: https://wacrafts.com/lacquer/kintsugi-guide
+    source_title: wacrafts：金継ぎのやり方｜本漆と簡易を図解
+    support: 熱湯・長時間の浸け置き・食洗機・電子レンジ・オーブンは避ける…約95℃…出典が明示されていない
+    confidence: medium
+  - claim: 微波爐、洗碗機、焗爐、明火不可；高溫令強度降低
+    source_url: https://kintsugikurashi.co.jp/howto/workshop/kyodo/
+    source_title: 金継ぎ暮らし：金継ぎの強度は？修理後の扱い方
+    support: 高温になったり…強度は低くなってしまう；オーブンや直火も強度を損ねてしまう
+    confidence: medium
+  - claim: 溫度升高令遷移增加
+    source_url: https://www.cfs.gov.hk/tc_chi/programme/programme_rafs/programme_rafs_fcm_01_04_Baby_Bottles_Tableware.html
+    source_title: 香港食物安全中心：嬰兒奶瓶和兒童餐具的安全問題
+    support: 化學物遷移會受溫度…的影響而增加
+    confidence: high
+  - claim: 修補過的器物總比未破的弱
+    source_url: https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html
+    source_title: 加拿大文物保存研究所：Care of Ceramics and Glass — CCI Notes 5/1
+    support: a repaired object is always weaker than one that has not been broken.
+    confidence: high
+- id: cha-xi
+  facts:
+  - claim: 茶席以茶、茶器等物在三維空間中表達茶道之美與人的思想情感；可設於桌面、木板、地面
+    source_url: https://m.thepaper.cn/baijiahao_12231548
+    source_title: 澎湃新聞（中國茶葉學會科普）：什麼是茶席？（一）
+    support: 茶席是以有形的茶、茶器等物态展现于一个三维空间中…可设于桌面、岩石、木板或地面
+    confidence: medium

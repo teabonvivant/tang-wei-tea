@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import PageIntro from '../components/PageIntro.astro';
+import Conversation from '../components/Conversation.astro';
+import Arrow from '../components/Arrow.astro';
+import { u } from '../lib/site';
+---
+<Base title="關於本站的文字與圖片｜唐娓老師" description="本站文章與課堂照片的出處說明：專欄原作、茶間筆記、修器文章及學會提供的教學照片。" path="/sources/">
+  <PageIntro title="關於本站的文字與圖片" english="About the words and pictures." intro="這一頁交代站內文字與圖片的出處，方便讀者知道眼前的內容從哪裏來。" />
+  <section class="wrap section" style="padding-top:0">
+    <div class="plain-block prose" style="width:auto;margin:0;font-size:inherit">
+      <h2 class="h3">專欄與文章</h2>
+      <p>「茶逢知己」專欄篇章保留唐娓老師的署名，文末註明原刊日期與刊物；網站選編按版面略作整理。「茶間筆記」及「修器」欄目的文章署名唐娓，內容為茶與器物的知識與看法。</p>
+      <h2 class="h3">圖片與照片</h2>
+      <p>課堂與活動照片取自香港古樹茶文化學會的教學相簿，由學會提供，頁面上均註明出處。</p>
+      <h2 class="h3">更正與查詢</h2>
+      <p>如發現內容有誤，或你是相關單位、希望更正出處說明，歡迎用 WhatsApp 與我們聯絡。</p>
+      <p style="display:flex;flex-wrap:wrap;gap:16px"><a class="text-link" href={u('/contact/')}><span>聯絡唐老師</span><Arrow /></a><a class="text-link" href={u('/columns/')}><span>茶逢知己專欄</span><Arrow /></a></p>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,76 @@
+---
+import Base from '../layouts/Base.astro';
+import PageIntro from '../components/PageIntro.astro';
+import Conversation from '../components/Conversation.astro';
+import Arrow from '../components/Arrow.astro';
+import { u, imgInfo } from '../lib/site';
+const photo = imgInfo('/images/tang-organict-teaching.jpg');
+const timeline = [
+  ['2016', '開辦「娓娓道茶」', '以個人茶藝頻道分享茶知識。早期導師介紹亦記載她於香港工聯會協助任教茶藝師專業培訓班。'],
+  ['2017', '共同創辦學會', '與張家詠先生創辦香港古樹茶文化學會，以課程、講座及交流推廣古樹茶文化。'],
+  ['2019 起', '屯門茶藝教學', '於屯門文藝協進會開辦茶藝訓練班及專題講座，分享沖泡技巧與普洱山頭茶知識。'],
+  ['2024 起', '走進大學校園', '獲嶺南大學邀請教授青年茶藝師課程，參與青年茶文化教育。'],
+  ['2026 年 1 月', '主持中國經典茶款講座', '嶺南大學計劃年度活動紀錄列明，唐娓女士介紹紅茶、香片、鐵觀音與普洱的產地和工藝。'],
+];
+const albums = [
+  ['茶藝師職業課程', '初級至中級茶藝課堂，由唐娓老師任教。'],
+  ['中國茶文化與普洱講座', '普洱古樹茶研習及茶文化講座，原相簿標示由唐娓老師任教。'],
+  ['中小學與幼兒茶藝', '包括校園師生、教師及家長教師會活動；由唐娓、張家詠兩位老師任教。'],
+  ['嶺南大學青年茶文化', '青年茶文化推廣計劃課堂，由唐娓、張家詠兩位老師任教。'],
+];
+---
+<Base title="關於唐老師｜唐娓老師" description="唐娓老師：香港古樹茶文化學會會長、茶藝導師及茶逢知己專欄作者。公開履歷、教學歷程與課堂紀錄。" path="/about/">
+  <PageIntro title="關於唐娓老師" english="A life with tea." intro="由雲南的茶學，走到香港的課堂與文字。一片葉的知識，也回到日常生活裏。" />
+  <section class="wrap section split" style="padding-top:0">
+    <figure>
+      <img class="ph" style="width:100%;height:auto" src={photo.src} width={photo.width} height={photo.height} alt="唐娓老師茶藝課程的教學、茶樣與學員合照" decoding="async" fetchpriority="high" />
+      <figcaption>唐娓老師茶藝課程。圖片：香港古樹茶文化學會</figcaption>
+    </figure>
+    <div class="copy">
+      <p class="label">唐娓 · 茶藝教育與普洱研習</p>
+      <h2>從茶山到課堂，教茶，也教生活。</h2>
+      <p>唐娓老師畢業於雲南農業大學普洱茶學院。她為國家職業高級茶藝師、高級評茶師，以及嶺南大學青年茶文化計劃講師。</p>
+      <p>她與張家詠先生於 2017 年共同創辦香港古樹茶文化學會，現為學會會長。教學以外，她亦是香港經濟日報「茶逢知己」專欄作者，並參與普洱茶的製作與評審。</p>
+      <p>製茶、評茶與教學，在她手上是連着的一件事。課堂上，學員由茶樣與沖泡實作，認識一杯茶的來處與變化。</p>
+      <ul style="display:flex;flex-wrap:wrap;gap:8px">
+        {['中國茶藝教學', '普洱山頭茶評審', '茶文化寫作'].map((t) => <li class="label" style="padding:4px 16px;border-radius:999px;box-shadow:inset 0 0 0 1px var(--line)">{t}</li>)}
+      </ul>
+      <p class="t-small muted">以上取自香港古樹茶文化學會公開的導師介紹及學會沿革頁面，2026 年 9 月 24 日查閱。</p>
+    </div>
+  </section>
+  <section class="wrap section" style="padding-top:0">
+    <h2 class="h2" style="margin-bottom:32px">教學與茶文化歷程</h2>
+    <ol class="timeline">
+      {timeline.map(([when, title, body]) => (
+        <li><span class="when">{when}</span><div><h3>{title}</h3><p>{body}</p></div></li>
+      ))}
+    </ol>
+  </section>
+  <section class="wrap section cards-2" style="padding-top:0">
+    <div class="box">
+      <h2 class="h3">製茶與評茶</h2>
+      <p>唐老師為鑒心軒茶廠董事，參與製茶及教學，並定期於雲南評審普洱山頭茶。</p>
+      <p>普洱研習以布朗、景邁、易武、臨滄等茶區為切入點，結合茶樣品鑑、辨識與親手沖泡。</p>
+    </div>
+    <div class="box">
+      <h2 class="h3">任教與分享</h2>
+      <p>任教及主講機構包括嶺南大學、香港工聯會、香港專業培訓總會、屯門文藝協進會、北碚茶文化交流會及油尖區文化藝術協會。</p>
+    </div>
+  </section>
+  <section class="wrap section" style="padding-top:0">
+    <div class="plain-block">
+      <h2 class="h2">茶桌以外的文字</h2>
+      <p>唐老師在香港經濟日報「茶逢知己」專欄，寫茶葉、器物、教學與日常。網站收錄 33 篇選編，並列出專欄全部篇目。</p>
+      <a class="text-link" href={u('/columns/')}><span>閱讀唐老師專欄</span><Arrow /></a>
+    </div>
+  </section>
+  <section class="wrap section" style="padding-top:0">
+    <p class="label">學會公開教學紀錄</p>
+    <h2 class="h2" style="margin:8px 0 32px">課堂與講座</h2>
+    <div class="cards-2">
+      {albums.map(([t, d]) => <div class="box"><h3>{t}</h3><p>{d}</p></div>)}
+    </div>
+    <p style="margin-top:32px"><a class="text-link" href={u('/events/')}><span>看教學紀錄</span><Arrow /></a></p>
+  </section>
+  <Conversation />
+</Base>

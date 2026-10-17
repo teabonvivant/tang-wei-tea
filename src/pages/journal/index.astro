@@ -1,0 +1,27 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import JournalList from '../../components/JournalList.astro';
+import { allArticles, u } from '../../lib/site';
+const all = await allArticles();
+const PER = 12;
+const pages = Math.ceil(all.length / PER);
+const redirects = { '入門沖泡': 'brewing', '感官品飲': 'senses', '普洱筆記': 'puer', '器物之間': 'vessels', '買茶與存茶': 'storage', '茶席待客': 'hosting', '製茶與風土': 'craft', '茶與日常': 'daily', '學茶與教學': 'learning', '文化與閱讀': 'culture' };
+---
+<Base title="茶間筆記｜唐娓老師" description="一百篇茶間筆記與唐娓老師的茶逢知己專欄，依主題分類閱讀，每篇文末都有延伸閱讀。" path="/journal/">
+  <script slot="head" is:inline define:vars={{ redirects, topicBase: u('/topics/'), colHref: u('/columns/') }}>
+    // 舊網址 /journal/?category=<類別> 轉到對應主題頁
+    try {
+      var c = new URLSearchParams(location.search).get('category');
+      if (c) {
+        if (c === '茶逢知己') location.replace(colHref);
+        else if (redirects[c]) location.replace(topicBase + redirects[c] + '/');
+      }
+    } catch (e) {}
+  </script>
+  <PageIntro title="茶間筆記" english="Notes on tea & everyday life." intro="一百篇日常茶筆記，加上唐老師的「茶逢知己」。每篇都由一個問題開始，慢慢讀下去，會讀出自己的方向。" />
+  <section class="wrap" style="padding-bottom:128px">
+    <p class="muted" style="margin-bottom:24px">全部文章，共 {all.length} 篇 · 第 1 / {pages} 頁</p>
+    <JournalList items={all.slice(0, PER)} page={1} pages={pages} />
+  </section>
+</Base>

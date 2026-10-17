@@ -1,0 +1,113 @@
+slug: staple-repair
+checked_on: 2026-10-17
+facts:
+  - claim: "鋦瓷是中國傳統的陶瓷修補手藝，以金屬鋦釘跨過裂縫接合破裂陶瓷"
+    source_url: https://zh.wikipedia.org/zh-hant/%E9%94%94%E7%93%B7
+    source_title: 維基百科：鋦瓷
+    support: "鋦瓷是一種中國傳統的陶瓷修復工藝；以有延展性的金屬（金、銀、銅、鐵）製成鋦釘，接合破裂的瓷器。"
+    confidence: high
+  - claim: "做法是在裂縫兩側鑽孔，嵌入兩端屈曲、形似釘書針的金屬釘"
+    source_url: https://scholars.lib.ntu.edu.tw/handle/123456789/20344?&locale=en
+    source_title: 謝明良〈鋦釘補瓷術的文化史〉，《國立臺灣大學美術史研究集刊》42 期（2017）
+    support: "工法一般是沿著待修陶瓷破裂痕的兩側鑽孔，再植入兩端屈曲形似釘書針的「ㄇ形」金屬釘（搜尋摘要引述）；英文摘要：the method of using metal staples to repair or strengthen ceramics has been adopted in many countries."
+    confidence: high
+  - claim: "用金屬釘修補或加固陶瓷，世界上不少地方都出現過"
+    source_url: https://scholars.lib.ntu.edu.tw/handle/123456789/20344?&locale=en
+    source_title: 謝明良〈鋦釘補瓷術的文化史〉英文摘要
+    support: "Historically, the method of using metal staples to repair or strengthen ceramics has been adopted in many countries."
+    confidence: high
+  - claim: "從前的鋦匠挑着擔子走街串巷替人修補"
+    source_url: https://zh.wikipedia.org/zh-hant/%E9%94%94%E7%93%B7
+    source_title: 維基百科：鋦瓷
+    support: "舊時的鋦匠走街串巷，肩挑扁擔。"
+    confidence: high
+  - claim: "在台灣，修補陶瓷碗盤的行業叫「補硘仔」；舊做法先以糯米加灰搗成黏漿黏合、用繩綁緊，再打孔落釘"
+    source_url: https://www.thecan.com.tw/tw/log/detail/928
+    source_title: 九份鄉土館館長賴志賢〈鋦瓷・惜物愛物不浪費〉
+    support: "「補硘仔」就是早年台灣專門修補陶瓷類碗、盤、鍋的一種行業；首先必須先將糯米煮熟、加入草仔灰或煤灰搗爛，敲打出黏性，黏捕破裂處後用繩子緊密綑綁，於記號處用拉鋸穿孔，將ㄇ字型的鋦釘斜打進去。"
+    confidence: high
+  - claim: "馬蝗絆是南宋龍泉青瓷茶碗，足利義政持有時碗底裂開，送到中國欲換新碗，因已無同等品質之器，以鋦釘補好送回，因釘形似螞蚱（蝗）而得名"
+    source_url: https://emuseum.nich.go.jp/detail?content_base_id=100886&content_part_id=001&content_pict_id=004&langId=en&webView=null
+    source_title: 日本國立文化財機構 e-Museum：青磁茶碗 銘 馬蝗絆
+    support: "Southern Song period/13th century, Longquan ware; became cracked on the bottom while owned by Shogun Ashikaga Yoshimasa; sent to China seeking an exchange, but no ware of that quality could be produced, so it came back merely fastened with a clamp; name Bakōhan (large-locust clamp) from the clamp's resemblance to an insect."
+    confidence: high
+  - claim: "舊時師傅用手動鑽弓配鑲金剛石（鑽石）的鑽嘴在裂縫兩側打孔；今天多改用高速電動小鑽"
+    source_url: https://www.sz.gov.cn/en_szgov/aboutsz/whatson/content/post_8808542.html
+    source_title: Shenzhen Government Online：staple repair of porcelain
+    support: "Expert craftsmen in the past would drill through the glazed surface using a hand-operated drilling wheel with a diamond tip… today a fine machinery drill that revolves up to 50,000 times per minute."
+    confidence: high
+  - claim: "以金剛鑽在裂縫兩側鑽淺眼，鋦釘用鑷子、鈎放入後以鋦錘敲平"
+    source_url: https://zh.wikipedia.org/zh-hant/%E9%94%94%E7%93%B7
+    source_title: 維基百科：鋦瓷
+    support: "先用金剛鑽在瓷面裂縫兩側等距離相對應處各鑽一個淺眼；鋦釘以鑷子及鈎放入孔中，再以鋦錘敲平。"
+    confidence: high
+  - claim: "俗語「沒有金剛鑽，別攬瓷器活」"
+    source_url: https://zh.wikipedia.org/zh-hant/%E9%94%94%E7%93%B7
+    source_title: 維基百科：鋦瓷
+    support: "條目所列相關俗語包括「沒有金剛鑽，別攬瓷器活」。"
+    confidence: high
+  - claim: "孔不可鑽穿，有師傅說大約只鑽入一毫米"
+    source_url: https://www.mpweekly.com/culture/%E8%A8%AD%E8%A8%88/%E4%BF%AE%E8%A3%9C%E7%BE%8E%E8%97%9D-14635
+    source_title: 明周文化〈修補美藝（二）：中國鋦瓷 細活承傳〉
+    support: "這個步驟要非常小心，不可鑽穿杯身，約鑽入一毫米深度。（師傅個人說法，文中以「有師傅」轉述）"
+    confidence: medium
+  - claim: "鋦釘以金、銀、銅、鐵等有延展性的金屬製成，常見是銅"
+    source_url: https://www.nps.gov/subjects/museums/upload/08-03_508.pdf
+    source_title: US National Park Service, Conserve O Gram 8/3 Preservation of Low-Fired Ceramic Objects (2002)
+    support: "The staples can be made of copper or iron alloys.（另見維基百科：金、銀、銅、鐵）"
+    confidence: high
+  - claim: "孔口和裂縫會以灰膏填平，舊時多用石膏、石灰類材料"
+    source_url: https://zh.wikipedia.org/zh-hant/%E9%94%94%E7%93%B7
+    source_title: 維基百科：鋦瓷；NPS Conserve O Gram 8/3
+    support: "以灰膏壓入縫中並以銼、砂紙打磨，填料以石膏、石灰等調成；NPS: The hole is then backfilled with plaster or other filler."
+    confidence: high
+  - claim: "傳統上補好後請主人盛一碗水試漏"
+    source_url: https://zh.wikipedia.org/zh-hant/%E9%94%94%E7%93%B7
+    source_title: 維基百科：鋦瓷
+    support: "鋦匠補完會向主人要一碗水，以示修補後滴水不漏。"
+    confidence: medium
+  - claim: "鋦瓷分粗活與細活，粗活修補瓦缸等厚重容器，細活用於精緻器物"
+    source_url: https://www.mpweekly.com/culture/%E8%A8%AD%E8%A8%88/%E4%BF%AE%E8%A3%9C%E7%BE%8E%E8%97%9D-14635
+    source_title: 明周文化〈修補美藝（二）〉
+    support: "鋦瓷分為粗活及細活，前者用來修補瓦缸之類的厚重容器，後者則是細緻器物。（維基百科亦有粗活／細活之分，細活又稱鋦活秀）"
+    confidence: high
+  - claim: "宋代畫中已有鋦匠之說未算確鑿"
+    source_url: https://zh.wikipedia.org/zh-hant/%E9%94%94%E7%93%B7
+    source_title: 維基百科：鋦瓷
+    support: "常被引用的《清明上河圖》鋦匠形象不見於北宋原本，只見於明代仇英摹本，北宋說法存疑。"
+    confidence: medium
+  - claim: "孔要淺而不穿，因此胎身要有一定厚度；薄胎小杯打孔風險較高（推論）"
+    source_url: https://www.mpweekly.com/culture/%E8%A8%AD%E8%A8%88/%E4%BF%AE%E8%A3%9C%E7%BE%8E%E8%97%9D-14635
+    source_title: 明周文化〈修補美藝（二）〉
+    support: "孔約入一毫米且不可鑽穿；粗活對應厚重容器。薄胎不宜屬由此推論，文中以「我會建議」表達。"
+    confidence: medium
+  - claim: "鋦釘修補要在裂縫兩邊鑽孔，屬進取而會造成損傷的做法，今天修復人員很少採用"
+    source_url: https://www.nps.gov/subjects/museums/upload/08-03_508.pdf
+    source_title: US National Park Service, Conserve O Gram 8/3
+    support: "Conservators rarely use metal rivets today. Rivets are a damaging and aggressive repair method that requires drilling holes on both sides of the break."
+    confidence: high
+  - claim: "有師傅說鋦釘隨器物熱脹冷縮，盛熱水也不漏（文中以保留語氣轉述，不作背書）"
+    source_url: https://www.mpweekly.com/culture/%E8%A8%AD%E8%A8%88/%E4%BF%AE%E8%A3%9C%E7%BE%8E%E8%97%9D-14635
+    source_title: 明周文化〈修補美藝（二）〉
+    support: "即使是倒進熱水，它都會隨杯子熱脹冷縮，故能滴水不漏。"
+    confidence: low
+  - claim: "鐵釘日久常生鏽，鏽跡令陶瓷染色，甚至令修補失效"
+    source_url: https://www.nps.gov/subjects/museums/upload/08-03_508.pdf
+    source_title: US National Park Service, Conserve O Gram 8/3
+    support: "Frequently iron rivets are corroded or rusty, staining the ceramic and sometimes failing."
+    confidence: high
+  - claim: "金屬鋦釘鏽蝕會令器物染色變色；修補過的位置比原來弱"
+    source_url: https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/ceramics-glass-preventive-conservation.html
+    source_title: Canadian Conservation Institute：Caring for ceramic and glass objects
+    support: "The metal staples have corroded, causing staining and discolouration of the plate. / Ceramic objects might have been broken and repaired and will be weaker at these points."
+    confidence: high
+  - claim: "接口對齊、釘子未鏽蝕的舊鋦釘可留在原位；拆除可能令原有材料鬆脫"
+    source_url: https://www.nps.gov/subjects/museums/upload/08-03_508.pdf
+    source_title: US National Park Service, Conserve O Gram 8/3；Islamic Arts Museum Malaysia 修復記錄
+    support: "If the alignment of the join is good and the rivets are not corroded or visible, they can remain in place. IAMM (https://iamm.org.my/?p=76192): decided not to remove the rivets as this threatened to loosen the original material."
+    confidence: high
+  - claim: "舊修補是器物歷史的一部分，應記錄"
+    source_url: https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/ceramics-glass-preventive-conservation.html
+    source_title: Canadian Conservation Institute：Caring for ceramic and glass objects
+    support: "Repairs are an important part of an object's history and should be documented."
+    confidence: high

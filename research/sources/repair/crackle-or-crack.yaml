@@ -1,0 +1,128 @@
+slug: crackle-or-crack
+checked_on: 2026-10-17
+facts:
+  - claim: "釉替器物封面，也令它更堅固，可以用來盛水。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: "V&A Ceramics and Glass Conservation Studio: Caring for your ceramic objects and floor tiles (2018)"
+    support: "Glazes add a decorative glassy finish to the surface of the ceramic, which both seals and strengthens the object, making it suitable for containing liquids."
+    confidence: high
+  - claim: "釉的膨脹係數比胎高，冷卻時收縮得多，釉層被拉緊而裂成細網，就是開片。"
+    source_url: https://digitalfire.com/glossary/glaze+crazing
+    source_title: "Digitalfire Reference Library: Glaze Crazing"
+    support: "Crazed ceramic glazes have a network of cracks. It is a mismatch of thermal expansions between body and glaze (where that of the latter is higher)... If they are stretched on the ware cracks will occur to relieve the stress."
+    confidence: high
+  - claim: "（同上）開片在冷卻時出現，因胎釉膨脹係數不同，釉收縮較快。"
+    source_url: https://en.wikipedia.org/wiki/Ge_ware
+    source_title: "Wikipedia: Ge ware"
+    support: "The crackle arises during cooling, when the coefficient of expansion differs between the glaze and the body, the former contracting faster."
+    confidence: high
+  - claim: "台灣工藝研究機構的青瓷釉研究記錄：胎的膨脹係數低於釉藥時，試片大多出現釉裂。"
+    source_url: https://themefile.culture.tw/ntcri/quarterly/files/ca5e51dd-6332-4e9a-a12a-dad4591b7900.pdf
+    source_title: "國立臺灣工藝研究發展中心《臺灣工藝》沈俊良：運用氧化還原兩用電窯於青瓷釉之發色機制研究"
+    support: "紫紅土以及一成陶土因膨脹係數低於這些釉藥，故大多產生釉裂之現象。"
+    confidence: high
+  - claim: "一般製作會把釉調配得與胎的收縮配合。"
+    source_url: https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/ceramics-glass-preventive-conservation.html
+    source_title: "Canadian Conservation Institute: Caring for ceramic and glass objects"
+    support: "[Glaze] is formulated to match the thermal expansion and contraction rates of the fabric to which it is applied."
+    confidence: high
+  - claim: "開片也叫冰裂紋（狹義的冰裂紋即瓷器釉面的開片）。"
+    source_url: https://www.thepaper.cn/newsDetail_forward_32384304
+    source_title: "澎湃新聞：冰裂紋相關文章"
+    support: "狭义层面，特指瓷器釉面的开片现象"
+    confidence: medium
+  - claim: "開片原本算缺陷，大約由宋代起有窯口刻意做成裝飾。"
+    source_url: https://gotheborg.com/glossary/crackle.shtml
+    source_title: "Gotheborg.com Glossary: Crackle"
+    support: "From the Song dynasty and onwards crackles seems to have been intentionally produced as decoration."
+    confidence: medium
+  - claim: "（同上）作為缺陷：一般把開片視為缺陷，刻意的才稱 crackle。"
+    source_url: https://digitalfire.com/glossary/glaze+crazing
+    source_title: "Digitalfire: Glaze Crazing"
+    support: "If the effect is intended, it is called \"crackle\" (but no one should intend this on functional ware)."
+    confidence: medium
+  - claim: "哥窯青瓷的釉面常見開片。"
+    source_url: https://themefile.culture.tw/ntcri/quarterly/files/ca5e51dd-6332-4e9a-a12a-dad4591b7900.pdf
+    source_title: "國立臺灣工藝研究發展中心《臺灣工藝》沈俊良文"
+    support: "哥窯釉面常見裂紋，稱之為「開片」。"
+    confidence: high
+  - claim: "傳統上把一大一小兩重紋片稱為「金絲鐵線」。"
+    source_url: https://en.wikipedia.org/wiki/Ge_ware
+    source_title: "Wikipedia: Ge ware"
+    support: "'double crackle'... the Chinese term 'gold thread and iron wire', describing the small and larger networks respectively."
+    confidence: medium
+  - claim: "有些器物特意在紋路裏擦進顏色，資料提到有用茶或墨的做法。"
+    source_url: https://gotheborg.com/glossary/crackle.shtml
+    source_title: "Gotheborg.com Glossary: Crackle"
+    support: "The appearance could be enhanced by tea (red) or ink (black) being rubbed into the cracks."
+    confidence: medium
+  - claim: "開片不一定一出窯就定型，可在燒成後一段時間才出現。"
+    source_url: https://digitalfire.com/glossary/glaze+crazing
+    source_title: "Digitalfire: Glaze Crazing"
+    support: "Ware that appears to be OK out-of-the-kiln can later craze. （Wikipedia Ge ware：The crackle may take some time to appear after firing）"
+    confidence: high
+  - claim: "紋路是釉面細縫，水和污漬會滲入，令紋路變色。"
+    source_url: https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/ceramics-glass-preventive-conservation.html
+    source_title: "CCI: Caring for ceramic and glass objects"
+    support: "Dirt can also lodge in cracks and areas of repair, resulting in unsightly discolouration."
+    confidence: medium
+  - claim: "低溫陶器胎多孔，開片會讓污漬和水滲入胎內留下斑痕；瓷和炻器燒成溫度高、較堅硬。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: "V&A: Caring for your ceramic objects and floor tiles"
+    support: "Flaws such as firing cracks, crazing or pitting in the glaze, may provide a point of entry for dirt and water particularly on low-fired wares with porous bodies... high-fired wares, such as stoneware and porcelain, are stronger and harder."
+    confidence: high
+  - claim: "製作有問題的器物遇上突然冷熱變化，可引發胎裂或釉面開片。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: "V&A: Caring for your ceramic objects and floor tiles"
+    support: "In rare cases, certain manufacturing faults that can cause cracks to develop in the body or crazing to appear in the glaze. Sudden changes in temperatures... may trigger such a response."
+    confidence: high
+  - claim: "裂的定義：穿過釉層和胎體的窄縫，裏外兩面都看得見。"
+    source_url: https://gotheborg.com/glossary/crack.shtml
+    source_title: "Gotheborg.com Glossary: Crack"
+    support: "a crack is defined as \"a narrow break going through glaze and porcelain body, visibly from both sides\"."
+    confidence: medium
+  - claim: "開片只影響釉層，底下的胎仍然完整；表面一般摸上去光滑；側光下較易看見。"
+    source_url: https://journalofantiques.com/glossary/crazing-in-ceramics/
+    source_title: "Journal of Antiques and Collectibles: Crazing in Antique Ceramics"
+    support: "affects the glaze layer only... The underlying ceramic body remains intact... usually feels smooth rather than raised or sharp... often more apparent under angled light."
+    confidence: medium
+  - claim: "碰撞造成的裂狀態不穩定，稍再受力可能延長。"
+    source_url: https://gotheborg.com/glossary/crack.shtml
+    source_title: "Gotheborg.com Glossary: Crack"
+    support: "the object is now in an unstable condition that might be worsened by even a modest amount of further pressure."
+    confidence: medium
+  - claim: "用指甲輕敲，完好瓷器聲音清脆；聲音發悶多表示有結構問題。"
+    source_url: https://vanda-production-assets.s3.amazonaws.com/2019/04/03/14/22/51/43a4b5c7-dcfe-4d22-a4ab-677e197f7285/caring_for_your_ceramics.pdf
+    source_title: "V&A: Caring for your ceramic objects and floor tiles"
+    support: "If you tap the ceramic lightly with your fingernail it should give a clear ringing tone. A dull sound often indicates a structural flaw."
+    confidence: high
+  - claim: "燒成溫度不足的器物，敲起來聲音本來就較悶。"
+    source_url: https://gotheborg.com/glossary/crackle.shtml
+    source_title: "Gotheborg.com Glossary: Crackle"
+    support: "A dull sound - no ring - when a dish is tapped plus crackles clearly points at it being somewhat underfired."
+    confidence: medium
+  - claim: "開片很密的器物不宜久浸，因液體會滲入紋路。"
+    source_url: https://journalofantiques.com/glossary/crazing-in-ceramics/
+    source_title: "Journal of Antiques and Collectibles: Crazing in Antique Ceramics"
+    support: "Functional ceramics with heavy crazing should not be soaked or used for food, as liquids can penetrate the glaze cracks."
+    confidence: medium
+  - claim: "含鉛的釉也會出現細密開片，酸性飲食會損害含鉛釉。"
+    source_url: https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/ceramics-glass-preventive-conservation.html
+    source_title: "CCI: Caring for ceramic and glass objects"
+    support: "Lead glazes may also have fine crazing (a pattern of small cracks) over their surface... Lead glazes can be damaged by acidic food and beverages."
+    confidence: high
+  - claim: "美國 FDA 建議：無法確認來歷、又未能檢測的傳統陶器，考慮不要用來盛載食物飲品。"
+    source_url: https://www.fda.gov/food/environmental-contaminants-food/questions-and-answers-lead-glazed-traditional-pottery
+    source_title: "U.S. FDA: Questions and Answers on Lead-Glazed Traditional Pottery"
+    support: "If you can't test the piece or verify its maker... consider not using it for cooking, serving, or storing food or drinks. （頁面列出 antique、damaged or excessively worn 為需留意類型）"
+    confidence: high
+  - claim: "有裂縫的杯先不要再注熱水（保守建議，裂縫不穩定，再受熱受力可能延長）。"
+    source_url: https://gotheborg.com/glossary/crack.shtml
+    source_title: "Gotheborg.com Glossary: Crack"
+    support: "unstable condition that might be worsened by even a modest amount of further pressure（受熱部分屬引申，配合 V&A 指溫度驟變可引發胎裂）"
+    confidence: medium
+  - claim: "白瓷能清楚顯出茶湯顏色（站內茶文章觀點）。"
+    source_url: https://teabonvivant.github.io/tang-wei-tea/journal/white-porcelain-for-tasting-tea/
+    source_title: "唐娓：品茶必備白瓷茶具（站內）"
+    support: "白瓷茶杯則以素淨的底色，襯出茶湯的顏色。"
+    confidence: high

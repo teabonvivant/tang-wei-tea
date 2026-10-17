@@ -1,0 +1,138 @@
+slug: hot-tea-in-repaired-cups
+checked_on: 2026-10-17
+notes: >
+  漆的耐熱溫度只有單一工房給出約 95℃，另一工房稱可注入滾水；正文並列兩說並採保守建議。
+  大部分金繕使用說明來自修補工房／套裝商（Chimahaga、Tsugu Tsugu），屬業界說法，非官方標準。
+facts:
+  - claim: "天然漆完全乾透後可接觸食物，且耐用。"
+    source_url: "https://chimahaga.com/pages/faq"
+    source_title: "Chimahaga：FAQ"
+    support: |-
+      "Urushi lacquer is safe for use in food as once fully hardened, and is one of the most durable natural materials available."
+    confidence: medium
+  - claim: "漆表面硬了，裏面還要二十天至幾個月才硬透；修好後至少一個月才使用。"
+    source_url: "https://chimahaga.com/blogs/journal/is-kintsugi-ware-dishwasher-safe"
+    source_title: "Chimahaga：Is Kintsugi ware dishwasher safe?"
+    support: |-
+      "Do not use it for a month after the repair is complete"；第二階段需 "another 20 days to several months to harden to the core."；Tsugu Tsugu："start using the item at least 1 month after it was repaired."
+    confidence: medium
+  - claim: "簡易金繕多用環氧樹脂等合成膠；部分固化後可作食品接觸，很多則不可。"
+    source_url: "https://kintsugi-kit.com/blogs/tsugu-tsugu-columns/traditional-kintsugi-vs-modern-kintsugi"
+    source_title: "Tsugu Tsugu：Traditional Kintsugi vs Modern Kintsugi"
+    support: |-
+      "Using synthetic adhesives such as epoxy resin"；"Some epoxy resins are designed to be food-safe once fully cured, but many are not."
+    confidence: medium
+  - claim: "只有惰性的物料才適合作食物容器。"
+    source_url: "https://www.cfs.gov.hk/tc_chi/programme/programme_rafs/programme_rafs_fcm_01_04_Baby_Bottles_Tableware.html"
+    source_title: "香港食物安全中心：嬰兒奶瓶和兒童餐具的安全問題"
+    support: |-
+      "化學物對健康的風險取決於其毒性和遷移量，所以，只有惰性的物料，才適合作食物的容器，不論是天然或是合成的。"
+    confidence: high
+  - claim: "化學物遷移一般隨溫度、脂肪含量、酸性和接觸時間增加。"
+    source_url: "https://www.cfs.gov.hk/tc_chi/programme/programme_rafs/programme_rafs_fcm_01_04_Baby_Bottles_Tableware.html"
+    source_title: "香港食物安全中心：嬰兒奶瓶和兒童餐具的安全問題"
+    support: |-
+      "一般來說，化學物遷移會受溫度、脂肪含量、酸性和接觸時間的影響而增加。"
+    confidence: high
+  - claim: "業餘修補所用的快乾環氧膠等膠水不穩定。"
+    source_url: "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html"
+    source_title: "Canadian Conservation Institute：Care of Ceramics and Glass"
+    support: |-
+      "Amateur repairs done with unstable adhesives, such as five-minute epoxies,"
+    confidence: high
+  - claim: "漆的耐熱約攝氏九十五度（單一工房說法）。"
+    source_url: "https://kintsugi-kit.com/pages/3-steps-to-start-kintsugi-at-home"
+    source_title: "Tsugu Tsugu：Kintsugi Beginner's Guide"
+    support: |-
+      "Urushi lacquer which is used for kintsugi repair has a heat resistance temperature of approximately 95°C."
+    confidence: low
+  - claim: "另有工房稱可注入滾水，但不可放明火，並避免長時間受蒸氣。"
+    source_url: "https://chimahaga.com/blogs/journal/is-kintsugi-ware-dishwasher-safe"
+    source_title: "Chimahaga：Is Kintsugi ware dishwasher safe?"
+    support: |-
+      "Pouring boiling water over it is acceptable, but placing it over an open flame can cause damage."；"Continuous exposure to boiling steam should also be avoided."
+    confidence: medium
+  - claim: "修補過的器物總比未破過的弱。"
+    source_url: "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html"
+    source_title: "Canadian Conservation Institute：Care of Ceramics and Glass"
+    support: |-
+      "a repaired object is always weaker than one that has not been broken."
+    confidence: high
+  - claim: "日本茶的沖泡指引建議把開水放涼到約七十度才沖綠茶。"
+    source_url: "https://www.mlit.go.jp/tagengo-db/common/001645113.pdf"
+    source_title: "日本國土交通省多語解說：日本茶的沖泡步驟"
+    support: |-
+      "水燒開後倒入杯中，讓水溫降至 70°C。……如果水太熱，茶味會發苦。"
+    confidence: high
+  - claim: "悶泡是讓茶在有蓋容器裏較長時間浸泡，藉較高溫度釋出茶中物質。"
+    source_url: "/journal/why-steep-aged-tea/"
+    source_title: "唐娓專欄選編：為何老茶要「悶泡」？（站內）"
+    support: |-
+      "所謂悶泡，是讓茶在蓋碗、茶壺等有蓋容器裏，較長時間浸泡，藉較高溫度釋出茶中物質。"
+    confidence: high
+  - claim: "茶湯稍涼時滋味更易分辨。"
+    source_url: "/journal/tea-after-cooling/"
+    source_title: "茶間筆記：等茶稍涼，滋味才說得清楚（站內）"
+    support: |-
+      "一旦燙口，舌頭忙着躲避，細節便很難分辨。"
+    confidence: medium
+  - claim: "金繕器不可放微波爐、洗碗機、焗爐或明火。"
+    source_url: "https://kintsugi-kit.com/pages/3-steps-to-start-kintsugi-at-home"
+    source_title: "Tsugu Tsugu：Kintsugi Beginner's Guide"
+    support: |-
+      "Do not place an item repaired with kintsugi in a microwave, a dishwasher, an oven or an open fire."
+    confidence: medium
+  - claim: "陶瓷遇急劇溫度變化會膨脹收縮，可能破裂；乾燥不可用熱力加快，宜自然晾乾。"
+    source_url: "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html"
+    source_title: "Canadian Conservation Institute：Care of Ceramics and Glass"
+    support: |-
+      "Avoid temperature extremes, particularly rapid temperature changes."；"This causes expansion and contraction, which may result in breaking or cracking."；"Never use heat to reduce drying time."
+    confidence: high
+  - claim: "避免讓修補器經歷驟冷驟熱。"
+    source_url: "https://kintsugi-kit.com/pages/3-steps-to-start-kintsugi-at-home"
+    source_title: "Tsugu Tsugu：Kintsugi Beginner's Guide"
+    support: |-
+      "Make sure to avoid exposing the repaired items to sudden temperature changes"
+    confidence: medium
+  - claim: "手洗、用軟海綿輕抹；金層很薄，用力擦或硬物刮會令金或漆剝落。"
+    source_url: "https://chimahaga.com/blogs/journal/is-kintsugi-ware-dishwasher-safe"
+    source_title: "Chimahaga：Is Kintsugi ware dishwasher safe?"
+    support: |-
+      "When washing, use a soft sponge to wash gently."；"The gold layer is very thin, so rubbing it hard or scratching it with a hard object may cause the gold or urushi coating to peel off."
+    confidence: medium
+  - claim: "洗碗機會令金層剝落、接口受損。"
+    source_url: "https://chimahaga.com/pages/faq"
+    source_title: "Chimahaga：FAQ"
+    support: |-
+      "please do not use it in a dishwasher, as it will cause the gold to peel off or damage the joints."
+    confidence: medium
+  - claim: "微波爐可能令接口冒火花。"
+    source_url: "https://chimahaga.com/blogs/journal/is-kintsugi-ware-dishwasher-safe"
+    source_title: "Chimahaga：Is Kintsugi ware dishwasher safe?"
+    support: |-
+      "Using a microwave oven is dangerous because of the possibility of sparks coming from the seams or an explosion."
+    confidence: medium
+  - claim: "修補器不宜長時間放在蒸氣或高壓蒸氣中。"
+    source_url: "https://kintsugi-kit.com/pages/3-steps-to-start-kintsugi-at-home"
+    source_title: "Tsugu Tsugu：Kintsugi Beginner's Guide"
+    support: |-
+      "Do not place an item in a steamer for a long time nor in high-pressure steam."
+    confidence: medium
+  - claim: "漆完全乾透後引起過敏的機會很低；嚴重漆過敏者仍宜小心。"
+    source_url: "https://chimahaga.com/pages/faq"
+    source_title: "Chimahaga：FAQ"
+    support: |-
+      "If the urushi is completely dry, it is very unlikely that you will have an allergic reaction."；"If you have a serious urushi allergy, please consider the use of our products with caution."
+    confidence: medium
+  - claim: "舊膠變黃變脆表示器物脆弱。"
+    source_url: "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html"
+    source_title: "Canadian Conservation Institute：Care of Ceramics and Glass"
+    support: |-
+      "If a piece has yellow, brittle adhesive on it, assume that it is fragile and might fall apart."
+    confidence: high
+  - claim: "表面有破損的餐具不宜再用；應按生產商指示使用，尤其溫度限制。"
+    source_url: "https://www.cfs.gov.hk/tc_chi/programme/programme_rafs/programme_rafs_fcm_01_04_Baby_Bottles_Tableware.html"
+    source_title: "香港食物安全中心：嬰兒奶瓶和兒童餐具的安全問題"
+    support: |-
+      "避免使用表面有破損或已損壞的餐具。"；"依照生產商的指示使用，尤其是溫度上的限制……"
+    confidence: high

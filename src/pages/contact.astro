@@ -1,0 +1,56 @@
+---
+import Base from '../layouts/Base.astro';
+import PageIntro from '../components/PageIntro.astro';
+import Cover from '../components/Cover.astro';
+import { WA_NUMBER, wa } from '../lib/site';
+---
+<Base title="聯絡唐老師｜唐娓老師" description="就中國茶藝學習、普洱交流與文化合作，寫下你的想法。" path="/contact/">
+  <PageIntro title="不妨，坐下來談茶。" english="Let's start a conversation." intro="想學習中國茶藝、聊聊普洱，或為學校與機構安排一場茶文化活動。" />
+  <section class="wrap section" style="padding-top:0">
+    <div class="plain-block">
+      <h2 class="h2">直接聯絡唐老師</h2>
+      <p>茶藝課程、普洱研習及學校活動，可直接用 WhatsApp 查詢。</p>
+      <div style="display:flex;flex-wrap:wrap;gap:16px;align-items:center">
+        <a class="button" href={wa()}>WhatsApp 唐老師：6380 2761</a>
+        <a class="text-link" href="mailto:hkatcs1@gmail.com">學會電郵：hkatcs1@gmail.com</a>
+      </div>
+      <p>佐敦課室：彌敦道 229 號周生生大廈 12 樓（佐敦站 C1 出口旁）。屯門課堂：屯門時代廣場 4 樓屯門文藝協進會。到訪前請先預約。</p>
+      <p class="t-small muted">聯絡方式取自香港古樹茶文化學會公開頁面，2026 年 9 月 24 日查閱。</p>
+    </div>
+  </section>
+  <section class="wrap section split" style="padding-top:0">
+    <div class="copy">
+      <Cover src="/images/photography-v2/hosting-two.webp" alt="茶桌上等候來客的兩隻杯" sizes="(min-width: 900px) 560px, 100vw" />
+      <h2>把想法，拿到茶桌上說。</h2>
+      <p>課程查詢可以說明學習經驗、想學的內容及可上課時間。活動合作則可提供對象、人數、場地與日期。</p>
+    </div>
+    <form class="form" id="wa-form" action={`https://wa.me/${WA_NUMBER}`} method="get">
+      <h2 class="h3">用 WhatsApp 開始交流</h2>
+      <label>稱呼<input name="name" autocomplete="name" /></label>
+      <label>想了解甚麼
+        <select name="topic">
+          <option>中國茶藝學習</option><option>普洱茶研習</option><option>個人及小組課程</option><option>學校及青年茶文化活動</option><option>機構合作與講座</option>
+        </select>
+      </label>
+      <label>你的想法<textarea name="note"></textarea></label>
+      <input type="hidden" name="text" value="你好，我想了解茶藝課程或合作。" />
+      <button class="button" type="submit">前往 WhatsApp</button>
+      <p class="form-note">開啟 WhatsApp 後，可檢視訊息再發送。</p>
+    </form>
+  </section>
+  <script is:inline>
+    (function () {
+      var f = document.getElementById('wa-form');
+      if (!f) return;
+      var p = new URLSearchParams(location.search).get('topic');
+      if (p === 'youth') f.elements.topic.value = '學校及青年茶文化活動';
+      f.addEventListener('submit', function () {
+        var n = f.elements.name.value.trim();
+        var t = '你好' + (n ? '，我是' + n : '') + '，我想了解：' + f.elements.topic.value + '。' + (f.elements.note.value.trim() ? '\n' + f.elements.note.value.trim() : '');
+        f.elements.text.value = t;
+        f.elements.name.disabled = true; f.elements.topic.disabled = true; f.elements.note.disabled = true;
+        setTimeout(function () { f.elements.name.disabled = false; f.elements.topic.disabled = false; f.elements.note.disabled = false; }, 0);
+      });
+    })();
+  </script>
+</Base>

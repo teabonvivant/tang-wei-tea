@@ -1,0 +1,85 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Cover from '../../components/Cover.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import Arrow from '../../components/Arrow.astro';
+import { allArticles, categoryName, categoryHref, topicBySlug, u, abs, fmtDate, fmtDateZh, repairForTea, columnArticles, topicArticles, imgInfo } from '../../lib/site';
+import cols from '../../data/columns.json';
+
+export async function getStaticPaths() {
+  const all = await allArticles();
+  return all.map((a) => ({ params: { slug: a.id }, props: { a } }));
+}
+const { a } = Astro.props;
+const d = a.data;
+const { Content } = await render(a);
+const isColumn = d.series === 'column';
+const cat = categoryName(a);
+const related = await Promise.all(d.related.map(async (r) => (await getEntry(r))!));
+const repairs = await repairForTea(a.id, d.topic);
+const series = isColumn ? await columnArticles() : await topicArticles(d.topic!);
+const idx = series.findIndex((x) => x.id === a.id);
+// 文章系列上下篇：專欄按日期由舊到新閱讀；筆記按主題內順序
+const ordered = isColumn ? [...series].reverse() : series;
+const oi = ordered.findIndex((x) => x.id === a.id);
+const prev = oi > 0 ? ordered[oi - 1] : null;
+const next = oi < ordered.length - 1 ? ordered[oi + 1] : null;
+const cover = imgInfo(d.cover);
+const jsonld = [{
+  '@context': 'https://schema.org', '@type': 'Article', headline: d.title,
+  datePublished: d.date.toISOString().slice(0, 10), author: { '@type': 'Person', name: '唐娓' },
+  image: [abs(d.cover)], inLanguage: 'zh-Hant-HK', mainEntityOfPage: abs(`/journal/${a.id}/`),
+  description: d.excerpt,
+}];
+---
+<Base title={d.seo.title ? `${d.seo.title}｜唐娓老師` : `${d.title}｜唐娓老師`} description={d.seo.description ?? d.excerpt} path={`/journal/${a.id}/`} ogImage={d.cover} type="article" publishedTime={d.date.toISOString().slice(0, 10)} progress jsonld={jsonld}>
+  <article>
+    <header class="article-head">
+      <nav class="crumbs" aria-label="麵包屑" style="padding:0"><a href={u(isColumn ? '/columns/' : '/journal/')}>{isColumn ? '茶逢知己' : '茶間筆記'}</a><span aria-hidden="true">/</span><a href={u(categoryHref(a))}>{cat}</a></nav>
+      <h1>{d.title}</h1>
+      <p class="byline">文／唐娓 · {fmtDate(d.date)}</p>
+      <p class="lead">{d.excerpt}</p>
+    </header>
+    <figure class="article-cover" style="margin-block:0 48px">
+      <Cover src={d.cover} alt={d.coverAlt} priority vt={`c-${a.id}`} sizes="(min-width: 1080px) 1040px, 100vw" />
+    </figure>
+    <div class="prose"><Content /></div>
+
+    <div class="after">
+      {isColumn && d.column && (
+        <p class="origin">原刊於《香港經濟日報》世情館「茶逢知己」，{fmtDateZh(d.column.printedOn)}。本站版本按版面略作整理。</p>
+      )}
+      {isColumn && (
+        <details class="column-all">
+          <summary>茶逢知己全部 34 篇篇目</summary>
+          <ol>
+            {[...cols].sort((x, y) => y.date.localeCompare(x.date)).map((c) => (
+              <li>
+                <time>{c.date.replaceAll('-', '.')}</time>
+                {c.slug ? <a href={u(`/journal/${c.slug}/`)} aria-current={c.slug === a.id ? 'page' : undefined}>{c.title}</a> : <span>{c.title}</span>}
+              </li>
+            ))}
+          </ol>
+        </details>
+      )}
+      {(prev || next) && (
+        <nav class="series-nav" aria-label={isColumn ? '專欄上下篇' : '同類上下篇'}>
+          {prev ? <a class="prev" href={u(`/journal/${prev.id}/`)}><span>上一篇</span><strong>{prev.data.title}</strong></a> : <span></span>}
+          {next ? <a class="next" href={u(`/journal/${next.id}/`)}><span>下一篇</span><strong>{next.data.title}</strong></a> : <span></span>}
+        </nav>
+      )}
+      <p><a class="text-link" href={u(categoryHref(a))}><span>更多〈{cat}〉</span><Arrow /></a></p>
+    </div>
+  </article>
+
+  <section class="related" aria-labelledby="more-h">
+    <div class="wrap">
+      <h2 class="h2" id="more-h">接着讀</h2>
+      <div class="article-grid">
+        {related.map((r) => <ArticleCard href={`/journal/${r.id}/`} title={r.data.title} excerpt={r.data.excerpt} cover={r.data.cover} alt="" category={categoryName(r)} date={fmtDate(r.data.date)} />)}
+        {repairs.map((r) => <ArticleCard href={`/repair/${r.id}/`} title={r.data.title} excerpt={r.data.excerpt} cover={r.data.cover} alt="" category="修器" date={fmtDate(r.data.date)} />)}
+      </div>
+    </div>
+  </section>
+</Base>

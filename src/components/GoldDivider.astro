@@ -1,0 +1,7 @@
+---
+// 一條細金線：只用於器物、修器相關區塊（動2）
+const { class: cls } = Astro.props;
+---
+<svg class:list={['gold-draw', cls]} viewBox="0 0 1200 24" preserveAspectRatio="none" aria-hidden="true" style="width:100%;height:24px">
+  <path class="gold-line" pathLength="1" d="M0 14 C 120 4, 180 20, 300 12 S 480 6, 600 13 S 840 20, 960 10 S 1120 8, 1200 12" />
+</svg>

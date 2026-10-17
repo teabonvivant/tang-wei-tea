@@ -1,0 +1,10 @@
+---
+const { title, english, intro } = Astro.props;
+---
+<div class="wrap page-intro">
+  <div>
+    <h1>{title}</h1>
+    {english && <span class="english-title">{english}</span>}
+  </div>
+  {intro && <p class="intro-copy">{intro}</p>}
+</div>

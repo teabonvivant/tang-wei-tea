@@ -1,0 +1,52 @@
+---
+import Base from '../layouts/Base.astro';
+import PageIntro from '../components/PageIntro.astro';
+import Conversation from '../components/Conversation.astro';
+import Arrow from '../components/Arrow.astro';
+import { u, wa, imgInfo } from '../lib/site';
+const photo = imgInfo('/images/teaching-1.jpg');
+const courses = [
+  { t: '茶藝師專業培訓', p: ['內容包括六大茶類、茶具與用水、沖泡控制、感官品鑑，以及茶席設計與待客禮儀。由屯門文藝協進會主辦、學會協辦。', '2026 年 10 至 12 月開設佐敦及屯門班，共 10 課。課程結業證書與內地職業考試分開安排。'], q: '你好，我想查詢「茶藝師專業培訓」的班期及收費。' },
+  { t: '個人及小組精讀', p: ['以個人或最多四人自組形式，安排兩節共十小時學習，於佐敦或屯門課室進行。日期須預約，適合集中整理茶藝理論及實作。'], q: '你好，我想查詢「個人及小組精讀」課程。' },
+  { t: '普洱古樹茶研習', p: ['從代表茶區認識山頭特色，練習品鑑與沖泡，交流茶葉辨識及收藏觀察。歷年研習內容涵蓋茶區、原料與加工，從杯中滋味認識普洱。'], q: '你好，我想查詢「普洱古樹茶研習」。' },
+  { t: '學校與機構合作', p: ['學會提供茶藝工作坊及培訓課程，可按對象安排六大茶類、製作工藝、品飲及沖泡主題。'], q: '你好，我想查詢學校或機構的茶藝活動安排。' },
+];
+const faq = [
+  ['沒有基礎，可以參加嗎？', '可先從入門茶藝或個人、小組課程了解。聯絡時說明平日飲茶習慣、想學的內容與可上課時間，方便安排合適方向。'],
+  ['課程證書與職業資格有甚麼分別？', '課程結業與內地職業資格考試屬不同安排。報名前請向主辦方確認證書名稱、發證機構、考試要求及是否另有費用。'],
+  ['學校或機構如何安排活動？', '可提供參加者年齡、人數、活動地點、時長與學習目的，再商議講座、觀察、實作及交流的比例。'],
+  ['在哪裏查看班期與收費？', '班期、地點與收費以最新安排為準，請直接用 WhatsApp 查詢。'],
+];
+---
+<Base title="課程與合作｜唐娓老師" description="唐娓老師的中國茶藝課程、個人及小組精讀、普洱研習，以及學校與機構茶文化活動。" path="/courses/">
+  <PageIntro title="課程與合作" english="Learning through practice." intro="認識茶葉，親手沖泡，練習把感受說清楚。由日常興趣開始，慢慢學成一套有系統的知識。" />
+  <section class="wrap section split" style="padding-top:0">
+    <figure>
+      <img class="ph" style="width:100%;height:auto" src={photo.src} width={photo.width} height={photo.height} alt="學員在茶藝課上圍桌觀察茶葉" decoding="async" fetchpriority="high" />
+      <figcaption>茶藝課程紀錄 · 香港古樹茶文化學會</figcaption>
+    </figure>
+    <div class="copy">
+      <h2>動手做過，知識才慢慢清楚。</h2>
+      <p>茶藝的學習，包括茶類與工藝、器具與用水、沖泡控制、感官品飲，以及茶席禮儀。課堂上講解與實作互相配合，學員在具體問題裏建立自己的理解。</p>
+      <a class="text-link" href={u('/contact/')}><span>查詢適合自己的課程</span><Arrow /></a>
+    </div>
+  </section>
+  <section class="wrap section" style="padding-top:0">
+    <p class="label">唐老師的茶藝教學</p>
+    <h2 class="h2" style="margin:8px 0 32px">課程與學習方向</h2>
+    <div class="cards-2">
+      {courses.map((c) => (
+        <article class="box">
+          <h3>{c.t}</h3>
+          {c.p.map((x) => <p>{x}</p>)}
+          <p><a class="button" href={wa(c.q)}>WhatsApp 查詢</a></p>
+        </article>
+      ))}
+    </div>
+  </section>
+  <section class="wrap section faq" style="padding-top:0">
+    <h2 class="h2" style="margin-bottom:32px">報名前，先把問題問清楚</h2>
+    {faq.map(([q, a]) => <details><summary>{q}</summary><p>{a}</p></details>)}
+  </section>
+  <Conversation />
+</Base>
