@@ -1,0 +1,54 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      # 倉庫變數（Settings > Secrets and variables > Actions > Variables）可覆蓋預設值：
+      #   BASE（預設 /tang-wei-tea）、PUBLIC_PREVIEW（預覽版設 1）、PUBLIC_CF_BEACON_TOKEN（正式版才設）
+      BASE: ${{ vars.BASE || '/tang-wei-tea' }}
+      PUBLIC_PREVIEW: ${{ vars.PUBLIC_PREVIEW || '' }}
+      PUBLIC_CF_BEACON_TOKEN: ${{ vars.PUBLIC_CF_BEACON_TOKEN || '' }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+      - run: npm ci
+      - run: npm run build
+      - name: 檢查輸出（外連、AI 痕跡字串、破折號、內部連結）
+        run: python3 -I scripts/check_dist.py dist --base "$BASE"
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

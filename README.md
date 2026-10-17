@@ -61,7 +61,7 @@ python3 -I scripts/check_dist.py dist --base /tang-wei-tea
 
 ## 部署與回滾
 
-部署：推送到 `main` 即由 `.github/workflows/deploy.yml` 建置並發佈到 GitHub Pages（Pages 來源須為「GitHub Actions」）。
+部署：推送到 `main` 即由 `ci/deploy.yml`（需複製到 `.github/workflows/`，推送 workflow 檔需要有 `workflow` 權限的憑證）建置並發佈到 GitHub Pages（Pages 來源須為「GitHub Actions」）。
 
 **預覽 repo**（`teabonvivant/tang-wei-tea-preview`）：倉庫變數 `BASE=/tang-wei-tea-preview`、`PUBLIC_PREVIEW=1`。
 
