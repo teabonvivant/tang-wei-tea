@@ -23,15 +23,19 @@ const jsonld = [
 ---
 <Base title="唐娓老師｜茶、器物與日常" description="唐老師的茶、器物與日常。中國茶藝教學、普洱茶評審與製作，以一席茶，認識生活中的文化與美。" path="/" overHero jsonld={jsonld}>
   <section class="hero">
-    <img class="hero-image" src={hero.src} width={hero.width} height={hero.height} alt="紫砂壺、白瓷杯與琥珀色的茶湯" fetchpriority="high" decoding="sync" />
-    <svg class="hero-lines" viewBox="0 0 1400 933" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-      <path class="gold-line" pathLength="1" d="M580 606 C 600 566, 752 566, 768 603 C 766 650, 745 690, 700 714" />
-    </svg>
+    <div class="hero-stage" aria-hidden="false">
+      <div class="hero-art">
+        <img class="hero-image" src={hero.src} width={hero.width} height={hero.height} alt="紫砂壺、白瓷杯與琥珀色的茶湯" fetchpriority="high" decoding="sync" />
+        <svg class="hero-lines" viewBox="0 0 1400 933" aria-hidden="true">
+          <path class="gold-line" pathLength="1" d="M1010 667 C 1003 680, 1023 691, 1012 707 C 1004 719, 1007 730, 992 746" />
+        </svg>
+      </div>
+    </div>
     <div class="hero-shade"></div>
     <div class="wrap hero-content">
-      <p class="hero-identity">唐娓老師 · 中國茶藝教學・普洱研習</p>
+      <p class="hero-identity">唐娓老師・中國茶藝教學・普洱研習</p>
       <h1>一席茶裏，<br />有一段從容的時光。</h1>
-      <p class="hero-description">一片葉的來處，連着器物、風土，與人的日常。</p>
+      <p class="hero-description"><span class="nb">一片葉的來處，</span><span class="nb">連着器物、風土，</span><span class="nb">與人的日常。</span></p>
       <div class="hero-actions">
         <a class="button on-deep" href={u('/about/')}>走近唐老師</a>
         <a class="text-link" style="color:var(--on-deep)" href={u('/works/')}><span>看器物與修補</span><Arrow /></a>

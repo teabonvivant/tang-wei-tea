@@ -82,13 +82,17 @@ export function fmtDateZh(d: Date): string {
 
 /** 本機圖片（/images/**）的寬高與縮圖 */
 export function imgInfo(src: string) {
-  const dim = (images as Record<string, number[]>)[src];
-  const small = (images as Record<string, number[]>)[src.replace(/\.webp$/, '-640.webp')];
+  const imgs = images as Record<string, number[]>;
+  const dim = imgs[src];
+  const at = (w: number) => src.replace(/\.webp$/, `-${w}.webp`);
+  const widths = [640, 960].filter((w) => imgs[at(w)]);
+  const list = widths.map((w) => `${u(at(w)).replace(/\/$/, '')} ${imgs[at(w)][0]}w`);
+  if (widths.length) list.push(`${u(src).replace(/\/$/, '')} ${dim[0]}w`);
   return {
     src: u(src).replace(/\/$/, ''),
     width: dim?.[0],
     height: dim?.[1],
-    srcset: small ? `${u(src.replace(/\.webp$/, '-640.webp')).replace(/\/$/, '')} ${small[0]}w, ${u(src).replace(/\/$/, '')} ${dim[0]}w` : undefined,
+    srcset: widths.length ? list.join(', ') : undefined,
   };
 }
 

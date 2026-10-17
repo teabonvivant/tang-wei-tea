@@ -11,7 +11,7 @@ const pageHref = (n: number) => (n === 1 ? basePath : `${basePath}page/${n}/`);
 </nav>
 <div class="article-grid">
   {items.map((a, i) => (
-    <ArticleCard href={`/journal/${a.id}/`} title={a.data.title} excerpt={a.data.excerpt} cover={a.data.cover} alt="" category={categoryName(a)} date={fmtDate(a.data.date)} vt={`c-${a.id}`} priority={i < 2 && page === 1} />
+    <ArticleCard href={`/journal/${a.id}/`} title={a.data.title} excerpt={a.data.excerpt} cover={a.data.cover} alt="" category={categoryName(a)} date={fmtDate(a.data.date)} vt={`c-${a.id}`} priority={i < 2 && page === 1} level={2} />
   ))}
 </div>
 {pages > 1 && (

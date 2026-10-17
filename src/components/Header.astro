@@ -41,7 +41,7 @@ const groups = [
       <div class="menu-group"><a href={u('/')} aria-current={path === '/' ? 'page' : undefined}>首頁</a></div>
       {groups.map((g) => (
         <div class="menu-group">
-          <h2>{g.title}</h2>
+          <p class="menu-title">{g.title}</p>
           {g.items.map(([h, l]) => <a href={u(h)} aria-current={path === h ? 'page' : undefined}>{l}</a>)}
         </div>
       ))}

@@ -34,6 +34,10 @@ npm run build                 # 輸出到 dist/
 python3 -I scripts/check_dist.py dist --base /tang-wei-tea
 ```
 
+未裝 fonttools 時建置會失敗；可先 `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`，再以 `PYTHON=.venv/bin/python npm run build` 建置。
+
+預覽 repo 的部署目前用 gh-pages 分支（`scripts/publish_gh_pages.sh`）；`ci/deploy.yml` 待取得 `workflow` 權限後放入 `.github/workflows/` 即轉為 GitHub Actions 部署。預覽的 `robots.txt` 在 `/tang-wei-tea-preview/` 下，爬蟲只讀網域根目錄，實際擋收錄的是每頁的 meta noindex。
+
 環境變數：
 
 | 變數 | 預設 | 說明 |

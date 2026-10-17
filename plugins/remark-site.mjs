@@ -36,8 +36,12 @@ export default function remarkSite() {
     const figure = (n) => {
       const src = n.url;
       const dim = images[src];
-      const small = images[src.replace(/\.webp$/, '-640.webp')];
-      const set = small ? ` srcset="${base}${src.replace(/\.webp$/, '-640.webp')} ${small[0]}w, ${base}${src} ${dim[0]}w" sizes="(min-width: 1080px) 1040px, 100vw"` : '';
+      const sets = [640, 960]
+        .map((w) => [w, images[src.replace(/\.webp$/, `-${w}.webp`)]])
+        .filter(([, d]) => d)
+        .map(([w, d]) => `${base}${src.replace(/\.webp$/, `-${w}.webp`)} ${d[0]}w`);
+      if (sets.length && dim) sets.push(`${base}${src} ${dim[0]}w`);
+      const set = sets.length ? ` srcset="${sets.join(', ')}" sizes="(min-width: 1080px) 1040px, 100vw"` : '';
       const wh = dim ? ` width="${dim[0]}" height="${dim[1]}"` : '';
       return `<figure class="body-figure"><img src="${base}${src}"${set}${wh} alt="${esc(n.alt ?? '')}" loading="lazy" decoding="async"></figure>`;
     };
