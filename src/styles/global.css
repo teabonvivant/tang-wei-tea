@@ -293,7 +293,7 @@ a { color: inherit; }
 .conversation-actions { display: grid; gap: 16px; justify-items: start; }
 
 /* 文章頁 */
-.progress { position: fixed; inset: 0 0 auto 0; height: 2px; background: var(--gold); transform: scaleX(0); transform-origin: left; z-index: 50; animation: progress linear both; animation-timeline: scroll(root); }
+.progress { position: fixed; inset: 0 0 auto 0; height: 2px; background: var(--gold); transform: scaleX(0); transform-origin: left; z-index: 50; animation: progress linear both; animation-duration: auto; animation-timeline: scroll(root); }
 @keyframes progress { to { transform: scaleX(1); } }
 @supports not (animation-timeline: scroll()) { .progress { display: none; } }
 
@@ -475,7 +475,7 @@ a { color: inherit; }
 .gold-draw.pre .gold-line { stroke-dasharray: 1; stroke-dashoffset: 1; }
 .gold-draw.drawn .gold-line { stroke-dashoffset: 0; transition: stroke-dashoffset 900ms var(--ease-out); }
 @supports (animation-timeline: view()) {
-  .gold-draw .gold-line { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 900ms var(--ease-out) both; animation-timeline: view(); animation-range: entry 10% cover 40%; }
+  .gold-draw .gold-line { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 900ms var(--ease-out) both; animation-duration: auto; animation-timeline: view(); animation-range: entry 10% cover 40%; }
 }
 
 @media (prefers-reduced-motion: reduce) {
