@@ -1,7 +1,7 @@
 ---
 import { u } from '../lib/site';
 const cols = [
-  { title: '讀茶', items: [['/tea/', '茶知識'], ['/journal/', '茶間筆記'], ['/columns/', '茶逢知己']] },
+  { title: '讀茶', items: [['/tea/', '茶知識'], ['/journal/', '茶間筆記'], ['/columns/', '茶逢知己'], ['/puer-tea-knowledge/', '普洱茶知識庫', 'raw'], ['/six-tea-knowledge/', '六大茶知識庫', 'raw']] },
   { title: '器物', items: [['/works/', '器物總覽'], ['/repair/', '修器'], ['/repair/glossary/', '修補小詞典'], ['/topics/hosting/', '茶席']] },
   { title: '唐老師', items: [['/about/', '關於唐老師'], ['/courses/', '課程與合作'], ['/events/', '教學紀錄'], ['/contact/', '聯絡']] },
   { title: '本站', items: [['/sources/', '文字與圖片說明'], ['/projects/youth-tea-culture/', '青年與茶']] },
@@ -20,7 +20,7 @@ const cols = [
       {cols.map((c) => (
         <nav aria-label={`頁尾：${c.title}`}>
           <h2>{c.title}</h2>
-          {c.items.map(([h, l]) => <a href={u(h)}>{l}</a>)}
+          {c.items.map(([h, l, raw]) => <a href={raw ? h : u(h)}>{l}</a>)}
         </nav>
       ))}
     </div>
