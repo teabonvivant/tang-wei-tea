@@ -101,11 +101,16 @@ facts:
     source_title: Canadian Conservation Institute：Caring for ceramic and glass objects
     support: "The metal staples have corroded, causing staining and discolouration of the plate. / Ceramic objects might have been broken and repaired and will be weaker at these points."
     confidence: high
-  - claim: "接口對齊、釘子未鏽蝕的舊鋦釘可留在原位；拆除可能令原有材料鬆脫"
+  - claim: "接口對齊、釘子未鏽蝕的舊鋦釘可留在原位"
     source_url: https://www.nps.gov/subjects/museums/upload/08-03_508.pdf
-    source_title: US National Park Service, Conserve O Gram 8/3；Islamic Arts Museum Malaysia 修復記錄
-    support: "If the alignment of the join is good and the rivets are not corroded or visible, they can remain in place. IAMM (https://iamm.org.my/?p=76192): decided not to remove the rivets as this threatened to loosen the original material."
+    source_title: US National Park Service, Conserve O Gram 8/3
+    support: "If the alignment of the join is good and the rivets are not corroded or visible, they can remain in place."
     confidence: high
+  - claim: "拆走舊鋦釘的過程有可能令原有材料鬆脫"
+    source_url: https://iamm.org.my/?p=76192
+    source_title: Islamic Arts Museum Malaysia 修復記錄（保留舊鋦釘的器物）
+    support: "decided not to remove the rivets as this threatened to loosen the original material."
+    confidence: medium
   - claim: "舊修補是器物歷史的一部分，應記錄"
     source_url: https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/ceramics-glass-preventive-conservation.html
     source_title: Canadian Conservation Institute：Caring for ceramic and glass objects

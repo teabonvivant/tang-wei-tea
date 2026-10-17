@@ -13,13 +13,13 @@ const nav = [
 ];
 const groups = [
   { title: '讀茶', items: [['/tea/', '茶知識'], ['/journal/', '茶間筆記'], ['/columns/', '茶逢知己']] },
-  { title: '器物', items: [['/works/', '器物總覽'], ['/repair/', '修器'], ['/repair/glossary/', '修補小詞典'], ['/topics/vessels/', '選器・用器'], ['/topics/hosting/', '茶席']] },
+  { title: '器物', items: [['/works/', '器物總覽'], ['/repair/', '修器'], ['/repair/glossary/', '修補小詞典'], ['/topics/vessels/', '選器·用器'], ['/topics/hosting/', '茶席']] },
   { title: '唐老師', items: [['/about/', '關於唐老師'], ['/courses/', '課程與合作'], ['/events/', '教學紀錄'], ['/contact/', '聯絡']] },
 ];
 ---
 <header class:list={['site-header', { 'over-hero': overHero }]}>
   <div class="wrap header-row">
-    <a class="wordmark" href={u('/')} aria-label="唐老師，返回首頁"><span>唐老師</span><small>茶・器物・日常</small></a>
+    <a class="wordmark" href={u('/')} aria-label="唐老師，返回首頁"><span>唐老師</span><small>茶·器物·日常</small></a>
     <nav class="desktop-nav" aria-label="主要選單">
       {nav.map((n) => <a href={u(n.href)} aria-current={n.match.some((m) => is(m)) ? 'page' : undefined}>{n.label}</a>)}
     </nav>

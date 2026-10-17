@@ -7,7 +7,7 @@ const info = typeof src === 'string' ? imgInfo(src) : null;
 ---
 <div class:list={['ph', cls]} style={vt ? `view-transition-name: ${vt}` : undefined}>
   {info ? (
-    <img src={info.src} srcset={info.srcset} sizes={info.srcset ? sizes : undefined} width={info.width} height={info.height} alt={alt} aria-hidden={alt === '' ? 'true' : undefined} loading={priority ? 'eager' : 'lazy'} fetchpriority={priority ? 'high' : undefined} decoding={priority ? 'sync' : 'async'} />
+    <img src={info.src} srcset={info.srcset} sizes={info.srcset ? sizes : undefined} width={info.width} height={info.height} alt={alt} aria-hidden={alt === '' ? 'true' : undefined} loading={priority ? 'eager' : 'lazy'} fetchpriority={priority ? 'high' : undefined} decoding="async" />
   ) : (
     <Picture src={src as ImageMetadata} alt={alt} aria-hidden={alt === '' ? 'true' : undefined} formats={['avif', 'webp']} fallbackFormat="jpg" widths={[480, 768, 1040, 1536]} sizes={sizes} priority={priority} />
   )}

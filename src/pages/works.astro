@@ -13,7 +13,7 @@ const terms = await allTerms();
 const sample = ['金繕', '開片', '生漆'].map((n) => terms.find((t) => t.data.term === n)!).filter(Boolean);
 const hero = rep.find((r) => r.id === 'what-is-kintsugi')!;
 const gates = [
-  { href: '/topics/vessels/', title: '選器・用器', body: '蓋碗、公道杯、茶巾、一把壺。由合手、好用與清潔着眼，慢慢挑出自己的茶具。', n: `${vessels.length} 篇筆記`, img: vessels[0].data.cover, alt: '' },
+  { href: '/topics/vessels/', title: '選器·用器', body: '蓋碗、公道杯、茶巾、一把壺。由合手、好用與清潔着眼，慢慢挑出自己的茶具。', n: `${vessels.length} 篇筆記`, img: vessels[0].data.cover, alt: '' },
   { href: '/repair/', title: '修器', body: '杯碗碎了、裂了、崩了怎麼辦？金繕與鋦瓷是甚麼？修過的器物能不能盛茶、上茶席？', n: `${rep.length} 篇文章與小詞典`, img: hero.data.cover, alt: '' },
   { href: '/topics/hosting/', title: '茶席', body: '安排器物，也照顧席間每一個人的需要。', n: `${hosting.length} 篇筆記`, img: hosting[0].data.cover, alt: '' },
 ];

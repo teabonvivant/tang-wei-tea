@@ -58,9 +58,9 @@ facts:
     support: |-
       "a repaired object is always weaker than one that has not been broken."
     confidence: high
-  - claim: "日本茶的沖泡指引建議把開水放涼到約七十度才沖綠茶。"
+  - claim: "日本茶的沖泡解說建議把開水放涼到約七十度才沖綠茶。"
     source_url: "https://www.mlit.go.jp/tagengo-db/common/001645113.pdf"
-    source_title: "日本國土交通省多語解說：日本茶的沖泡步驟"
+    source_title: "日本觀光廳「地域觀光資源多語言解說文資料庫」：日本茶的沖泡步驟（由觀光廳製作、供旅客閱讀的解說文）"
     support: |-
       "水燒開後倒入杯中，讓水溫降至 70°C。……如果水太熱，茶味會發苦。"
     confidence: high
