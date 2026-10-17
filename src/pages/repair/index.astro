@@ -4,7 +4,7 @@ import ArticleCard from '../../components/ArticleCard.astro';
 import CrackMap from '../../components/CrackMap.astro';
 import Cover from '../../components/Cover.astro';
 import Arrow from '../../components/Arrow.astro';
-import { allRepair, allTerms, clusters, u, fmtDate } from '../../lib/site';
+import { allRepair, allTerms, clusters, u, fmtDate, shownDate } from '../../lib/site';
 const rep = await allRepair();
 const byCluster = (id: string) => rep.filter((r) => r.data.cluster === id);
 const counts = Object.fromEntries(clusters.map((c) => [c.id, byCluster(c.id).length]));
@@ -18,7 +18,7 @@ const sample = ['金繕', '開片', '生漆', '鋦瓷'].map((n) => terms.find((t
       <div style="display:grid;gap:24px;max-width:36em">
         <p class="label">器物 · 修器</p>
         <h1 style="font-size:clamp(36px,6vw,56px)">修器</h1>
-        <p class="t-lead" style="color:var(--green-mist)">茶桌上的杯碗，用得愈久，愈難逃過一兩次磕碰。常有茶友拿着破了的杯來問我：還能不能修？修過的杯，還能不能喝茶？</p>
+        <p class="t-lead" style="color:var(--green-mist)">茶桌上的杯碗，用得愈久，愈難逃過一兩次磕碰。破了的杯還能不能修，修過的杯還能不能喝茶，是茶友最常問的兩件事。</p>
         <p style="color:var(--green-mist)">這個欄目把問題由淺入深整理：先看懂是哪一種破損，再認識金繕、鋦瓷等方法，最後回到茶桌上，談修過的器物怎樣用、怎樣收。古董或貴重的器物不宜自己動手，請先請教專業的修復師。</p>
       </div>
       <CrackMap counts={counts} />
@@ -28,7 +28,7 @@ const sample = ['金繕', '開片', '生漆', '鋦瓷'].map((n) => terms.find((t
   <section class="wrap section" aria-labelledby="start-h">
     <h2 class="h2" id="start-h" style="margin-bottom:40px">從這三篇開始</h2>
     <div class="start-three" data-stagger>
-      {start.map((r, i) => <ArticleCard href={`/repair/${r.id}/`} title={r.data.title} excerpt={r.data.excerpt} cover={r.data.cover} alt="" category={clusters.find((c) => c.id === r.data.cluster)!.name} date={fmtDate(r.data.date)} vt={`c-${r.id}`} priority={i === 0} />)}
+      {start.map((r, i) => <ArticleCard href={`/repair/${r.id}/`} title={r.data.title} excerpt={r.data.excerpt} cover={r.data.cover} alt="" category={clusters.find((c) => c.id === r.data.cluster)!.name} date={shownDate(r)} vt={`c-${r.id}`} priority={i === 0} />)}
     </div>
   </section>
 
@@ -39,10 +39,10 @@ const sample = ['金繕', '開片', '生漆', '鋦瓷'].map((n) => terms.find((t
         <div class="cluster" id={`cluster-${c.id}`}>
           <div><h2>{c.name}</h2><p class="blurb">{c.blurb}</p></div>
           <div class="cluster-items">
-            <ArticleCard variant="feature" href={`/repair/${first.id}/`} title={first.data.title} excerpt={first.data.excerpt} cover={first.data.cover} alt="" date={fmtDate(first.data.date)} sizes="(min-width: 900px) 700px, 100vw" />
+            <ArticleCard variant="feature" href={`/repair/${first.id}/`} title={first.data.title} excerpt={first.data.excerpt} cover={first.data.cover} alt="" date={shownDate(first)} sizes="(min-width: 900px) 700px, 100vw" />
             {rest.length > 0 && (
               <ul class="plain-list">
-                {rest.map((r) => <li><a class="row-link" href={u(`/repair/${r.id}/`)}><span class="label">{fmtDate(r.data.date)}</span><div><h3>{r.data.title}</h3><p>{r.data.excerpt}</p></div></a></li>)}
+                {rest.map((r) => <li><a class="row-link" href={u(`/repair/${r.id}/`)}><div><h3>{r.data.title}</h3><p>{r.data.excerpt}</p></div></a></li>)}
               </ul>
             )}
           </div>

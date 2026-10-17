@@ -177,7 +177,6 @@ a { color: inherit; }
 /* 頁面標題 */
 .page-intro { padding-block: 64px 48px; display: grid; gap: 24px; }
 .page-intro h1 { font-size: 36px; line-height: 1.25; }
-.page-intro .english-title { display: block; margin-top: 8px; font-family: var(--serif); font-size: 18px; color: var(--ink-muted); font-style: italic; letter-spacing: 0.04em; }
 .page-intro .intro-copy { color: var(--ink-muted); font-size: 18px; max-width: 30em; }
 @media (min-width: 768px) {
   .page-intro { grid-template-columns: 1fr 1fr; align-items: end; padding-block: 96px 64px; gap: 48px; }
@@ -231,6 +230,11 @@ a { color: inherit; }
 .chips a[aria-current='page'] { background: var(--green); color: var(--paper); box-shadow: none; }
 [data-theme='dark'] .chips a[aria-current='page'] { color: #14201a; }
 @media (hover: hover) and (pointer: fine) { .chips a:not([aria-current]):hover { background: var(--surface); } }
+@media (max-width: 639px) {
+  .chips { flex-wrap: nowrap; overflow-x: auto; overflow-y: hidden; scrollbar-width: none; margin-inline: calc(-1 * var(--gutter)); padding-inline: var(--gutter); scroll-padding-inline: var(--gutter); }
+  .chips::-webkit-scrollbar { display: none; }
+  .chips a { flex: 0 0 auto; }
+}
 .pager { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: center; margin-top: 64px; }
 .pager a, .pager span { min-width: 44px; min-height: 44px; display: inline-grid; place-items: center; padding: 0 12px; border-radius: 999px; text-decoration: none; font-size: 16px; }
 .pager a { box-shadow: inset 0 0 0 1px var(--line); }
@@ -258,7 +262,7 @@ a { color: inherit; }
 @media (min-width: 768px) { .hero-shade { background: linear-gradient(90deg, rgba(20, 30, 25, 0.8) 0%, rgba(20, 30, 25, 0.66) 38%, rgba(20, 30, 25, 0.05) 78%), linear-gradient(0deg, rgba(20, 30, 25, 0.92) 0%, rgba(20, 30, 25, 0.7) 40%, rgba(20, 30, 25, 0.1) 70%, rgba(20, 30, 25, 0.35) 100%); } }
 .hero-content { position: relative; z-index: 1; padding-block: 120px 56px; display: grid; gap: 24px; }
 .hero-identity { font-size: 16px; letter-spacing: 0.12em; color: var(--on-deep); }
-.hero h1 { font-size: clamp(36px, 7vw, 64px); line-height: 1.3; letter-spacing: 0.04em; }
+.hero h1 { font-size: clamp(27px, 8.4vw, 64px); line-height: 1.3; letter-spacing: 0.04em; }
 .hero-description { font-size: 18px; color: var(--green-mist); max-width: 26em; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
 @media (min-width: 768px) { .hero-content { padding-block: 160px 96px; } .hero-description { font-size: 21px; } }
@@ -392,9 +396,9 @@ a { color: inherit; }
 .crackmap { display: grid; gap: 32px; align-items: center; }
 @media (min-width: 900px) { .crackmap { grid-template-columns: 1fr 1fr; gap: 80px; } }
 .crackmap svg { width: 100%; max-width: 560px; margin-inline: auto; height: auto; overflow: visible; }
-.crackmap .bowl { fill: none; stroke: var(--green-mist); stroke-width: 1.5px; stroke-linecap: round; opacity: 0.55; }
+.crackmap .bowl { fill: none; stroke: var(--green-mist); stroke-width: 1.75px; stroke-linecap: round; opacity: 0.72; }
 .crackmap a.crack { cursor: pointer; outline: none; }
-.crackmap a.crack .gold-line { stroke-width: 3px; opacity: 0.55; transition: opacity 200ms var(--ease-out); }
+.crackmap a.crack .gold-line { stroke-width: 3px; opacity: 0.85; transition: opacity 200ms var(--ease-out); }
 .crackmap a.crack .hit { fill: none; stroke: transparent; stroke-width: 28px; stroke-linecap: round; }
 .crackmap a.crack text { fill: var(--on-deep); font-family: var(--sans); font-size: 15px; opacity: 0; transition: opacity 200ms var(--ease-out); }
 .crackmap svg:has(a.crack:hover, a.crack:focus-visible) a.crack:not(:hover):not(:focus-visible) .gold-line { opacity: 0.4; }

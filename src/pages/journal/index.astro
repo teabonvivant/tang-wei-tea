@@ -19,7 +19,7 @@ const redirects = { '入門沖泡': 'brewing', '感官品飲': 'senses', '普洱
       }
     } catch (e) {}
   </script>
-  <PageIntro title="茶間筆記" english="Notes on tea & everyday life." intro="一百篇日常茶筆記，加上唐老師的「茶逢知己」。每篇都由一個問題開始，慢慢讀下去，會讀出自己的方向。" />
+  <PageIntro title="茶間筆記" intro="一百篇日常茶筆記，加上唐老師的「茶逢知己」。每篇都由一個問題開始，慢慢讀下去，會讀出自己的方向。" />
   <section class="wrap" style="padding-bottom:128px">
     <p class="muted" style="margin-bottom:24px">全部文章，共 {all.length} 篇 · 第 1 / {pages} 頁</p>
     <JournalList items={all.slice(0, PER)} page={1} pages={pages} />

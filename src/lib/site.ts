@@ -79,6 +79,10 @@ export function fmtDate(d: Date): string {
 export function fmtDateZh(d: Date): string {
   return `${d.getUTCFullYear()} 年 ${d.getUTCMonth() + 1} 月 ${d.getUTCDate()} 日`;
 }
+/** 只在有真實刊出日期時才顯示（專欄文章）；批量上載的筆記與修器文章不標日期 */
+export function shownDate(a: { data: { series?: string; date: Date } }): string | undefined {
+  return a.data.series === 'column' ? fmtDate(a.data.date) : undefined;
+}
 
 /** 本機圖片（/images/**）的寬高與縮圖 */
 export function imgInfo(src: string) {

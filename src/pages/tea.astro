@@ -7,12 +7,12 @@ import { u, topicList, fmtDate } from '../lib/site';
 const start = await Promise.all(['first-gaiwan', 'weighing-tea', 'temperature-as-choice', 'write-tasting-notes'].map(async (id) => (await getEntry('articles', id))!));
 ---
 <Base title="茶知識｜唐娓老師" description="一百篇茶間筆記，十個閱讀方向。從入門沖泡、感官品飲到普洱、器物、存茶與文化。" path="/tea/">
-  <PageIntro title="茶知識" english="A thoughtful place to begin." intro="從手上一杯茶開始。十個閱讀方向，一步一步把問題弄明白。" />
+  <PageIntro title="茶知識" intro="從手上一杯茶開始。十個閱讀方向，一步一步把問題弄明白。" />
   <section class="wrap section" style="padding-top:0">
     <h2 class="h2" style="margin-bottom:32px">初次學茶，先讀這四篇</h2>
     <ol class="plain-list">
       {start.map((a) => (
-        <li><a class="row-link" href={u(`/journal/${a.id}/`)}><span class="label">{fmtDate(a.data.date)}</span><div><h3>{a.data.title}</h3><p>{a.data.excerpt}</p></div></a></li>
+        <li><a class="row-link" href={u(`/journal/${a.id}/`)}>{a.data.series === 'column' && <span class="label">{fmtDate(a.data.date)}</span>}<div><h3>{a.data.title}</h3><p>{a.data.excerpt}</p></div></a></li>
       ))}
     </ol>
   </section>

@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 const { items, page, pages, total } = Astro.props;
 ---
 <Base title={`茶間筆記 第 ${page} 頁｜唐娓老師`} description={`茶間筆記與茶逢知己全部文章，第 ${page} 頁，共 ${pages} 頁。`} path={`/journal/page/${page}/`}>
-  <PageIntro title="茶間筆記" english="Notes on tea & everyday life." intro="一百篇日常茶筆記，加上唐老師的「茶逢知己」。" />
+  <PageIntro title="茶間筆記" intro="一百篇日常茶筆記，加上唐老師的「茶逢知己」。" />
   <section class="wrap" style="padding-bottom:128px">
     <p class="muted" style="margin-bottom:24px">全部文章，共 {total} 篇 · 第 {page} / {pages} 頁</p>
     <JournalList items={items} page={page} pages={pages} />

@@ -10,7 +10,7 @@ export async function getStaticPaths() {
 const { t, items } = Astro.props;
 ---
 <Base title={t.title} description={t.description} path={`/topics/${t.slug}/`}>
-  <PageIntro title={t.name} english={t.english} intro={t.pageIntro} />
+  <PageIntro title={t.name} intro={t.pageIntro} />
   <section class="wrap" style="padding-bottom:128px">
     <p class="muted" style="margin-bottom:24px">{t.name}，共 {items.length} 篇</p>
     <JournalList items={items} current={t.slug} />

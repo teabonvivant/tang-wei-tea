@@ -36,7 +36,7 @@ const jsonld = [{
     <header class="article-head">
       <nav class="crumbs" aria-label="麵包屑" style="padding:0"><a href={u('/repair/')}>修器</a><span aria-hidden="true">/</span><a href={u(`/repair/#cluster-${cluster.id}`)}>{cluster.name}</a></nav>
       <h1>{d.title}</h1>
-      <p class="byline">文／唐娓 · {fmtDate(d.date)}</p>
+      <p class="byline">文／唐娓</p>
       <p class="lead">{d.excerpt}</p>
     </header>
     <figure class="article-cover" style="margin-block:0 48px">
@@ -74,8 +74,8 @@ const jsonld = [{
       <h2 class="h2" id="more-h">接着讀</h2>
       <div class="article-grid">
         {cards.map((c: any) => c.kind === 'repair'
-          ? <ArticleCard href={`/repair/${c.x.id}/`} title={c.x.data.title} excerpt={c.x.data.excerpt} cover={c.x.data.cover} alt="" category="修器" date={fmtDate(c.x.data.date)} />
-          : <ArticleCard href={`/journal/${c.x.id}/`} title={c.x.data.title} excerpt={c.x.data.excerpt} cover={c.x.data.cover} alt="" category={categoryName(c.x)} date={fmtDate(c.x.data.date)} />)}
+          ? <ArticleCard href={`/repair/${c.x.id}/`} title={c.x.data.title} excerpt={c.x.data.excerpt} cover={c.x.data.cover} alt="" category="修器" />
+          : <ArticleCard href={`/journal/${c.x.id}/`} title={c.x.data.title} excerpt={c.x.data.excerpt} cover={c.x.data.cover} alt="" category={categoryName(c.x)} />)}
       </div>
     </div>
   </section>

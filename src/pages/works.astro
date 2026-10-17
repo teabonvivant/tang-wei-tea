@@ -4,7 +4,7 @@ import ArticleCard from '../components/ArticleCard.astro';
 import Cover from '../components/Cover.astro';
 import Arrow from '../components/Arrow.astro';
 import GoldDivider from '../components/GoldDivider.astro';
-import { allRepair, allTerms, topicArticles, u, fmtDate, imgInfo } from '../lib/site';
+import { allRepair, allTerms, topicArticles, u, fmtDate, imgInfo, shownDate } from '../lib/site';
 const rep = await allRepair();
 const latest = rep.slice(0, 3);
 const vessels = await topicArticles('vessels');
@@ -49,7 +49,7 @@ const gates = [
     <GoldDivider class="paper-gold" />
     <div class="section-heading" style="margin-top:64px"><div><h2 class="h2">最新修器</h2></div><a class="text-link" href={u('/repair/')}><span>全部修器文章</span><Arrow /></a></div>
     <div class="article-grid">
-      {latest.map((r) => <ArticleCard href={`/repair/${r.id}/`} title={r.data.title} excerpt={r.data.excerpt} cover={r.data.cover} alt="" category="修器" date={fmtDate(r.data.date)} />)}
+      {latest.map((r) => <ArticleCard href={`/repair/${r.id}/`} title={r.data.title} excerpt={r.data.excerpt} cover={r.data.cover} alt="" category="修器" date={shownDate(r)} />)}
     </div>
   </section>
   <section class="band-deep section">

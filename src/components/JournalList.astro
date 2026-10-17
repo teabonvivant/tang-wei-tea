@@ -1,6 +1,6 @@
 ---
 import ArticleCard from './ArticleCard.astro';
-import { u, topicList, categoryName, fmtDate, type Article } from '../lib/site';
+import { u, topicList, categoryName, shownDate, type Article } from '../lib/site';
 interface Props { items: Article[]; current?: string; page?: number; pages?: number; basePath?: string; }
 const { items, current = 'all', page = 1, pages = 1, basePath = '/journal/' } = Astro.props;
 const chips = [['all', '全部', '/journal/'], ['column', '茶逢知己', '/columns/'], ...topicList.map((t) => [t.slug, t.name, `/topics/${t.slug}/`])];
@@ -11,7 +11,7 @@ const pageHref = (n: number) => (n === 1 ? basePath : `${basePath}page/${n}/`);
 </nav>
 <div class="article-grid">
   {items.map((a, i) => (
-    <ArticleCard href={`/journal/${a.id}/`} title={a.data.title} excerpt={a.data.excerpt} cover={a.data.cover} alt="" category={categoryName(a)} date={fmtDate(a.data.date)} vt={`c-${a.id}`} priority={i < 2 && page === 1} level={2} />
+    <ArticleCard href={`/journal/${a.id}/`} title={a.data.title} excerpt={a.data.excerpt} cover={a.data.cover} alt="" category={categoryName(a)} date={shownDate(a)} vt={`c-${a.id}`} priority={i < 2 && page === 1} level={2} />
   ))}
 </div>
 {pages > 1 && (

@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import Arrow from '../components/Arrow.astro';
 import { getEntry } from 'astro:content';
-import { u, categoryName, fmtDate } from '../lib/site';
+import { u, categoryName, fmtDate, shownDate } from '../lib/site';
 const ids = ['first-gaiwan', 'raw-ripe-first-lesson', 'room-at-the-table', 'tea-path-awakening-the-senses', 'white-porcelain-day', 'why-hong-kong-loves-puer'];
 const pop = await Promise.all(ids.map(async (id) => (await getEntry('articles', id))!));
 ---
@@ -20,7 +20,7 @@ const pop = await Promise.all(ids.map(async (id) => (await getEntry('articles', 
   <section class="wrap" style="padding-bottom:128px">
     <h2 class="h2" style="margin-bottom:32px">熱門文章</h2>
     <div class="article-grid">
-      {pop.map((a) => <ArticleCard href={`/journal/${a.id}/`} title={a.data.title} excerpt={a.data.excerpt} cover={a.data.cover} alt="" category={categoryName(a)} date={fmtDate(a.data.date)} />)}
+      {pop.map((a) => <ArticleCard href={`/journal/${a.id}/`} title={a.data.title} excerpt={a.data.excerpt} cover={a.data.cover} alt="" category={categoryName(a)} date={shownDate(a)} />)}
     </div>
   </section>
 </Base>

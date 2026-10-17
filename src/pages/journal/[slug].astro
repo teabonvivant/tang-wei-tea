@@ -4,7 +4,7 @@ import Base from '../../layouts/Base.astro';
 import Cover from '../../components/Cover.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import Arrow from '../../components/Arrow.astro';
-import { allArticles, categoryName, categoryHref, topicBySlug, u, abs, fmtDate, fmtDateZh, repairForTea, columnArticles, topicArticles, imgInfo } from '../../lib/site';
+import { allArticles, categoryName, categoryHref, topicBySlug, u, abs, fmtDate, fmtDateZh, repairForTea, columnArticles, topicArticles, imgInfo, shownDate } from '../../lib/site';
 import cols from '../../data/columns.json';
 
 export async function getStaticPaths() {
@@ -38,7 +38,7 @@ const jsonld = [{
     <header class="article-head">
       <nav class="crumbs" aria-label="麵包屑" style="padding:0"><a href={u(isColumn ? '/columns/' : '/journal/')}>{isColumn ? '茶逢知己' : '茶間筆記'}</a><span aria-hidden="true">/</span><a href={u(categoryHref(a))}>{cat}</a></nav>
       <h1>{d.title}</h1>
-      <p class="byline">文／唐娓 · {fmtDate(d.date)}</p>
+      <p class="byline">文／唐娓{d.series === 'column' ? ` · ${fmtDate(d.date)}` : ''}</p>
       <p class="lead">{d.excerpt}</p>
     </header>
     <figure class="article-cover" style="margin-block:0 48px">
@@ -77,8 +77,8 @@ const jsonld = [{
     <div class="wrap">
       <h2 class="h2" id="more-h">接着讀</h2>
       <div class="article-grid">
-        {related.map((r) => <ArticleCard href={`/journal/${r.id}/`} title={r.data.title} excerpt={r.data.excerpt} cover={r.data.cover} alt="" category={categoryName(r)} date={fmtDate(r.data.date)} />)}
-        {repairs.map((r) => <ArticleCard href={`/repair/${r.id}/`} title={r.data.title} excerpt={r.data.excerpt} cover={r.data.cover} alt="" category="修器" date={fmtDate(r.data.date)} />)}
+        {related.map((r) => <ArticleCard href={`/journal/${r.id}/`} title={r.data.title} excerpt={r.data.excerpt} cover={r.data.cover} alt="" category={categoryName(r)} date={shownDate(r)} />)}
+        {repairs.map((r) => <ArticleCard href={`/repair/${r.id}/`} title={r.data.title} excerpt={r.data.excerpt} cover={r.data.cover} alt="" category="修器" date={shownDate(r)} />)}
       </div>
     </div>
   </section>

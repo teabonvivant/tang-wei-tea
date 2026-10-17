@@ -89,7 +89,7 @@ const records = [
       <div class="section-heading"><div><h2 class="h2">課堂以外，繼續想茶</h2><p>由觀察與練習開始，學習才走進日常。</p></div><a class="text-link" href={u('/topics/learning/')}><span>閱讀這個系列</span><Arrow /></a></div>
       <div class="article-grid">
         {notes.map((a) => (
-          <article class="card"><a class="cover-link" href={u(`/journal/${a.id}/`)} tabindex="-1" aria-hidden="true"><Cover src={a.data.cover} alt="" /></a><div style="display:grid;gap:8px"><div class="meta"><span>{categoryName(a)}</span><span>{fmtDate(a.data.date)}</span></div><h3><a href={u(`/journal/${a.id}/`)}>{a.data.title}</a></h3><p>{a.data.excerpt}</p></div></article>
+          <article class="card"><a class="cover-link" href={u(`/journal/${a.id}/`)} tabindex="-1" aria-hidden="true"><Cover src={a.data.cover} alt="" /></a><div style="display:grid;gap:8px"><div class="meta"><span>{categoryName(a)}</span>{a.data.series === 'column' && <span>{fmtDate(a.data.date)}</span>}</div><h3><a href={u(`/journal/${a.id}/`)}>{a.data.title}</a></h3><p>{a.data.excerpt}</p></div></article>
         ))}
       </div>
     </section>
