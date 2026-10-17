@@ -110,13 +110,14 @@ a { color: inherit; }
 .button {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 8px 24px;
   border: 0; border-radius: 999px; background: var(--green); color: var(--paper); font-weight: 500; text-decoration: none; cursor: pointer;
-  transition: transform 100ms var(--ease-out), background-color 160ms var(--ease-out);
+  transition: transform 100ms var(--ease-out);
 }
 [data-theme='dark'] .button { background: var(--green); color: #14201a; }
 .button:active { transform: scale(0.97); }
-.button.on-deep { background: var(--paper); color: var(--green-deep); }
+.button.on-deep { background: var(--on-deep); color: #121a16; }
+[data-theme='dark'] .button.on-deep { background: var(--on-deep); color: #121a16; }
 .button.ghost { background: transparent; color: inherit; box-shadow: inset 0 0 0 1px currentColor; }
-@media (hover: hover) and (pointer: fine) { .button:hover { background: var(--green-deep); } .button.on-deep:hover { background: var(--green-mist); } .button.ghost:hover { background: color-mix(in srgb, currentColor 10%, transparent); } }
+@media (hover: hover) and (pointer: fine) { .button:hover { background: var(--green-deep); } [data-theme='dark'] .button:hover { background: var(--green-mist); } .button.on-deep:hover, [data-theme='dark'] .button.on-deep:hover { background: var(--green-mist); } .button.ghost:hover { background: color-mix(in srgb, currentColor 10%, transparent); } }
 
 /* 頁首 */
 .site-header { position: sticky; top: 0; z-index: 30; background: color-mix(in srgb, var(--paper) 94%, transparent); border-bottom: 1px solid var(--line); }
@@ -126,7 +127,7 @@ a { color: inherit; }
 .wordmark span { font-family: var(--serif); font-size: 24px; letter-spacing: 0.1em; }
 .wordmark small { font-size: 14px; letter-spacing: 0.14em; opacity: 0.8; }
 .desktop-nav { display: none; gap: 4px; }
-.desktop-nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 12px; text-decoration: none; font-size: 16px; border-radius: 999px; transition: background-color 160ms var(--ease-out); }
+.desktop-nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 12px; text-decoration: none; font-size: 16px; border-radius: 999px; }
 .desktop-nav a[aria-current='page'] { box-shadow: inset 0 -2px 0 currentColor; border-radius: 0; }
 @media (hover: hover) and (pointer: fine) { .desktop-nav a:hover { background: color-mix(in srgb, currentColor 10%, transparent); } }
 .header-contact { display: none; }
@@ -138,7 +139,7 @@ a { color: inherit; }
   .menu-toggle { display: none; }
 }
 .header-contact.button { min-height: 44px; padding-inline: 20px; font-size: 16px; }
-.over-hero .header-contact.button { background: var(--paper); color: var(--green-deep); }
+.over-hero .header-contact.button { background: var(--on-deep); color: #121a16; }
 
 /* 手機選單 */
 .mobile-menu { margin: 0; padding: 0; border: 0; width: 100%; max-width: none; height: 100%; max-height: none; background: var(--green-deep); color: var(--on-deep); }
@@ -226,7 +227,7 @@ a { color: inherit; }
 
 /* 篩選與分頁 */
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 40px; }
-.chips a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; box-shadow: inset 0 0 0 1px var(--line); text-decoration: none; font-size: 16px; transition: background-color 160ms var(--ease-out), color 160ms var(--ease-out); }
+.chips a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; box-shadow: inset 0 0 0 1px var(--line); text-decoration: none; font-size: 16px; }
 .chips a[aria-current='page'] { background: var(--green); color: var(--paper); box-shadow: none; }
 [data-theme='dark'] .chips a[aria-current='page'] { color: #14201a; }
 @media (hover: hover) and (pointer: fine) { .chips a:not([aria-current]):hover { background: var(--surface); } }
@@ -253,9 +254,10 @@ a { color: inherit; }
 .hero-art { position: absolute; width: var(--w); aspect-ratio: 1400 / 933; left: calc((100vw - var(--w)) * var(--px)); top: calc((var(--sh) - var(--w) / 1.5005) * var(--py)); }
 .hero-image, .hero-lines { position: absolute; inset: 0; width: 100%; height: 100%; }
 .hero-lines { pointer-events: none; }
-.hero-shade { position: absolute; inset: 0; z-index: -1; background: linear-gradient(0deg, rgba(20, 30, 25, 0.9) 0%, rgba(20, 30, 25, 0.55) 38%, rgba(20, 30, 25, 0.1) 70%, rgba(20, 30, 25, 0.35) 100%); }
+.hero-shade { position: absolute; inset: 0; z-index: -1; background: linear-gradient(0deg, rgba(20, 30, 25, 0.92) 0%, rgba(20, 30, 25, 0.8) 45%, rgba(20, 30, 25, 0.3) 72%, rgba(20, 30, 25, 0.35) 100%); }
+@media (min-width: 768px) { .hero-shade { background: linear-gradient(90deg, rgba(20, 30, 25, 0.8) 0%, rgba(20, 30, 25, 0.66) 38%, rgba(20, 30, 25, 0.05) 78%), linear-gradient(0deg, rgba(20, 30, 25, 0.92) 0%, rgba(20, 30, 25, 0.7) 40%, rgba(20, 30, 25, 0.1) 70%, rgba(20, 30, 25, 0.35) 100%); } }
 .hero-content { position: relative; z-index: 1; padding-block: 120px 56px; display: grid; gap: 24px; }
-.hero-identity { font-size: 16px; letter-spacing: 0.12em; color: var(--green-mist); }
+.hero-identity { font-size: 16px; letter-spacing: 0.12em; color: var(--on-deep); }
 .hero h1 { font-size: clamp(36px, 7vw, 64px); line-height: 1.3; letter-spacing: 0.04em; }
 .hero-description { font-size: 18px; color: var(--green-mist); max-width: 26em; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
@@ -316,9 +318,9 @@ a { color: inherit; }
 
 .prose { width: min(var(--measure), 100% - 2 * var(--gutter)); margin-inline: auto; display: grid; grid-template-columns: minmax(0, 1fr); gap: 24px; font-size: 17px; line-height: 1.95; }
 @media (min-width: 768px) { .prose { font-size: 19px; gap: 32px; } }
-.prose h2 { font-size: 26px; margin-top: 1em; }
+.prose h2 { font-size: 26px; margin-top: 24px; }
 @media (min-width: 768px) { .prose h2 { font-size: 30px; } }
-.prose h3 { font-size: 21px; margin-top: 0.5em; }
+.prose h3 { font-size: 21px; margin-top: 8px; }
 .prose ul, .prose ol { padding-left: 1.5em; list-style: revert; display: grid; gap: 0.5em; }
 .prose blockquote { margin: 0; padding-left: 1em; border-left: 0; font-family: var(--serif); font-size: 1.1em; color: var(--ink-muted); }
 .prose .body-figure { margin: 1em calc(-1 * var(--gutter)); }

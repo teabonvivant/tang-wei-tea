@@ -1,9 +1,10 @@
 ---
 const { title, english, intro } = Astro.props;
+const parts = String(title).split(/(?<=[，、；：])/);
 ---
 <div class="wrap page-intro">
   <div>
-    <h1>{title}</h1>
+    <h1>{parts.map((t) => <span class="nb">{t}</span>)}</h1>
     {english && <span class="english-title">{english}</span>}
   </div>
   {intro && <p class="intro-copy">{intro}</p>}
