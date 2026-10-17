@@ -249,8 +249,8 @@ a { color: inherit; }
 
 /* 首頁主圖（動1） */
 .hero { position: relative; min-height: 100svh; display: grid; align-items: end; color: var(--on-deep); background: var(--green-deep); isolation: isolate; overflow: hidden; }
-.hero-stage { position: absolute; inset: 0; z-index: -2; overflow: hidden; container-type: size; --px: 0.5; --py: 0.5; --w: max(100cqw, 100cqh * 1.5005); }
-.hero-art { position: absolute; width: var(--w); aspect-ratio: 1400 / 933; left: calc((100cqw - var(--w)) * var(--px)); top: calc((100cqh - var(--w) / 1.5005) * var(--py)); }
+.hero-stage { position: absolute; inset: 0; z-index: -2; overflow: hidden; --px: 0.5; --py: 0.5; --sh: 100svh; --w: max(100vw, var(--sh) * 1.5005); }
+.hero-art { position: absolute; width: var(--w); aspect-ratio: 1400 / 933; left: calc((100vw - var(--w)) * var(--px)); top: calc((var(--sh) - var(--w) / 1.5005) * var(--py)); }
 .hero-image, .hero-lines { position: absolute; inset: 0; width: 100%; height: 100%; }
 .hero-lines { pointer-events: none; }
 .hero-shade { position: absolute; inset: 0; z-index: -1; background: linear-gradient(0deg, rgba(20, 30, 25, 0.9) 0%, rgba(20, 30, 25, 0.55) 38%, rgba(20, 30, 25, 0.1) 70%, rgba(20, 30, 25, 0.35) 100%); }
@@ -511,6 +511,7 @@ a { color: inherit; }
 
 /* 手機版主圖：器物放在上半部，文字落在下方深綠漸變上，金線沿同一隻杯的裂紋描出 */
 @media (max-width: 767px) {
-  .hero-stage { inset: 0 0 auto 0; height: 64svh; --px: 0.78; --py: 0.5; -webkit-mask-image: linear-gradient(180deg, #000 70%, transparent 100%); mask-image: linear-gradient(180deg, #000 70%, transparent 100%); }
+  .hero-stage { inset: 0 0 auto 0; height: 64svh; --sh: 64svh; --px: 0.78; --py: 0.5; }
+  .hero-stage::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 70%, var(--green-deep) 100%); }
 }
 @media (min-width: 768px) and (max-width: 1023px) { .hero-stage { --px: 0.75; } }
