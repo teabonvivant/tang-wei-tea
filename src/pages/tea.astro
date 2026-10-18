@@ -12,7 +12,7 @@ const start = await Promise.all(['first-gaiwan', 'weighing-tea', 'temperature-as
     <h2 class="h2" style="margin-bottom:32px">初次學茶，先讀這四篇</h2>
     <ol class="plain-list">
       {start.map((a) => (
-        <li><a class="row-link" href={u(`/journal/${a.id}/`)}>{a.data.series === 'column' && <span class="label">{fmtDate(a.data.date)}</span>}<div><h3>{a.data.title}</h3><p>{a.data.excerpt}</p></div></a></li>
+        <li><a class="row-link" href={u(`/journal/${a.id}/`)}><span class="label">{a.data.series === 'column' ? fmtDate(a.data.date) : ''}</span><div><h3>{a.data.title}</h3><p>{a.data.excerpt}</p></div></a></li>
       ))}
     </ol>
   </section>
@@ -22,7 +22,7 @@ const start = await Promise.all(['first-gaiwan', 'weighing-tea', 'temperature-as
       {topicList.map((t) => (
         <article class="card">
           <a class="cover-link" href={u(`/topics/${t.slug}/`)} tabindex="-1" aria-hidden="true"><Cover src={t.image} alt="" /></a>
-          <div style="display:grid;gap:8px"><span class="label">10 篇閱讀</span><h3><a href={u(`/topics/${t.slug}/`)}>{t.name}</a></h3><p>{t.intro}</p></div>
+          <div style="display:grid;gap:8px"><span class="label tea-tag">10 篇閱讀</span><h3><a href={u(`/topics/${t.slug}/`)}>{t.name}</a></h3><p>{t.intro}</p></div>
         </article>
       ))}
     </div>

@@ -69,7 +69,7 @@ const jsonld = [
           {list.map((a) => (
             <li>
               <a class="row-link" style="grid-template-columns:1fr" href={u(`/journal/${a.id}/`)}>
-                <span class="label">{categoryName(a)}</span>
+                <span class="label tea-tag">{categoryName(a)}</span>
                 <h3>{a.data.title}</h3>
                 <p>{a.data.excerpt}</p>
               </a>
