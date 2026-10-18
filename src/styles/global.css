@@ -3,17 +3,17 @@
    金色只用於：首頁主圖金線、器物入口、修器目錄裂紋地圖、閱讀進度線。 */
 
 :root {
-  --paper: #f6f6f3;
-  --ink: #202623;
-  --ink-muted: #56605a;
-  --green: #354b40;
-  --green-deep: #24352c;
-  --green-mist: #c9d3cb;
-  --gold: #a3813f;
+  --paper: #f3f2ee;
+  --ink: #151515;
+  --ink-muted: #55554f;
+  --green: #2c2a27;
+  --green-deep: #1a1917;
+  --green-mist: #dcd9d1;
+  --gold: #7d6129;
   --gold-bright: #c9a869;
-  --line: #d6dcd6;
-  --surface: #ecede8; /* 紙白上的淺底區塊 */
-  --on-deep: #f6f6f3;
+  --line: #d9d7d0;
+  --surface: #e9e7e1; /* 紙白上的淺底區塊 */
+  --on-deep: #f3f2ee;
 
   --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
   --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
