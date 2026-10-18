@@ -33,8 +33,6 @@ related:
 
 ![三款白瓷茶具並排：碗、直身杯與圓杯](/images/photography-v2/vessels-cup.webp)
 
-![翻開的茶書、書籤與一杯茶](/images/photography-v2/learning-reading.webp)
-
 ## 導師和證書要怎樣看？
 
 導師的背景，可以從公開的履歷和教學資料了解。看他教過甚麼、教了多久，也看他的說明是否清楚、不誇大。若一個課程把茶說得無所不能，或者承諾上完課就能開店，我會多問幾句。
