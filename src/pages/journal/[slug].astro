@@ -28,7 +28,7 @@ const next = oi < ordered.length - 1 ? ordered[oi + 1] : null;
 const cover = imgInfo(d.cover);
 const jsonld = [{
   '@context': 'https://schema.org', '@type': 'Article', headline: d.title,
-  datePublished: d.date.toISOString().slice(0, 10), author: { '@type': 'Person', name: '唐娓' },
+  datePublished: d.date.toISOString().slice(0, 10), ...(isColumn ? {} : { dateModified: '2026-10-18' }), author: { '@type': 'Person', name: '唐娓' },
   image: [abs(d.cover)], inLanguage: 'zh-Hant-HK', mainEntityOfPage: abs(`/journal/${a.id}/`),
   description: d.excerpt,
 }];
