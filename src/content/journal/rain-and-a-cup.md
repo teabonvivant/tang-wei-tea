@@ -1,5 +1,5 @@
 ---
-title: "先把傘放到門外"
+title: "傘還滴着水"
 series: notes
 topic: daily
 date: 2026-09-22

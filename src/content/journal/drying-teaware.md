@@ -1,5 +1,5 @@
 ---
-title: "掀開壺蓋，先聞到悶味"
+title: "蓋子蓋得太早"
 series: notes
 topic: vessels
 date: 2026-09-22

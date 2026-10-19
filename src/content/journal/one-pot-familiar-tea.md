@@ -1,5 +1,5 @@
 ---
-title: "壺蓋一揭，先聞到土氣"
+title: "新壺有一點泥土氣"
 series: notes
 topic: vessels
 date: 2026-09-22
