@@ -302,7 +302,7 @@ a { color: inherit; }
 .gold-frame svg.gold-over { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
 
 .nb { display: inline-block; }
-.lead { text-wrap: balance; }
+.lead { text-wrap: pretty; line-break: strict; }
 .conversation { display: grid; gap: 24px; padding-block: 64px; text-align: left; }
 .conversation .serif { font-size: 28px; line-height: 1.5; }
 @media (min-width: 768px) { .conversation { grid-template-columns: 1.2fr 1fr; align-items: center; gap: 64px; padding-block: 96px; } .conversation .serif { font-size: 36px; } }
@@ -325,7 +325,7 @@ a { color: inherit; }
 .article-cover .ph { aspect-ratio: 3 / 2; border-radius: 2px; }
 @media (max-width: 767px) { .article-cover { width: 100%; } .article-cover .ph { border-radius: 0; } }
 
-.prose { width: min(var(--measure), 100% - 2 * var(--gutter)); margin-inline: auto; display: grid; grid-template-columns: minmax(0, 1fr); gap: 24px; font-size: 17px; line-height: 1.95; }
+.prose { width: min(var(--measure), 100% - 2 * var(--gutter)); margin-inline: auto; display: grid; grid-template-columns: minmax(0, 1fr); gap: 24px; font-size: 17px; line-height: 1.95; text-wrap: pretty; line-break: strict; }
 @media (min-width: 768px) { .prose { font-size: 19px; gap: 32px; } }
 .prose h2 { font-size: 26px; line-height: 1.5; margin-top: 24px; text-wrap: balance; }
 @media (min-width: 768px) { .prose h2 { font-size: 30px; margin-top: 40px; } }
