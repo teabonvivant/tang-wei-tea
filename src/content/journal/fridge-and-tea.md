@@ -3,7 +3,7 @@ title: "不是每種茶都住雪櫃"
 series: notes
 topic: storage
 date: 2026-09-22
-excerpt: "「茶葉放雪櫃係咪最好？」問的人通常已經把整個茶櫃搬了進去。綠茶可以，普洱就不必了。"
+excerpt: "家裏的茶全部搬進雪櫃，是很多人整理茶櫃的辦法。合不合用，先看是哪一種茶，再看包裝。"
 cover: "/images/photography-v2/storage-pack.webp"
 coverAlt: "密封茶袋與蓋好的金屬茶罐"
 related:
