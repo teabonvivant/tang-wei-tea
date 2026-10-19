@@ -124,7 +124,7 @@ a { color: inherit; }
 @media (hover: hover) and (pointer: fine) { .button:hover { background: var(--green-deep); } [data-theme='dark'] .button:hover { background: var(--green-mist); } .button.on-deep:hover, [data-theme='dark'] .button.on-deep:hover { background: var(--green-mist); } .button.ghost:hover { background: color-mix(in srgb, currentColor 10%, transparent); } }
 
 /* 頁首 */
-.site-header { position: sticky; top: 0; z-index: 30; background: color-mix(in srgb, var(--paper) 94%, transparent); border-bottom: 1px solid var(--line); }
+.site-header { position: sticky; top: 0; z-index: 30; background: var(--paper); border-bottom: 1px solid var(--line); }
 .site-header.over-hero { position: absolute; inset: 0 0 auto 0; background: none; border-bottom-color: transparent; color: var(--on-deep); }
 .header-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 72px; }
 .wordmark { display: inline-flex; flex-direction: column; text-decoration: none; line-height: 1.25; }
