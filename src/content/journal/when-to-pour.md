@@ -1,5 +1,5 @@
 ---
-title: "泡了十秒"
+title: "十秒之後又十秒"
 series: notes
 topic: brewing
 date: 2026-09-22

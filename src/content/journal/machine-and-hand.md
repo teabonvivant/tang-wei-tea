@@ -1,5 +1,5 @@
 ---
-title: "鏡頭以外的手"
+title: "鏡頭以外"
 series: notes
 topic: craft
 date: 2026-09-22

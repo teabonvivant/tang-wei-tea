@@ -1,5 +1,5 @@
 ---
-title: "收工後的一隻蓋碗"
+title: "洗完臉才算收工"
 series: notes
 topic: daily
 date: 2026-09-22

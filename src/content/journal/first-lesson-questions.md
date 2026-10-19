@@ -1,5 +1,5 @@
 ---
-title: "第一堂問甚麼"
+title: "帶一張紙來上課"
 series: notes
 topic: learning
 date: 2026-09-22

@@ -1,5 +1,5 @@
 ---
-title: "深色不等於重火"
+title: "先聞過再說"
 series: notes
 topic: craft
 date: 2026-09-22

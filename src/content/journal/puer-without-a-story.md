@@ -1,5 +1,5 @@
 ---
-title: "聽完故事喝茶"
+title: "故事歸故事"
 series: notes
 topic: puer
 date: 2026-09-22

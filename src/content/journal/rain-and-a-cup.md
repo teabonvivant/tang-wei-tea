@@ -1,5 +1,5 @@
 ---
-title: "回南天泡茶"
+title: "先關窗再泡"
 series: notes
 topic: daily
 date: 2026-09-22

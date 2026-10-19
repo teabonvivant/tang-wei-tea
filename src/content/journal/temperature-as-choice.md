@@ -1,5 +1,5 @@
 ---
-title: "水溫差幾度"
+title: "冷杯偷走十度"
 series: notes
 topic: brewing
 date: 2026-09-22

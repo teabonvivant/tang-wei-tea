@@ -1,5 +1,5 @@
 ---
-title: "介紹茶要短"
+title: "話未說完茶已涼"
 series: notes
 topic: hosting
 date: 2026-09-22

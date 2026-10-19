@@ -1,5 +1,5 @@
 ---
-title: "不必猜是哪朵花"
+title: "鼻子沒有圖鑑"
 series: notes
 topic: senses
 date: 2026-09-22

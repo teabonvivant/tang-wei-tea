@@ -1,5 +1,5 @@
 ---
-title: "茶與廚房"
+title: "咖喱旁邊的茶"
 series: notes
 topic: storage
 date: 2026-09-22

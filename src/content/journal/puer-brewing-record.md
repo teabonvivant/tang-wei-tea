@@ -1,5 +1,5 @@
 ---
-title: "筆記只寫好香"
+title: "兩個字不夠"
 series: notes
 topic: puer
 date: 2026-09-22

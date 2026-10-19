@@ -1,5 +1,5 @@
 ---
-title: "摸鮮葉之前"
+title: "別人的工作現場"
 series: notes
 topic: craft
 date: 2026-09-22

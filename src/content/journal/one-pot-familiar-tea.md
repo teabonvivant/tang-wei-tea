@@ -1,5 +1,5 @@
 ---
-title: "新壺的泥土氣"
+title: "光澤慢慢來"
 series: notes
 topic: vessels
 date: 2026-09-22

@@ -1,5 +1,5 @@
 ---
-title: "壺蓋斜架"
+title: "伙計看見了"
 series: notes
 topic: culture
 date: 2026-09-22

@@ -1,5 +1,5 @@
 ---
-title: "在家泡不出來"
+title: "不必泡回店裏"
 series: notes
 topic: brewing
 date: 2026-09-22

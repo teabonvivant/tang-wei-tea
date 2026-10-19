@@ -1,5 +1,5 @@
 ---
-title: "先買茶樣"
+title: "一餅拆開之後"
 series: notes
 topic: puer
 date: 2026-09-22

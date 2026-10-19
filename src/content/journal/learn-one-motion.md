@@ -1,5 +1,5 @@
 ---
-title: "老師的手勢"
+title: "順在哪裏"
 series: notes
 topic: learning
 date: 2026-09-22

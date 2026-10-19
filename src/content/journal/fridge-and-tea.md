@@ -1,5 +1,5 @@
 ---
-title: "茶放雪櫃"
+title: "打算幾時開"
 series: notes
 topic: storage
 date: 2026-09-22

@@ -1,5 +1,5 @@
 ---
-title: "杯沿的分別"
+title: "嘴唇碰到那一圈"
 series: notes
 topic: vessels
 date: 2026-09-22

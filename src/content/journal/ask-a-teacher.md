@@ -1,5 +1,5 @@
 ---
-title: "為甚麼不好喝"
+title: "問題太短"
 series: notes
 topic: learning
 date: 2026-09-22

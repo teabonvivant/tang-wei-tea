@@ -1,5 +1,5 @@
 ---
-title: "揉捻的摺痕"
+title: "攤開才看見"
 series: notes
 topic: craft
 date: 2026-09-22

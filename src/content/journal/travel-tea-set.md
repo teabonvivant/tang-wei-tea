@@ -1,5 +1,5 @@
 ---
-title: "旅行帶幾件"
+title: "最後只用兩件"
 series: notes
 topic: vessels
 date: 2026-09-22

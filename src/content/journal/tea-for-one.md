@@ -1,5 +1,5 @@
 ---
-title: "一個人泡茶"
+title: "夜裏一隻蓋碗"
 series: notes
 topic: daily
 date: 2026-09-22

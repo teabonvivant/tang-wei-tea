@@ -1,5 +1,5 @@
 ---
-title: "指一指壺"
+title: "茶不用翻譯"
 series: notes
 topic: culture
 date: 2026-09-22

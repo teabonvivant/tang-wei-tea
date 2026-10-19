@@ -1,5 +1,5 @@
 ---
-title: "客人剛喝了咖啡"
+title: "茶罐先放回去"
 series: notes
 topic: hosting
 date: 2026-09-22

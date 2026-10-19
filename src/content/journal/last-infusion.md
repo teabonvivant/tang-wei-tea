@@ -1,5 +1,5 @@
 ---
-title: "泡到第幾泡"
+title: "第三泡收手"
 series: notes
 topic: brewing
 date: 2026-09-22

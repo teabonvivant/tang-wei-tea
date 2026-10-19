@@ -1,5 +1,5 @@
 ---
-title: "課後洗杯"
+title: "名錄記的是人"
 series: notes
 topic: culture
 date: 2026-09-22

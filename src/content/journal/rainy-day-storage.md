@@ -1,5 +1,5 @@
 ---
-title: "潮濕天別搬茶"
+title: "別急着透氣"
 series: notes
 topic: storage
 date: 2026-09-22

@@ -1,5 +1,5 @@
 ---
-title: "用清水練"
+title: "沒有茶的練習"
 series: notes
 topic: learning
 date: 2026-09-22

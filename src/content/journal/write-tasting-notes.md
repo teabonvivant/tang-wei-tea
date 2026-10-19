@@ -1,5 +1,5 @@
 ---
-title: "香、甜、滑不夠用"
+title: "每頁都寫香"
 series: notes
 topic: senses
 date: 2026-09-22

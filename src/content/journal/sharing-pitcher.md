@@ -1,5 +1,5 @@
 ---
-title: "四隻杯的深淺"
+title: "第一杯最淡"
 series: notes
 topic: vessels
 date: 2026-09-22

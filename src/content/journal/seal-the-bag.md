@@ -1,5 +1,5 @@
 ---
-title: "夾鏈要壓實"
+title: "先看袋口"
 series: notes
 topic: storage
 date: 2026-09-22

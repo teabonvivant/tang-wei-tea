@@ -1,5 +1,5 @@
 ---
-title: "第三壺水"
+title: "燒到第三壺"
 series: notes
 topic: hosting
 date: 2026-09-22

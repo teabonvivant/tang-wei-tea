@@ -1,5 +1,5 @@
 ---
-title: "筆記壓在文件下"
+title: "十五分鐘就夠"
 series: notes
 topic: learning
 date: 2026-09-22

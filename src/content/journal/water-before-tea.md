@@ -1,5 +1,5 @@
 ---
-title: "先試水"
+title: "水也有味道"
 series: notes
 topic: brewing
 date: 2026-09-22

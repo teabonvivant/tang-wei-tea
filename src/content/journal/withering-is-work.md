@@ -1,5 +1,5 @@
 ---
-title: "攤晾那幾個小時"
+title: "最安靜的一步"
 series: notes
 topic: craft
 date: 2026-09-22

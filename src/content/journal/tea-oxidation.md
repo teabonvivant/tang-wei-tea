@@ -1,5 +1,5 @@
 ---
-title: "發酵是甚麼"
+title: "兩種發酵"
 series: notes
 topic: craft
 date: 2026-09-22

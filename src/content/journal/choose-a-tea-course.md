@@ -1,5 +1,5 @@
 ---
-title: "選課程看內容"
+title: "名字最好聽"
 series: notes
 topic: learning
 date: 2026-09-22

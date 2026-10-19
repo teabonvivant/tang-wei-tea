@@ -1,5 +1,5 @@
 ---
-title: "各人口味"
+title: "這杯適合我"
 series: notes
 topic: senses
 date: 2026-09-22

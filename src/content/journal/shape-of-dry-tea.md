@@ -1,5 +1,5 @@
 ---
-title: "一匙多重"
+title: "同一隻茶匙"
 series: notes
 topic: craft
 date: 2026-09-22

@@ -1,5 +1,5 @@
 ---
-title: "孩子手上一片葉"
+title: "先讓他看夠"
 series: notes
 topic: learning
 date: 2026-09-22

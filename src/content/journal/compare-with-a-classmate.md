@@ -1,5 +1,5 @@
 ---
-title: "誰泡得好"
+title: "差在哪一步"
 series: notes
 topic: learning
 date: 2026-09-22

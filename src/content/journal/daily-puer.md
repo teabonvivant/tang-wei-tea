@@ -1,5 +1,5 @@
 ---
-title: "天天喝的茶"
+title: "等一個好日子"
 series: notes
 topic: puer
 date: 2026-09-22

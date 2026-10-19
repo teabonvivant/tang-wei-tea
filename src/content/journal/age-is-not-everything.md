@@ -1,5 +1,5 @@
 ---
-title: "老茶不一定好"
+title: "年份寫在紙上"
 series: notes
 topic: puer
 date: 2026-09-22

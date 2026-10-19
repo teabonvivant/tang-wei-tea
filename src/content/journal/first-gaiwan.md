@@ -1,5 +1,5 @@
 ---
-title: "第一隻蓋碗"
+title: "拿得穩才好看"
 series: notes
 topic: brewing
 date: 2026-09-22

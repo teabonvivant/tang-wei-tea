@@ -1,5 +1,5 @@
 ---
-title: "開袋聞到不對"
+title: "不必拿自己試"
 series: notes
 topic: storage
 date: 2026-09-22

@@ -1,5 +1,5 @@
 ---
-title: "一匙不等於一樣重"
+title: "量一次就夠"
 series: notes
 topic: brewing
 date: 2026-09-22

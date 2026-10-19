@@ -1,5 +1,5 @@
 ---
-title: "考完證書之後"
+title: "沒有人再點名"
 series: notes
 topic: learning
 date: 2026-09-22

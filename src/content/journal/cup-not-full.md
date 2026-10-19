@@ -1,5 +1,5 @@
 ---
-title: "斟茶七分"
+title: "手要有位置"
 series: notes
 topic: hosting
 date: 2026-09-22

@@ -1,5 +1,5 @@
 ---
-title: "開袋先聞"
+title: "香氣比葉先到"
 series: notes
 topic: senses
 date: 2026-09-22

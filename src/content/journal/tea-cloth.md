@@ -1,5 +1,5 @@
 ---
-title: "茶巾要乾"
+title: "布要先乾透"
 series: notes
 topic: vessels
 date: 2026-09-22

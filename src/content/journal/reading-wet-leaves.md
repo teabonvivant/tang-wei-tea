@@ -1,5 +1,5 @@
 ---
-title: "看葉底"
+title: "葉子攤開之後"
 series: notes
 topic: senses
 date: 2026-09-22

@@ -1,5 +1,5 @@
 ---
-title: "太燙喝不出味"
+title: "等它涼一點"
 series: notes
 topic: brewing
 date: 2026-09-22

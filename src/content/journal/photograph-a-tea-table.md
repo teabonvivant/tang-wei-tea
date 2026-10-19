@@ -1,5 +1,5 @@
 ---
-title: "拍照之前"
+title: "等泡沫散開"
 series: notes
 topic: culture
 date: 2026-09-22

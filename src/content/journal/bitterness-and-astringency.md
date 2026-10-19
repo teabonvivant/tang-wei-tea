@@ -1,5 +1,5 @@
 ---
-title: "苦與澀"
+title: "苦在舌頭"
 series: notes
 topic: senses
 date: 2026-09-22
