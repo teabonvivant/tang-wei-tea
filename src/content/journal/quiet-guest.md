@@ -1,5 +1,5 @@
 ---
-title: "杯子在他手裏轉"
+title: "不說話的客人"
 series: notes
 topic: hosting
 date: 2026-09-22

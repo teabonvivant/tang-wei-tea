@@ -1,5 +1,5 @@
 ---
-title: "茶樹住在林子裏"
+title: "茶樹與林子"
 series: notes
 topic: culture
 date: 2026-09-22

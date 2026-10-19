@@ -1,5 +1,5 @@
 ---
-title: "先把標籤翻過去"
+title: "不看價錢試茶"
 series: notes
 topic: senses
 date: 2026-09-22

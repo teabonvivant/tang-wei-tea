@@ -1,5 +1,5 @@
 ---
-title: "那個用到變色的布袋"
+title: "茶餐廳的布茶袋"
 series: notes
 topic: culture
 date: 2026-09-22

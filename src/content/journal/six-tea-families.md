@@ -1,5 +1,5 @@
 ---
-title: "紅茶，就是紅色的茶吧？"
+title: "紅茶是紅色的嗎"
 series: notes
 topic: craft
 date: 2026-09-22

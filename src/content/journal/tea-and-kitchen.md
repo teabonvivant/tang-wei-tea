@@ -1,5 +1,5 @@
 ---
-title: "迎面一陣咖喱味"
+title: "茶與廚房"
 series: notes
 topic: storage
 date: 2026-09-22

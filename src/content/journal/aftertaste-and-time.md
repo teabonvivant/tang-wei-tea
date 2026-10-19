@@ -1,5 +1,5 @@
 ---
-title: "數到二十，才開口"
+title: "先數二十下"
 series: notes
 topic: senses
 date: 2026-09-22

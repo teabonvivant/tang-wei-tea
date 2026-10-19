@@ -1,5 +1,5 @@
 ---
-title: "茶針戳下去，只留一個小坑"
+title: "拆茶先看"
 series: notes
 topic: puer
 date: 2026-09-22

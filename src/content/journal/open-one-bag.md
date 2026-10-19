@@ -1,5 +1,5 @@
 ---
-title: "櫃裏一排半開的袋"
+title: "半開的茶袋"
 series: notes
 topic: storage
 date: 2026-09-22

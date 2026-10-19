@@ -1,5 +1,5 @@
 ---
-title: "他剛在樓下喝完咖啡"
+title: "客人剛喝了咖啡"
 series: notes
 topic: hosting
 date: 2026-09-22

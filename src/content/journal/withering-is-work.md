@@ -1,5 +1,5 @@
 ---
-title: "沒有翻炒的聲響"
+title: "攤晾那幾個小時"
 series: notes
 topic: craft
 date: 2026-09-22

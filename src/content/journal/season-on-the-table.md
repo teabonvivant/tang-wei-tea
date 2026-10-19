@@ -1,5 +1,5 @@
 ---
-title: "光走到桌子的另一邊"
+title: "陽光落在茶罐上"
 series: notes
 topic: daily
 date: 2026-09-22

@@ -1,5 +1,5 @@
 ---
-title: "換季那天的茶櫃"
+title: "點一次茶櫃"
 series: notes
 topic: storage
 date: 2026-09-22

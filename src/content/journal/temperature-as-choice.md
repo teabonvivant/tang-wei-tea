@@ -1,5 +1,5 @@
 ---
-title: "水離開壺就開始降溫"
+title: "水溫差幾度"
 series: notes
 topic: brewing
 date: 2026-09-22

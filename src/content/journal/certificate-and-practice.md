@@ -1,5 +1,5 @@
 ---
-title: "證書收進抽屜之後"
+title: "考完證書之後"
 series: notes
 topic: learning
 date: 2026-09-22

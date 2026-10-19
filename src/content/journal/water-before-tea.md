@@ -1,5 +1,5 @@
 ---
-title: "先嚐一口你的水"
+title: "先試水"
 series: notes
 topic: brewing
 date: 2026-09-22

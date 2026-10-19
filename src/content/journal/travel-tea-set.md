@@ -1,5 +1,5 @@
 ---
-title: "行李快要合不上"
+title: "旅行帶幾件"
 series: notes
 topic: vessels
 date: 2026-09-22

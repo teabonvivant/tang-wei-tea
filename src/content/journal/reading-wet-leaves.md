@@ -1,5 +1,5 @@
 ---
-title: "葉底攤在白碟上"
+title: "看葉底"
 series: notes
 topic: senses
 date: 2026-09-22

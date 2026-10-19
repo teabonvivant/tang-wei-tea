@@ -1,5 +1,5 @@
 ---
-title: "眼睛跟着那隻手"
+title: "摸鮮葉之前"
 series: notes
 topic: craft
 date: 2026-09-22

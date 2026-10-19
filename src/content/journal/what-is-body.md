@@ -1,5 +1,5 @@
 ---
-title: "這杯茶，厚在哪裏？"
+title: "茶湯厚在哪裏"
 series: notes
 topic: senses
 date: 2026-09-22

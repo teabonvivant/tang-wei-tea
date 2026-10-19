@@ -1,5 +1,5 @@
 ---
-title: "沿夾鏈捋一遍"
+title: "夾鏈要壓實"
 series: notes
 topic: storage
 date: 2026-09-22

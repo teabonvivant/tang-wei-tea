@@ -1,5 +1,5 @@
 ---
-title: "一片葉在孩子掌心"
+title: "孩子手上一片葉"
 series: notes
 topic: learning
 date: 2026-09-22

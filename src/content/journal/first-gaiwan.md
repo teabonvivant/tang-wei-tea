@@ -1,5 +1,5 @@
 ---
-title: "熱水一注，手就縮回來"
+title: "第一隻蓋碗"
 series: notes
 topic: brewing
 date: 2026-09-22

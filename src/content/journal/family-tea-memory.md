@@ -1,5 +1,5 @@
 ---
-title: "家裏以前用哪隻杯？"
+title: "問長輩一隻杯"
 series: notes
 topic: culture
 date: 2026-09-22

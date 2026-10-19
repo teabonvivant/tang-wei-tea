@@ -1,5 +1,5 @@
 ---
-title: "手很自然伸向手機"
+title: "拍照之前"
 series: notes
 topic: culture
 date: 2026-09-22

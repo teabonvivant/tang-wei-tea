@@ -1,5 +1,5 @@
 ---
-title: "這一包，要喝多久？"
+title: "一包茶喝多久"
 series: notes
 topic: storage
 date: 2026-09-22

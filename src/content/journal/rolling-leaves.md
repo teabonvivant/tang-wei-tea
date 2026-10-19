@@ -1,5 +1,5 @@
 ---
-title: "葉面上那些摺痕"
+title: "揉捻的摺痕"
 series: notes
 topic: craft
 date: 2026-09-22

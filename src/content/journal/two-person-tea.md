@@ -1,5 +1,5 @@
 ---
-title: "茶罐只開了一個"
+title: "兩個人一壺茶"
 series: notes
 topic: hosting
 date: 2026-09-22

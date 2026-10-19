@@ -1,5 +1,5 @@
 ---
-title: "手指忙着記位置"
+title: "用清水練"
 series: notes
 topic: learning
 date: 2026-09-22

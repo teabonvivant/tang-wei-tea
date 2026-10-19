@@ -1,5 +1,5 @@
 ---
-title: "第二天那股悶味"
+title: "茶巾要乾"
 series: notes
 topic: vessels
 date: 2026-09-22

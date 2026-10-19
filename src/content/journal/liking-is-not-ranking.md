@@ -1,5 +1,5 @@
 ---
-title: "杯還在他手裏"
+title: "各人口味"
 series: notes
 topic: senses
 date: 2026-09-22

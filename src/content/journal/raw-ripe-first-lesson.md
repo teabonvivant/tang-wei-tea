@@ -1,5 +1,5 @@
 ---
-title: "放了二十年，怎麼還是生茶？"
+title: "生茶熟茶"
 series: notes
 topic: puer
 date: 2026-09-22

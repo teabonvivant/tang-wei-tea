@@ -1,5 +1,5 @@
 ---
-title: "今晚，喝不喝？"
+title: "晚上還喝不喝"
 series: notes
 topic: daily
 date: 2026-09-22

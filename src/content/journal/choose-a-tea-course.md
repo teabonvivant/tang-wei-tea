@@ -1,5 +1,5 @@
 ---
-title: "把課程名字遮住"
+title: "選課程看內容"
 series: notes
 topic: learning
 date: 2026-09-22

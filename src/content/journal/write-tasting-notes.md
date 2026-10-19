@@ -1,5 +1,5 @@
 ---
-title: "寫滿香、甜、滑的一頁"
+title: "香、甜、滑不夠用"
 series: notes
 topic: senses
 date: 2026-09-22

@@ -1,5 +1,5 @@
 ---
-title: "跟切開的蘋果一樣"
+title: "發酵是甚麼"
 series: notes
 topic: craft
 date: 2026-09-22

@@ -1,5 +1,5 @@
 ---
-title: "吃完早餐，碟子還沒收"
+title: "早餐後十分鐘"
 series: notes
 topic: daily
 date: 2026-09-22

@@ -1,5 +1,5 @@
 ---
-title: "鼻子比手先到"
+title: "開袋聞到不對"
 series: notes
 topic: storage
 date: 2026-09-22

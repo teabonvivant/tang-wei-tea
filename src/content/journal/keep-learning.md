@@ -1,5 +1,5 @@
 ---
-title: "露出一隻角的筆記本"
+title: "筆記壓在文件下"
 series: notes
 topic: learning
 date: 2026-09-22

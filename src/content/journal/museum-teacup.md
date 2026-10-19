@@ -1,5 +1,5 @@
 ---
-title: "總先想想那隻手"
+title: "博物館的杯"
 series: notes
 topic: culture
 date: 2026-09-22

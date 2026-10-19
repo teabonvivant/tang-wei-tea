@@ -1,5 +1,5 @@
 ---
-title: "葉子邊上那一圈淡紅"
+title: "鮮葉怎樣成茶"
 series: notes
 topic: craft
 date: 2026-09-22

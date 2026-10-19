@@ -1,5 +1,5 @@
 ---
-title: "那枝喝了一半的檸檬茶"
+title: "學生那枝檸檬茶"
 series: notes
 topic: learning
 date: 2026-09-22

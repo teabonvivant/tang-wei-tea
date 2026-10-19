@@ -1,5 +1,5 @@
 ---
-title: "是苦，還是澀？"
+title: "苦與澀"
 series: notes
 topic: senses
 date: 2026-09-22

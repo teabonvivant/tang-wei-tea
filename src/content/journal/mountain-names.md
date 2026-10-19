@@ -1,5 +1,5 @@
 ---
-title: "袋上那個山名"
+title: "茶袋上的山名"
 series: notes
 topic: puer
 date: 2026-09-22
