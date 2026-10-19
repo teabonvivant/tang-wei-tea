@@ -1,5 +1,5 @@
 ---
-title: "第一次來喝茶的朋友，手不知放哪裏"
+title: "我不懂茶，會不會失禮？"
 series: notes
 topic: hosting
 date: 2026-09-22

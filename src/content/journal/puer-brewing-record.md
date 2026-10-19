@@ -1,5 +1,5 @@
 ---
-title: "一款普洱，我會替它寫三張卡片"
+title: "只寫了兩個字：好香"
 series: notes
 topic: puer
 date: 2026-09-22

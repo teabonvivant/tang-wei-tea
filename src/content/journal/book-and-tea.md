@@ -1,5 +1,5 @@
 ---
-title: "邊讀書邊喝茶，杯子放在翻頁手的另一邊"
+title: "那一圈淡黃的杯印"
 series: notes
 topic: daily
 date: 2026-09-22

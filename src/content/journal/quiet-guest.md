@@ -1,5 +1,5 @@
 ---
-title: "茶席上，那位話少的客人"
+title: "杯子在他手裏轉"
 series: notes
 topic: hosting
 date: 2026-09-22

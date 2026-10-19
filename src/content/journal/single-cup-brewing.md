@@ -1,5 +1,5 @@
 ---
-title: "辦公桌上只有一隻杯，也可以好好泡茶"
+title: "那一滴落在鍵盤邊"
 series: notes
 topic: brewing
 date: 2026-09-22

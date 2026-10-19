@@ -1,5 +1,5 @@
 ---
-title: "景邁山古茶林：茶樹住在林子裏，也住在人手裏"
+title: "茶樹住在林子裏"
 series: notes
 topic: culture
 date: 2026-09-22

@@ -1,5 +1,5 @@
 ---
-title: "白瓷讓你看清湯色，卻不替你下判斷"
+title: "白瓷沒有騙我"
 series: notes
 topic: vessels
 date: 2026-09-22

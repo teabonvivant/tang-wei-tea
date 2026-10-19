@@ -1,5 +1,5 @@
 ---
-title: "品茶筆記，寫給一個月後的自己看"
+title: "寫滿香、甜、滑的一頁"
 series: notes
 topic: senses
 date: 2026-09-22

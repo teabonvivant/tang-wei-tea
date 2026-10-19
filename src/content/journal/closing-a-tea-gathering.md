@@ -1,5 +1,5 @@
 ---
-title: "燒到第三壺水，茶聚就該慢慢收了"
+title: "燒到第三壺水"
 series: notes
 topic: hosting
 date: 2026-09-22

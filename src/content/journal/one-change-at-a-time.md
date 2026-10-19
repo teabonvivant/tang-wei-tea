@@ -1,5 +1,5 @@
 ---
-title: "茶太澀，下一泡只動一樣"
+title: "怎麼還是不好喝？"
 series: notes
 topic: brewing
 date: 2026-09-22

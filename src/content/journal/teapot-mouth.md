@@ -1,5 +1,5 @@
 ---
-title: "揀茶壺，看壺嘴收水那一下"
+title: "壺嘴下面掛着一滴"
 series: notes
 topic: vessels
 date: 2026-09-22

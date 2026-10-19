@@ -1,5 +1,5 @@
 ---
-title: "一匙茶有多重？投茶量交給電子磅"
+title: "放一匙就得啦"
 series: notes
 topic: brewing
 date: 2026-09-22

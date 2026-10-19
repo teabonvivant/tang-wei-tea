@@ -1,5 +1,5 @@
 ---
-title: "聽見「全手工」三個字，我會多問一句"
+title: "鏡頭偏愛那雙手"
 series: notes
 topic: craft
 date: 2026-09-22

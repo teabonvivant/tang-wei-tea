@@ -1,5 +1,5 @@
 ---
-title: "茶太燙的時候，嚐到的只有熱"
+title: "那一口，只喝到燙"
 series: notes
 topic: brewing
 date: 2026-09-22

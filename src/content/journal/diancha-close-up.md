@@ -1,5 +1,5 @@
 ---
-title: "點茶的功夫，在那一盞沫裏"
+title: "盞壁先浮出一線水"
 series: notes
 topic: culture
 date: 2026-09-22

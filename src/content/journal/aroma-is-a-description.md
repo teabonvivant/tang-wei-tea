@@ -1,5 +1,5 @@
 ---
-title: "說它像花香就夠，不必猜中哪一朵"
+title: "說像花香就夠了"
 series: notes
 topic: senses
 date: 2026-09-22

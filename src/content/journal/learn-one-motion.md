@@ -1,5 +1,5 @@
 ---
-title: "上完一堂茶課，回家只練一個動作"
+title: "老師做得好順"
 series: notes
 topic: learning
 date: 2026-09-22

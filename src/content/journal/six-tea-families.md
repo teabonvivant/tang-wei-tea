@@ -1,5 +1,5 @@
 ---
-title: "綠茶的湯不一定綠：六大茶類看製法，不看湯色"
+title: "紅茶，就是紅色的茶吧？"
 series: notes
 topic: craft
 date: 2026-09-22

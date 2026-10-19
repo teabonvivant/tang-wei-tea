@@ -1,5 +1,5 @@
 ---
-title: "蓋碗拿不穩，先倒一碗清水"
+title: "手指忙着記位置"
 series: notes
 topic: learning
 date: 2026-09-22

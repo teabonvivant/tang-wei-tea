@@ -1,5 +1,5 @@
 ---
-title: "四隻杯排成一行，才看得出公道杯的用處"
+title: "四隻杯排成一行"
 series: notes
 topic: vessels
 date: 2026-09-22

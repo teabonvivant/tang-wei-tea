@@ -1,5 +1,5 @@
 ---
-title: "分一小包茶給朋友，袋裏不該有潤手霜的味道"
+title: "一陣潤手霜的香"
 series: notes
 topic: storage
 date: 2026-09-22

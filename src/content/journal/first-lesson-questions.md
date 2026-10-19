@@ -1,5 +1,5 @@
 ---
-title: "第一堂茶課之前，寫下自己想問的"
+title: "要不要先買個壺？"
 series: notes
 topic: learning
 date: 2026-09-22

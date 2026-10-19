@@ -1,5 +1,5 @@
 ---
-title: "夜裏一個人喝茶，一隻蓋碗就夠"
+title: "只剩電水壺在響"
 series: notes
 topic: daily
 date: 2026-09-22

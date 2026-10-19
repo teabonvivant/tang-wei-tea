@@ -1,5 +1,5 @@
 ---
-title: "年輕人接觸茶文化，由手上那枝樽裝茶開始"
+title: "那枝喝了一半的檸檬茶"
 series: notes
 topic: learning
 date: 2026-09-22

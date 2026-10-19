@@ -1,5 +1,5 @@
 ---
-title: "十分鐘，也算喝了一杯茶"
+title: "十分鐘也算一杯茶"
 series: notes
 topic: daily
 date: 2026-09-22

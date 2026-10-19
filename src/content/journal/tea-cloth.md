@@ -1,5 +1,5 @@
 ---
-title: "一塊茶巾，專布專用，用完晾乾"
+title: "第二天那股悶味"
 series: notes
 topic: vessels
 date: 2026-09-22

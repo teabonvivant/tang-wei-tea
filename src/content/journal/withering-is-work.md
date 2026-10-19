@@ -1,5 +1,5 @@
 ---
-title: "萎凋：竹篩上那一層葉子，最費心神"
+title: "沒有翻炒的聲響"
 series: notes
 topic: craft
 date: 2026-09-22

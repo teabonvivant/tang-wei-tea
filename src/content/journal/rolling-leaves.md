@@ -1,5 +1,5 @@
 ---
-title: "揉捻：乾茶捲成條、團成球的那一雙手"
+title: "葉面上那些摺痕"
 series: notes
 topic: craft
 date: 2026-09-22

@@ -1,5 +1,5 @@
 ---
-title: "走進製茶工場，先把手收在身後"
+title: "眼睛跟着那隻手"
 series: notes
 topic: craft
 date: 2026-09-22

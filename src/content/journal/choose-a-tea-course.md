@@ -1,5 +1,5 @@
 ---
-title: "揀茶課之前，先寫下一句自己想學會的事"
+title: "把課程名字遮住"
 series: notes
 topic: learning
 date: 2026-09-22

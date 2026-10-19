@@ -1,5 +1,5 @@
 ---
-title: "午後的光換了位置，茶桌也跟着挪一挪"
+title: "光走到桌子的另一邊"
 series: notes
 topic: daily
 date: 2026-09-22

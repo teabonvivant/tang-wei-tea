@@ -1,5 +1,5 @@
 ---
-title: "新茶到手，先只拆一包"
+title: "櫃裏一排半開的袋"
 series: notes
 topic: storage
 date: 2026-09-22

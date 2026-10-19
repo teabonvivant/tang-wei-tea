@@ -1,5 +1,5 @@
 ---
-title: "普洱生茶與熟茶：「生」說的是製法，不是年紀"
+title: "放了二十年，怎麼還是生茶？"
 series: notes
 topic: puer
 date: 2026-09-22

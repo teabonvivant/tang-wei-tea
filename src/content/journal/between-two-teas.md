@@ -1,5 +1,5 @@
 ---
-title: "連喝幾款茶，中間留一口清水給舌頭"
+title: "那杯清水，不是倒錯了"
 series: notes
 topic: senses
 date: 2026-09-22

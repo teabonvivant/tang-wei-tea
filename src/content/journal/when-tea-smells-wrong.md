@@ -1,5 +1,5 @@
 ---
-title: "剪開茶袋，氣味不對，先別急着沖"
+title: "鼻子比手先到"
 series: notes
 topic: storage
 date: 2026-09-22

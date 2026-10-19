@@ -1,5 +1,5 @@
 ---
-title: "學茶學不下去時，把目標縮到一星期一件事"
+title: "露出一隻角的筆記本"
 series: notes
 topic: learning
 date: 2026-09-22

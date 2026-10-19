@@ -1,5 +1,5 @@
 ---
-title: "苦是舌頭的事，澀是口腔的事"
+title: "是苦，還是澀？"
 series: notes
 topic: senses
 date: 2026-09-22

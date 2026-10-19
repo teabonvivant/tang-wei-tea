@@ -1,5 +1,5 @@
 ---
-title: "客人坐下，眼鏡要放在哪裏"
+title: "客人的眼鏡放哪裏"
 series: notes
 topic: hosting
 date: 2026-09-22

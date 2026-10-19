@@ -1,5 +1,5 @@
 ---
-title: "幾十年的老茶，先別急着安靜下來"
+title: "二三十年的茶，我還想問一句"
 series: notes
 topic: puer
 date: 2026-09-22

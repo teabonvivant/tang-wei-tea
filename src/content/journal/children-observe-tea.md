@@ -1,5 +1,5 @@
 ---
-title: "帶孩子看茶，先讓一片葉在掌心停一會"
+title: "一片葉在孩子掌心"
 series: notes
 topic: learning
 date: 2026-09-22

@@ -1,5 +1,5 @@
 ---
-title: "茶藝的傳承，多在課後的洗杯聲裏"
+title: "課後的洗杯聲"
 series: notes
 topic: culture
 date: 2026-09-22

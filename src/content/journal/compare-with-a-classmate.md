@@ -1,5 +1,5 @@
 ---
-title: "同一包茶，兩個人泡出兩杯不同的茶"
+title: "同一包茶，誰泡得好？"
 series: notes
 topic: learning
 date: 2026-09-22

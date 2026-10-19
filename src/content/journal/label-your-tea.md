@@ -1,5 +1,5 @@
 ---
-title: "半年後，這包茶你還認得出嗎"
+title: "好像是朋友送的"
 series: notes
 topic: storage
 date: 2026-09-22

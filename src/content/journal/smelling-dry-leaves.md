@@ -1,5 +1,5 @@
 ---
-title: "水還未滾，先聞一聞乾茶"
+title: "水還在壺裏未滾"
 series: notes
 topic: senses
 date: 2026-09-22

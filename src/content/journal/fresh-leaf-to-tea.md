@@ -1,5 +1,5 @@
 ---
-title: "一片鮮葉變成茶，中間走過哪幾步"
+title: "葉子邊上那一圈淡紅"
 series: notes
 topic: craft
 date: 2026-09-22

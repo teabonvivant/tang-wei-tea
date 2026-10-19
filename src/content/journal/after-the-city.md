@@ -1,5 +1,5 @@
 ---
-title: "晚歸之後的一杯茶，手續愈少愈好"
+title: "十點多回家，只留一隻蓋碗"
 series: notes
 topic: daily
 date: 2026-09-22

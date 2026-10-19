@@ -1,5 +1,5 @@
 ---
-title: "計時器響了，手還在猶豫：出湯慢幾秒，茶就不同"
+title: "他以為自己泡了十秒"
 series: notes
 topic: brewing
 date: 2026-09-22

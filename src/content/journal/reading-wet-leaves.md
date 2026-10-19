@@ -1,5 +1,5 @@
 ---
-title: "倒掉之前，先把葉底攤在白碟上看看"
+title: "葉底攤在白碟上"
 series: notes
 topic: senses
 date: 2026-09-22

@@ -1,5 +1,5 @@
 ---
-title: "茶湯的厚薄，用平常說話就講得清"
+title: "這杯茶，厚在哪裏？"
 series: notes
 topic: senses
 date: 2026-09-22

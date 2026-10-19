@@ -1,5 +1,5 @@
 ---
-title: "在店裏好喝，回家卻不同味的那包茶"
+title: "在店裏明明很好喝"
 series: notes
 topic: brewing
 date: 2026-09-22

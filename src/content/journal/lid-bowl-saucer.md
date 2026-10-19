@@ -1,5 +1,5 @@
 ---
-title: "蓋碗三件：蓋、碗、托，各做各的工作"
+title: "最少人看的兩件"
 series: notes
 topic: vessels
 date: 2026-09-22

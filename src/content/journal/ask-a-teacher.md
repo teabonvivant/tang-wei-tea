@@ -1,5 +1,5 @@
 ---
-title: "問老師茶為何不好喝，先講清楚你怎樣泡的"
+title: "訊息只有一句：我的茶不好喝"
 series: notes
 topic: learning
 date: 2026-09-22

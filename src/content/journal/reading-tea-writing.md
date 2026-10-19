@@ -1,5 +1,5 @@
 ---
-title: "書邊的一個問號：散文、教材與研究的讀法"
+title: "書邊的一個問號"
 series: notes
 topic: culture
 date: 2026-09-22

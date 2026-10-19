@@ -1,5 +1,5 @@
 ---
-title: "水溫不是考卷：先照建議泡，再看茶湯調"
+title: "水離開壺就開始降溫"
 series: notes
 topic: brewing
 date: 2026-09-22

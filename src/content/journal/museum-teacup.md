@@ -1,5 +1,5 @@
 ---
-title: "博物館裏的茶杯，先看杯沿和足底"
+title: "總先想想那隻手"
 series: notes
 topic: culture
 date: 2026-09-22

@@ -1,5 +1,5 @@
 ---
-title: "幾百年的老樹？好聽，但先問製成日期"
+title: "聽完故事，才輪到茶"
 series: notes
 topic: puer
 date: 2026-09-22

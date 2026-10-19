@@ -1,5 +1,5 @@
 ---
-title: "茶席上的一枝花，要矮，香要比茶淡"
+title: "插剩的那一枝"
 series: notes
 topic: hosting
 date: 2026-09-22

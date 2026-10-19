@@ -1,5 +1,5 @@
 ---
-title: "下雨天泡茶，先把傘放遠，把窗關好"
+title: "先把傘放到門外"
 series: notes
 topic: daily
 date: 2026-09-22

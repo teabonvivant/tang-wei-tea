@@ -1,5 +1,5 @@
 ---
-title: "茶能泡幾次？第三泡喝得滿足，比第八泡划算"
+title: "第八泡，只剩水味"
 series: notes
 topic: brewing
 date: 2026-09-22

@@ -1,5 +1,5 @@
 ---
-title: "茶葉放廚房調味架旁，開袋先聞到咖喱"
+title: "迎面一陣咖喱味"
 series: notes
 topic: storage
 date: 2026-09-22

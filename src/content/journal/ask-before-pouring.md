@@ -1,5 +1,5 @@
 ---
-title: "茶未拆封，先問一句想濃還是淡"
+title: "他剛在樓下喝完咖啡"
 series: notes
 topic: hosting
 date: 2026-09-22

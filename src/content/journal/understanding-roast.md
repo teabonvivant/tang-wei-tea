@@ -1,5 +1,5 @@
 ---
-title: "顏色深，不等於焙火重"
+title: "這麼深色，火一定很重吧"
 series: notes
 topic: craft
 date: 2026-09-22

@@ -1,5 +1,5 @@
 ---
-title: "茶說的「發酵」，是氧化與渥堆兩回事"
+title: "跟切開的蘋果一樣"
 series: notes
 topic: craft
 date: 2026-09-22

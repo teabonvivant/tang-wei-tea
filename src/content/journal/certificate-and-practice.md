@@ -1,5 +1,5 @@
 ---
-title: "茶藝證書收進抽屜之後，手要自己練"
+title: "證書收進抽屜之後"
 series: notes
 topic: learning
 date: 2026-09-22

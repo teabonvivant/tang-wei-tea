@@ -1,5 +1,5 @@
 ---
-title: "拆普洱茶餅，先看紋理，再下茶針"
+title: "茶針戳下去，只留一個小坑"
 series: notes
 topic: puer
 date: 2026-09-22

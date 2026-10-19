@@ -1,5 +1,5 @@
 ---
-title: "語言不通的客人，先讓杯子說話"
+title: "指一指壺，再指一指他"
 series: notes
 topic: culture
 date: 2026-09-22

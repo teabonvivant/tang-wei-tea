@@ -1,5 +1,5 @@
 ---
-title: "茶具洗好之後，還差晾乾這一步"
+title: "掀開壺蓋，先聞到悶味"
 series: notes
 topic: vessels
 date: 2026-09-22

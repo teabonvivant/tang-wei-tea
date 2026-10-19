@@ -1,5 +1,5 @@
 ---
-title: "把標籤翻過去，在家盲飲一次"
+title: "先把標籤翻過去"
 series: notes
 topic: senses
 date: 2026-09-22

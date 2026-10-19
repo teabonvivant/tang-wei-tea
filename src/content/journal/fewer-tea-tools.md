@@ -1,5 +1,5 @@
 ---
-title: "茶櫃滿了，我每天拿的還是那隻杯"
+title: "手伸出去，拿的還是那隻杯"
 series: notes
 topic: vessels
 date: 2026-09-22

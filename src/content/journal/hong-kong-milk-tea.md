@@ -1,5 +1,5 @@
 ---
-title: "那個用到變色的布袋：港式奶茶是怎樣沖出來的"
+title: "那個用到變色的布袋"
 series: notes
 topic: culture
 date: 2026-09-22

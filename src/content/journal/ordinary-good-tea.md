@@ -1,5 +1,5 @@
 ---
-title: "好茶不必等客人，普通日子也可以開"
+title: "改天一直沒有來"
 series: notes
 topic: daily
 date: 2026-09-22

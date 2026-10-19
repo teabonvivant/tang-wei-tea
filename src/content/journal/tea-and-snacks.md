@@ -1,5 +1,5 @@
 ---
-title: "一碟點心上桌，先想想今天為甚麼坐下"
+title: "酥餅的盒蓋打開了"
 series: notes
 topic: hosting
 date: 2026-09-22

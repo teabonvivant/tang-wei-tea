@@ -1,5 +1,5 @@
 ---
-title: "天天喝的普洱，不必是櫃裏最貴那餅"
+title: "天天喝的那一款"
 series: notes
 topic: puer
 date: 2026-09-22

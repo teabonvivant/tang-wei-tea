@@ -1,5 +1,5 @@
 ---
-title: "買整餅之前，先帶一小袋回家"
+title: "一餅茶拆開，就沒有回頭路"
 series: notes
 topic: puer
 date: 2026-09-22
