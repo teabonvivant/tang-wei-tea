@@ -43,7 +43,7 @@ seo:
 
 「軟是軟。水吸不進去。」
 
-![桌面上的白瓷杯、小碟與一塊灰條紋的布巾](/images/photography-v2/daily-breakfast.webp)
+![木托盤上摺好的灰條紋茶巾，旁邊是白瓷杯與杯碟](/images/photography-v2/tea-cloth-fold.webp)
 
 ## 擦哪裏，不擦哪裏
 

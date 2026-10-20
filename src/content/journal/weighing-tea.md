@@ -8,7 +8,7 @@ seo:
   title: "投茶量怎麼定｜用電子磅記錄沖泡"
   description: "不同茶的體積差很遠，茶匙無法穩定量茶。說明如何用電子磅量茶、投茶量的大概範圍、如何記錄器具容量和口感，讓每次沖泡都有參照。"
 cover: "/images/photography-v2/brew-weigh.webp"
-coverAlt: "電子磅上的乾茶與白瓷茶荷"
+coverAlt: "電子磅上的乾茶與竹茶荷"
 related:
   - first-gaiwan
   - water-before-tea

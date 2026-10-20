@@ -31,7 +31,7 @@ related:
 
 我自己的習慣是把記錄放進日常，每次泡茶順手寫一行。寫的時候不覺得有甚麼，幾個月後翻看，自己的習慣、改過的地方都在裏面，比憑記憶可靠。
 
-![蓋碗出湯時的一道金色茶流](/images/photography-v2/brew-pour.webp)
+![木桌上的相框證書旁，放着蓋碗、茶杯、筆記簿和鉛筆](/images/photography-v2/certificate-desk.webp)
 
 ## 次數比長度重要
 

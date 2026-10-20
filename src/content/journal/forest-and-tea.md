@@ -47,7 +47,7 @@ seo:
 
 這和我在談年份、談山頭時說的道理相通。標籤是線索，最後仍要靠自己的口舌去驗證。
 
-![竹篩上薄薄攤開的鮮茶葉](/images/photography-v2/craft-withering.webp)
+![雲霧山間一株老茶樹，樹幹佈滿苔蘚，枝頭抽出新芽](/images/photography-v2/old-tea-tree.webp)
 
 ## 買茶時，我會多問幾句
 

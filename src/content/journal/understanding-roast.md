@@ -5,7 +5,7 @@ topic: craft
 date: 2026-09-22
 excerpt: "「這麼深色，火一定很重吧。」乾茶倒進茶荷，總有人先下這個判斷。我會請他先別急，聞完、喝完再說。"
 cover: "/images/photography-v2/craft-roast.webp"
-coverAlt: "竹焙籠上茶葉與編織竹篾的細節"
+coverAlt: "平攤在大竹篩上的深色茶葉與編織竹篾的細節"
 related:
   - six-tea-families
   - tea-oxidation
@@ -32,6 +32,8 @@ seo:
 茶葉的氧化程度、品種和存放時間，都會令外觀變深。一款氧化較足的茶，乾茶已經偏褐，卻未必重焙過；反過來，有些茶外表不太深，火氣卻不輕。陳放幾年的焙火茶，顏色也會慢慢加深，看着像重火，喝下去卻已經退得很乾淨。
 
 比較可靠的，是同時看香氣、湯感和餘韻，再向製作者或賣茶的人問問火候大概屬甚麼風格。對方說得出「中火」「輕焙」「有重焙過再養過」這類話，已經比一個顏色有用得多。
+
+![輕焙與重焙的烏龍乾茶並排，旁邊的茶湯一杯淡黃、一杯琥珀](/images/photography-v2/roast-compare.webp)
 
 ![溫杯、杯蓋與乾茶的近距離觀察](/images/photography-v2/taste-aroma.webp)
 

@@ -53,7 +53,7 @@ seo:
 
 ## 看師傅的時候
 
-![早餐桌上的暖茶與烘多士](/images/photography-v2/daily-breakfast.webp)
+![茶餐廳師傅把濃茶倒進掛着茶袋的濾布，沖入另一隻壺，旁邊是一罐淡奶](/images/photography-v2/milk-tea-pour.webp)
 
 有機會在店裏看師傅沖茶，可以看看茶袋有多大、用的是甚麼壺、倒茶的高度和節奏，以及甚麼時候加奶。這些都是看得見的工序。
 

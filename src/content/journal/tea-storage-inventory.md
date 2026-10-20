@@ -28,7 +28,7 @@ seo:
 
 茶逐包拿出來放在桌面，一次只處理一個格子。千萬不要把整個櫃子倒空，收回去的時候一定會亂。
 
-![茶葉放在白瓷茶荷上，下面是電子磅](/images/photography-v2/brew-weigh.webp)
+![茶葉放在竹茶荷上，下面是電子磅](/images/photography-v2/brew-weigh.webp)
 
 ## 一包一包，才看得見
 
