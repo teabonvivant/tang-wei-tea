@@ -1,4 +1,6 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
+import { execFileSync } from 'node:child_process';
+import type { ImageMetadata } from 'astro';
 import topics from '../data/topics.json';
 import order from '../data/order.json';
 import images from '../data/images.json';
@@ -88,7 +90,7 @@ export function shownDate(a: { data: { series?: string; date: Date } }): string 
 export function imgInfo(src: string) {
   const imgs = images as Record<string, number[]>;
   const dim = imgs[src];
-  const at = (w: number) => src.replace(/\.webp$/, `-${w}.webp`);
+  const at = (w: number) => src.replace(/\.(webp|jpg)$/, `-${w}.$1`);
   const widths = [640, 960].filter((w) => imgs[at(w)]);
   const list = widths.map((w) => `${u(at(w)).replace(/\/$/, '')} ${imgs[at(w)][0]}w`);
   if (widths.length) list.push(`${u(src).replace(/\/$/, '')} ${dim[0]}w`);
@@ -137,4 +139,104 @@ export async function termUsage(): Promise<Map<string, Repair[]>> {
     for (const id of bodyTerms(r.body ?? '', terms)) use.set(id, [...(use.get(id) ?? []), r]);
   }
   return use;
+}
+
+// ---------------------------------------------------------------------------
+// 結構化資料：真實日期（P-24）、麵包屑、頁面類型
+// ---------------------------------------------------------------------------
+
+/** 內容檔的 git 最後修改日（YYYY-MM-DD）。一次 git log 取全部，之後查表；取不到（如淺層複製）回傳 undefined。 */
+let gitLast: Map<string, string> | null = null;
+function loadGitLast(): Map<string, string> {
+  if (gitLast) return gitLast;
+  gitLast = new Map();
+  try {
+    const out = execFileSync('git', ['log', '--name-only', '--format=@@%cI', '--', 'src/content'], { cwd: process.cwd(), encoding: 'utf8', maxBuffer: 64 * 1024 * 1024, stdio: ['ignore', 'pipe', 'ignore'] });
+    let cur = '';
+    for (const line of out.split('\n')) {
+      if (line.startsWith('@@')) cur = line.slice(2, 12);
+      else if (line && cur && !gitLast.has(line)) gitLast.set(line, cur);
+    }
+  } catch { /* 沒有 git 歷史就用 frontmatter 日期 */ }
+  return gitLast;
+}
+const ymd = (d: Date) => d.toISOString().slice(0, 10);
+/** datePublished 取 frontmatter；dateModified 取 git 最後修改日（不早於發表日）。專欄原文不改，不給 dateModified。 */
+export function articleDates(entry: { filePath?: string; data: { date: Date; series?: string } }): { datePublished: string; dateModified?: string } {
+  const datePublished = ymd(entry.data.date);
+  if (entry.data.series === 'column') return { datePublished };
+  const last = entry.filePath ? loadGitLast().get(entry.filePath.replace(/^\.?\//, '')) : undefined;
+  return { datePublished, dateModified: last && last > datePublished ? last : datePublished };
+}
+
+export type Crumb = { name: string; path: string };
+const SECTION_NAMES: Record<string, string> = {
+  '/tea/': '茶知識', '/works/': '器物', '/columns/': '茶逢知己', '/journal/': '茶間筆記', '/courses/': '課程與合作', '/about/': '關於唐老師',
+  '/events/': '教學紀錄', '/contact/': '聯絡', '/sources/': '文字與圖片說明', '/repair/': '修器', '/repair/glossary/': '修補小詞典', '/projects/youth-tea-culture/': '青年與茶',
+};
+const SECTION_PARENT: Record<string, string> = { '/repair/': '/works/', '/repair/glossary/': '/repair/', '/events/': '/about/', '/projects/youth-tea-culture/': '/about/' };
+/** 由網址推出麵包屑（首頁 → … → 本頁）；首頁與 404 回傳空陣列。 */
+export function crumbsFor(path: string): Crumb[] {
+  if (path === '/' || path === '/404.html') return [];
+  const chain: Crumb[] = [];
+  const add = (p: string, name?: string) => chain.unshift({ name: name ?? SECTION_NAMES[p], path: p });
+  let m: RegExpMatchArray | null;
+  if ((m = path.match(/^\/topics\/([a-z]+)\/$/))) { add(path, topicBySlug[m[1]]?.name); add('/tea/'); }
+  else if ((m = path.match(/^\/journal\/page\/(\d+)\/$/))) { add(path, `第 ${m[1]} 頁`); add('/journal/'); }
+  else if (SECTION_NAMES[path]) { add(path); let p = SECTION_PARENT[path]; while (p) { add(p); p = SECTION_PARENT[p]; } }
+  else return [];
+  return [{ name: BRAND, path: '/' }, ...chain].filter((c) => c.name);
+}
+export function pageSchemaType(path: string): 'WebPage' | 'CollectionPage' | 'AboutPage' | 'ContactPage' {
+  if (path === '/about/') return 'AboutPage';
+  if (path === '/contact/') return 'ContactPage';
+  if (['/tea/', '/works/', '/columns/', '/journal/', '/repair/', '/repair/glossary/'].includes(path) || /^\/(topics|journal\/page)\//.test(path)) return 'CollectionPage';
+  return 'WebPage';
+}
+export function breadcrumbLd(crumbs: Crumb[]) {
+  return { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: abs(c.path) })) };
+}
+
+// ---------------------------------------------------------------------------
+// 文末「接着讀」：1 同主題 + 1 跨主題 + 1 修器（無合適修器時用另一篇跨主題）（P-08）
+// ---------------------------------------------------------------------------
+export type ReadCard = { href: string; title: string; excerpt: string; cover: string | ImageMetadata; category: string; date?: string };
+const AFFINITY: Record<string, string[]> = {
+  brewing: ['senses', 'vessels'], senses: ['brewing', 'daily'], puer: ['storage', 'culture'], storage: ['puer', 'daily'], vessels: ['hosting', 'brewing'],
+  hosting: ['vessels', 'culture'], craft: ['culture', 'puer'], daily: ['learning', 'senses'], learning: ['daily', 'brewing'], culture: ['craft', 'hosting'],
+};
+const hashOf = (s: string) => { let h = 0; for (const c of s) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; };
+const articleCard = (x: Article): ReadCard => ({ href: `/journal/${x.id}/`, title: x.data.title, excerpt: x.data.excerpt, cover: x.data.cover, category: categoryName(x), date: shownDate(x) });
+const repairCard = (x: Repair): ReadCard => ({ href: `/repair/${x.id}/`, title: x.data.title, excerpt: x.data.excerpt, cover: x.data.cover, category: '修器' });
+
+export async function readNext(a: Article, related: Article[]): Promise<ReadCard[]> {
+  const all = await allArticles();
+  const notes = all.filter((x) => x.data.series === 'notes');
+  const isColumn = a.data.series === 'column';
+  const rotate = <T,>(list: T[]) => (list.length ? [...list.slice(hashOf(a.id) % list.length), ...list.slice(0, hashOf(a.id) % list.length)] : list);
+  let same: Article | undefined;
+  let crossPool: Article[];
+  if (isColumn) {
+    same = related.find((r) => r.data.series === 'column');
+    // 專欄文末的「跨」＝讀唐老師談同一件事的筆記：先找有連到這一篇的筆記，再用日常／文化／學習主題補
+    const back = notes.filter((n) => n.data.related.some((r) => r.id === a.id));
+    crossPool = [...back, ...rotate(notes.filter((n) => ['daily', 'culture', 'learning'].includes(n.data.topic!)))];
+  } else {
+    same = related.find((r) => r.data.series === 'notes' && r.data.topic === a.data.topic && r.id !== a.id) ?? (await topicArticles(a.data.topic!)).find((x) => x.id !== a.id);
+    const aff = rotate((AFFINITY[a.data.topic!] ?? []).flatMap((t) => notes.filter((n) => n.data.topic === t)));
+    crossPool = [...related.filter((r) => r.data.series !== 'notes' || r.data.topic !== a.data.topic), ...aff];
+  }
+  const seen = new Set<string>([a.id, ...(same ? [same.id] : [])]);
+  let firstCross: Article | undefined;
+  // 第二篇跨主題盡量與第一篇不同主題
+  const takeCross = () => { const x = crossPool.find((c) => !seen.has(c.id) && (!firstCross || c.data.topic !== firstCross.data.topic)) ?? crossPool.find((c) => !seen.has(c.id)); if (x) seen.add(x.id); return x; };
+  const cross1 = takeCross();
+  firstCross = cross1;
+  const rep = (await repairForTea(a.id, a.data.topic))[0];
+  const third: ReadCard | undefined = rep ? repairCard(rep) : (() => { const x = takeCross(); return x && articleCard(x); })();
+  const out: ReadCard[] = [];
+  if (same) out.push(articleCard(same));
+  if (cross1) out.push(articleCard(cross1));
+  if (third) out.push(third);
+  return out;
 }

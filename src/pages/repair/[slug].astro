@@ -4,7 +4,8 @@ import Base from '../../layouts/Base.astro';
 import Cover from '../../components/Cover.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import Arrow from '../../components/Arrow.astro';
-import { allRepair, allTerms, bodyTerms, clusters, categoryName, u, abs, fmtDate } from '../../lib/site';
+import AuthorCard from '../../components/AuthorCard.astro';
+import { allRepair, allTerms, bodyTerms, clusters, categoryName, u, abs, articleDates, BRAND } from '../../lib/site';
 
 export async function getStaticPaths() {
   return (await allRepair()).map((r) => ({ params: { slug: r.id }, props: { r } }));
@@ -27,11 +28,12 @@ const cards = [...relRep.slice(0, 1).map((x) => ({ kind: 'repair', x })), ...rel
 for (const x of [...relRep.slice(1), ...relTea.slice(2)]) { if (cards.length >= 3) break; cards.push({ kind: relRep.includes(x as any) ? 'repair' : 'tea', x } as any); }
 const jsonld = [{
   '@context': 'https://schema.org', '@type': 'Article', headline: d.title,
-  datePublished: d.date.toISOString().slice(0, 10), author: { '@type': 'Person', name: '唐娓' },
+  ...articleDates(r), author: { '@type': 'Person', name: '唐娓' },
   image: [abs(`/images/repair/${r.id}.jpg`)], inLanguage: 'zh-Hant-HK', mainEntityOfPage: abs(`/repair/${r.id}/`), description: d.excerpt,
 }];
+const crumbs = [{ name: BRAND, path: '/' }, { name: '器物', path: '/works/' }, { name: '修器', path: '/repair/' }, { name: d.title, path: `/repair/${r.id}/` }];
 ---
-<Base title={`${d.title}｜修器｜唐娓老師`} description={d.excerpt} path={`/repair/${r.id}/`} ogImage={`/images/repair/${r.id}.jpg`} type="article" publishedTime={d.date.toISOString().slice(0, 10)} progress jsonld={jsonld}>
+<Base title={`${d.title}｜修器｜唐娓老師`} description={d.excerpt} path={`/repair/${r.id}/`} ogImage={`/images/og/${r.id}.jpg`} type="article" publishedTime={d.date.toISOString().slice(0, 10)} progress jsonld={jsonld} crumbs={crumbs}>
   <article>
     <header class="article-head">
       <nav class="crumbs" aria-label="麵包屑" style="padding:0"><a href={u('/repair/')}>修器</a><span aria-hidden="true">/</span><a href={u(`/repair/#cluster-${cluster.id}`)}>{cluster.name}</a></nav>
@@ -58,6 +60,7 @@ const jsonld = [{
         </nav>
       )}
       <p style="display:flex;flex-wrap:wrap;gap:8px 32px"><a class="text-link" href={u(`/repair/#cluster-${cluster.id}`)}><span>更多〈{cluster.name}〉</span><Arrow /></a><a class="text-link" href={u('/repair/glossary/')}><span>修補小詞典</span><Arrow /></a></p>
+      <AuthorCard title={d.title} />
     </div>
   </article>
 

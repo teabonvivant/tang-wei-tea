@@ -25,6 +25,8 @@ jobs:
       PUBLIC_CF_BEACON_TOKEN: ${{ vars.PUBLIC_CF_BEACON_TOKEN || '' }}
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0 # dateModified 取內容檔的 git 最後修改日，需要完整歷史
       - uses: actions/setup-node@v5
         with:
           node-version: 22

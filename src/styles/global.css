@@ -346,6 +346,17 @@ a { color: inherit; }
 .article-cover .ph { aspect-ratio: 3 / 2; border-radius: 2px; }
 @media (max-width: 767px) { .article-cover { width: 100%; } .article-cover .ph { border-radius: 0; } }
 
+/* 文章頁入場（M-01）：標題、署名、導言逐件上移落位，封面由下往上揭開；正文與延伸閱讀不動。從目錄經共用元素過場進入時（.vt-in）不再揭開封面。 */
+@media (prefers-reduced-motion: no-preference) {
+  .article-head :is(h1, .byline, .lead) { animation: rise 600ms var(--ease-out) both; }
+  .article-head .byline { animation-delay: 90ms; }
+  .article-head .lead { animation-delay: 180ms; }
+  .article-cover .ph { animation: reveal 900ms var(--ease-out) 270ms both; }
+  .vt-in .article-cover .ph { animation: none; }
+}
+@keyframes rise { from { opacity: 0; transform: translateY(16px); } }
+@keyframes reveal { from { clip-path: inset(100% 0 0 0); } to { clip-path: inset(0); } }
+
 .prose { width: min(var(--measure), 100% - 2 * var(--gutter)); margin-inline: auto; display: grid; grid-template-columns: minmax(0, 1fr); gap: 24px; font-size: 17px; line-height: 1.95; text-wrap: pretty; line-break: strict; }
 @media (min-width: 768px) { .prose { font-size: 19px; gap: 32px; } }
 .prose h2 { font-size: 26px; line-height: 1.5; margin-top: 24px; text-wrap: balance; }
@@ -392,6 +403,14 @@ a { color: inherit; }
 .column-all li a { text-decoration: none; }
 .column-all li a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .column-all [aria-current] { font-weight: 500; }
+.author-card { display: grid; grid-template-columns: auto 1fr; gap: 20px; align-items: start; padding-top: 32px; border-top: 1px solid var(--line); }
+.seal { width: 64px; height: 64px; display: grid; place-items: center; border-radius: 4px; background: var(--green); color: var(--paper); font-size: 36px; line-height: 1; letter-spacing: 0; }
+[data-theme='dark'] .seal { color: #1c1a17; }
+.author-body { display: grid; gap: 8px; min-width: 0; }
+.author-name { font-size: 22px; letter-spacing: 0.1em; }
+.author-body p:not(.author-name):not(.author-links) { color: var(--ink-muted); font-size: 16px; line-height: 1.8; }
+.author-links { display: flex; flex-wrap: wrap; gap: 0 24px; }
+@media (min-width: 768px) { .author-card { grid-template-columns: 72px 1fr; gap: 24px; } .seal { width: 72px; height: 72px; font-size: 40px; } }
 .related { margin-top: 96px; padding-block: 64px 96px; background: var(--surface); }
 .related .article-grid { margin-top: 32px; }
 

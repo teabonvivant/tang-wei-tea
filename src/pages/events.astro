@@ -21,7 +21,7 @@ const photos = [
 <Base title="教學紀錄｜唐娓老師" description="唐娓老師的茶藝課堂、普洱研習、社區與校園活動照片及教學紀錄。" path="/events/">
   <PageIntro title="教學紀錄" intro="茶藝課堂、普洱研習、社區與校園。親手試過、交流過，才算開始認識茶文化。" />
   <section class="wrap section split" style="padding-top:0">
-    <a href={u('/projects/youth-tea-culture/')} aria-label="青年與茶專題"><img class="ph" style="width:100%;height:auto" src={youth.src} width={youth.width} height={youth.height} alt="課堂上圍桌觀察不同茶樣" decoding="async" fetchpriority="high" /></a>
+    <a href={u('/projects/youth-tea-culture/')} aria-label="青年與茶專題"><img class="ph" style="width:100%;height:auto" src={youth.src} srcset={youth.srcset} sizes="(min-width: 900px) 560px, (min-width: 640px) 50vw, 100vw" width={youth.width} height={youth.height} alt="課堂上圍桌觀察不同茶樣" decoding="async" fetchpriority="high" /></a>
     <div class="copy">
       <h2>一杯茶，也走進年輕人的日常。</h2>
       <p>由觀察茶樣，到坐下來親手泡茶。青年茶文化計劃留下的公開紀錄裏，可以看到茶怎樣走進校園，文化又怎樣在日常裏延續。</p>
@@ -38,7 +38,7 @@ const photos = [
     <div class="section-heading"><div><h2 class="h2">課堂裏的片段</h2><p>照片來自香港古樹茶文化學會教學相簿。</p></div></div>
     <div class="gallery">
       {photos.map(([src, cap]) => { const i = imgInfo(src); return (
-        <figure><img class="ph" src={i.src} width={i.width} height={i.height} alt={cap} loading="lazy" decoding="async" style="width:100%;height:auto" /><figcaption>{cap}</figcaption></figure>
+        <figure><img class="ph" src={i.src} srcset={i.srcset} sizes="(min-width: 900px) 560px, (min-width: 640px) 50vw, 100vw" width={i.width} height={i.height} alt={cap} loading="lazy" decoding="async" style="width:100%;height:auto" /><figcaption>{cap}</figcaption></figure>
       ); })}
     </div>
   </section>

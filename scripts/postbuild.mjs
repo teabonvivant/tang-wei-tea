@@ -7,3 +7,5 @@ const base = process.env.BASE ?? '/tang-wei-tea';
 const py = process.env.PYTHON ?? 'python3';
 const r = spawnSync(py, ['-I', 'scripts/subset_fonts.py', outDir, '--base', base], { stdio: 'inherit' });
 if (r.status !== 0) { console.error('字體子集化失敗'); process.exit(r.status ?? 1); }
+const og = spawnSync('node', ['scripts/make_og.mjs'], { stdio: 'inherit' });
+if (og.status !== 0) { console.error('分享圖產生失敗'); process.exit(og.status ?? 1); }

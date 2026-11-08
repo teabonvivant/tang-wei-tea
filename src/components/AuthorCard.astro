@@ -1,0 +1,16 @@
+---
+import { u, wa } from '../lib/site';
+const { title } = Astro.props as { title: string };
+---
+<aside class="author-card" aria-label="關於作者">
+  <span class="seal serif" aria-hidden="true">唐</span>
+  <div class="author-body">
+    <p class="author-name serif">唐娓老師</p>
+    <p>香港古樹茶文化學會會長、茶藝導師，也是「茶逢知己」專欄作者。她的課由職業茶藝培訓、普洱研習，到社區與校園工作坊。</p>
+    <p class="author-links">
+      <a class="text-link" href={u('/about/')}>關於唐老師</a>
+      <a class="text-link" href={u('/courses/')}>認識課程</a>
+      <a class="text-link" href={wa(`你好，我讀了〈${title}〉，想查詢茶藝課程。`)}>WhatsApp 查詢</a>
+    </p>
+  </div>
+</aside>

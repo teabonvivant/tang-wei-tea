@@ -22,7 +22,7 @@ const faq = [
   <PageIntro title="課程與合作" intro="認識茶葉，親手沖泡，練習把感受說清楚。由日常興趣開始，慢慢學成一套有系統的知識。" />
   <section class="wrap section split" style="padding-top:0">
     <figure>
-      <img class="ph" style="width:100%;height:auto" src={photo.src} width={photo.width} height={photo.height} alt="學員在茶藝課上圍桌觀察茶葉" decoding="async" fetchpriority="high" />
+      <img class="ph" style="width:100%;height:auto" src={photo.src} srcset={photo.srcset} sizes="(min-width: 900px) 560px, (min-width: 640px) 50vw, 100vw" width={photo.width} height={photo.height} alt="學員在茶藝課上圍桌觀察茶葉" decoding="async" fetchpriority="high" />
       <figcaption>茶藝課程紀錄 · 香港古樹茶文化學會</figcaption>
     </figure>
     <div class="copy">
