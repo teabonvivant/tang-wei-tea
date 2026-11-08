@@ -54,7 +54,7 @@ python3 -I scripts/check_dist.py dist --base /tang-wei-tea
 ## 建置做了甚麼
 
 1. `astro build`：靜態輸出，`trailingSlash: always`、`build.format: directory`，154 個舊網址全部保留（`/topics/`、`/journal/`、`/works/` 等不變）。
-2. `scripts/postbuild.mjs` → `scripts/subset_fonts.py`：標題字體（昭源宋體）切兩層 woff2 寫入每頁 `<head>`。共用層 `fonts/tea-<hash>.woff2`（全站標題用字中出現頁數最多的 200 字＋ASCII 與標點，約 48 KB，所有頁同一檔名，第二頁起命中快取）；差額層 `fonts/d-<hash>.woff2`（該頁用到而共用層沒有的字，平均約 5 KB）以 `TeaSerifX` 家族補在 `--serif` 字體堆疊第二位。`--shared-size` 可調共用層字數（150–250 時首次進站字體總量與舊版每頁各切一份相當）。正文用系統字體。
+2. `scripts/postbuild.mjs` → `scripts/subset_fonts.py`：標題字體（昭源宋體）與正文字體（昭源黑體 Chiron Hei HK Regular）各切兩層 woff2 寫入每頁 `<head>`。標題：共用層 `fonts/tea-<hash>.woff2`（全站標題用字中出現頁數最多的 200 字＋ASCII 與標點，約 48 KB，所有頁同一檔名，第二頁起命中快取）；差額層 `fonts/d-<hash>.woff2`（該頁用到而共用層沒有的字，平均約 5 KB）以 `TeaSerifX` 家族補在 `--serif` 字體堆疊第二位。`--shared-size` 可調共用層字數。正文（T-12／D-7）：共用層 `fonts/hei-<hash>.woff2`（全站正文用字中出現頁數最多的前 N 字，N 由腳本按 `--sans-budget`〔預設 120 KB〕自動取最大值，約 900 字，所有頁同一檔名）＋差額層 `fonts/hd-<hash>.woff2`（`TeaSansX`，平均約 9 KB）；`--sans` 堆疊先 `TeaSans`、`TeaSansX`，再退回系統黑體；`font-display: swap`；**載入策略**：首次到訪等 `load` 事件後 50ms 才註冊 `@font-face`（先以系統黑體顯示，不搶主圖與 LCP 的頻寬；實測立即載入令首頁手機 LCP 由 2.3 秒升到約 3.0 秒），到訪過的（`localStorage` 有 `tea-sans-v1`）一開始就註冊並 preload，不見換字；無 JS 維持系統黑體。子集內部字體名一律改為 TeaSans（OFL 保險做法）。
 3. `scripts/make_og.mjs`：由每篇封面置中裁出 `dist/images/og/<slug>.jpg`（1200×630 JPG），對應 Base 的 og:image。
 4. CI 再跑 `scripts/check_dist.py`：舊網址、站外連結（只准 `wa.me`）、站外資源、AI 痕跡字串、破折號、title／description／canonical／og:image、每頁一個 h1、sitemap、圖片 alt 與寬高、站內斷鏈。任何一項不過，建置失敗。
 
@@ -125,6 +125,14 @@ python3 -I scripts/check_dist.py dist --base /tang-wei-tea
 4. 所有入場寫在 `@media (prefers-reduced-motion: no-preference)` 內；內容預設可見（減少動態與無 JS 都是完成狀態）。
 5. 任何新動畫都要在 iPhone Safari 與一部 Android 中階機實測一次；伺服器截圖不作幀率證據。
 
+## 第三期（opt3）加入的功能與維護備註
+
+- **封面規則**（P-20）：每個封面最多 2 篇使用——茶間筆記一篇一張（`photography-v2/cv-<slug>.webp`），茶逢知己 33 篇最多兩篇共用一張，筆記與專欄不混用同一張；封面不與同一篇文內插圖相同。新增文章要先生一張專屬封面（提示與流程見 `research/image-prompts/covers-opt3.md`、畫風守則見 `research/image-style.md`）。分配可用 repo 外的檢查腳本核對，或在 `src/content/journal/*.md` 抽出 `cover:` 欄位逐張計數。
+- **首頁四段四種形狀**（T-05）：器物＝深色全寬帶（`.band-feature`，金繕碗相滿版、字壓左下）；茶逢知己＝索引列（`.column-index`，最近 5 篇專欄，桌面 hover 或鍵盤聚焦於右側顯示該篇小圖，手機只列標題）；課堂＝置中陳述句＋滿寬課堂相（`.statement-band`）；青年與茶＝左直幅人像右文（`.youth-split`）。任何兩個相鄰段落版面不同。
+- **卡片 hover**（T-09）：只有 `.card.feature` 與 `.gate` 放大 `scale(1.03)`／400ms；其餘卡片 hover 只亮 `brightness(1.04)`＋標題底線。
+- **頁尾**（T-10）：兩行——品牌一句＋六個最常用連結；版權、聯絡、文字與圖片說明、外觀切換。其餘連結在各頁與選單。
+- **對話書面語**（P-15／D-4）：茶間筆記的對話一律書面語，不用粵語字（係、嘅、唔、咁、佢、冇、啲、咗、喺、哋、嚟、咩、嗰、呢、點解、好飲等）；茶逢知己原文不動。
+
 ## 字體與授權
 
-標題字體為昭源宋體（Chiron Sung HK），SIL Open Font License 1.1，來源 https://github.com/chiron-fonts/chiron-sung-hk 。`fonts-src/` 內為 Big5-HKSCS 字集的精簡版；網頁輸出的子集字體在 CSS 內以 `TeaSerif` 命名。Phosphor 圖示與舊站字體授權檔仍在 `public/licenses/`（如有保留）。
+標題字體為昭源宋體（Chiron Sung HK），正文字體為昭源黑體（Chiron Hei HK，Regular 字重），皆 SIL Open Font License 1.1，來源 https://github.com/chiron-fonts/chiron-sung-hk 、https://github.com/chiron-fonts/chiron-hei-hk 。`fonts-src/` 內為 Big5-HKSCS 字集的精簡版（`scripts/make_font_source.py` 由完整 ttf 切出）；網頁輸出的子集字體在 CSS 內分別以 `TeaSerif`、`TeaSans` 命名。授權檔在 `public/licenses/`。正文只出 Regular 一個字重，同時承接 400 與 500（`<strong>` 等 ≥600 由瀏覽器合成粗體）。Phosphor 圖示與舊站字體授權檔仍在 `public/licenses/`（如有保留）。
