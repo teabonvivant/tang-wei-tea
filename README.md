@@ -18,6 +18,7 @@ src/styles/global.css        全部樣式（色彩 token、字級、動畫）
 src/scripts/site.js          全站唯一的腳本：選單、深淺色、詞條 popover、進場
 plugins/remark-site.mjs      Markdown 擴充：[[詞條]]、站內連結加 base、圖片寬高
 public/images/               全部舊圖片網址原樣保留（社交平台快取不會斷）
+src/lib/schedule.ts          課程頁「最新班期」：建置時讀客服知識庫 CSV（見下）
 scripts/                     建置後字體處理、輸出檢查、一次性遷移腳本；make_hero_avif.mjs（首頁主圖 AVIF）、make_jpg_variants.mjs（內文 JPG 640／960 縮圖）、make_brand_assets.py（favicon、apple-touch-icon、og-default.jpg）、make_og.mjs（建置後為每篇文章出 1200×630 分享圖，只進 dist）
 research/                    內部資料，不會被打包：來源 YAML、生圖提示及紀錄
 fonts-src/                   標題字體來源（昭源宋體 Medium，SIL OFL 1.1）
@@ -53,7 +54,7 @@ python3 -I scripts/check_dist.py dist --base /tang-wei-tea
 ## 建置做了甚麼
 
 1. `astro build`：靜態輸出，`trailingSlash: always`、`build.format: directory`，154 個舊網址全部保留（`/topics/`、`/journal/`、`/works/` 等不變）。
-2. `scripts/postbuild.mjs` → `scripts/subset_fonts.py`：按每頁實際出現的標題用字，把昭源宋體切成 woff2（每頁約 20 至 60 KB），寫入該頁 `<head>`。正文用系統字體。
+2. `scripts/postbuild.mjs` → `scripts/subset_fonts.py`：標題字體（昭源宋體）切兩層 woff2 寫入每頁 `<head>`。共用層 `fonts/tea-<hash>.woff2`（全站標題用字中出現頁數最多的 200 字＋ASCII 與標點，約 48 KB，所有頁同一檔名，第二頁起命中快取）；差額層 `fonts/d-<hash>.woff2`（該頁用到而共用層沒有的字，平均約 5 KB）以 `TeaSerifX` 家族補在 `--serif` 字體堆疊第二位。`--shared-size` 可調共用層字數（150–250 時首次進站字體總量與舊版每頁各切一份相當）。正文用系統字體。
 3. `scripts/make_og.mjs`：由每篇封面置中裁出 `dist/images/og/<slug>.jpg`（1200×630 JPG），對應 Base 的 og:image。
 4. CI 再跑 `scripts/check_dist.py`：舊網址、站外連結（只准 `wa.me`）、站外資源、AI 痕跡字串、破折號、title／description／canonical／og:image、每頁一個 h1、sitemap、圖片 alt 與寬高、站內斷鏈。任何一項不過，建置失敗。
 
@@ -100,6 +101,29 @@ python3 -I scripts/check_dist.py dist --base /tang-wei-tea
 - 色彩 token、字級、動畫清單見 `src/styles/global.css` 開頭與構思報告第 5.5、5.6 節。金色只用於：首頁主圖金線、器物入口與修器目錄的金線及裂紋地圖、閱讀進度線。
 - 動畫只動 `transform`、`opacity`、`stroke-dashoffset`；沒有 `scroll` 事件監聽；`prefers-reduced-motion: reduce` 時位移動畫停止、金線直接完整顯示、換頁過場關閉。
 - 換頁過場用瀏覽器原生 cross-document view transition（Chrome／Edge 126+、Safari 18.2+）；Firefox 為普通換頁。
+
+## 第二期（opt2）加入的功能與維護備註
+
+- **站內搜尋**（P-04）：建置時輸出 `/search.json`（筆記、專欄、修器、詞條；標題、分類、摘要、正文前 1,500 字），`SearchBox.astro` 放在 `/journal/`（含分頁）頂與手機選單頂，頁首桌面版有放大鏡連到 `/journal/#search`。前端只在第一次聚焦輸入框時才下載索引，比對在瀏覽器內完成（所有關鍵字都要出現；標題＞摘要＞正文計分），沒有外部請求。沒有用 Pagefind：中文片語比對自製即可，且不增加建置依賴。`/journal/?q=蓋碗` 會預填搜尋。
+- **導覽**（P-05 方案甲）：桌面 茶知識｜文章（下拉：茶間筆記／茶逢知己）｜器物｜修器｜課程｜關於；手機選單同一套頂層次序。下拉是 `button[aria-expanded]`，滑鼠停留、點擊、Enter／Space 皆可開，Esc 關閉並把焦點還給按鈕，焦點離開即關。導覽資料只在 `Header.astro` 頂部。
+- **目錄密度**（P-07）：`/journal/` 每頁 24 篇（`JOURNAL_PER_PAGE` 在 `lib/site.ts`，sitemap、分頁都讀它），舊版 12 頁的第 7–12 頁留一頁 meta refresh 轉向（noindex）；目錄用 `ArticleCard variant="compact"`（手機左圖右文只留分類與標題，≥640px 加兩行摘要，≥1000px 兩欄）。`/columns/` 按刊出月份分組，每篇有摘要與小圖。主題頁頂 3 行導讀與 description 在 `src/data/topics.json`（`pageIntro`、`description`，人手寫）。
+- **最新班期**（P-11）：`lib/schedule.ts` 在建置時讀 `/home/workspace/古樹茶文化學會 AI 客服/knowledge_base_master_filled_v4.csv`（環境變數 `COURSE_CSV` 可改路徑），只取 `business_name=茶藝師班`、`intent_name=最新班期`、`status=active`、有班別代號、且結束日不早於今天（香港時間）的列；只讀班別、日期、時間、地點，**學費、剩餘名額、內部備註一律不讀**。讀不到檔或沒有符合的班，整個區塊與 `Course` 的 `hasCourseInstance` 都不輸出。班期是建置時快照：知識庫更新或有班期過期後，要重新建置部署頁面才會變。`FAQPage`＋`Course`（provider＝香港古樹茶文化學會）JSON-LD 在 `courses.astro`。
+- **description**（P-16）：頁面與主題頁人手寫 60–90 字；文章用 `seo.description`，缺或不足 50 字時由 `metaDescription()`（`lib/site.ts`）以摘要加出處句補足；`check_dist.py` 的 D1 檢查全站可索引頁 50–110 字。
+- **RSS／sitemap**（P-27）：`/rss.xml`（茶間筆記＋修器，專欄原文不放）；sitemap 每條 `lastmod` 取內容檔 git 最後修改日（目錄頁取成員最新日期；淺層複製取不到就不寫）。
+- **字級五級**（T-02、T-03）：`--fs-small／body／lead／head／display` 五個 `clamp()` 變數，全站不再寫 px 字級。`display` 依頁面型別在容器內覆寫（`.article-head`、`.repair-hero`；首頁 hero h1 另有 `clamp(33px, 4.4vw + 17px, 84px)`，手機 33px 是為了讓第二行 9 個字不折行）。實測每頁只用 5 種字級。
+- **不畫線**（T-04）：列表、群組、系列導覽、頁尾改用留白與 `--surface` 色階；保留線條的只有 FAQ 與表單。頁首沒有底線，捲離頁頂後背景轉 `--surface`（`site.js` 以頂部哨兵的 IntersectionObserver 加 `data-scrolled`，不監聽 scroll）。
+- **入場分法**（M-02）：`data-stagger` 的值決定動作——`list`（逐行 16px／60ms）、`figure`（`scale(1.03)→1`，700ms）、`statement`（逐行 24px／90ms，700ms）、`cards`（逐張 70ms，最多 6 張）；只在元素「確定在視窗外」時才先隱藏，`--i` 按同一批進入視窗的次序計。全部寫在 `prefers-reduced-motion: no-preference` 內。
+- **FAQ 開合**（M-05）：`.faq-body` 以 `grid-template-rows: 0fr→1fr`（320ms）；`site.js` 加 `.anim` 才啟用，沒有 JS 或減少動態時是原生 `<details>`。
+- **換頁共用元素**（M-07）：目錄卡片標題（`ArticleCard` 的 `.vt-title`）與文章 h1 共用 `view-transition-name: t-<slug>`（封面是 `c-<slug>`）；同一頁每個名稱只可出現一次。
+- **裂紋地圖**（T-06、P-10、M-08）：`CrackMap.astro` 有桌面與手機兩個 viewBox（≥900px 左碗右字，碗高約 70svh；手機碗在上、連結兩欄在碗下）；五條裂紋用折線畫，`site.js` 在碗進入視窗時加 `.drawn`，依次畫出（`--n` × 120ms，900ms ease-out）。
+
+### 動畫效能守則（日後任何改動都要守）
+
+1. 只動 `transform`、`opacity`、`clip-path`；`grid-template-rows` 只准用在 FAQ；金線動 `stroke-dashoffset`。
+2. 每頁載入時移動的元素 8–12 件；hero 最多 4 件。
+3. 入場動畫不可令 LCP 元素延後：主圖淡入 ≤ 600ms。
+4. 所有入場寫在 `@media (prefers-reduced-motion: no-preference)` 內；內容預設可見（減少動態與無 JS 都是完成狀態）。
+5. 任何新動畫都要在 iPhone Safari 與一部 Android 中階機實測一次；伺服器截圖不作幀率證據。
 
 ## 字體與授權
 

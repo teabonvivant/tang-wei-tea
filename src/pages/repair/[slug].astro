@@ -5,7 +5,7 @@ import Cover from '../../components/Cover.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import Arrow from '../../components/Arrow.astro';
 import AuthorCard from '../../components/AuthorCard.astro';
-import { allRepair, allTerms, bodyTerms, clusters, categoryName, u, abs, articleDates, BRAND } from '../../lib/site';
+import { allRepair, allTerms, bodyTerms, clusters, categoryName, u, abs, articleDates, metaDescription, BRAND } from '../../lib/site';
 
 export async function getStaticPaths() {
   return (await allRepair()).map((r) => ({ params: { slug: r.id }, props: { r } }));
@@ -33,11 +33,11 @@ const jsonld = [{
 }];
 const crumbs = [{ name: BRAND, path: '/' }, { name: '器物', path: '/works/' }, { name: '修器', path: '/repair/' }, { name: d.title, path: `/repair/${r.id}/` }];
 ---
-<Base title={`${d.title}｜修器｜唐娓老師`} description={d.excerpt} path={`/repair/${r.id}/`} ogImage={`/images/og/${r.id}.jpg`} type="article" publishedTime={d.date.toISOString().slice(0, 10)} progress jsonld={jsonld} crumbs={crumbs}>
+<Base title={`${d.title}｜修器｜唐娓老師`} description={metaDescription(d.excerpt, 'repair')} path={`/repair/${r.id}/`} ogImage={`/images/og/${r.id}.jpg`} type="article" publishedTime={d.date.toISOString().slice(0, 10)} progress jsonld={jsonld} crumbs={crumbs}>
   <article>
     <header class="article-head">
       <nav class="crumbs" aria-label="麵包屑" style="padding:0"><a href={u('/repair/')}>修器</a><span aria-hidden="true">/</span><a href={u(`/repair/#cluster-${cluster.id}`)}>{cluster.name}</a></nav>
-      <h1>{d.title}</h1>
+      <h1 style={`view-transition-name: t-${r.id}`}>{d.title}</h1>
       <p class="byline">文／唐娓</p>
       <p class="lead">{d.excerpt}</p>
     </header>
@@ -75,7 +75,7 @@ const crumbs = [{ name: BRAND, path: '/' }, { name: '器物', path: '/works/' },
   <section class="related" aria-labelledby="more-h">
     <div class="wrap">
       <h2 class="h2" id="more-h">接着讀</h2>
-      <div class="article-grid">
+      <div class="article-grid" data-stagger="cards">
         {cards.map((c: any) => c.kind === 'repair'
           ? <ArticleCard href={`/repair/${c.x.id}/`} title={c.x.data.title} excerpt={c.x.data.excerpt} cover={c.x.data.cover} alt="" category="修器" />
           : <ArticleCard href={`/journal/${c.x.id}/`} title={c.x.data.title} excerpt={c.x.data.excerpt} cover={c.x.data.cover} alt="" category={categoryName(c.x)} />)}

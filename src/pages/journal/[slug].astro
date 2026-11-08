@@ -5,7 +5,7 @@ import Cover from '../../components/Cover.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import Arrow from '../../components/Arrow.astro';
 import AuthorCard from '../../components/AuthorCard.astro';
-import { allArticles, categoryName, categoryHref, topicBySlug, u, abs, fmtDate, fmtDateZh, columnArticles, topicArticles, imgInfo, articleDates, readNext, BRAND } from '../../lib/site';
+import { allArticles, categoryName, categoryHref, topicBySlug, u, abs, fmtDate, fmtDateZh, columnArticles, topicArticles, imgInfo, articleDates, readNext, metaDescription, BRAND } from '../../lib/site';
 import cols from '../../data/columns.json';
 
 export async function getStaticPaths() {
@@ -40,11 +40,11 @@ const crumbs = [
   { name: d.title, path: `/journal/${a.id}/` },
 ];
 ---
-<Base title={d.seo.title ? `${d.seo.title}｜唐娓老師` : `${d.title}｜唐娓老師`} description={d.seo.description ?? d.excerpt} path={`/journal/${a.id}/`} ogImage={`/images/og/${a.id}.jpg`} type="article" publishedTime={d.date.toISOString().slice(0, 10)} progress jsonld={jsonld} crumbs={crumbs}>
+<Base title={d.seo.title ? `${d.seo.title}｜唐娓老師` : `${d.title}｜唐娓老師`} description={metaDescription(d.seo.description ?? d.excerpt, isColumn ? 'column' : 'notes')} path={`/journal/${a.id}/`} ogImage={`/images/og/${a.id}.jpg`} type="article" publishedTime={d.date.toISOString().slice(0, 10)} progress jsonld={jsonld} crumbs={crumbs}>
   <article>
     <header class="article-head">
       <nav class="crumbs" aria-label="麵包屑" style="padding:0"><a href={u(isColumn ? '/columns/' : '/journal/')}>{isColumn ? '茶逢知己' : '茶間筆記'}</a><span aria-hidden="true">/</span><a href={u(categoryHref(a))}>{cat}</a></nav>
-      <h1>{d.title}</h1>
+      <h1 style={`view-transition-name: t-${a.id}`}>{d.title}</h1>
       <p class="byline">文／唐娓{d.series === 'column' ? ` · ${fmtDate(d.date)}` : ''}</p>
       <p class="lead">{d.excerpt}</p>
     </header>
@@ -84,7 +84,7 @@ const crumbs = [
   <section class="related" aria-labelledby="more-h">
     <div class="wrap">
       <h2 class="h2" id="more-h">接着讀</h2>
-      <div class="article-grid">
+      <div class="article-grid" data-stagger="cards">
         {more.map((c) => <ArticleCard href={c.href} title={c.title} excerpt={c.excerpt} cover={c.cover} alt="" category={c.category} date={c.date} />)}
       </div>
     </div>

@@ -1,27 +1,37 @@
 ---
+import { getEntry } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import PageIntro from '../components/PageIntro.astro';
-import { u } from '../lib/site';
+import ArticleCard from '../components/ArticleCard.astro';
+import { fmtDate } from '../lib/site';
 import cols from '../data/columns.json';
 const items = [...cols].sort((a, b) => b.date.localeCompare(a.date));
-const fmt = (d: string) => d.replaceAll('-', '.');
+const have = items.filter((c) => c.slug).length;
+// P-07：按刊出月份分組，每篇有摘要與小圖
+const entries = await Promise.all(items.map(async (c) => ({ c, a: c.slug ? await getEntry('articles', c.slug) : undefined })));
+const months: { key: string; label: string; rows: typeof entries }[] = [];
+for (const e of entries) {
+  const key = e.c.date.slice(0, 7);
+  let g = months.find((m) => m.key === key);
+  if (!g) { g = { key, label: `${key.slice(0, 4)} 年 ${Number(key.slice(5))} 月`, rows: [] }; months.push(g); }
+  g.rows.push(e);
+}
 ---
-<Base title="茶逢知己｜唐娓老師" description="唐娓老師香港經濟日報專欄，茶葉、器物、教學與日常的專欄選編及原刊目錄。" path="/columns/">
+<Base title="茶逢知己｜唐娓老師" description={`茶逢知己是唐娓老師在《香港經濟日報》的專欄，談茶葉、器物、教學與日常。這裏收錄 ${have} 篇專欄選編，並列出專欄全部 ${items.length} 篇篇目與刊出月份。`} path="/columns/">
   <PageIntro title="茶逢知己" intro="唐娓老師的香港經濟日報專欄。讀一片葉的來處，也讀茶與人的相處。" />
   <section class="wrap section" style="padding-top:0">
-    <p class="label">唐娓 · 香港經濟日報專欄</p>
-    <h2 class="h2" style="margin:8px 0 16px">全部 34 篇篇目</h2>
-    <p class="muted" style="margin-bottom:32px;max-width:var(--measure)">收錄專欄目錄中的 34 篇文章，從茶葉、器物，讀到教學與日常。2025 年 6 月至 2026 年 2 月，已收錄 33 篇專欄選編，原刊於《香港經濟日報》世情館。</p>
-    <ol class="plain-list">
-      {items.map((c) => (
-        <li>
-          {c.slug ? (
-            <a class="row-link" href={u(`/journal/${c.slug}/`)}><span class="label">{fmt(c.date)}</span><h3>{c.title}</h3><span class="label">專欄選編</span></a>
+    <p class="muted" style="margin-bottom:48px;max-width:var(--measure)">專欄共 {items.length} 篇篇目，其中 {have} 篇有網站選編，原刊於《香港經濟日報》世情館。其餘篇目暫未收錄，先列出題目。</p>
+    {months.map((m) => (
+      <section class="month-group" aria-labelledby={`m-${m.key}`}>
+        <h2 class="month-label" id={`m-${m.key}`}>{m.label}</h2>
+        <div class="month-items">
+          {m.rows.map(({ c, a }, ri) => a ? (
+            <ArticleCard variant="compact" level={3} href={`/journal/${a.id}/`} title={a.data.title} excerpt={a.data.excerpt} cover={a.data.cover} alt="" category="專欄選編" date={fmtDate(new Date(c.date))} vt={`c-${a.id}`} priority={m.key === months[0].key && ri < 2} />
           ) : (
-            <div class="row-link" style="display:grid;gap:4px;padding:20px 0"><span class="label">{fmt(c.date)}</span><h3>{c.title}</h3><span class="label">暫未收錄選編</span></div>
-          )}
-        </li>
-      ))}
-    </ol>
+            <article class="card compact no-cover"><div class="info" style="display:grid;gap:8px;align-content:start"><div class="meta"><span>暫未收錄選編</span><span>{fmtDate(new Date(c.date))}</span></div><h3>{c.title}</h3></div></article>
+          ))}
+        </div>
+      </section>
+    ))}
   </section>
 </Base>

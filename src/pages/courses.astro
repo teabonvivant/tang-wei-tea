@@ -3,22 +3,40 @@ import Base from '../layouts/Base.astro';
 import PageIntro from '../components/PageIntro.astro';
 import Conversation from '../components/Conversation.astro';
 import Arrow from '../components/Arrow.astro';
-import { u, wa, imgInfo } from '../lib/site';
+import { u, wa, imgInfo, abs } from '../lib/site';
+import { teaClasses } from '../lib/schedule';
 const photo = imgInfo('/images/teaching-1.jpg');
+// 班期不寫在這裏：最新班期由 lib/schedule.ts 在建置時讀客服知識庫，過期的班不顯示。
 const courses = [
-  { t: '茶藝師專業培訓', p: ['內容包括六大茶類、茶具與用水、沖泡控制、感官品鑑，以及茶席設計與待客禮儀。由屯門文藝協進會主辦、學會協辦。', '2026 年 10 至 12 月開設佐敦及屯門班，共 10 課。課程結業證書與內地職業考試分開安排。'], q: '你好，我想查詢「茶藝師專業培訓」的班期及收費。' },
-  { t: '個人及小組精讀', p: ['以個人或最多四人自組形式，安排兩節共十小時學習，於佐敦或屯門課室進行。日期須預約，適合集中整理茶藝理論及實作。'], q: '你好，我想查詢「個人及小組精讀」課程。' },
-  { t: '普洱古樹茶研習', p: ['從代表茶區認識山頭特色，練習品鑑與沖泡，交流茶葉辨識及收藏觀察。歷年研習內容涵蓋茶區、原料與加工，從杯中滋味認識普洱。'], q: '你好，我想查詢「普洱古樹茶研習」。' },
-  { t: '學校與機構合作', p: ['學會提供茶藝工作坊及培訓課程，可按對象安排六大茶類、製作工藝、品飲及沖泡主題。'], q: '你好，我想查詢學校或機構的茶藝活動安排。' },
+  { t: '茶藝師專業培訓', p: ['內容包括六大茶類、茶具與用水、沖泡控制、感官品鑑，以及茶席設計與待客禮儀。由屯門文藝協進會主辦、學會協辦，設佐敦及屯門兩個地點。', '課程結業證書與內地職業考試分開安排。'], who: '想系統認識中國茶藝、提升生活品味，或打算入行、開茶空間、報考茶藝師資格的人。', after: '學完能分辨主要茶類，穩定地沖一壺茶，也能安排一席待客的茶。', q: '你好，我想查詢「茶藝師專業培訓」的班期及收費。' },
+  { t: '個人及小組精讀', p: ['以個人或最多四人自組形式，安排兩節共十小時學習，於佐敦或屯門課室進行。日期須預約，適合集中整理茶藝理論及實作。'], who: '時間難配合固定班期，或想針對某部分多花時間的人。', after: '學完能把零散的知識理成一條線，帶走自己的練習方法。', q: '你好，我想查詢「個人及小組精讀」課程。' },
+  { t: '普洱古樹茶研習', p: ['從代表茶區認識山頭特色，練習品鑑與沖泡，交流茶葉辨識及收藏觀察。歷年研習內容涵蓋茶區、原料與加工，從杯中滋味認識普洱。'], who: '對普洱茶、山頭茶、品飲與收藏有興趣的人。', after: '學完能說出幾個代表茶區的特色，用自己的話描述一杯普洱。', q: '你好，我想查詢「普洱古樹茶研習」。' },
+  { t: '學校與機構合作', p: ['學會提供茶藝工作坊及培訓課程，可按對象安排六大茶類、製作工藝、品飲及沖泡主題。'], who: '學校、社福機構、中心、企業與社區團體。', after: '活動按對象設計，參加者能親手沖泡，帶走一點可以在日常用上的茶知識。', q: '你好，我想查詢學校或機構的茶藝活動安排。' },
 ];
+const classes = teaClasses();
 const faq = [
   ['沒有基礎，可以參加嗎？', '可先從入門茶藝或個人、小組課程了解。聯絡時說明平日飲茶習慣、想學的內容與可上課時間，方便安排合適方向。'],
   ['課程證書與職業資格有甚麼分別？', '課程結業與內地職業資格考試屬不同安排。報名前請向主辦方確認證書名稱、發證機構、考試要求及是否另有費用。'],
   ['學校或機構如何安排活動？', '可提供參加者年齡、人數、活動地點、時長與學習目的，再商議講座、觀察、實作及交流的比例。'],
-  ['在哪裏查看班期與收費？', '班期、地點與收費以最新安排為準，請直接用 WhatsApp 查詢。'],
+  ['在哪裏查看班期與收費？', '最新班期見本頁上方的列表；收費以最新安排為準，請直接用 WhatsApp 查詢。'],
+];
+const provider = { '@type': 'Organization', name: '香港古樹茶文化學會' };
+const jsonld = [
+  { '@context': 'https://schema.org', '@type': 'WebPage', name: '課程與合作｜唐娓老師', url: abs('/courses/'), inLanguage: 'zh-Hant-HK', isPartOf: { '@type': 'WebSite', name: '唐娓老師', url: abs('/') } },
+  {
+    '@context': 'https://schema.org', '@type': 'Course', name: '茶藝師專業培訓', inLanguage: 'zh-Hant-HK', provider,
+    description: '內容包括六大茶類、茶具與用水、沖泡控制、感官品鑑，以及茶席設計與待客禮儀。',
+    ...(classes.length ? {
+      hasCourseInstance: classes.map((c) => ({
+        '@type': 'CourseInstance', courseMode: 'onsite', name: `${c.place} ${c.code} 班`, startDate: c.start, endDate: c.end, instructor: { '@type': 'Person', name: '唐娓' },
+        location: { '@type': 'Place', name: c.place === '屯門' ? '屯門文藝協進會' : '香港古樹茶文化學會佐敦課室', address: { '@type': 'PostalAddress', streetAddress: c.location, addressLocality: c.place, addressCountry: 'HK' } },
+      })),
+    } : {}),
+  },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
 ];
 ---
-<Base title="課程與合作｜唐娓老師" description="唐娓老師的中國茶藝課程、個人及小組精讀、普洱研習，以及學校與機構茶文化活動。" path="/courses/">
+<Base title="課程與合作｜唐娓老師" description="香港中國茶藝課程：茶藝師專業培訓、個人及小組精讀、普洱古樹茶研習，以及學校與機構的茶文化活動。班期、地點見本頁，可用 WhatsApp 向唐娓老師查詢。" path="/courses/" jsonld={jsonld}>
   <PageIntro title="課程與合作" intro="認識茶葉，親手沖泡，練習把感受說清楚。由日常興趣開始，慢慢學成一套有系統的知識。" />
   <section class="wrap section split" style="padding-top:0">
     <figure>
@@ -31,14 +49,34 @@ const faq = [
       <a class="text-link" href={u('/contact/')}><span>查詢適合自己的課程</span><Arrow /></a>
     </div>
   </section>
+  {classes.length > 0 && (
+    <section class="wrap section" style="padding-top:0" aria-labelledby="schedule-h">
+      <h2 class="h2" id="schedule-h" style="margin-bottom:12px">最新班期</h2>
+      <p class="muted" style="margin-bottom:32px;max-width:var(--measure)">茶藝師專業培訓現正招生。名額與收費以最新安排為準，請用 WhatsApp 查詢。</p>
+      <ul class="schedule" data-stagger="cards">
+        {classes.map((c) => (
+          <li class="class-row">
+            <div class="class-head"><h3>{c.place} {c.code} 班</h3></div>
+            <dl class="class-facts">
+              <div><dt>日期</dt><dd><span class="nb">{c.startText}</span> <span class="nb">至 {c.endText}</span></dd></div>
+              <div><dt>時間</dt><dd><span class="nb">{c.weekText}</span> <span class="nb">{c.slotText}</span></dd></div>
+              <div><dt>地點</dt><dd>{c.location}</dd></div>
+            </dl>
+            <a class="text-link" href={wa(`你好，我想查詢茶藝師專業培訓${c.place} ${c.code} 班（${c.dateText}）。`)}><span>查詢這一班</span><Arrow /></a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
   <section class="wrap section" style="padding-top:0">
-    <p class="label">唐老師的茶藝教學</p>
-    <h2 class="h2" style="margin:8px 0 32px">課程與學習方向</h2>
-    <div class="cards-2">
+    <h2 class="h2" style="margin:0 0 32px">課程與學習方向</h2>
+    <div class="cards-2" data-stagger="cards">
       {courses.map((c) => (
         <article class="box">
           <h3>{c.t}</h3>
           {c.p.map((x) => <p>{x}</p>)}
+          <p class="fit"><strong>適合：</strong>{c.who}</p>
+          <p class="fit"><strong>學完：</strong>{c.after}</p>
           <p><a class="button" href={wa(c.q)}>WhatsApp 查詢</a></p>
         </article>
       ))}
@@ -46,7 +84,7 @@ const faq = [
   </section>
   <section class="wrap section faq" style="padding-top:0">
     <h2 class="h2" style="margin-bottom:32px">報名前，先把問題問清楚</h2>
-    {faq.map(([q, a]) => <details><summary>{q}</summary><p>{a}</p></details>)}
+    {faq.map(([q, a]) => <details><summary>{q}</summary><div class="faq-body"><div><p>{a}</p></div></div></details>)}
   </section>
   <Conversation />
 </Base>

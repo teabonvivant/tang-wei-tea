@@ -2,22 +2,38 @@
 import Base from '../../../layouts/Base.astro';
 import PageIntro from '../../../components/PageIntro.astro';
 import JournalList from '../../../components/JournalList.astro';
-import { allArticles } from '../../../lib/site';
+import SearchBox from '../../../components/SearchBox.astro';
+import { allArticles, u, abs, JOURNAL_PER_PAGE } from '../../../lib/site';
 export async function getStaticPaths() {
+  const OLD_PAGES = 12; // 舊版每頁 12 篇共 12 頁；新版每頁 24 篇，舊的第 7–12 頁留一頁轉向，避免已被收錄的網址變 404
   const all = await allArticles();
-  const PER = 12;
-  const pages = Math.ceil(all.length / PER);
-  return Array.from({ length: pages - 1 }, (_, i) => i + 2).map((n) => ({
+  const pages = Math.ceil(all.length / JOURNAL_PER_PAGE);
+  const real = Array.from({ length: pages - 1 }, (_, i) => i + 2).map((n) => ({
     params: { n: String(n) },
-    props: { items: all.slice((n - 1) * PER, n * PER), page: n, pages, total: all.length },
+    props: { items: all.slice((n - 1) * JOURNAL_PER_PAGE, n * JOURNAL_PER_PAGE), page: n, pages, total: all.length, redirectTo: 0 },
   }));
+  const old = Array.from({ length: Math.max(0, OLD_PAGES - pages) }, (_, i) => pages + 1 + i).map((n) => ({
+    params: { n: String(n) },
+    props: { items: [], page: n, pages, total: all.length, redirectTo: Math.min(pages, Math.ceil(n / 2)) },
+  }));
+  return [...real, ...old];
 }
-const { items, page, pages, total } = Astro.props;
+const { items, page, pages, total, redirectTo } = Astro.props;
+const target = redirectTo > 1 ? `/journal/page/${redirectTo}/` : '/journal/';
 ---
-<Base title={`茶間筆記 第 ${page} 頁｜唐娓老師`} description={`茶間筆記與茶逢知己全部文章，第 ${page} 頁，共 ${pages} 頁。`} path={`/journal/page/${page}/`}>
-  <PageIntro title="茶間筆記" intro="一百篇日常茶筆記，加上唐老師的「茶逢知己」。" />
-  <section class="wrap" style="padding-bottom:128px">
-    <p class="muted" style="margin-bottom:24px">全部文章，共 {total} 篇 · 第 {page} / {pages} 頁</p>
-    <JournalList items={items} page={page} pages={pages} />
-  </section>
-</Base>
+{redirectTo ? (
+  <Base title={`茶間筆記 第 ${page} 頁｜唐娓老師`} description={`茶間筆記舊版第 ${page} 頁，已移到新的目錄頁，內容相同，只是每頁篇數增加。`} path={`/journal/page/${page}/`} noindex noCanonical>
+    <meta slot="head" http-equiv="refresh" content={`0;url=${u(target)}`} />
+    <link slot="head" rel="canonical" href={abs(target)} />
+    <section class="wrap not-found"><h1>目錄已搬到新的一頁。</h1><p><a class="text-link" href={u(target)}>前往茶間筆記</a></p></section>
+  </Base>
+) : (
+  <Base title={`茶間筆記 第 ${page} 頁｜唐娓老師`} description={`唐娓老師的茶間筆記與茶逢知己專欄文章目錄，第 ${page} 頁，共 ${pages} 頁。按主題分類閱讀，每篇文末都附延伸閱讀。`} path={`/journal/page/${page}/`}>
+    <PageIntro title="茶間筆記" intro="一百篇日常茶筆記，加上唐老師的「茶逢知己」。" />
+    <section class="wrap" style="padding-bottom:128px">
+      <SearchBox id="journal-search" />
+      <p class="muted" style="margin-bottom:24px">全部文章，共 {total} 篇 · 第 {page} / {pages} 頁</p>
+      <JournalList items={items} page={page} pages={pages} />
+    </section>
+  </Base>
+)}
