@@ -273,7 +273,7 @@ a { color: inherit; }
 .hero-image, .hero-lines { transform-origin: 68.7% 72.9%; }
 .hero-lines { pointer-events: none; overflow: visible; }
 .hero-shade { position: absolute; inset: 0; z-index: -1; background: linear-gradient(0deg, rgba(var(--hero-shade), 0.92) 0%, rgba(var(--hero-shade), 0.8) 45%, rgba(var(--hero-shade), 0.3) 72%, rgba(var(--hero-shade), 0.35) 100%); }
-@media (min-width: 768px) { .hero-shade { background: linear-gradient(90deg, rgba(var(--hero-shade), 0.8) 0%, rgba(var(--hero-shade), 0.66) 38%, rgba(var(--hero-shade), 0.05) 78%), linear-gradient(0deg, rgba(var(--hero-shade), 0.92) 0%, rgba(var(--hero-shade), 0.7) 40%, rgba(var(--hero-shade), 0.1) 70%, rgba(var(--hero-shade), 0.35) 100%); } }
+@media (min-width: 768px) and (orientation: landscape) { .hero-shade { background: linear-gradient(90deg, rgba(var(--hero-shade), 0.8) 0%, rgba(var(--hero-shade), 0.66) 38%, rgba(var(--hero-shade), 0.05) 78%), linear-gradient(0deg, rgba(var(--hero-shade), 0.92) 0%, rgba(var(--hero-shade), 0.7) 40%, rgba(var(--hero-shade), 0.1) 70%, rgba(var(--hero-shade), 0.35) 100%); } }
 .hero-content { position: relative; z-index: 1; padding-block: 120px 56px; display: grid; gap: 24px; }
 .hero-identity { font-size: 16px; letter-spacing: 0.12em; color: var(--on-deep); }
 .hero h1 { font-size: clamp(27px, 8.4vw, 64px); line-height: 1.3; letter-spacing: 0.04em; }
@@ -560,9 +560,9 @@ a { color: inherit; }
 .crackmap:has(.crack-links a[data-c='people']:hover, .crack-links a[data-c='people']:focus-visible) .crack[data-c='people'] .gold-line { opacity: 1; stroke-width: 4px; }
 
 /* 手機版主圖：器物放在上半部，文字落在下方深綠漸變上，金線沿同一隻杯的裂紋描出 */
-@media (max-width: 767px) {
-  /* 手機：照片以 1400px 實際寬度繪出，整隻裂杯（約 190×160px）落在上半部中央，金線約 130px 長 */
-  .hero-stage { inset: 0 0 auto 0; height: 64svh; --sh: 64svh; --z: 1; --w: 1400px; --cx: 50vw; --cy: 36svh; --sw: 3.5; }
+@media (max-width: 767px), (orientation: portrait) {
+  /* 手機與直向平板：照片以約 1400px 實際寬度繪出，整隻裂杯（約 190×160px）落在上半部中央，金線約 130px 長；文字在下方深色漸變上 */
+  .hero-stage { inset: 0 0 auto 0; height: 64svh; --sh: 64svh; --z: 1; --w: max(100vw, min(1400px, calc(var(--sh) * 2.6))); --cx: 50vw; --cy: calc(var(--sh) * 0.7 - 85px); --sw: 3.5; }
   .hero-stage:not(.hero-stage-lines)::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 70%, var(--green-deep) 100%); }
 }
-@media (min-width: 768px) and (max-width: 1023px) { .hero-stage { --z: 1; --cx: 70vw; --cy: 62svh; --sw: 3.2; } }
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) { .hero-stage { --z: 1; --cx: 70vw; --cy: 62svh; --sw: 3.2; } }

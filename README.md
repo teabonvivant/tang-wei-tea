@@ -18,7 +18,7 @@ src/styles/global.css        全部樣式（色彩 token、字級、動畫）
 src/scripts/site.js          全站唯一的腳本：選單、深淺色、詞條 popover、進場
 plugins/remark-site.mjs      Markdown 擴充：[[詞條]]、站內連結加 base、圖片寬高
 public/images/               全部舊圖片網址原樣保留（社交平台快取不會斷）
-scripts/                     建置後字體處理、輸出檢查、一次性遷移腳本
+scripts/                     建置後字體處理、輸出檢查、一次性遷移腳本；make_hero_avif.mjs（首頁主圖 AVIF）、make_jpg_variants.mjs（內文 JPG 640／960 縮圖）、make_brand_assets.py（favicon、apple-touch-icon、og-default.jpg）、make_og.mjs（建置後為每篇文章出 1200×630 分享圖，只進 dist）
 research/                    內部資料，不會被打包：來源 YAML、生圖提示及紀錄
 fonts-src/                   標題字體來源（昭源宋體 Medium，SIL OFL 1.1）
 ```
@@ -54,7 +54,8 @@ python3 -I scripts/check_dist.py dist --base /tang-wei-tea
 
 1. `astro build`：靜態輸出，`trailingSlash: always`、`build.format: directory`，154 個舊網址全部保留（`/topics/`、`/journal/`、`/works/` 等不變）。
 2. `scripts/postbuild.mjs` → `scripts/subset_fonts.py`：按每頁實際出現的標題用字，把昭源宋體切成 woff2（每頁約 20 至 60 KB），寫入該頁 `<head>`。正文用系統字體。
-3. CI 再跑 `scripts/check_dist.py`：舊網址、站外連結（只准 `wa.me`）、站外資源、AI 痕跡字串、破折號、title／description／canonical／og:image、每頁一個 h1、sitemap、圖片 alt 與寬高、站內斷鏈。任何一項不過，建置失敗。
+3. `scripts/make_og.mjs`：由每篇封面置中裁出 `dist/images/og/<slug>.jpg`（1200×630 JPG），對應 Base 的 og:image。
+4. CI 再跑 `scripts/check_dist.py`：舊網址、站外連結（只准 `wa.me`）、站外資源、AI 痕跡字串、破折號、title／description／canonical／og:image、每頁一個 h1、sitemap、圖片 alt 與寬高、站內斷鏈。任何一項不過，建置失敗。
 
 ## 加內容
 
@@ -91,6 +92,10 @@ python3 -I scripts/check_dist.py dist --base /tang-wei-tea
 7. 出問題即用上面的回滾 2。
 
 ## 設計與動畫備註
+
+- 首頁主圖（`index.astro`＋`global.css` 的 `.hero-stage`）：以 `--cx／--cy` 指定裂杯落在畫面哪裏、`--z` 為放大倍數，`clamp` 保證圖片蓋滿；金線（`crack`／`branch` 兩條路徑，原圖 1400×933 座標，另有光暈層）畫在深色遮罩之上，圖片 decode 完成（`site.js` 加 `.ready`）後才以 900ms ease-out 畫出，無 JS 或減少動態時直接完整顯示。手機與直向平板用 1400px 實寬、裂杯在上半部中央。改圖或改裁切後要目視核對金線仍沿杯身。
+- 文章頁 h1、署名、導言逐件上移（600ms／90ms），封面 `clip-path` 揭開 900ms；由目錄經共用元素過場進入時（`html.vt-in`）不再揭開。正文不動。
+- 結構化資料：Base 自動補 WebPage／CollectionPage／AboutPage／ContactPage＋BreadcrumbList（麵包屑由 `crumbsFor(path)` 推出，文章頁自帶）；文章 `dateModified` 取內容檔的 git 最後修改日（建置需要完整 git 歷史，CI 已設 `fetch-depth: 0`），`datePublished` 取 frontmatter；專欄原文不給 dateModified。
 
 - 色彩 token、字級、動畫清單見 `src/styles/global.css` 開頭與構思報告第 5.5、5.6 節。金色只用於：首頁主圖金線、器物入口與修器目錄的金線及裂紋地圖、閱讀進度線。
 - 動畫只動 `transform`、`opacity`、`stroke-dashoffset`；沒有 `scroll` 事件監聽；`prefers-reduced-motion: reduce` 時位移動畫停止、金線直接完整顯示、換頁過場關閉。
