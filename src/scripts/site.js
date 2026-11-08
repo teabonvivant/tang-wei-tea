@@ -10,15 +10,30 @@ document.querySelectorAll('[data-theme-toggle]').forEach((b) =>
   })
 );
 
+// 首頁主圖（M-03、M-04）：圖片 decode 完成才讓金線開始畫；入場結束後撤走 will-change
+const hero = document.querySelector('.hero');
+const heroImg = hero && hero.querySelector('.hero-image');
+if (hero && heroImg) {
+  const go = () => requestAnimationFrame(() => hero.classList.add('ready'));
+  (heroImg.decode ? heroImg.decode() : Promise.reject()).then(go, go);
+  setTimeout(go, 3000); // 後備：圖片過慢或 decode 無回應時仍畫出金線
+  const settle = () => hero.classList.add('settled');
+  heroImg.addEventListener('transitionend', (e) => { if (e.propertyName === 'transform') settle(); });
+  setTimeout(settle, 3500);
+}
+
 // 手機選單（動8）
 const dlg = document.getElementById('mobile-menu');
 const opener = document.querySelector('[data-menu-open]');
 if (dlg && opener) {
   opener.addEventListener('click', () => { dlg.showModal(); opener.setAttribute('aria-expanded', 'true'); });
   const close = () => {
-    if (!dlg.open) return;
+    if (!dlg.open || dlg.classList.contains('closing')) return;
     dlg.classList.add('closing');
-    setTimeout(() => { dlg.close(); dlg.classList.remove('closing'); }, 150);
+    // M-10：動畫時間只寫在 CSS，結束事件才真正關閉；400ms 後備只為動畫被停用的瀏覽器
+    const done = () => { if (!dlg.classList.contains('closing')) return; dlg.close(); dlg.classList.remove('closing'); };
+    dlg.addEventListener('animationend', done, { once: true });
+    setTimeout(done, 400);
   };
   dlg.querySelector('[data-menu-close]').addEventListener('click', close);
   dlg.addEventListener('click', (e) => { if (e.target.closest('a')) close(); });

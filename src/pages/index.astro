@@ -14,28 +14,42 @@ const list = await Promise.all(['smelling-dry-leaves', 'raw-ripe-first-lesson', 
 const column = await get('tea-path-awakening-the-senses');
 const kintsugi = await getEntry('repair', 'what-is-kintsugi');
 const hero = imgInfo('/images/tea.webp');
+const heroAvif = u('/images/tea.avif').replace(/\/$/, '');
 const person = imgInfo('/images/teaching-1.jpg');
 const youth = imgInfo('/images/youth-lecture.jpg');
+// 金線：沿右前方那隻杯子（原圖座標 1400×933，杯身約 x 867–1060、y 599–762）由內壁經杯口、外壁走到杯底，另有一條短支線。
+const crack = 'M979 603 L985 619 L994 641 L989 664 L1001 674 L993 696 L1007 715 L998 734 L1003 751';
+const branch = 'M993 696 L977 706 L972 724';
 const jsonld = [
   { '@context': 'https://schema.org', '@type': 'WebSite', name: '唐娓老師', url: u('/'), inLanguage: 'zh-Hant-HK' },
   { '@context': 'https://schema.org', '@type': 'Person', name: '唐娓', jobTitle: '茶藝導師', description: '香港古樹茶文化學會會長，中國茶藝教學與普洱研習。', url: u('/about/') },
 ];
 ---
 <Base title="唐娓老師｜茶、器物與日常" description="唐老師的茶、器物與日常。中國茶藝教學、普洱茶評審與製作，以一席茶，認識生活中的文化與美。" path="/" overHero jsonld={jsonld}>
+  <link slot="head" rel="preload" as="image" type="image/avif" href={heroAvif} imagesrcset={`${heroAvif} ${hero.width}w`} imagesizes={`${hero.width}px`} fetchpriority="high" />
   <section class="hero">
-    <div class="hero-stage" aria-hidden="false">
+    <div class="hero-stage">
       <div class="hero-art">
-        <img class="hero-image" src={hero.src} width={hero.width} height={hero.height} alt="紫砂壺、白瓷杯與琥珀色的茶湯" fetchpriority="high" decoding="async" />
-        <svg class="hero-lines" viewBox="0 0 1400 933" aria-hidden="true">
-          <path class="gold-line" pathLength="1" d="M1010 667 C 1003 680, 1023 691, 1012 707 C 1004 719, 1007 730, 992 746" />
-        </svg>
+        <picture>
+          <source type="image/avif" srcset={heroAvif} />
+          <img class="hero-image" src={hero.src} width={hero.width} height={hero.height} alt="紫砂壺、白瓷杯與琥珀色的茶湯" fetchpriority="high" decoding="async" />
+        </picture>
       </div>
     </div>
     <div class="hero-shade"></div>
+    <div class="hero-stage hero-stage-lines" aria-hidden="true">
+      <div class="hero-art">
+        <svg class="hero-lines" viewBox="0 0 1400 933">
+          <path class="gold-halo" pathLength="1" d={crack} />
+          <path class="gold-halo" pathLength="1" d={branch} />
+          <path class="gold-line" pathLength="1" d={crack} />
+          <path class="gold-line" pathLength="1" d={branch} />
+        </svg>
+      </div>
+    </div>
     <div class="wrap hero-content">
-      <p class="hero-identity">唐娓老師·中國茶藝教學·普洱研習</p>
       <h1>一席茶裏，<br />有一段從容的時光。</h1>
-      <p class="hero-description"><span class="nb">一片葉的來處，</span><span class="nb">連着器物、風土，</span><span class="nb">與人的日常。</span></p>
+      <p class="hero-description"><span class="nb">香港古樹茶文化學會會長唐娓老師：</span><span class="nb">中國茶藝課程、普洱研習，</span><span class="nb">還有茶與器物的文字。</span></p>
       <div class="hero-actions">
         <a class="button on-deep" href={u('/about/')}>走近唐老師</a>
         <a class="text-link" style="color:var(--on-deep)" href={u('/journal/')}><span>讀文章</span><Arrow /></a>
@@ -47,7 +61,6 @@ const jsonld = [
 
   <section class="wrap section opening" data-stagger>
     <div>
-      <p class="vertical">在生活裏，慢慢學茶</p>
       <h2>茶喝得明白，<br />日子自然過得仔細。</h2>
     </div>
     <div class="opening-copy">
@@ -85,7 +98,6 @@ const jsonld = [
       <GoldDivider />
       <div class="split" style="margin-top:64px">
         <div class="copy" data-stagger>
-          <p class="label">器物之間，還有修補</p>
           <h2>杯子破了，<br />不一定要丟。</h2>
           <p>茶桌上的器物難免磕碰。先分清是開片還是裂縫，再想想要不要修、用甚麼方法修、修好後怎樣用。這一欄把修補的知識，放回茶桌的日常。</p>
           <div style="display:flex;flex-wrap:wrap;gap:16px;align-items:center">
@@ -100,9 +112,8 @@ const jsonld = [
 
   <section class="wrap section split reverse">
     <div class="copy" data-stagger>
-      <p class="label">唐娓 · 香港經濟日報</p>
       <h2>茶逢知己</h2>
-      <p>茶葉、器物、教學與相處，都是唐老師寫下的日常。</p>
+      <p>唐娓老師在《香港經濟日報》的專欄。茶葉、器物、教學與相處，都是唐老師寫下的日常。</p>
       <a class="text-link" href={u('/columns/')}><span>閱讀專欄選編</span><Arrow /></a>
     </div>
     <ArticleCard href={`/journal/${column.id}/`} title={column.data.title} excerpt={column.data.excerpt} cover={column.data.cover} alt={column.data.coverAlt} category="茶逢知己" date={shownDate(column)} vt={`c-${column.id}`} sizes="(min-width: 900px) 560px, 100vw" />
@@ -114,7 +125,6 @@ const jsonld = [
       <figcaption>課堂照片：香港古樹茶文化學會</figcaption>
     </figure>
     <div class="copy" data-stagger>
-      <p class="label">在課堂，親手認識一杯茶</p>
       <h2>先看見，再親手做一次。</h2>
       <p>唐娓老師為香港古樹茶文化學會會長、茶藝導師，也是「茶逢知己」專欄作者。她教的範圍，由職業茶藝培訓、普洱研習到社區與校園工作坊，最後都回到那張可以觀察、練習與交流的茶桌。</p>
       <a class="text-link" href={u('/courses/')}><span>認識課程與合作</span><Arrow /></a>
@@ -123,7 +133,6 @@ const jsonld = [
 
   <section class="wrap section split reverse" style="padding-top:0">
     <div class="copy" data-stagger>
-      <p class="label">文化教育專題 · 青年與茶</p>
       <h2>一杯茶，也走進<br />年輕人的日常。</h2>
       <p>由觀察茶樣，到坐下來親手泡茶。青年茶文化計劃留下的公開紀錄裏，可以看到茶怎樣走進校園，文化又怎樣在日常裏延續。</p>
       <a class="text-link" href={u('/projects/youth-tea-culture/')}><span>走進青年與茶</span><Arrow /></a>

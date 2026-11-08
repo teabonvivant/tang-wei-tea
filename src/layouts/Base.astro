@@ -45,6 +45,8 @@ const robots = IS_PREVIEW || noindex ? 'noindex, nofollow' : 'index, follow';
     <meta name="theme-color" content="#1c2420" media="(prefers-color-scheme: dark)" />
     <link rel="icon" href={u('/images/tea.webp').replace(/\/$/, '')} type="image/webp" />
     <script is:inline>
+      document.documentElement.classList.add('js');
+      addEventListener('pagereveal', function (e) { if (e.viewTransition) document.documentElement.classList.add('vt-in'); });
       try {
         var t = localStorage.getItem('tong-tea-theme');
         if (!t && window.matchMedia('(prefers-color-scheme: dark)').matches) t = 'dark';
