@@ -4,8 +4,8 @@ series: notes
 topic: puer
 date: 2026-09-22
 excerpt: "在茶店喝到一餅好茶，衝動往往來得很快。先取十幾克茶樣，用自己的水和壺泡幾次，再決定要不要買。"
-cover: "/images/photography-v2/storage-sample-v2.webp"
-coverAlt: "白瓷碟上的少量茶樣與小密封袋"
+cover: "/images/photography-v2/cv-small-samples-first.webp"
+coverAlt: "三隻白碟盛着不同的普洱茶樣，旁邊是小袋"
 related:
   - sample-sharing
   - buying-tea-online

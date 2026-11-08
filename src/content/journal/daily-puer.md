@@ -4,8 +4,8 @@ series: notes
 topic: puer
 date: 2026-09-22
 excerpt: "我以前也把好茶留着等日子，結果那餅一年開不到兩次。天天陪你的那款，要順口，要喝得完。"
-cover: "/images/photography-v2/puer-cabinet.webp"
-coverAlt: "以素紙包好的茶餅分開存放"
+cover: "/images/photography-v2/cv-daily-puer.webp"
+coverAlt: "敞開蓋的陶罐裝着散普洱，旁邊是一隻日常用的白馬克杯"
 related:
   - raw-ripe-first-lesson
   - ordinary-good-tea

@@ -3,8 +3,8 @@ title: "無障礙溝通的飲料"
 series: column
 date: 2025-10-06
 excerpt: "茶隨人的往來走向各地，也在不同文化裏長出新的樣貌。一杯茶，或許就是彼此交談的起點。"
-cover: "/images/columns/4018386-v1.webp"
-coverAlt: "不同地方的茶杯圍成相聚的一席"
+cover: "/images/photography-v2/cv-col-tea-a-language-across-borders.webp"
+coverAlt: "桌上並列蓋碗、西式杯碟、日式茶碗與玻璃杯"
 column:
   printedOn: 2025-10-06
   hketId: "4018386"

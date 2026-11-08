@@ -3,8 +3,8 @@ title: "茶路：喚醒感官靈魂"
 series: column
 date: 2026-02-16
 excerpt: "茶葉離開枝頭，生命並未就此停歇。循着一片葉的來處與變化，學茶也成了認識自己、理解生活的一段長路。"
-cover: "/images/photography-v2/culture-garden.webp"
-coverAlt: "林蔭下茶樹的嫩葉與老枝"
+cover: "/images/photography-v2/old-tea-tree.webp"
+coverAlt: "晨霧山林裏一棵布滿青苔的老茶樹"
 column:
   printedOn: 2026-02-16
   hketId: "4085860"

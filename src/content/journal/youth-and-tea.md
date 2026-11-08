@@ -7,8 +7,8 @@ excerpt: "課室裏，茶盤旁放着一枝喝了一半的樽裝檸檬茶。我�
 seo:
   title: "怎樣讓年輕人接觸茶文化"
   description: "與年輕人談茶，從奶茶、樽裝茶、冷泡茶等日常經驗入手，安排同茶不同時間、冷泡熱泡的對比試驗，容許不同喜好，比先講傳統更能引起興趣。"
-cover: "/images/photography-v2/daily-desk.webp"
-coverAlt: "工作桌角的一杯茶與合上的電腦"
+cover: "/images/photography-v2/cv-youth-and-tea.webp"
+coverAlt: "茶盤旁一枝喝了一半的樽裝檸檬茶，背景是課室"
 related:
   - first-lesson-questions
   - hong-kong-milk-tea

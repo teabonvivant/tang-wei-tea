@@ -4,8 +4,8 @@ series: notes
 topic: puer
 date: 2026-09-22
 excerpt: "「這是幾十年的老茶。」話一出口，桌邊的人都不好意思再問。我偏偏覺得，這時才最該問。"
-cover: "/images/photography-v2/puer-cabinet.webp"
-coverAlt: "以素紙包好的茶餅分開存放"
+cover: "/images/photography-v2/cv-age-is-not-everything.webp"
+coverAlt: "舊紙包着的普洱茶餅與一杯琥珀色的茶"
 related:
   - raw-ripe-first-lesson
   - opening-a-puer-cake

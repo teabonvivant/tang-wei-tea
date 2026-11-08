@@ -4,8 +4,8 @@ series: notes
 topic: craft
 date: 2026-09-22
 excerpt: "竹篩上攤着一層鮮葉，訪客的手已經伸過去想摸。旁邊做茶的人沒說話，眼睛卻一直跟着那隻手。"
-cover: "/images/photography-v2/craft-withering.webp"
-coverAlt: "竹篩上薄薄攤開的鮮茶葉"
+cover: "/images/photography-v2/cv-tea-workshop-visit.webp"
+coverAlt: "訪客的手停在竹篩上方，旁邊是工人戴手套的手"
 related:
   - fresh-leaf-to-tea
   - withering-is-work

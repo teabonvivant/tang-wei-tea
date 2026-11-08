@@ -4,8 +4,8 @@ series: notes
 topic: storage
 date: 2026-09-22
 excerpt: "打開一袋清香烏龍，迎面先來的是一陣咖喱粉。茶沒有壞，只是住錯了地方。"
-cover: "/images/photography-v2/puer-cabinet.webp"
-coverAlt: "以素紙包好的茶餅分開存放"
+cover: "/images/photography-v2/cv-tea-and-kitchen.webp"
+coverAlt: "廚房層架上，茶葉罐緊貼着咖哩粉與香料罐"
 related:
   - seal-the-bag
   - rainy-day-storage

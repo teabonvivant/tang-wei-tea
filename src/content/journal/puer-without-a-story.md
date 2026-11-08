@@ -4,8 +4,8 @@ series: notes
 topic: puer
 date: 2026-09-22
 excerpt: "「這是幾百年的老樹。」茶會上聽到這句，我照樣聽得入神。聽完了，再問幾個平實的問題。"
-cover: "/images/photography-v2/culture-archive.webp"
-coverAlt: "素紙茶包、舊茶罐與保存下來的痕跡"
+cover: "/images/photography-v2/cv-puer-without-a-story.webp"
+coverAlt: "白紙上一塊不帶包裝的普洱茶餅與一杯茶"
 related:
   - age-is-not-everything
   - mountain-names

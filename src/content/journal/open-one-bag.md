@@ -4,8 +4,8 @@ series: notes
 topic: storage
 date: 2026-09-22
 excerpt: "我以前也是這樣：新茶一到，每包都剪開聞一聞。幾星期後，櫃裏躺着一排半開的袋子。"
-cover: "/images/photography-v2/storage-pack.webp"
-coverAlt: "密封茶袋與蓋好的金屬茶罐"
+cover: "/images/photography-v2/cv-open-one-bag.webp"
+coverAlt: "一排剪開了口的銀色茶袋，前面放着一把剪刀"
 related:
   - buying-less-tea
   - seal-the-bag

@@ -3,8 +3,8 @@ title: "茶是萬病之藥"
 series: column
 date: 2025-09-29
 excerpt: "買茶先問用途，喝茶留意自身感受。不同地方、不同老師，也各有值得交流的品飲方式。"
-cover: "/images/photography-v2/taste-cups.webp"
-coverAlt: "俯看三杯茶湯的色澤與透亮度"
+cover: "/images/photography-v2/cv-col-finding-your-tea.webp"
+coverAlt: "一隻手從托盤上三杯不同的茶中拿起一杯"
 column:
   printedOn: 2025-09-29
   hketId: "4015322"

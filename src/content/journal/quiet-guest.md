@@ -4,8 +4,8 @@ series: notes
 topic: hosting
 date: 2026-09-22
 excerpt: "有人喝一口便滔滔不絕，有人只把杯子在手裏轉來轉去。後者未必沒有感受，可能只是還在找話。"
-cover: "/images/photography-v2/hosting-two.webp"
-coverAlt: "桌上兩杯茶與留給交談的空間"
+cover: "/images/photography-v2/cv-quiet-guest.webp"
+coverAlt: "雙手在掌心慢慢轉着一隻白瓷茶杯"
 related:
   - hosting-first-timers
   - ask-before-pouring

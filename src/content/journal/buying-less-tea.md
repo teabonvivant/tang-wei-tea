@@ -3,9 +3,9 @@ title: "這包喝到幾時"
 series: notes
 topic: storage
 date: 2026-09-22
-excerpt: "「多買幾包，計落平啲。」這句話在茶店裏聽得最多。我想問的是另一件事：這一包，你要喝多久？"
-cover: "/images/photography-v2/storage-sample-v2.webp"
-coverAlt: "白瓷碟上的少量茶樣與小密封袋"
+excerpt: "「多買幾包，算下來便宜些。」這句話在茶店裏聽得最多。我想問的是另一件事：這一包，你要喝多久？"
+cover: "/images/photography-v2/cv-buying-less-tea.webp"
+coverAlt: "木桌上一小包茶，身後是擺滿茶罐的貨架"
 related:
   - small-samples-first
   - open-one-bag
@@ -17,7 +17,7 @@ seo:
   description: "買茶不必貪大包。先估算多久喝完一包，新茶先買小包或茶樣，熟悉的茶才買大包，並先想好存放位置與開封後的喝完期限。"
 ---
 
-「多買幾包，計落平啲。」
+「多買幾包，算下來便宜些。」
 
 這句話在茶店裏聽得最多。說的人沒有錯，單價確實便宜了。可是我心裏總會多問一句：這一包，要喝多久才見底？
 

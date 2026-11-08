@@ -4,8 +4,8 @@ series: notes
 topic: storage
 date: 2026-09-22
 excerpt: "袋口一剪開，鼻子比手先到。那一下覺得不對，最要緊的是把熱水壺放下。"
-cover: "/images/photography-v2/storage-rain.webp"
-coverAlt: "陰雨天也保持乾爽整齊的存茶位置"
+cover: "/images/photography-v2/cv-when-tea-smells-wrong.webp"
+coverAlt: "一隻手把打開了的茶袋拿遠，後面是電水壺"
 related:
   - rainy-day-storage
   - tea-and-kitchen

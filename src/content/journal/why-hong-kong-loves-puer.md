@@ -3,8 +3,8 @@ title: "為何港人偏愛普洱？"
 series: column
 date: 2025-12-29
 excerpt: "同一款茶，換了地方，滋味也可能不同。茶與水、風土與飲食習慣，在一杯普洱裏相遇。"
-cover: "/images/photography-v2/culture-hk.webp"
-coverAlt: "茶樓桌上的一壺茶與一盅兩件"
+cover: "/images/photography-v2/cv-col-puer-hk.webp"
+coverAlt: "普洱茶餅、玻璃公道杯與小杯，後面是點心蒸籠"
 column:
   printedOn: 2025-12-29
   hketId: "4059525"

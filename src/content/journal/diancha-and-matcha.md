@@ -3,8 +3,8 @@ title: "日本「抹茶道」的始祖"
 series: column
 date: 2025-08-25
 excerpt: "茶筅擊拂，盞中浮起細密沫餑。從宋人的點茶風尚，認識一種流傳至今的生活藝術。"
-cover: "/images/columns/3998068-v1.webp"
-coverAlt: "茶筅、茶盞與細密的點茶茶沫"
+cover: "/images/photography-v2/cv-col-diancha-and-matcha.webp"
+coverAlt: "黑釉碗中的抹茶泡沫，旁邊是竹茶筅與茶匙"
 column:
   printedOn: 2025-08-25
   hketId: "3998068"

@@ -4,8 +4,8 @@ series: notes
 topic: craft
 date: 2026-09-22
 excerpt: "葉底攤在白碟上，邊緣一圈淡紅。這一圈紅，是在哪一步留下的？"
-cover: "/images/photography-v2/craft-withering.webp"
-coverAlt: "竹篩上薄薄攤開的鮮茶葉"
+cover: "/images/photography-v2/cv-fresh-leaf-to-tea.webp"
+coverAlt: "三隻白碟依次盛着鮮葉、萎凋後的葉與成品乾茶"
 related:
   - six-tea-families
   - withering-is-work

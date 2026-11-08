@@ -4,8 +4,8 @@ series: notes
 topic: hosting
 date: 2026-09-22
 excerpt: "談得投契，水就一壺接一壺地燒。可是杯子空了，未必是茶不夠，有時是客人想走，又不好意思開口。"
-cover: "/images/photography-v2/brew-cool.webp"
-coverAlt: "白瓷杯中放涼的茶湯與淡淡熱氣"
+cover: "/images/photography-v2/cv-closing-a-tea-gathering.webp"
+coverAlt: "夜裏的茶桌，空杯、揭開的杯蓋與爐上的水壺"
 related:
   - room-at-the-table
   - ask-before-pouring

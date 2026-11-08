@@ -3,8 +3,8 @@ title: "茶藝師的專業"
 series: column
 date: 2025-07-14
 excerpt: "把手裏的一泡茶沖好，需要的不只是熟練動作。專業在知識與實作之間，也在願意長久學習的心裏。"
-cover: "/images/photography-v2/brew-pour.webp"
-coverAlt: "蓋碗出湯時的一道金色茶流"
+cover: "/images/photography-v2/cv-col-presentation.webp"
+coverAlt: "雙手在演示前擺好茶桌上的小杯"
 column:
   printedOn: 2025-07-14
   hketId: "3977860"

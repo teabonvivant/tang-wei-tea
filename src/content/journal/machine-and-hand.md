@@ -4,8 +4,8 @@ series: notes
 topic: craft
 date: 2026-09-22
 excerpt: "製茶現場的照片裏，鏡頭最愛那雙手。我也曾被打動，後來才學會把目光移回杯裏。"
-cover: "/images/photography-v2/craft-rolling.webp"
-coverAlt: "製茶人的雙手揉捻鮮葉"
+cover: "/images/photography-v2/cv-machine-and-hand.webp"
+coverAlt: "製茶工場一角，三腳架上的手機對着竹篩上的茶葉"
 related:
   - machines-and-the-tea-makers-craft
   - fresh-leaf-to-tea

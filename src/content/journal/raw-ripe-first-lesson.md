@@ -4,8 +4,8 @@ series: notes
 topic: puer
 date: 2026-09-22
 excerpt: "「放了二十年，怎麼還是生茶？」這句問話裏，藏着兩套被混在一起的說法。"
-cover: "/images/photography-v2/puer-loose.webp"
-coverAlt: "散茶與緊壓茶的形態比較"
+cover: "/images/photography-v2/cv-raw-ripe-first-lesson.webp"
+coverAlt: "兩餅顏色深淺不同的普洱茶餅，前面是兩杯一淺一深的茶湯"
 related:
   - understanding-raw-and-ripe-puer
   - opening-a-puer-cake

@@ -4,8 +4,8 @@ series: notes
 topic: culture
 date: 2026-09-22
 excerpt: "我讀茶書，書邊常有鉛筆畫的小問號。多數畫在最動人的句子旁邊。"
-cover: "/images/photography-v2/learning-reading.webp"
-coverAlt: "翻開的茶書、書籤與一杯茶"
+cover: "/images/photography-v2/cv-reading-tea-writing.webp"
+coverAlt: "攤開的茶書，書邊有鉛筆小記號，旁邊是蓋碗"
 related:
   - puer-without-a-story
   - keep-learning

@@ -4,8 +4,8 @@ series: notes
 topic: puer
 date: 2026-09-22
 excerpt: "卡片上只有兩個字：好香。三個星期後再翻出來，我已經想不起是哪一款茶，也想不起那天怎樣泡。"
-cover: "/images/photography-v2/puer-infusions.webp"
-coverAlt: "沿着杯列觀察幾泡茶湯的變化"
+cover: "/images/photography-v2/cv-puer-brewing-record.webp"
+coverAlt: "空白的記錄小卡、鉛筆、蓋碗與一角普洱茶餅"
 related:
   - write-tasting-notes
   - one-change-at-a-time

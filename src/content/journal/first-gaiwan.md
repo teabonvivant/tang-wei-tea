@@ -7,8 +7,8 @@ excerpt: "初學蓋碗，熱水一注就縮手，多數不是手笨，是碗沿�
 seo:
   title: "第一隻蓋碗怎麼選｜容量、碗沿與材質"
   description: "給初學者的蓋碗選購想法：容量、碗沿、蓋子與出水口怎麼看，如何檢查有沒有崩口，以及買回家後用清水練習握碗和倒水。"
-cover: "/images/photography-v2/vessels-gaiwan.webp"
-coverAlt: "白瓷蓋碗的蓋、碗與托"
+cover: "/images/photography-v2/cv-first-gaiwan.webp"
+coverAlt: "一隻手按着蓋碗的蓋鈕，熱氣從碗中升起"
 related:
   - weighing-tea
   - water-before-tea

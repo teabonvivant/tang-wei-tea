@@ -3,8 +3,8 @@ title: "你是否喝對茶？"
 series: column
 date: 2025-07-21
 excerpt: "別人的好茶，未必就是自己的選擇。作者談品飲差異，也提醒茶友留意身體反應與商品品質。"
-cover: "/images/photography-v2/taste-cups.webp"
-coverAlt: "俯看三杯茶湯的色澤與透亮度"
+cover: "/images/photography-v2/cv-col-finding-your-tea.webp"
+coverAlt: "一隻手從托盤上三杯不同的茶中拿起一杯"
 column:
   printedOn: 2025-07-21
   hketId: "3981272"

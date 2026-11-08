@@ -4,8 +4,8 @@ series: notes
 topic: puer
 date: 2026-09-22
 excerpt: "茶袋上印着一個陌生的山名，讀起來就有幾分遠方的味道。人很容易先愛上名字，才去喝茶。"
-cover: "/images/photography-v2/culture-garden.webp"
-coverAlt: "林蔭下茶樹的嫩葉與老枝"
+cover: "/images/photography-v2/cv-mountain-names.webp"
+coverAlt: "印着等高線的舊地圖上放着一個茶包與空白吊牌"
 related:
   - raw-ripe-first-lesson
   - why-hong-kong-loves-puer

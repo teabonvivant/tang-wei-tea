@@ -4,8 +4,8 @@ series: notes
 topic: senses
 date: 2026-09-22
 excerpt: "朋友替你斟滿一杯，自己先喝得眉開眼笑。你嚐了一口，覺得平平無奇。這時候，話該怎麼接？"
-cover: "/images/photography-v2/hosting-two.webp"
-coverAlt: "桌上兩杯茶與留給交談的空間"
+cover: "/images/photography-v2/cv-liking-is-not-ranking.webp"
+coverAlt: "一隻手把盛着琥珀色茶的小杯遞向前"
 related:
   - blind-tasting-at-home
   - finding-the-tea-that-suits-you
@@ -34,7 +34,7 @@ seo:
 
 朋友直接問你好不好喝，坦白又不傷人的答法有幾個方向。可以說你注意到的特點，「這杯的甜感很明顯」；可以說你平常的口味，「我較習慣香氣再清一點的」；也可以反過來問對方當初為甚麼喜歡，讓對方多講兩句。
 
-我不太建議說「一般啦」「沒甚麼特別」。這類評語沒有資訊，聽的人只會覺得被否定。
+我不太建議說「一般般」「沒甚麼特別」。這類評語沒有資訊，聽的人只會覺得被否定。
 
 要談品質，才回到比較具體的事情：氣味正不正常，滋味是否協調，沖泡條件是甚麼，產品資料是否清楚。這些可以拿出來比較，不靠個人口味。即使兩個人對這些觀察相近，各自買哪一款，仍然可以不同。
 

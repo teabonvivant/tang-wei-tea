@@ -3,8 +3,8 @@ title: "喝茶也可很隨意"
 series: column
 date: 2026-01-12
 excerpt: "一隻杯、一撮茶，也能喝得自在。日常解渴、專業沖泡與精神寄託，各有自己的分寸；更重要的，是與誰同飲。"
-cover: "/images/photography-v2/daily-desk.webp"
-coverAlt: "工作桌角的一杯茶與合上的電腦"
+cover: "/images/photography-v2/cold-brew-jar.webp"
+coverAlt: "玻璃罐中的冷泡茶與一杯加冰的茶"
 column:
   printedOn: 2026-01-12
   hketId: "4066151"

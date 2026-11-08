@@ -3,8 +3,8 @@ title: "煮茶用甚麼壺？"
 series: column
 date: 2025-11-03
 excerpt: "先分清煮水與煮茶，再選手邊的壺。材質、方便與使用方式，都值得仔細考量。"
-cover: "/images/photography-v2/brew-water.webp"
-coverAlt: "玻璃水壺邊緣透出的清水與光"
+cover: "/images/photography-v2/cv-col-choosing-a-kettle.webp"
+coverAlt: "窗邊木桌上並列的玻璃壺、鐵壺與陶壺"
 column:
   printedOn: 2025-11-03
   hketId: "4031104"

@@ -7,8 +7,8 @@ excerpt: "下課後問學生記得甚麼，最常聽到的答案是：「老師�
 seo:
   title: "茶藝練習：一次只練好一個動作"
   description: "上茶課後先挑一個動作，例如穩定出水或分茶不滴漏，請老師指出一兩處調整，回家用清水每次練幾分鐘、十到二十次，並記錄結果，進步更明顯。"
-cover: "/images/photography-v2/learning-blank.webp"
-coverAlt: "第一次上茶課前備好的器具與紙筆"
+cover: "/images/photography-v2/cv-learn-one-motion.webp"
+coverAlt: "紫砂壺斜身出湯，茶流順順落入小杯"
 related:
   - first-lesson-questions
   - practice-with-water

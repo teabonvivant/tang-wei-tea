@@ -3,8 +3,8 @@ title: "茶飲也有潮流"
 series: column
 date: 2026-01-19
 excerpt: "一款茶忽然風行，又在幾年後淡出視線。潮流讓我們遇見新的滋味，而茶友長久在意的，始終是杯中的品質。"
-cover: "/images/photography-v2/culture-milk-tea.webp"
-coverAlt: "港式奶茶、厚瓷杯與布茶袋"
+cover: "/images/photography-v2/milk-tea-pour.webp"
+coverAlt: "師傅提壺把濃茶隔着布袋濾入另一隻壺"
 column:
   printedOn: 2026-01-19
   hketId: "4070082"

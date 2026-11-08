@@ -4,8 +4,8 @@ series: notes
 topic: hosting
 date: 2026-09-22
 excerpt: "酥餅一放下，桌邊的話就多了。可是遇上要認真比茶的一桌，我會先把盒子蓋上。"
-cover: "/images/photography-v2/culture-hk.webp"
-coverAlt: "茶樓桌上的一壺茶與一盅兩件"
+cover: "/images/photography-v2/cv-tea-and-snacks.webp"
+coverAlt: "蓋上蓋的點心盒旁放着蓋碗與兩隻品茗杯"
 related:
   - room-at-the-table
   - flowers-near-tea

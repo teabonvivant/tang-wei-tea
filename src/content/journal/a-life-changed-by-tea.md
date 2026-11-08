@@ -3,8 +3,8 @@ title: "喝茶提升境界"
 series: column
 date: 2025-06-30
 excerpt: "從無酒不歡，到無茶不可，一段生活轉變，也成了學茶的起點。比起名氣與價格，更值得追問的是茶的本質。"
-cover: "/images/photography-v2/daily-evening.webp"
-coverAlt: "閱讀燈旁的一杯茶與合上的書"
+cover: "/images/photography-v2/cv-col-a-life-changed-by-tea.webp"
+coverAlt: "酒瓶與酒杯退到桌後，前面放着一杯茶"
 column:
   printedOn: 2025-06-30
   hketId: "3971457"

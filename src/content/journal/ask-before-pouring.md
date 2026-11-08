@@ -4,8 +4,8 @@ series: notes
 topic: hosting
 date: 2026-09-22
 excerpt: "水壺已經放上爐，客人才說剛在樓下喝過咖啡。茶可以等一等，先把一杯清水放到他手邊。"
-cover: "/images/photography-v2/hosting-water.webp"
-coverAlt: "茶杯旁為來客備下的一杯清水"
+cover: "/images/photography-v2/cv-ask-before-pouring.webp"
+coverAlt: "為客人備下的一杯清水，茶罐與蓋碗退到桌角"
 related:
   - room-at-the-table
   - cup-not-full

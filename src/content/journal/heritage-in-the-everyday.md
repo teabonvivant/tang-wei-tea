@@ -4,8 +4,8 @@ series: notes
 topic: culture
 date: 2026-09-22
 excerpt: "課堂散了，水槽邊還有人在洗杯，一隻一隻倒扣在布上。我常覺得，傳承兩個字落到地上，大概就是這個聲音。"
-cover: "/images/photography-v2/craft-rolling.webp"
-coverAlt: "製茶人的雙手揉捻鮮葉"
+cover: "/images/photography-v2/cv-heritage-in-the-everyday.webp"
+coverAlt: "水槽邊布上倒扣着一排洗好的白瓷茶杯"
 related:
   - the-craft-of-making-tea
   - learn-one-motion

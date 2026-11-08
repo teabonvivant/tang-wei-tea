@@ -4,8 +4,8 @@ series: notes
 topic: hosting
 date: 2026-09-22
 excerpt: "客人只問了一句今天喝甚麼，主人答了十分鐘。答完，第一泡已經在杯裏涼了。"
-cover: "/images/photography-v2/storage-label.webp"
-coverAlt: "茶袋上的空白記錄卡與鉛筆"
+cover: "/images/photography-v2/cv-introduce-a-tea.webp"
+coverAlt: "一杯放涼的茶、敞開的茶葉罐與一張空白小卡"
 related:
   - ask-before-pouring
   - hosting-first-timers
@@ -18,7 +18,7 @@ seo:
   description: "向客人介紹茶，先說茶名、大概泡法和一個可留意的特點，產地年份有把握才提，故事留待第二輪。"
 ---
 
-「今日飲咩茶？」
+「今天喝甚麼茶？」
 
 客人坐下來，多半第一句就這樣問。這句話聽起來簡單，愛茶的人卻最容易答過了頭：剛說完產區，接着談樹齡、工藝、年份，再講一兩個聽回來的傳聞。話還沒停，第一泡茶已經在杯裏放涼了。
 

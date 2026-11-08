@@ -4,8 +4,8 @@ series: notes
 topic: hosting
 date: 2026-09-22
 excerpt: "壺、杯、花都擺好了，看上去很完整。客人坐下，拿着眼鏡左右看了一圈，還是放回口袋。"
-cover: "/images/photography-v2/hosting-layout.webp"
-coverAlt: "俯看器物之間留有空間的雙人茶席"
+cover: "/images/photography-v2/cv-room-at-the-table.webp"
+coverAlt: "擺滿壺、杯與花瓶的茶桌，桌邊放着一副眼鏡"
 related:
   - ask-before-pouring
   - cup-not-full

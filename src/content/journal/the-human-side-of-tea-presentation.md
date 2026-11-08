@@ -3,8 +3,8 @@ title: "茶藝展示"
 series: column
 date: 2025-12-01
 excerpt: "茶藝展示裏，動作與知識之外，還有對眼前人的留心。一席茶的溫度，來自真誠的回應。"
-cover: "/images/photography-v2/hosting-layout.webp"
-coverAlt: "俯看器物之間留有空間的雙人茶席"
+cover: "/images/photography-v2/cv-col-presentation.webp"
+coverAlt: "雙手在演示前擺好茶桌上的小杯"
 column:
   printedOn: 2025-12-01
   hketId: "4045992"

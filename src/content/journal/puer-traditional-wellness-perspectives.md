@@ -3,8 +3,8 @@ title: "普洱的隱藏功能"
 series: column
 date: 2025-09-22
 excerpt: "從茶友偏愛普洱的日常，談醇滑口感、常見配搭，以及一杯茶留在生活裏的理由。"
-cover: "/images/columns/4012235-v1.webp"
-coverAlt: "普洱與陳皮、菊花等常見配搭"
+cover: "/images/photography-v2/cv-col-puer-traditional-wellness.webp"
+coverAlt: "一杯紅濃的普洱旁放着陳皮、菊花、紅棗與枸杞"
 column:
   printedOn: 2025-09-22
   hketId: "4012235"

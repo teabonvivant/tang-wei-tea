@@ -4,8 +4,8 @@ series: notes
 topic: vessels
 date: 2026-09-22
 excerpt: "我以前也以為，湯色清亮就是好茶。後來才知道，白瓷只負責讓人看清楚，看懂是另一回事。"
-cover: "/images/photography-v2/vessels-gaiwan.webp"
-coverAlt: "白瓷蓋碗的蓋、碗與托"
+cover: "/images/photography-v2/cv-white-porcelain-day.webp"
+coverAlt: "白麻布上三隻白瓷杯，茶湯由清亮金黃到深琥珀"
 related:
   - white-porcelain-for-tasting-tea
   - sharing-pitcher

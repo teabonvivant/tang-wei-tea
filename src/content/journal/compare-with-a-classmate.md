@@ -7,8 +7,8 @@ excerpt: "兩隻蓋碗並排，同一包茶，倒出來一杯深一杯淺。桌�
 seo:
   title: "茶藝同學之間怎樣比較沖泡"
   description: "同一款茶泡出不同味道很平常。逐項核對器具、茶量、水量、水溫和時間，先交換感受再談做法，下一輪只改一項，同學間便能互相學習。"
-cover: "/images/photography-v2/learning-compare.webp"
-coverAlt: "兩組相同器具作沖泡比較"
+cover: "/images/photography-v2/cv-compare-with-a-classmate.webp"
+coverAlt: "兩隻蓋碗並排，兩個公道杯裏一深一淺的茶湯"
 related:
   - one-change-at-a-time
   - write-tasting-notes

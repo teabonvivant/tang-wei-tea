@@ -4,8 +4,8 @@ series: notes
 topic: daily
 date: 2026-09-22
 excerpt: "天黑以後屋裏靜下來，是最想坐下泡茶的時候。這一杯今晚喝不喝，只有你自己答得出。"
-cover: "/images/photography-v2/daily-evening.webp"
-coverAlt: "閱讀燈旁的一杯茶與合上的書"
+cover: "/images/photography-v2/cv-evening-choices.webp"
+coverAlt: "檯燈暖光下的一杯茶、合上的書與茶葉罐"
 related:
   - after-the-city
   - book-and-tea

@@ -7,8 +7,8 @@ excerpt: "入門、進階、專業、精讀，課程的名字一個比一個響�
 seo:
   title: "怎樣選茶藝課程？報名前要問的事"
   description: "選茶課先寫下學習目的，再核對課程大綱、實作時間、導師背景、證書性質、班級人數和收費項目，並了解試堂、補課與退款安排。"
-cover: "/images/photography-v2/learning-reading.webp"
-coverAlt: "翻開的茶書、書籤與一杯茶"
+cover: "/images/photography-v2/cv-choose-a-tea-course.webp"
+coverAlt: "木桌上並排的四張空白課程單張與一隻蓋碗"
 related:
   - first-lesson-questions
   - certificate-and-practice

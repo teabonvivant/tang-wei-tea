@@ -3,8 +3,8 @@ title: "做好一個茶人"
 series: column
 date: 2025-12-15
 excerpt: "證書以外，還有日積月累的基本功。把手上的茶做好，把自己的本分守好，也是為行業盡一份力。"
-cover: "/images/columns/4053421-v1.webp"
-coverAlt: "茶人反覆練習斟茶的雙手"
+cover: "/images/photography-v2/cv-col-becoming-a-good-tea-person.webp"
+coverAlt: "雙手持壺把茶斟進一排小杯"
 column:
   printedOn: 2025-12-15
   hketId: "4053421"

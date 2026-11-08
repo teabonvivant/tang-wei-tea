@@ -4,8 +4,8 @@ series: notes
 topic: craft
 date: 2026-09-22
 excerpt: "每年一到清明前後，總有人問新茶到了沒有。春茶值得等，但烏龍、紅茶未必以春為先，季節只是線索。"
-cover: "/images/photography-v2/culture-garden.webp"
-coverAlt: "林蔭下茶樹的嫩葉與老枝"
+cover: "/images/photography-v2/cv-season-of-picking.webp"
+coverAlt: "茶樹上剛冒出的嫩芽，後面是竹籃與晨霧"
 related:
   - tea-through-the-seasons
   - season-on-the-table

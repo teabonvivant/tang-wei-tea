@@ -4,8 +4,8 @@ series: notes
 topic: vessels
 date: 2026-09-22
 excerpt: "潮濕的日子，茶巾摺好收進抽屜，第二天拿出來，先聞到的是一股悶味。茶巾要乾，比要好看緊要。"
-cover: "/images/photography-v2/vessels-dry.webp"
-coverAlt: "清洗後倒扣晾乾的茶杯與壺蓋"
+cover: "/images/photography-v2/cv-tea-cloth.webp"
+coverAlt: "窗邊木架上晾着的茶巾與下方的白瓷杯"
 related:
   - white-porcelain-day
   - sharing-pitcher

@@ -3,8 +3,8 @@ title: "聊聊茶學"
 series: column
 date: 2026-01-05
 excerpt: "書本與茶園，各有可以教人的事。學茶的路，從理論走到實作，最後仍要回到手中的茶。"
-cover: "/images/photography-v2/learning-reading.webp"
-coverAlt: "翻開的茶書、書籤與一杯茶"
+cover: "/images/photography-v2/old-tea-tree.webp"
+coverAlt: "晨霧山林裏一棵布滿青苔的老茶樹"
 column:
   printedOn: 2026-01-05
   hketId: "4062373"

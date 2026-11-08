@@ -4,8 +4,8 @@ series: notes
 topic: daily
 date: 2026-09-22
 excerpt: "夜深了，家裏只剩電水壺在響。茶盤上的杯收起大半，桌面馬上寬了。"
-cover: "/images/photography-v2/vessels-gaiwan.webp"
-coverAlt: "白瓷蓋碗的蓋、碗與托"
+cover: "/images/photography-v2/cv-tea-for-one.webp"
+coverAlt: "夜裏小桌上一隻蓋碗與亮着小燈的電水壺"
 related:
   - morning-after-breakfast
   - a-small-tea-break

@@ -3,9 +3,9 @@ title: "嘴唇碰到那一圈"
 series: notes
 topic: vessels
 date: 2026-09-22
-excerpt: "「同一壺茶，點解呢隻杯好飲啲？」答案多半不在茶裏，在嘴唇碰到的那一圈杯沿。"
-cover: "/images/photography-v2/vessels-cup.webp"
-coverAlt: "不同杯口、弧度與厚薄的白瓷杯"
+excerpt: "「同一壺茶，為甚麼這隻杯好喝些？」答案多半不在茶裏，在嘴唇碰到的那一圈杯沿。"
+cover: "/images/photography-v2/cv-rim-of-a-cup.webp"
+coverAlt: "白瓷茶杯杯沿近照，窗光掠過杯口"
 related:
   - white-porcelain-day
   - sharing-pitcher
@@ -17,7 +17,7 @@ seo:
   description: "同一泡茶換不同的杯，入口感覺會有分別。說明杯沿厚薄、杯口張收、杯形深淺與釉面的影響，怎樣公平比較兩隻杯，以及日常選杯的實際考慮。"
 ---
 
-「同一壺茶，點解呢隻杯好飲啲？」
+「同一壺茶，為甚麼這隻杯好喝些？」
 
 茶桌邊有人這樣問，我不會笑他多心。同一泡茶換一隻杯，入口的感覺的確可能不同。
 

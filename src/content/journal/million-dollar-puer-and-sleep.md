@@ -3,8 +3,8 @@ title: "百萬普洱竟催眠？"
 series: column
 date: 2026-02-09
 excerpt: "一餅珍藏多年的普洱，竟被同學疑作假貨。由一段課堂上的對話，談老茶的滋味、個人體感，以及收藏的分寸。"
-cover: "/images/photography-v2/puer-pry.webp"
-coverAlt: "茶餅邊沿拆開後的纖維與茶針"
+cover: "/images/photography-v2/pry-needle-seam.webp"
+coverAlt: "茶針插入緊壓普洱茶餅的縫隙，茶塊落在白紙上"
 column:
   printedOn: 2026-02-09
   hketId: "4082087"

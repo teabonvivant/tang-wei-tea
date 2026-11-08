@@ -4,8 +4,8 @@ series: notes
 topic: craft
 date: 2026-09-22
 excerpt: "「紅茶，就是紅色的茶吧？」這一問很常見。答對一半，錯的那一半，正好是分類的門口。"
-cover: "/images/photography-v2/craft-leaves-corrected.webp"
-coverAlt: "不同製法呈現的六份乾茶，從葉片到緊壓茶各有形態"
+cover: "/images/photography-v2/cv-six-tea-families.webp"
+coverAlt: "六隻玻璃杯排成一列，茶湯由淺黃漸變到深褐"
 related:
   - fresh-leaf-to-tea
   - tea-oxidation

@@ -4,8 +4,8 @@ series: notes
 topic: culture
 date: 2026-09-22
 excerpt: "茶湯剛倒好，窗光落在杯沿，手已經伸向手機。按快門之前，我習慣先做幾件小事。"
-cover: "/images/photography-v2/hosting-layout.webp"
-coverAlt: "俯看器物之間留有空間的雙人茶席"
+cover: "/images/photography-v2/cv-photograph-a-tea-table.webp"
+coverAlt: "剛斟好的茶，杯沿浮着細小泡沫，後面是手機"
 related:
   - two-person-tea
   - write-tasting-notes

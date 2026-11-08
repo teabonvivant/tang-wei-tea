@@ -4,8 +4,8 @@ series: notes
 topic: senses
 date: 2026-09-22
 excerpt: "茶桌邊有人說這杯好厚。我問厚在哪裏，對方想了想，說像喝湯多過像喝水。這已經是很好的描述。"
-cover: "/images/photography-v2/vessels-cup.webp"
-coverAlt: "不同杯口、弧度與厚薄的白瓷杯"
+cover: "/images/photography-v2/cv-what-is-body.webp"
+coverAlt: "一碗濃厚的深琥珀色老茶與一杯清水對照"
 related:
   - bitterness-and-astringency
   - aftertaste-and-time
@@ -16,7 +16,7 @@ seo:
   title: "茶湯口感：厚、滑、薄是甚麼"
   description: "茶湯的厚薄指入口的質感與充實度，不等於濃淡或價錢。用日常語言描述，並統一杯子與茶量，比較才準確。"
 ---
-「呢杯好厚身。」
+「這杯好厚。」
 
 茶桌邊常聽到這句。我追問一句：厚在哪裏？對方想了想，多半說，像喝湯多過像喝水。
 

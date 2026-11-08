@@ -4,8 +4,8 @@ series: notes
 topic: hosting
 date: 2026-09-22
 excerpt: "春天花多，插完瓶總剩一兩枝，很想往茶桌上放。放是可以的，只是要矮，要淡，花瓶的水也別跟茶水混在一起。"
-cover: "/images/photography-v2/hosting-flowers.webp"
-coverAlt: "低矮花器與茶具之間的留白"
+cover: "/images/photography-v2/cv-flowers-near-tea.webp"
+coverAlt: "茶盤一角的玻璃小瓶與一枝白花，前面是蓋碗和兩隻小杯"
 related:
   - room-at-the-table
   - ask-before-pouring

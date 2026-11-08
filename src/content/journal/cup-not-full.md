@@ -4,8 +4,8 @@ series: notes
 topic: hosting
 date: 2026-09-22
 excerpt: "茶斟到杯口，杯沿就沒有一處可以下手。留三分空，客人的手才拿得穩，說話時也不必一直捧着杯。"
-cover: "/images/photography-v2/vessels-pitcher.webp"
-coverAlt: "公道杯的壺嘴、薄壁與琥珀茶湯"
+cover: "/images/photography-v2/cv-cup-not-full.webp"
+coverAlt: "手持着只斟到七分滿的白瓷小杯"
 related:
   - room-at-the-table
   - ask-before-pouring

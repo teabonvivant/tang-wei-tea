@@ -4,8 +4,8 @@ series: notes
 topic: senses
 date: 2026-09-22
 excerpt: "學生放下杯，只說一句「這杯很苦澀」，就沒有下文。我問他，是苦，還是澀？他想了一會，答不上來。"
-cover: "/images/photography-v2/taste-cups.webp"
-coverAlt: "俯看三杯茶湯的色澤與透亮度"
+cover: "/images/photography-v2/cv-bitterness-and-astringency.webp"
+coverAlt: "白瓷茶匙盛着琥珀色的茶湯，旁邊散着乾茶葉"
 related:
   - what-is-body
   - aftertaste-and-time

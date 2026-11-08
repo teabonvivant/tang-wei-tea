@@ -3,8 +3,8 @@ title: "製茶師的手藝"
 series: column
 date: 2025-07-07
 excerpt: "鮮葉離開茶樹，仍有自己的變化。製茶師以經驗與雙手，為每一批葉子尋找合適的去向。"
-cover: "/images/photography-v2/craft-rolling.webp"
-coverAlt: "製茶人的雙手揉捻鮮葉"
+cover: "/images/photography-v2/workshop-floor.webp"
+coverAlt: "製茶工場裏層層排開的竹篩與鮮葉"
 column:
   printedOn: 2025-07-07
   hketId: "3974764"

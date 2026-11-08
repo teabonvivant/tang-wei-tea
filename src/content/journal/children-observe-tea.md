@@ -7,8 +7,8 @@ excerpt: "孩子把一片乾葉翻來翻去，問它為甚麼捲着。這一問�
 seo:
   title: "兒童茶文化活動怎樣安排"
   description: "孩子可用觀察茶葉、聞香、認識茶具和清水練習倒水接觸茶文化，活動以四十五分鐘至一小時為宜，成人負責熱水與安全，也不必讓孩子喝茶。"
-cover: "/images/photography-v2/learning-blank.webp"
-coverAlt: "第一次上茶課前備好的桌面"
+cover: "/images/photography-v2/cv-children-observe-tea.webp"
+coverAlt: "孩子的手捏起一片乾茶葉，旁邊放着放大鏡"
 related:
   - first-lesson-questions
   - learn-one-motion

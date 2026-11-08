@@ -4,8 +4,8 @@ series: notes
 topic: vessels
 date: 2026-09-22
 excerpt: "水停了，壺嘴下面還掛着一滴，慢慢沿着壺身流下去。這把壺好不好看是一回事，好不好用，就看這一下。"
-cover: "/images/photography-v2/vessels-teapot.webp"
-coverAlt: "紫砂壺嘴、壺蓋與細緻泥料"
+cover: "/images/photography-v2/cv-teapot-mouth.webp"
+coverAlt: "紫砂壺嘴末端掛着一滴茶，下面是茶盤"
 related:
   - white-porcelain-day
   - one-pot-familiar-tea

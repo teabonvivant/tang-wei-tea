@@ -3,8 +3,8 @@ title: "一壺一茶"
 series: column
 date: 2025-10-20
 excerpt: "茶具不必一開始便置得齊全。從常喝的茶與生活場合出發，一把壺也有它慢慢養成的氣息。"
-cover: "/images/columns/4024205-v1.webp"
-coverAlt: "專用紫砂壺與同類烏龍茶葉"
+cover: "/images/photography-v2/cv-col-one-pot-one-kind-of-tea.webp"
+coverAlt: "紫砂壺、小杯與一碟烏龍茶葉放在石板上"
 column:
   printedOn: 2025-10-20
   hketId: "4024205"

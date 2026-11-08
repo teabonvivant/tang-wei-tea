@@ -3,8 +3,8 @@ title: "茶為萬病之藥"
 series: column
 date: 2025-12-08
 excerpt: "從人們對健康的關注，談一片茶葉的日常價值。認識茶，也認識自己的需要與口味。"
-cover: "/images/photography-v2/brew-cool.webp"
-coverAlt: "白瓷杯中放涼的茶湯與淡淡熱氣"
+cover: "/images/photography-v2/cv-col-tea-and-health.webp"
+coverAlt: "玻璃杯裏的綠茶，旁邊是新鮮茶葉與水果"
 column:
   printedOn: 2025-12-08
   hketId: "4049713"

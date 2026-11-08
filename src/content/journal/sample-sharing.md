@@ -4,8 +4,8 @@ series: notes
 topic: storage
 date: 2026-09-22
 excerpt: "打開朋友送來的茶樣，先聞到的是一陣潤手霜香。茶葉吸味快，分茶這件小事，先從洗手開始。"
-cover: "/images/photography-v2/storage-sample-v2.webp"
-coverAlt: "白瓷碟上的少量茶樣與小密封袋"
+cover: "/images/photography-v2/cv-sample-sharing.webp"
+coverAlt: "潤手霜、肥皂與一小包打開了的茶樣"
 related:
   - label-your-tea
   - small-samples-first

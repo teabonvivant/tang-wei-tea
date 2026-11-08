@@ -4,8 +4,8 @@ series: notes
 topic: daily
 date: 2026-09-22
 excerpt: "回南天一來，牆身冒汗，玻璃起霧。這種日子想泡一杯熱茶，要先替茶葉擋住那一屋濕氣。"
-cover: "/images/photography-v2/storage-rain.webp"
-coverAlt: "陰雨天也保持乾爽整齊的存茶位置"
+cover: "/images/photography-v2/cv-rain-and-a-cup.webp"
+coverAlt: "窗台上的茶葉罐與蓋碗，玻璃上滿是雨水與霧氣"
 related:
   - morning-after-breakfast
   - desk-corner

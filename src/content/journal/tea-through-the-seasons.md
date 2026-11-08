@@ -3,8 +3,8 @@ title: "夏天適合喝甚麼茶？"
 series: column
 date: 2025-08-18
 excerpt: "季節更迭，杯中的選擇也會改變。從夏日的清爽到寒日的一壺熱茶，尋找合乎自己口味的日常。"
-cover: "/images/photography-v2/brew-cool.webp"
-coverAlt: "白瓷杯中放涼的茶湯與淡淡熱氣"
+cover: "/images/photography-v2/cold-brew-jar.webp"
+coverAlt: "玻璃罐中的冷泡茶與一杯加冰的茶"
 column:
   printedOn: 2025-08-18
   hketId: "3994410"

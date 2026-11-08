@@ -3,8 +3,8 @@ title: "為何讓孩子學茶藝？"
 series: column
 date: 2025-08-04
 excerpt: "等待出湯、雙手奉茶、分享成果，一堂茶藝課，也可以是學習耐性與禮貌的開始。"
-cover: "/images/columns/3987698-v1.webp"
-coverAlt: "孩子在成人陪同下練習雙手奉茶"
+cover: "/images/photography-v2/cv-col-children-learning-the-art-of-tea.webp"
+coverAlt: "孩子與大人的雙手一同捧着奉出的茶杯"
 column:
   printedOn: 2025-08-04
   hketId: "3987698"

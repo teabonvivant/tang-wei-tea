@@ -7,8 +7,8 @@ excerpt: "手機亮起，訊息只有一句：老師，我的茶為甚麼不好�
 seo:
   title: "向茶老師提問，怎樣說才清楚"
   description: "請教沖泡問題，先交代茶種、器具、茶量、水溫與時間，再分開形容杯中哪一點不滿意；照片、茶樣和傳訊各有限制，試完一項再回報結果。"
-cover: "/images/photography-v2/taste-notebook.webp"
-coverAlt: "品飲後留在桌上的筆記、鉛筆與茶杯"
+cover: "/images/photography-v2/cv-ask-a-teacher.webp"
+coverAlt: "茶桌上亮着對話框的手機、蓋碗與茶杯"
 related:
   - first-lesson-questions
   - write-tasting-notes

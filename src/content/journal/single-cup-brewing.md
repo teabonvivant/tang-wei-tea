@@ -7,8 +7,8 @@ excerpt: "濾網從杯裏提起，一滴茶湯落在鍵盤邊。一隻杯泡茶�
 seo:
   title: "辦公室一隻杯泡茶｜濾網杯的用法"
   description: "桌面空間有限時，用帶濾網的杯也能泡好茶。說明選杯、投茶量、何時取出茶葉、不同茶類的做法，以及下班前的清洗與茶葉存放。"
-cover: "/images/photography-v2/daily-desk.webp"
-coverAlt: "工作桌角的一杯茶與合上的電腦"
+cover: "/images/photography-v2/cv-single-cup-brewing.webp"
+coverAlt: "手把濾球從玻璃杯中提起，一滴茶湯將落在桌上"
 related:
   - first-gaiwan
   - weighing-tea

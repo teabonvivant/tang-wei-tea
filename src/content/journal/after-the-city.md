@@ -4,8 +4,8 @@ series: notes
 topic: daily
 date: 2026-09-22
 excerpt: "門一關上，鞋還未脫好，人已經想着要不要泡茶。這種晚上，我只留一隻蓋碗。"
-cover: "/images/photography-v2/daily-desk.webp"
-coverAlt: "工作桌角的一杯茶與合上的電腦"
+cover: "/images/photography-v2/cv-after-the-city.webp"
+coverAlt: "玄關地上的鞋與布袋，遠處桌上亮着燈的茶具"
 related:
   - morning-after-breakfast
   - evening-choices

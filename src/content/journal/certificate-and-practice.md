@@ -7,8 +7,8 @@ excerpt: "最後一堂課收杯洗碗時，總有人問之後在家練甚麼。�
 seo:
   title: "茶藝課程結業後，如何持續練習"
   description: "完成茶藝課程後沒有人再安排功課。每星期固定泡茶、記錄沖泡條件、向茶友請教和清潔器具，可把課堂所學變成穩定的手上功夫。"
-cover: "/images/photography-v2/learning-reading.webp"
-coverAlt: "翻開的茶書、書籤與一杯茶"
+cover: "/images/photography-v2/cv-certificate-and-practice.webp"
+coverAlt: "紮好的證書卷、蓋碗、茶杯與一本空白筆記"
 related:
   - first-lesson-questions
   - keep-learning

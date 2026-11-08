@@ -3,8 +3,8 @@ title: "AI能取代真人教茶藝嗎？"
 series: column
 date: 2025-11-24
 excerpt: "同一堂課，每位學員帶走的理解都不同。教學中的調整、個人的主張與情感，是作者珍惜的部分。"
-cover: "/images/photography-v2/learning-blank.webp"
-coverAlt: "第一次上茶課前備好的器具與紙筆"
+cover: "/images/photography-v2/cv-col-ai-and-the-teacher.webp"
+coverAlt: "手機播着茶藝片段，旁邊一隻手正把水注入蓋碗"
 column:
   printedOn: 2025-11-24
   hketId: "4042142"

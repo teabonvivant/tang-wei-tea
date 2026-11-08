@@ -3,8 +3,8 @@ title: "茶品見人品"
 series: column
 date: 2025-08-11
 excerpt: "坐低飲杯茶，讓心緒先安靜下來。談茶的誠懇與待人的包容，也在杯盞之間流露。"
-cover: "/images/photography-v2/hosting-two.webp"
-coverAlt: "桌上兩杯茶與留給交談的空間"
+cover: "/images/photography-v2/cv-col-character-at-the-table.webp"
+coverAlt: "兩張空椅之間的茶盤，兩隻小杯與一把壺"
 column:
   printedOn: 2025-08-11
   hketId: "3991082"

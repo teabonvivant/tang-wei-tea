@@ -3,8 +3,8 @@ title: "飲茶是一場修行"
 series: column
 date: 2025-09-01
 excerpt: "奉茶與接茶之間，藏着待人的分寸。耐心、細心與包容，也在一席相聚中慢慢養成。"
-cover: "/images/columns/4001980-v1.webp"
-coverAlt: "奉茶與接茶的雙手"
+cover: "/images/photography-v2/cv-col-tea-as-a-daily-practice.webp"
+coverAlt: "雙手奉茶與雙手接茶的一刻"
 column:
   printedOn: 2025-09-01
   hketId: "4001980"

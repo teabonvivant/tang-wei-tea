@@ -4,8 +4,8 @@ series: notes
 topic: daily
 date: 2026-09-22
 excerpt: "那包茶我一直說改天再喝，一放就是很久。後來才明白，改天往往就是今天。"
-cover: "/images/photography-v2/daily-breakfast.webp"
-coverAlt: "早餐桌上的暖茶與烘多士"
+cover: "/images/photography-v2/cv-ordinary-good-tea.webp"
+coverAlt: "架上蒙着薄塵的茶葉罐與一隻日常用的馬克杯"
 related:
   - morning-after-breakfast
   - tea-for-one

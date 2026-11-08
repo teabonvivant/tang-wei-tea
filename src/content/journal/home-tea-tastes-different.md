@@ -7,8 +7,8 @@ excerpt: "「在店裏明明很好喝的。」說這句話的人，多半已經�
 seo:
   title: "同一包茶在家泡味道不同的原因"
   description: "店裏試飲覺得好，回家卻泡不出同樣味道，多半出在茶量、器具、水、時間和存放。這裏說明如何問、如何記、如何調整與求助商家。"
-cover: "/images/photography-v2/learning-compare.webp"
-coverAlt: "兩組相同器具作沖泡比較"
+cover: "/images/photography-v2/cv-home-tea-tastes-different.webp"
+coverAlt: "家裏餐桌上的電水壺、蓋碗、陶杯與紙袋茶樣"
 related:
   - first-gaiwan
   - weighing-tea

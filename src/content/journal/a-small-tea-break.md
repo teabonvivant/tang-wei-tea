@@ -4,8 +4,8 @@ series: notes
 topic: daily
 date: 2026-09-22
 excerpt: "學生一邊收杯一邊問我：只有十分鐘，還算不算喝茶。夠的，前提是你別在那十分鐘裏找東西。"
-cover: "/images/photography-v2/daily-desk.webp"
-coverAlt: "工作桌角的一杯茶與合上的電腦"
+cover: "/images/photography-v2/cv-a-small-tea-break.webp"
+coverAlt: "教室茶桌上一隻留着茶痕的白瓷杯與疊好的杯子"
 related:
   - morning-after-breakfast
   - desk-corner

@@ -4,8 +4,8 @@ series: notes
 topic: craft
 date: 2026-09-22
 excerpt: "初學茶時，我以為茶裏的發酵和釀酒、造豉油是同一件事。後來才知道，這個詞底下有兩個過程。"
-cover: "/images/photography-v2/craft-leaves-corrected.webp"
-coverAlt: "不同製法呈現的六份乾茶，從葉片到緊壓茶各有形態"
+cover: "/images/photography-v2/cv-tea-oxidation.webp"
+coverAlt: "兩隻白碟，一碟葉邊泛紅的烏龍，一碟深色的陳年普洱"
 related:
   - six-tea-families
   - fresh-leaf-to-tea

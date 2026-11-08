@@ -3,8 +3,8 @@ title: "品茶必備白瓷茶具"
 series: column
 date: 2025-10-27
 excerpt: "白瓷的素淨，讓乾茶與茶湯的細節留在眼前。挑選器具，有時正是為了把茶看得更清楚。"
-cover: "/images/photography-v2/vessels-gaiwan.webp"
-coverAlt: "白瓷蓋碗的蓋、碗與托"
+cover: "/images/photography-v2/cv-col-white-porcelain-tasting.webp"
+coverAlt: "白麻布上的白瓷蓋碗與兩隻品飲杯"
 column:
   printedOn: 2025-10-27
   hketId: "4027577"

@@ -4,8 +4,8 @@ series: notes
 topic: senses
 date: 2026-09-22
 excerpt: "有人說了一句蘭香，鄰座便低頭苦想蘭花是甚麼氣味。想到最後，杯裏那陣香已經散了。"
-cover: "/images/photography-v2/taste-notebook.webp"
-coverAlt: "品飲後留在桌上的筆記、鉛筆與茶杯"
+cover: "/images/photography-v2/cv-aroma-is-a-description.webp"
+coverAlt: "蓋碗蓋上的乾茶葉，旁邊放着蘭花、陳皮與桂花"
 related:
   - smelling-dry-leaves
   - bitterness-and-astringency

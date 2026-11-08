@@ -7,8 +7,8 @@ excerpt: "蓋子一斜，水從縫邊淌出來，沿着手指流到茶盤上。�
 seo:
   title: "蓋碗新手怎樣用清水練習"
   description: "初學蓋碗出湯容易手忙腳亂。先用清水練習拿起、倒出和放回，蓋碗注約七分滿，每次只改一處，常見錯誤逐項糾正，穩定後再用溫水和熱水。"
-cover: "/images/photography-v2/learning-coldpractice.webp"
-coverAlt: "用清水練習蓋碗出水的近景"
+cover: "/images/photography-v2/cv-practice-with-water.webp"
+coverAlt: "蓋碗把清水注入公道杯的練習"
 related:
   - first-lesson-questions
   - learn-one-motion

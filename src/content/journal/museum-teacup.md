@@ -4,8 +4,8 @@ series: notes
 topic: culture
 date: 2026-09-22
 excerpt: "玻璃櫃裏的杯子很安靜，像從沒裝過水。可它曾被人握過、喝過，看它之前，先想想那隻手。"
-cover: "/images/photography-v2/culture-archive.webp"
-coverAlt: "素紙茶包、舊茶罐與保存下來的痕跡"
+cover: "/images/photography-v2/cv-museum-teacup.webp"
+coverAlt: "玻璃展櫃裏靜靜擺着一隻舊茶碗"
 related:
   - lid-bowl-saucer
   - rim-of-a-cup

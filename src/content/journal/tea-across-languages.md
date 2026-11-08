@@ -4,8 +4,8 @@ series: notes
 topic: culture
 date: 2026-09-22
 excerpt: "我指一指茶壺，再指一指對方，揚一揚眉。他笑着點頭。那一刻我們還沒說上一句完整的話。"
-cover: "/images/photography-v2/hosting-two.webp"
-coverAlt: "桌上兩杯茶與留給交談的空間"
+cover: "/images/photography-v2/cv-tea-across-languages.webp"
+coverAlt: "桌兩邊的手，一隻指向茶壺，一隻遞出茶杯"
 related:
   - tea-a-language-across-borders
   - ask-before-pouring

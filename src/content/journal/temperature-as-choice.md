@@ -7,8 +7,8 @@ excerpt: "天一冷，我燙杯的次數就多了。同一壺剛滾的水，落�
 seo:
   title: "泡茶水溫怎麼定｜不必死背溫度表"
   description: "泡茶水溫看茶類、茶量和器具。嫩芽綠茶約八十度，烏龍紅茶九十度以上，普洱老白茶用沸水；先照建議泡，再用兩杯對比找出自己喜歡的溫度。"
-cover: "/images/photography-v2/learning-compare.webp"
-coverAlt: "兩組相同器具作沖泡比較"
+cover: "/images/photography-v2/cv-temperature-as-choice.webp"
+coverAlt: "水壺把滾水注入冷杯，冒出蒸氣"
 related:
   - first-gaiwan
   - weighing-tea

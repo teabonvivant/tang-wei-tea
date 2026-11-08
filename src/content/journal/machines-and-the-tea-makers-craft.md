@@ -3,8 +3,8 @@ title: "製茶業會被機械取代嗎？"
 series: column
 date: 2025-11-17
 excerpt: "效率與手藝，在製茶現場並存。作者從機械化生產談起，思考人工經驗與文化傳承的價值。"
-cover: "/images/photography-v2/craft-withering.webp"
-coverAlt: "竹篩上薄薄攤開的鮮茶葉"
+cover: "/images/photography-v2/workshop-floor.webp"
+coverAlt: "製茶工場裏層層排開的竹篩與鮮葉"
 column:
   printedOn: 2025-11-17
   hketId: "4038622"

@@ -3,8 +3,8 @@ title: "貨不對辦？"
 series: column
 date: 2026-01-26
 excerpt: "同一款茶，在店裏與家中，為何喝來不同？從水溫、器具到沖泡手法，答案也許藏在那些容易忽略的細節裏。"
-cover: "/images/photography-v2/learning-compare.webp"
-coverAlt: "兩組相同器具作沖泡比較"
+cover: "/images/photography-v2/cv-col-tastes-different-at-home.webp"
+coverAlt: "左邊是茶店的品茗盤，右邊是家裏的馬克杯與水壺"
 column:
   printedOn: 2026-01-26
   hketId: "4074060"

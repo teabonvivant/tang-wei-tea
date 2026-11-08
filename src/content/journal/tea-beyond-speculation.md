@@ -3,8 +3,8 @@ title: "茶葉炒賣"
 series: column
 date: 2025-09-08
 excerpt: "當一片茶葉被放進資本遊戲，價格便可能遠離品飲。回到杯中，重新看清買茶的本意。"
-cover: "/images/photography-v2/puer-loose.webp"
-coverAlt: "散茶與緊壓茶的形態比較"
+cover: "/images/photography-v2/pry-needle-seam.webp"
+coverAlt: "茶針插入緊壓普洱茶餅的縫隙，茶塊落在白紙上"
 column:
   printedOn: 2025-09-08
   hketId: "4005518"

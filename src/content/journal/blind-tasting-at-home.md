@@ -4,8 +4,8 @@ series: notes
 topic: senses
 date: 2026-09-22
 excerpt: "兩包茶擺在桌上，一包貴，一包平。還未開袋，我心裏已經替它們排好了位。"
-cover: "/images/photography-v2/learning-compare.webp"
-coverAlt: "兩組相同器具作沖泡比較"
+cover: "/images/photography-v2/cv-blind-tasting-at-home.webp"
+coverAlt: "三杯茶各自壓着翻轉的空白標籤"
 related:
   - between-two-teas
   - liking-is-not-ranking
