@@ -1,0 +1,9 @@
+Chiron Hei HK（昭源黑體）
+Copyright 2023-2026 Tamcy (https://github.com/chiron-fonts/chiron-hei-hk).
+Based on Source Han Sans, Copyright 2014-2025 Adobe (http://www.adobe.com/).
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+License URL: http://scripts.sil.org/OFL
+Project: https://github.com/chiron-fonts/chiron-hei-hk
+
+本網站以子集化 woff2 形式載入此字體的 Regular 字重作正文（CSS 內以 TeaSans 命名；子集檔的內部字體名亦已改為 TeaSans，原字體並無保留字體名聲明，改名屬保險做法）。
