@@ -15,6 +15,7 @@
   S1 每頁 <title> 獨立、<meta description> 獨立且非空、有 canonical、有 og:image（404 除外）
   S2 每頁剛好一個 <h1>
   S3 sitemap.xml 存在並列出所有可索引頁
+  D1 每個可索引頁的 meta description 長度 50–110 字（P-16）
   I1 所有 <img> 有 alt（裝飾圖 alt="" 並帶 aria-hidden 或 role=presentation 才算合格）及 width/height
   K1 內部連結無斷鏈：所有站內 <a href> 指向的路徑在 dist 內存在
 """
@@ -75,6 +76,7 @@ res('U1 舊網址保留', not missing and legacy, {'legacy_total': len(legacy), 
 
 ext_links, ext_res, banned_hits, dash_hits = [], [], Counter(), Counter()
 titles, descs = Counter(), Counter()
+desc_len_problems = []
 seo_problems, h1_problems, img_problems, broken = [], [], [], []
 indexable = []
 for p in html_files:
@@ -134,6 +136,8 @@ for p in html_files:
     d = soup.find('meta', attrs={'name': 'description'}); d = (d.get('content') or '').strip() if d else ''
     c = soup.find('link', rel='canonical'); og = soup.find('meta', attrs={'property': 'og:image'})
     titles[t] += 1; descs[d] += 1
+    if not 50 <= len(d) <= 110:
+        desc_len_problems.append((rt, len(d)))
     if not t or not d or not c or not og:
         seo_problems.append({'route': rt, 'title': bool(t), 'description': bool(d), 'canonical': bool(c), 'og_image': bool(og)})
     h1s = soup.find_all('h1')
@@ -151,6 +155,7 @@ res('A1 AI 痕跡字串', not banned_hits, {'count': sum(banned_hits.values()), 
 res('A2 破折號', not dash_hits, {'count': sum(dash_hits.values()), 'examples': [f'{k[0]} @ {k[1]} ×{v}' for k, v in list(dash_hits.items())[:20]]})
 dup_t = [t for t, n in titles.items() if n > 1]; dup_d = [d for d, n in descs.items() if n > 1]
 res('S1 標題/描述/canonical/OG', not seo_problems and not dup_t and not dup_d, {'problems': seo_problems[:30], 'dup_titles': dup_t[:10], 'dup_descriptions': dup_d[:10]})
+res('D1 description 長度 50–110', not desc_len_problems, {'count': len(desc_len_problems), 'examples': desc_len_problems[:30]})
 res('S2 每頁一個 h1', not h1_problems, {'problems': h1_problems[:30]})
 sm = os.path.join(DIST, 'sitemap.xml')
 locs = set()

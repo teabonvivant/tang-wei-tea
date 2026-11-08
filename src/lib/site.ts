@@ -11,6 +11,7 @@ export const IS_PREVIEW = import.meta.env.PUBLIC_PREVIEW === '1';
 export const WA_NUMBER = '85263802761'; // 沿用舊網站聯絡頁的號碼
 export const BRAND = '唐娓老師';
 export const TAGLINE = '茶、器物與日常';
+export const JOURNAL_PER_PAGE = 24; // 茶間筆記目錄每頁篇數（P-07）
 
 /** 站內路徑加 base，保證尾斜線（錨點與查詢字串原樣保留） */
 export function u(p: string): string {
@@ -145,13 +146,13 @@ export async function termUsage(): Promise<Map<string, Repair[]>> {
 // 結構化資料：真實日期（P-24）、麵包屑、頁面類型
 // ---------------------------------------------------------------------------
 
-/** 內容檔的 git 最後修改日（YYYY-MM-DD）。一次 git log 取全部，之後查表；取不到（如淺層複製）回傳 undefined。 */
+/** 檔案的 git 最後修改日（YYYY-MM-DD）。一次 git log 取 src/ 全部，之後查表；取不到（如淺層複製）回傳 undefined。 */
 let gitLast: Map<string, string> | null = null;
 function loadGitLast(): Map<string, string> {
   if (gitLast) return gitLast;
   gitLast = new Map();
   try {
-    const out = execFileSync('git', ['log', '--name-only', '--format=@@%cI', '--', 'src/content'], { cwd: process.cwd(), encoding: 'utf8', maxBuffer: 64 * 1024 * 1024, stdio: ['ignore', 'pipe', 'ignore'] });
+    const out = execFileSync('git', ['log', '--name-only', '--format=@@%cI', '--', 'src/content', 'src/pages', 'src/data'], { cwd: process.cwd(), encoding: 'utf8', maxBuffer: 64 * 1024 * 1024, stdio: ['ignore', 'pipe', 'ignore'] });
     let cur = '';
     for (const line of out.split('\n')) {
       if (line.startsWith('@@')) cur = line.slice(2, 12);
@@ -160,6 +161,7 @@ function loadGitLast(): Map<string, string> {
   } catch { /* 沒有 git 歷史就用 frontmatter 日期 */ }
   return gitLast;
 }
+export const lastModOf = (file: string): string | undefined => loadGitLast().get(file.replace(/^\.?\//, ''));
 const ymd = (d: Date) => d.toISOString().slice(0, 10);
 /** datePublished 取 frontmatter；dateModified 取 git 最後修改日（不早於發表日）。專欄原文不改，不給 dateModified。 */
 export function articleDates(entry: { filePath?: string; data: { date: Date; series?: string } }): { datePublished: string; dateModified?: string } {
@@ -239,4 +241,37 @@ export async function readNext(a: Article, related: Article[]): Promise<ReadCard
   if (cross1) out.push(articleCard(cross1));
   if (third) out.push(third);
   return out;
+}
+
+// ---------------------------------------------------------------------------
+// Meta description（P-16）：頁面人手寫 60–90 字；文章有 seo.description 用之，缺或太短就用摘要加出處句補足到 50 字以上。
+// check_dist.py 的 D1 會檢查全站 50–110 字。
+// ---------------------------------------------------------------------------
+const DESC_TAIL: Record<string, string> = {
+  column: '唐娓老師在《香港經濟日報》專欄「茶逢知己」的文章。',
+  notes: '出自唐娓老師的茶間筆記，文末附延伸閱讀。',
+  repair: '出自唐娓老師的修器欄目，講杯碗破損後的修補與使用。',
+};
+export function metaDescription(base: string, kind: 'column' | 'notes' | 'repair'): string {
+  let d = base.trim().replace(/\s+/g, '');
+  if (d.length < 50) d = `${d.replace(/[。！？]$/, '')}。${DESC_TAIL[kind]}`;
+  if (d.length < 50 || d.length > 110) throw new Error(`description 長度 ${d.length} 不在 50–110：${d}`);
+  return d;
+}
+
+// ---------------------------------------------------------------------------
+// 搜尋索引：把 Markdown 正文轉成純文字
+// ---------------------------------------------------------------------------
+export function plainText(md: string): string {
+  return md
+    .replace(/^---[\s\S]*?---\n/, '')
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+    .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, '$1')
+    .replace(/\[\[([^\]]+)\]\]/g, '$1')
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    .replace(/^#{1,6}\s+/gm, '')
+    .replace(/^>\s?/gm, '')
+    .replace(/[*_`]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
