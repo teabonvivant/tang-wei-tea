@@ -138,7 +138,8 @@ document.querySelectorAll('[data-search]').forEach((form) => {
   if (form.id === 'search') {
     const q = new URLSearchParams(location.search).get('q');
     if (q) { input.value = q; render(); }
-    if (location.hash === '#search') input.focus({ preventScroll: false });
+    // 換頁過場結束後才聚焦（過場期間設的焦點會被瀏覽器清掉）；使用者已點了別處就不搶焦點
+    if (location.hash === '#search') setTimeout(() => { if (document.activeElement === document.body) input.focus(); }, 450);
   }
 });
 
