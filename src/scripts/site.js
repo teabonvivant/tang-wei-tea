@@ -22,6 +22,126 @@ if (hero && heroImg) {
   setTimeout(settle, 3500);
 }
 
+// 頁首捲動狀態（M-11）：用頁頂哨兵的 IntersectionObserver，不監聽 scroll
+const sentinel = document.querySelector('.top-sentinel');
+const siteHeader = document.querySelector('.site-header');
+if (sentinel && siteHeader && 'IntersectionObserver' in window) {
+  new IntersectionObserver((en) => {
+    if (en[0].isIntersecting) siteHeader.removeAttribute('data-scrolled'); else siteHeader.setAttribute('data-scrolled', '');
+  }).observe(sentinel);
+}
+
+// 「文章」下拉（P-05）：按鈕開合、Esc 關閉並把焦點還給按鈕、點外面或焦點離開就關
+document.querySelectorAll('[data-drop]').forEach((drop) => {
+  const btn = drop.querySelector('.nav-drop-btn');
+  const set = (open) => { drop.classList.toggle('open', open); btn.setAttribute('aria-expanded', String(open)); };
+  btn.addEventListener('click', () => set(!drop.classList.contains('open')));
+  drop.addEventListener('keydown', (e) => { if (e.key === 'Escape' && drop.classList.contains('open')) { set(false); btn.focus(); } });
+  drop.addEventListener('focusout', (e) => { if (!drop.contains(e.relatedTarget)) set(false); });
+  document.addEventListener('click', (e) => { if (!drop.contains(e.target)) set(false); });
+});
+
+// 修器裂紋地圖（M-08）：進入視窗才加 .drawn，五條線依次畫出（延遲寫在 CSS）；後備 2.5 秒必顯示
+document.querySelectorAll('[data-crackmap]').forEach((map) => {
+  const show = () => map.classList.add('drawn');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((en) => { if (en.some((x) => x.isIntersecting)) { show(); io.disconnect(); } }, { threshold: 0.25 });
+    io.observe(map);
+  } else show();
+  setTimeout(show, 2500);
+});
+
+// FAQ 開合（M-05）：grid-template-rows 0fr↔1fr，320ms；減少動態時維持原生 details
+document.querySelectorAll('.faq').forEach((faq) => {
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  faq.classList.add('anim');
+  faq.querySelectorAll('details').forEach((d) => {
+    if (d.open) d.classList.add('is-open');
+    const body = d.querySelector('.faq-body');
+    d.querySelector('summary').addEventListener('click', (e) => {
+      e.preventDefault();
+      if (!d.open) {
+        d.open = true;
+        requestAnimationFrame(() => requestAnimationFrame(() => d.classList.add('is-open')));
+      } else if (d.classList.contains('is-open')) {
+        d.classList.remove('is-open');
+        const done = () => { if (!d.classList.contains('is-open')) d.open = false; };
+        body.addEventListener('transitionend', done, { once: true });
+        setTimeout(done, 450);
+      }
+    });
+  });
+});
+
+// 站內搜尋（P-04）：第一次聚焦才下載索引；標題、分類、摘要、正文都參與比對；所有關鍵字都要出現
+const norm = (t) => t.toLowerCase().replace(/\s+/g, ' ').trim();
+let searchIndex = null;
+const loadIndex = (url) => (searchIndex ||= fetch(url).then((r) => r.json()).catch(() => { searchIndex = null; return []; }));
+const esc = (t) => t.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+function snippet(item, terms) {
+  const hay = item.x || '';
+  for (const t of terms) {
+    const i = hay.toLowerCase().indexOf(t);
+    if (i >= 0) { const a = Math.max(0, i - 18); return (a ? '…' : '') + hay.slice(a, a + 70) + '…'; }
+  }
+  return item.e;
+}
+function runSearch(items, q) {
+  const terms = norm(q).split(' ').filter(Boolean);
+  if (!terms.length) return [];
+  const hits = [];
+  items.forEach((it, order) => {
+    const t = it.t.toLowerCase(), c = it.c.toLowerCase(), e = it.e.toLowerCase(), x = (it.x || '').toLowerCase();
+    let score = 0;
+    for (const w of terms) {
+      let s = 0;
+      if (t === w) s += 30; else if (t.includes(w)) s += 12;
+      if (c.includes(w)) s += 3;
+      if (e.includes(w)) s += 5;
+      if (x.includes(w)) s += 1 + Math.min(3, x.split(w).length - 2);
+      if (!s) return;
+      score += s;
+    }
+    hits.push({ it, score, order });
+  });
+  return hits.sort((a, b) => b.score - a.score || a.order - b.order).map((h) => h.it);
+}
+document.querySelectorAll('[data-search]').forEach((form) => {
+  const input = form.querySelector('input');
+  const list = form.querySelector('[data-search-results]');
+  const status = form.querySelector('[data-search-status]');
+  const url = form.dataset.index;
+  let seq = 0;
+  const render = async () => {
+    const q = input.value;
+    const my = ++seq;
+    if (!norm(q)) { list.hidden = true; list.innerHTML = ''; status.textContent = ''; return; }
+    const items = await loadIndex(url);
+    if (my !== seq) return;
+    const res = runSearch(items, q);
+    const terms = norm(q).split(' ').filter(Boolean);
+    if (!res.length) {
+      list.innerHTML = '<li class="r-none">找不到相關文章。換一個詞試試，例如「蓋碗」「悶泡」「存茶」。</li>';
+      status.textContent = '找不到相關文章';
+    } else {
+      list.innerHTML = res.slice(0, 8).map((it) => `<li><a href="${esc(it.u)}"><span class="r-meta">${esc(it.c)}</span><span class="r-title">${esc(it.t)}</span><span class="r-snip">${esc(snippet(it, terms))}</span></a></li>`).join('') + (res.length > 8 ? `<li class="r-none">另有 ${res.length - 8} 項，加一個關鍵字可以縮小範圍。</li>` : '');
+      status.textContent = `找到 ${res.length} 項`;
+    }
+    list.hidden = false;
+  };
+  input.addEventListener('focus', () => loadIndex(url), { once: true });
+  input.addEventListener('input', (e) => { if (!e.isComposing) render(); });
+  input.addEventListener('compositionend', render);
+  form.addEventListener('submit', (e) => { e.preventDefault(); render(); });
+  form.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !list.hidden) { input.value = ''; render(); } });
+  // 從頁首放大鏡（/journal/#search）或 ?q= 進來
+  if (form.id === 'search') {
+    const q = new URLSearchParams(location.search).get('q');
+    if (q) { input.value = q; render(); }
+    if (location.hash === '#search') input.focus({ preventScroll: false });
+  }
+});
+
 // 手機選單（動8）
 const dlg = document.getElementById('mobile-menu');
 const opener = document.querySelector('[data-menu-open]');
@@ -62,17 +182,18 @@ document.querySelectorAll('.term-pop').forEach((pop) => {
 // 進場（動2 後備、動11）：只有「不在視窗內」的元素才先隱藏，內容預設可見
 if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
   const targets = [...document.querySelectorAll('[data-stagger] > *')];
+  // --i 以「同一批一起進入視窗」的次序計，逐件延遲（間隔與上限由 CSS 的 data-stagger 類型決定）
   const io = new IntersectionObserver((entries) => {
-    entries.forEach((en) => {
-      if (!en.isIntersecting) return;
+    let k = 0;
+    entries.filter((en) => en.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top || a.boundingClientRect.left - b.boundingClientRect.left).forEach((en) => {
+      en.target.style.setProperty('--i', String(k++));
       en.target.classList.add('reveal-in');
       en.target.classList.remove('reveal-pre');
       io.unobserve(en.target);
     });
   }, { rootMargin: '0px 0px -8% 0px' });
-  targets.forEach((t, i) => {
+  targets.forEach((t) => {
     const r = t.getBoundingClientRect();
-    t.style.setProperty('--i', String(Array.from(t.parentElement.children).indexOf(t)));
     if (r.top > innerHeight) { t.classList.add('reveal-pre'); io.observe(t); }
   });
   if (!CSS.supports('animation-timeline: view()')) {

@@ -1,0 +1,16 @@
+---
+// 站內搜尋（P-04）：第一次點進輸入框才下載 /search.json；比對在瀏覽器內完成，沒有任何外部請求。
+import { u } from '../lib/site';
+interface Props { id: string; variant?: 'page' | 'menu'; }
+const { id, variant = 'page' } = Astro.props;
+const glass = 'M228.24,219.76l-51.38-51.38a86.15,86.15,0,1,0-8.48,8.48l51.38,51.38a6,6,0,0,0,8.48-8.48ZM38,112a74,74,0,1,1,74,74A74.09,74.09,0,0,1,38,112Z';
+---
+<form class:list={['search', `search-${variant}`]} role="search" action={u('/journal/')} method="get" data-search data-index={u('/search.json')} id={variant === 'page' ? 'search' : undefined}>
+  <label class="sr-only" for={id}>搜尋文章</label>
+  <div class="search-field">
+    <svg aria-hidden="true" viewBox="0 0 256 256" fill="currentColor"><path d={glass} /></svg>
+    <input id={id} name="q" type="search" placeholder="搜尋，例如：蓋碗、悶泡" autocomplete="off" enterkeyhint="search" spellcheck="false" />
+  </div>
+  <p class="sr-only" role="status" aria-live="polite" data-search-status></p>
+  <ul class="search-results" data-search-results hidden></ul>
+</form>

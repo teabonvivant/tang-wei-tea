@@ -1,32 +1,59 @@
 ---
 // 裂紋地圖：一隻碗的線稿，五條金色裂紋各連到修器目錄的一個群組。
-// 零 JavaScript：裂紋是 SVG 連結（可用 Tab 聚焦），旁邊有等效的文字連結列表。
+// 零 JavaScript 也可用：裂紋是 SVG 連結（可用 Tab 聚焦），旁邊有等效的文字連結列表。
+// T-06／P-10：桌面左碗右字（碗高約 70svh）；手機用直向版 viewBox，碗先、字後，五條連結在碗下兩欄。
+// M-08：五條裂紋依次畫出（--n 控制延遲，樣式在 global.css；site.js 在碗進入視窗時加 .drawn）。
 import { clusters, u } from '../lib/site';
 interface Props { counts: Record<string, number>; }
 const { counts } = Astro.props;
-const cracks: Record<string, string> = {
-  look: 'M116 148 C 132 186, 110 214, 124 250 S 134 292, 140 308',
-  method: 'M202 166 C 190 200, 214 226, 206 262 S 196 304, 204 328',
-  material: 'M290 168 C 304 204, 278 232, 288 270 S 300 320, 296 348',
-  table: 'M376 166 C 364 200, 388 228, 378 262 S 368 300, 374 324',
-  people: 'M452 140 C 442 176, 466 200, 456 236 S 442 270, 446 294',
+// 裂紋用折線畫，像真的碎裂；兩條帶短支線。座標都落在碗身輪廓之內。
+const desktop: Record<string, string> = {
+  look: 'M112 186 L121 214 L106 236 L124 268 L116 292 L136 326 L131 350 L152 380',
+  method: 'M190 197 L182 226 L199 250 L186 280 L204 310 L196 342 L212 372 L205 404 L219 430 M199 250 L222 266 L226 290',
+  material: 'M268 200 L279 228 L262 256 L276 288 L263 322 L278 352 L266 388 L274 420 L268 452',
+  table: 'M346 196 L338 226 L355 252 L342 284 L360 312 L351 344 L367 372 L359 402 L372 424 M342 284 L322 304 L318 326',
+  people: 'M424 182 L428 208 L414 232 L430 258 L418 286 L432 308 L420 332 L408 356',
 };
+const mobile: Record<string, string> = {
+  look: 'M70 120 L76 142 L66 160 L80 182 L74 202 L88 224 L86 242 L100 262',
+  method: 'M124 130 L118 150 L130 168 L121 190 L134 212 L128 234 L140 256 L136 276 L146 290 M130 168 L146 180 L148 196',
+  material: 'M182 132 L190 152 L178 172 L188 194 L180 216 L190 238 L182 262 L188 284 L184 304',
+  table: 'M238 130 L232 150 L244 168 L236 190 L248 210 L242 232 L254 252 L250 270 L246 280',
+  people: 'M292 120 L294 140 L284 158 L294 178 L286 198 L294 216 L286 234 L276 252',
+};
+const label = '裂紋地圖：一隻碗上的五條裂紋，各連到一個主題群組';
 ---
 <div class="crackmap" data-crackmap>
-  <svg class="gold-draw" viewBox="0 0 560 420" role="group" aria-label="裂紋地圖：一隻碗上的五條裂紋，各連到一個主題群組">
-    <ellipse class="bowl" cx="280" cy="110" rx="230" ry="56" />
-    <path class="bowl" d="M50 110 C 60 280, 170 380, 280 380 C 390 380, 500 280, 510 110" />
-    <path class="bowl" d="M212 379 L222 402 H338 L348 379" />
-    {clusters.map((c) => (
-      <a class="crack" data-c={c.id} href={`#cluster-${c.id}`} aria-label={`${c.name}，${counts[c.id] ?? 0} 篇`}>
-        <path class="hit" d={cracks[c.id]} />
-        <path class="gold-line" pathLength="1" d={cracks[c.id]} />
-      </a>
-    ))}
-  </svg>
-  <div class="crack-links">
-    {clusters.map((c) => (
-      <a data-c={c.id} href={`#cluster-${c.id}`}><strong>{c.name}</strong><span>{c.blurb}</span></a>
-    ))}
+  <div class="crackmap-art">
+    <svg class="bowl-d" viewBox="20 90 480 412" role="group" aria-label={label}>
+      <ellipse class="bowl" cx="260" cy="150" rx="215" ry="50" />
+      <path class="bowl" d="M45 150 C 50 330, 150 460, 260 460 C 370 460, 470 330, 475 150" />
+      <path class="bowl" d="M198 459 L208 492 H312 L322 459" />
+      {clusters.map((c, i) => (
+        <a class="crack" data-c={c.id} href={`#cluster-${c.id}`} aria-label={`${c.name}，${counts[c.id] ?? 0} 篇`} style={`--n:${i}`}>
+          <path class="hit" d={desktop[c.id]} />
+          <path class="gold-line" pathLength="1" d={desktop[c.id]} />
+        </a>
+      ))}
+    </svg>
+    <svg class="bowl-m" viewBox="10 56 340 290" role="group" aria-label={label}>
+      <ellipse class="bowl" cx="180" cy="96" rx="150" ry="36" />
+      <path class="bowl" d="M30 96 C 34 220, 104 312, 180 312 C 256 312, 326 220, 330 96" />
+      <path class="bowl" d="M142 311 L149 336 H211 L218 311" />
+      {clusters.map((c, i) => (
+        <a class="crack" data-c={c.id} href={`#cluster-${c.id}`} aria-label={`${c.name}，${counts[c.id] ?? 0} 篇`} style={`--n:${i}`}>
+          <path class="hit" d={mobile[c.id]} />
+          <path class="gold-line" pathLength="1" d={mobile[c.id]} />
+        </a>
+      ))}
+    </svg>
+  </div>
+  <div class="crackmap-copy">
+    <slot />
+    <div class="crack-links">
+      {clusters.map((c) => (
+        <a data-c={c.id} href={`#cluster-${c.id}`}><strong>{c.name}</strong><span>{c.blurb}</span></a>
+      ))}
+    </div>
   </div>
 </div>

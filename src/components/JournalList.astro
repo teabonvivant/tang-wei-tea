@@ -9,9 +9,9 @@ const pageHref = (n: number) => (n === 1 ? basePath : `${basePath}page/${n}/`);
 <nav class="chips" aria-label="文章類別">
   {chips.map(([id, label, href]) => <a href={u(href)} aria-current={id === current ? 'page' : undefined}>{label}</a>)}
 </nav>
-<div class="article-grid">
+<div class="article-grid compact">
   {items.map((a, i) => (
-    <ArticleCard href={`/journal/${a.id}/`} title={a.data.title} excerpt={a.data.excerpt} cover={a.data.cover} alt="" category={categoryName(a)} date={shownDate(a)} vt={`c-${a.id}`} priority={i < 2 && page === 1} level={2} />
+    <ArticleCard href={`/journal/${a.id}/`} title={a.data.title} excerpt={a.data.excerpt} cover={a.data.cover} alt="" category={categoryName(a)} date={shownDate(a)} vt={`c-${a.id}`} variant="compact" priority={i < 4 && page === 1} level={2} />
   ))}
 </div>
 {pages > 1 && (

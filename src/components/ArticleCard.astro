@@ -3,16 +3,20 @@ import Cover from './Cover.astro';
 import { u } from '../lib/site';
 interface Props {
   href: string; title: string; excerpt: string; cover: string | ImageMetadata; alt: string;
-  category?: string; date?: string; vt?: string; variant?: 'default' | 'feature' | 'row'; sizes?: string; priority?: boolean; level?: 2 | 3;
+  category?: string; date?: string; vt?: string; variant?: 'default' | 'feature' | 'row' | 'compact'; sizes?: string; priority?: boolean; level?: 2 | 3;
 }
 const { href, title, excerpt, cover, alt, category, date, vt, variant = 'default', sizes, priority, level = 3 } = Astro.props;
 const Heading = `h${level}` as 'h2' | 'h3';
+// M-07：卡片標題與文章 h1 共用 view-transition-name（c-<slug> → t-<slug>）
+// 緊湊列的封面只有 104–136px 寬，sizes 要照實寫，否則手機會下載整張大圖
+const coverSizes = sizes ?? (variant === 'compact' ? '(min-width: 640px) 136px, 104px' : undefined);
+const vtTitle = vt ? vt.replace(/^c-/, 't-') : undefined;
 ---
 <article class:list={['card', variant === 'default' ? '' : variant]}>
-  <a class="cover-link" href={u(href)} tabindex="-1" aria-hidden="true"><Cover src={cover} alt="" vt={vt} sizes={sizes} priority={priority} /></a>
+  <a class="cover-link" href={u(href)} tabindex="-1" aria-hidden="true"><Cover src={cover} alt="" vt={vt} sizes={coverSizes} priority={priority} /></a>
   <div class="info" style="display:grid;gap:8px;align-content:start">
     {(category || date) && <div class="meta">{category && <span>{category}</span>}{date && <span>{date}</span>}</div>}
-    <Heading><a href={u(href)}>{title}</a></Heading>
+    <Heading><a class:list={[{ 'vt-title': vtTitle }]} href={u(href)} style={vtTitle ? `view-transition-name: ${vtTitle}` : undefined}>{title}</a></Heading>
     <p>{excerpt}</p>
   </div>
 </article>
