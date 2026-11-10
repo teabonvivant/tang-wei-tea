@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>唐娓老師｜茶、器物與日常</title>
+  <link>https://teabonvivant.github.io/tang-wei-tea/</link>
+  <description>唐娓老師的茶間筆記與修器文章。</description>
+  <language>zh-Hant-HK</language>
+  <atom:link href="https://teabonvivant.github.io/tang-wei-tea/rss.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <title>米粒大那一塊</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/repair/when-a-cup-breaks/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/repair/when-a-cup-breaks/</guid>
+    <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
+    <category>修器</category>
+    <description>杯子碎了，先別急着黏。把每一片收好、拍照、寫下經過，修補由這一刻開始，之後修不修、怎樣修都還有選擇。</description>
+  </item>
+  <item>
+    <title>翻到杯外看</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/repair/crackle-or-crack/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/repair/crackle-or-crack/</guid>
+    <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
+    <category>修器</category>
+    <description>開片是燒成冷卻時釉面收縮留下的紋，裂縫卻穿過了胎。兩者看起來都是線，分清楚了，才知道一隻杯要不要修、還能不能盛熱茶。</description>
+  </item>
+  <item>
+    <title>最後才撒金</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/repair/what-is-kintsugi/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/repair/what-is-kintsugi/</guid>
+    <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
+    <category>修器</category>
+    <description>金繕以天然漆接合、填補、上漆，到最後一步才撒金。看上去只是一道金線，下面藏着幾層漆和幾個星期的等待。</description>
+  </item>
+  <item>
+    <title>沒有金剛鑽</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/repair/staple-repair/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/repair/staple-repair/</guid>
+    <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
+    <category>修器</category>
+    <description>鋦瓷用金剛鑽在裂縫兩邊打淺孔，再以金屬鋦釘跨住裂縫，是中國民間惜物的老手藝；它適合胎身較厚的器物，也有它的限度。</description>
+  </item>
+  <item>
+    <title>啞的還是亮的</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/repair/is-it-real-gold/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/repair/is-it-real-gold/</guid>
+    <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
+    <category>修器</category>
+    <description>金粉、金箔、黃銅粉和仿金顏料，看起來都是金色；價錢、日後會不會變色、能不能碰茶，差別就藏在材料裏。</description>
+  </item>
+  <item>
+    <title>先倒進公道杯</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/repair/hot-tea-in-repaired-cups/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/repair/hot-tea-in-repaired-cups/</guid>
+    <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
+    <category>修器</category>
+    <description>修過的杯可以喝茶，但要看修補的材料、完成了多久、平日泡甚麼茶；悶泡老茶和煮茶，尤其要多想一步。</description>
+  </item>
+  <item>
+    <title>留給自己那隻</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/repair/repaired-cup-at-the-table/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/repair/repaired-cup-at-the-table/</guid>
+    <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
+    <category>修器</category>
+    <description>修過的杯當然可以上茶席，還常常成為一席茶的話題；只是擺出來之前，先想好給誰用、客人問起時怎樣說，大家才喝得安心。</description>
+  </item>
+  <item>
+    <title>那排釘不要拆</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/repair/grandmothers-bowl/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/repair/grandmothers-bowl/</guid>
+    <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
+    <category>修器</category>
+    <description>一隻不值錢的舊碗，修不修？我會先問它在家裏怎樣被用過，因為器物的價值，有時在價錢以外，在一家人記得的那些日子。</description>
+  </item>
+  <item>
+    <title>拿得穩才好看</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/first-gaiwan/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/first-gaiwan/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>入門沖泡</category>
+    <description>初學蓋碗，熱水一注就縮手，多數不是手笨，是碗沿太直。第一隻，合手比好看要緊。</description>
+  </item>
+  <item>
+    <title>量一次就夠</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/weighing-tea/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/weighing-tea/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>入門沖泡</category>
+    <description>「放一匙就行了。」可是同一隻茶匙，裝滿烏龍和裝滿白茶，重量差很遠。</description>
+  </item>
+  <item>
+    <title>水也有味道</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/water-before-tea/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/water-before-tea/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>入門沖泡</category>
+    <description>以前我坐下來就急着開茶聞香，水是甚麼味道，從沒先嚐過。後來才發現，有些毛病，加多少茶都蓋不住。</description>
+  </item>
+  <item>
+    <title>冷杯偷走十度</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/temperature-as-choice/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/temperature-as-choice/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>入門沖泡</category>
+    <description>天一冷，我燙杯的次數就多了。同一壺剛滾的水，落到茶葉上的那一刻，未必還是你以為的溫度。</description>
+  </item>
+  <item>
+    <title>十秒之後又十秒</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/when-to-pour/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/when-to-pour/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>入門沖泡</category>
+    <description>計時器一響，學生拿起蓋碗，對着公道杯停了一下，才開始倒。那一下猶豫，茶葉沒有停。</description>
+  </item>
+  <item>
+    <title>只改一樣</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/one-change-at-a-time/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/one-change-at-a-time/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>入門沖泡</category>
+    <description>水放涼了，茶減半了，時間也縮短了，第二泡果然淡了，卻說不上好喝。剛才哪一步出錯，仍然是個謎。</description>
+  </item>
+  <item>
+    <title>把濾網提起來</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/single-cup-brewing/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/single-cup-brewing/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>入門沖泡</category>
+    <description>濾網從杯裏提起，一滴茶湯落在鍵盤邊。一隻杯泡茶，難處往往就在這一提一放之間。</description>
+  </item>
+  <item>
+    <title>等它涼一點</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/tea-after-cooling/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/tea-after-cooling/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>入門沖泡</category>
+    <description>茶剛出湯，有人端起就喝，然後縮着嘴吸一口涼氣。那一口嚐到的，多半只有熱。</description>
+  </item>
+  <item>
+    <title>第三泡收手</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/last-infusion/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/last-infusion/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>入門沖泡</category>
+    <description>茶喝完，第一句問「能泡幾次」，好像泡數愈多愈划算。我更想知道，哪一泡令你停下來多喝一口。</description>
+  </item>
+  <item>
+    <title>不必泡回店裏</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/home-tea-tastes-different/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/home-tea-tastes-different/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>入門沖泡</category>
+    <description>「在店裏明明很好喝的。」說這句話的人，多半已經在家泡了兩三次，開始懷疑是茶，還是自己。</description>
+  </item>
+  <item>
+    <title>香氣比葉先到</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/smelling-dry-leaves/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/smelling-dry-leaves/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>感官品飲</category>
+    <description>潮濕的日子，我開茶袋特別慢。袋口一鬆，香氣比葉片先到，有沒有一絲不對勁，也是這一刻最清楚。</description>
+  </item>
+  <item>
+    <title>鼻子沒有圖鑑</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/aroma-is-a-description/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/aroma-is-a-description/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>感官品飲</category>
+    <description>有人說了一句蘭香，鄰座便低頭苦想蘭花是甚麼氣味。想到最後，杯裏那陣香已經散了。</description>
+  </item>
+  <item>
+    <title>苦在舌頭</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/bitterness-and-astringency/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/bitterness-and-astringency/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>感官品飲</category>
+    <description>學生放下杯，只說一句「這杯很苦澀」，就沒有下文。我問他，是苦，還是澀？他想了一會，答不上來。</description>
+  </item>
+  <item>
+    <title>茶湯厚在哪裏</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/what-is-body/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/what-is-body/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>感官品飲</category>
+    <description>茶桌邊有人說這杯好厚。我問厚在哪裏，對方想了想，說像喝湯多過像喝水。這已經是很好的描述。</description>
+  </item>
+  <item>
+    <title>杯放低之後</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/aftertaste-and-time/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/aftertaste-and-time/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>感官品飲</category>
+    <description>杯還未放穩，「好喝」兩個字已經出口。我通常請人先等一等，讓口裏留下的東西自己走完。</description>
+  </item>
+  <item>
+    <title>葉子攤開之後</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/reading-wet-leaves/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/reading-wet-leaves/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>感官品飲</category>
+    <description>一片葉的邊緣泛紅，葉心還帶綠。茶喝淡了，這些製作留下的痕跡，才慢慢看得清楚。</description>
+  </item>
+  <item>
+    <title>每頁都寫香</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/write-tasting-notes/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/write-tasting-notes/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>感官品飲</category>
+    <description>翻開舊筆記，一頁寫滿「香、甜、滑」，幾款茶看起來一模一樣。當時的感受是真的，只是字眼太寬，裝不下細節。</description>
+  </item>
+  <item>
+    <title>把標籤翻過去</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/blind-tasting-at-home/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/blind-tasting-at-home/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>感官品飲</category>
+    <description>兩包茶擺在桌上，一包貴，一包平。還未開袋，我心裏已經替它們排好了位。</description>
+  </item>
+  <item>
+    <title>那杯水沒有倒錯</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/between-two-teas/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/between-two-teas/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>感官品飲</category>
+    <description>茶杯旁多放一杯清水，常有客人以為我倒錯了。那杯水沒有倒錯，它是留給舌頭歇一歇的。</description>
+  </item>
+  <item>
+    <title>這杯適合我</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/liking-is-not-ranking/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/liking-is-not-ranking/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>感官品飲</category>
+    <description>朋友替你斟滿一杯，自己先喝得眉開眼笑。你嚐了一口，覺得平平無奇。這時候，話該怎麼接？</description>
+  </item>
+  <item>
+    <title>二十年還是生</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/raw-ripe-first-lesson/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/raw-ripe-first-lesson/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>普洱筆記</category>
+    <description>「放了二十年，怎麼還是生茶？」這句問話裏，藏着兩套被混在一起的說法。</description>
+  </item>
+  <item>
+    <title>中央最實</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/opening-a-puer-cake/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/opening-a-puer-cake/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>普洱筆記</category>
+    <description>茶針對準茶餅正中一戳，只戳出一個小坑，碎末撒了一桌。拆茶的第一步，是看。</description>
+  </item>
+  <item>
+    <title>趕出門的早上</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/loose-or-compressed/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/loose-or-compressed/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>普洱筆記</category>
+    <description>茶刀插進茶餅邊緣，碎葉先落在桌上。這一點小麻煩，往往決定了它多久才會被打開一次。</description>
+  </item>
+  <item>
+    <title>年份寫在紙上</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/age-is-not-everything/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/age-is-not-everything/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>普洱筆記</category>
+    <description>「這是幾十年的老茶。」話一出口，桌邊的人都不好意思再問。我偏偏覺得，這時才最該問。</description>
+  </item>
+  <item>
+    <title>兩個字不夠</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/puer-brewing-record/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/puer-brewing-record/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>普洱筆記</category>
+    <description>卡片上只有兩個字：好香。三個星期後再翻出來，我已經想不起是哪一款茶，也想不起那天怎樣泡。</description>
+  </item>
+  <item>
+    <title>山名說到哪裏</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/mountain-names/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/mountain-names/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>普洱筆記</category>
+    <description>茶袋上印着一個陌生的山名，讀起來就有幾分遠方的味道。人很容易先愛上名字，才去喝茶。</description>
+  </item>
+  <item>
+    <title>一餅拆開之後</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/small-samples-first/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/small-samples-first/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>普洱筆記</category>
+    <description>在茶店喝到一餅好茶，衝動往往來得很快。先取十幾克茶樣，用自己的水和壺泡幾次，再決定要不要買。</description>
+  </item>
+  <item>
+    <title>故事歸故事</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/puer-without-a-story/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/puer-without-a-story/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>普洱筆記</category>
+    <description>「這是幾百年的老樹。」茶會上聽到這句，我照樣聽得入神。聽完了，再問幾個平實的問題。</description>
+  </item>
+  <item>
+    <title>等一個好日子</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/daily-puer/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/daily-puer/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>普洱筆記</category>
+    <description>我以前也把好茶留着等日子，結果那餅一年開不到兩次。天天陪你的那款，要順口，要喝得完。</description>
+  </item>
+  <item>
+    <title>他用菜刀撬</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/puer-gift/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/puer-gift/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>普洱筆記</category>
+    <description>茶葉沒有問題，送的人也真心。只是收禮的人家裏，可能連一把茶針都沒有。</description>
+  </item>
+  <item>
+    <title>白瓷沒有騙人</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/white-porcelain-day/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/white-porcelain-day/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>器物之間</category>
+    <description>我以前也以為，湯色清亮就是好茶。後來才知道，白瓷只負責讓人看清楚，看懂是另一回事。</description>
+  </item>
+  <item>
+    <title>第一杯最淡</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/sharing-pitcher/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/sharing-pitcher/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>器物之間</category>
+    <description>蓋碗直接斟進四隻杯，第一隻顏色淺，最後一隻深了一截。公道杯要解決的，就是這一行深淺。</description>
+  </item>
+  <item>
+    <title>嘴唇碰到那一圈</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/rim-of-a-cup/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/rim-of-a-cup/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>器物之間</category>
+    <description>「同一壺茶，為甚麼這隻杯好喝些？」答案多半不在茶裏，在嘴唇碰到的那一圈杯沿。</description>
+  </item>
+  <item>
+    <title>最少看的兩件</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/lid-bowl-saucer/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/lid-bowl-saucer/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>器物之間</category>
+    <description>初學蓋碗，我只顧看碗身的釉色。後來燙過手、倒出過一杯碎葉，才明白蓋和托一樣要緊。</description>
+  </item>
+  <item>
+    <title>壺嘴那一滴</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/teapot-mouth/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/teapot-mouth/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>器物之間</category>
+    <description>水停了，壺嘴下面還掛着一滴，慢慢沿着壺身流下去。這把壺好不好看是一回事，好不好用，就看這一下。</description>
+  </item>
+  <item>
+    <title>光澤慢慢來</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/one-pot-familiar-tea/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/one-pot-familiar-tea/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>器物之間</category>
+    <description>新壺揭開蓋，總有一點泥土氣。有人急着問怎樣養，我只叫他先泡茶，泡乾淨，泡順手。</description>
+  </item>
+  <item>
+    <title>布要先乾透</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/tea-cloth/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/tea-cloth/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>器物之間</category>
+    <description>潮濕的日子，茶巾摺好收進抽屜，第二天拿出來，先聞到的是一股悶味。茶巾要乾，比要好看緊要。</description>
+  </item>
+  <item>
+    <title>最後一個順手</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/drying-teaware/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/drying-teaware/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>器物之間</category>
+    <description>掀開壺蓋，先聞到一股悶味。那把壺上次明明洗乾淨了，只是蓋子蓋回去得太早。</description>
+  </item>
+  <item>
+    <title>最後只用兩件</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/travel-tea-set/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/travel-tea-set/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>器物之間</category>
+    <description>收拾行李時想像的茶席總是很完整，到了旅館才發現桌子只有那麼小，最後用的，還是最簡單的那幾件。</description>
+  </item>
+  <item>
+    <title>搬開三隻杯</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/fewer-tea-tools/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/fewer-tea-tools/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>器物之間</category>
+    <description>取一隻公道杯，要先搬開三隻杯和一把壺。那一刻我才承認，櫃裏大部分器物，已經很久沒有上過茶桌。</description>
+  </item>
+  <item>
+    <title>別急着透氣</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/rainy-day-storage/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/rainy-day-storage/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>買茶與存茶</category>
+    <description>玻璃起霧，地磚摸上去濕濕的。這幾天最想做的，是把茶全搬出來透氣；我勸你先別動。</description>
+  </item>
+  <item>
+    <title>先看袋口</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/seal-the-bag/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/seal-the-bag/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>買茶與存茶</category>
+    <description>空氣一轉潮，我先把櫃裏的茶袋逐個拿出來，用手指沿夾鏈捋一遍。漂亮的茶罐未必密封，封得好的原裝袋反而可靠。</description>
+  </item>
+  <item>
+    <title>咖喱旁邊的茶</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/tea-and-kitchen/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/tea-and-kitchen/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>買茶與存茶</category>
+    <description>打開一袋清香烏龍，迎面先來的是一陣咖喱粉。茶沒有壞，只是住錯了地方。</description>
+  </item>
+  <item>
+    <title>好像是朋友送的</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/label-your-tea/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/label-your-tea/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>買茶與存茶</category>
+    <description>抽屜裏幾個相似的紙袋，逐個打開來聞，香氣都似曾相識。買的時候以為一定記得，後來只剩一句「好像是朋友送的」。</description>
+  </item>
+  <item>
+    <title>一排半開的袋</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/open-one-bag/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/open-one-bag/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>買茶與存茶</category>
+    <description>我以前也是這樣：新茶一到，每包都剪開聞一聞。幾星期後，櫃裏躺着一排半開的袋子。</description>
+  </item>
+  <item>
+    <title>換季點一次</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/tea-storage-inventory/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/tea-storage-inventory/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>買茶與存茶</category>
+    <description>換季那個周末，我把茶一包一包拿出來。點完才發現，原來已經夠喝很久。</description>
+  </item>
+  <item>
+    <title>先聞到潤手霜</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/sample-sharing/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/sample-sharing/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>買茶與存茶</category>
+    <description>打開朋友送來的茶樣，先聞到的是一陣潤手霜香。茶葉吸味快，分茶這件小事，先從洗手開始。</description>
+  </item>
+  <item>
+    <title>打算幾時開</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/fridge-and-tea/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/fridge-and-tea/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>買茶與存茶</category>
+    <description>家裏的茶全部搬進雪櫃，是很多人整理茶櫃的辦法。合不合用，先看是哪一種茶，再看包裝。</description>
+  </item>
+  <item>
+    <title>不必拿自己試</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/when-tea-smells-wrong/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/when-tea-smells-wrong/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>買茶與存茶</category>
+    <description>袋口一剪開，鼻子比手先到。那一下覺得不對，最要緊的是把熱水壺放下。</description>
+  </item>
+  <item>
+    <title>這包喝到幾時</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/buying-less-tea/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/buying-less-tea/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>買茶與存茶</category>
+    <description>「多買幾包，算下來便宜些。」這句話在茶店裏聽得最多。我想問的是另一件事：這一包，你要喝多久？</description>
+  </item>
+  <item>
+    <title>眼鏡放哪裏</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/room-at-the-table/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/room-at-the-table/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>茶席待客</category>
+    <description>壺、杯、花都擺好了，看上去很完整。客人坐下，拿着眼鏡左右看了一圈，還是放回口袋。</description>
+  </item>
+  <item>
+    <title>茶罐先放回去</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/ask-before-pouring/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/ask-before-pouring/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>茶席待客</category>
+    <description>水壺已經放上爐，客人才說剛在樓下喝過咖啡。茶可以等一等，先把一杯清水放到他手邊。</description>
+  </item>
+  <item>
+    <title>手要有位置</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/cup-not-full/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/cup-not-full/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>茶席待客</category>
+    <description>茶斟到杯口，杯沿就沒有一處可以下手。留三分空，客人的手才拿得穩，說話時也不必一直捧着杯。</description>
+  </item>
+  <item>
+    <title>話未說完茶已涼</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/introduce-a-tea/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/introduce-a-tea/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>茶席待客</category>
+    <description>客人只問了一句今天喝甚麼，主人答了十分鐘。答完，第一泡已經在杯裏涼了。</description>
+  </item>
+  <item>
+    <title>濃度舒服嗎</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/quiet-guest/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/quiet-guest/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>茶席待客</category>
+    <description>有人喝一口便滔滔不絕，有人只把杯子在手裏轉來轉去。後者未必沒有感受，可能只是還在找話。</description>
+  </item>
+  <item>
+    <title>花瓶的水</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/flowers-near-tea/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/flowers-near-tea/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>茶席待客</category>
+    <description>春天花多，插完瓶總剩一兩枝，很想往茶桌上放。放是可以的，只是要矮，要淡，花瓶的水也別跟茶水混在一起。</description>
+  </item>
+  <item>
+    <title>先蓋上盒蓋</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/tea-and-snacks/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/tea-and-snacks/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>茶席待客</category>
+    <description>酥餅一放下，桌邊的話就多了。可是遇上要認真比茶的一桌，我會先把盒子蓋上。</description>
+  </item>
+  <item>
+    <title>茶罐只開一個</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/two-person-tea/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/two-person-tea/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>茶席待客</category>
+    <description>朋友說要過來坐一會。我燒了一壺水，取出兩隻杯，茶罐只開了一個。</description>
+  </item>
+  <item>
+    <title>你的杯在這裏</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/hosting-first-timers/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/hosting-first-timers/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>茶席待客</category>
+    <description>客人坐下，雙手放在膝上，眼睛看着桌上一排杯，不敢伸手。這時主人最該說的，是很短的幾句話。</description>
+  </item>
+  <item>
+    <title>燒到第三壺</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/closing-a-tea-gathering/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/closing-a-tea-gathering/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>茶席待客</category>
+    <description>談得投契，水就一壺接一壺地燒。可是杯子空了，未必是茶不夠，有時是客人想走，又不好意思開口。</description>
+  </item>
+  <item>
+    <title>顏色不是憑據</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/six-tea-families/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/six-tea-families/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>製茶與風土</category>
+    <description>「紅茶，就是紅色的茶吧？」這一問很常見。答對一半，錯的那一半，正好是分類的門口。</description>
+  </item>
+  <item>
+    <title>少了哪一步</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/fresh-leaf-to-tea/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/fresh-leaf-to-tea/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>製茶與風土</category>
+    <description>葉底攤在白碟上，邊緣一圈淡紅。這一圈紅，是在哪一步留下的？</description>
+  </item>
+  <item>
+    <title>最安靜的一步</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/withering-is-work/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/withering-is-work/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>製茶與風土</category>
+    <description>鮮葉剛攤上竹篩時，葉面發亮，葉柄挺直。幾個鐘頭後，光澤暗了，葉子軟了，變化全在沒有聲響的時候發生。</description>
+  </item>
+  <item>
+    <title>攤開才看見</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/rolling-leaves/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/rolling-leaves/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>製茶與風土</category>
+    <description>泡過的葉底攤在白碟上，一片片慢慢鬆開，摺痕卻還在。那些摺痕，是揉捻留下的。</description>
+  </item>
+  <item>
+    <title>先聞過再說</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/understanding-roast/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/understanding-roast/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>製茶與風土</category>
+    <description>「這麼深色，火一定很重吧。」乾茶倒進茶荷，總有人先下這個判斷。我會請他先別急，聞完、喝完再說。</description>
+  </item>
+  <item>
+    <title>兩種發酵</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/tea-oxidation/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/tea-oxidation/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>製茶與風土</category>
+    <description>初學茶時，我以為茶裏的發酵和釀酒、造豉油是同一件事。後來才知道，這個詞底下有兩個過程。</description>
+  </item>
+  <item>
+    <title>鏡頭以外</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/machine-and-hand/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/machine-and-hand/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>製茶與風土</category>
+    <description>製茶現場的照片裏，鏡頭最愛那雙手。我也曾被打動，後來才學會把目光移回杯裏。</description>
+  </item>
+  <item>
+    <title>同一隻茶匙</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/shape-of-dry-tea/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/shape-of-dry-tea/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>製茶與風土</category>
+    <description>同樣一匙，蓬鬆的葉和緊實的茶粒放上秤，數字差得不少。形狀先改變的，是你下茶的分量。</description>
+  </item>
+  <item>
+    <title>春茶兩個字</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/season-of-picking/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/season-of-picking/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>製茶與風土</category>
+    <description>每年一到清明前後，總有人問新茶到了沒有。春茶值得等，但烏龍、紅茶未必以春為先，季節只是線索。</description>
+  </item>
+  <item>
+    <title>別人的工作現場</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/tea-workshop-visit/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/tea-workshop-visit/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>製茶與風土</category>
+    <description>竹篩上攤着一層鮮葉，訪客的手已經伸過去想摸。旁邊做茶的人沒說話，眼睛卻一直跟着那隻手。</description>
+  </item>
+  <item>
+    <title>碟子先別收</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/morning-after-breakfast/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/morning-after-breakfast/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>茶與日常</category>
+    <description>早上的水壺、訊息和升降機都在催人。吃完早餐，碟子還在桌上，我會多坐十分鐘，等一杯茶不燙口。</description>
+  </item>
+  <item>
+    <title>杯子放哪一邊</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/desk-corner/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/desk-corner/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>茶與日常</category>
+    <description>文件邊上一圈淡褐色的水印，比任何提醒都清楚：這隻杯放錯了地方。</description>
+  </item>
+  <item>
+    <title>先關窗再泡</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/rain-and-a-cup/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/rain-and-a-cup/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>茶與日常</category>
+    <description>回南天一來，牆身冒汗，玻璃起霧。這種日子想泡一杯熱茶，要先替茶葉擋住那一屋濕氣。</description>
+  </item>
+  <item>
+    <title>杯底落在紙上</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/book-and-tea/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/book-and-tea/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>茶與日常</category>
+    <description>書架上總有一兩本書，某一頁留着一圈淡黃的杯印。那一圈印，多半是杯子放錯了邊。</description>
+  </item>
+  <item>
+    <title>茶明天還在</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/evening-choices/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/evening-choices/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>茶與日常</category>
+    <description>天黑以後屋裏靜下來，是最想坐下泡茶的時候。這一杯今晚喝不喝，只有你自己答得出。</description>
+  </item>
+  <item>
+    <title>夜裏一隻蓋碗</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/tea-for-one/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/tea-for-one/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>茶與日常</category>
+    <description>夜深了，家裏只剩電水壺在響。茶盤上的杯收起大半，桌面馬上寬了。</description>
+  </item>
+  <item>
+    <title>洗完臉才算收工</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/after-the-city/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/after-the-city/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>茶與日常</category>
+    <description>門一關上，鞋還未脫好，人已經想着要不要泡茶。這種晚上，我只留一隻蓋碗。</description>
+  </item>
+  <item>
+    <title>光移到另一邊</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/season-on-the-table/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/season-on-the-table/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>茶與日常</category>
+    <description>有一天下午，陽光斜斜落在茶罐上。我才發覺，季節已經先一步走到桌邊。</description>
+  </item>
+  <item>
+    <title>前一晚那隻杯</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/a-small-tea-break/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/a-small-tea-break/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>茶與日常</category>
+    <description>學生一邊收杯一邊問我：只有十分鐘，還算不算喝茶。夠的，前提是你別在那十分鐘裏找東西。</description>
+  </item>
+  <item>
+    <title>改天一直沒來</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/ordinary-good-tea/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/ordinary-good-tea/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>茶與日常</category>
+    <description>那包茶我一直說改天再喝，一放就是很久。後來才明白，改天往往就是今天。</description>
+  </item>
+  <item>
+    <title>帶一張紙來上課</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/first-lesson-questions/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/first-lesson-questions/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>學茶與教學</category>
+    <description>報了名，最常聽到的是：要不要先買個壺？穿甚麼好？很少人問，自己最想弄明白的是哪一件事。</description>
+  </item>
+  <item>
+    <title>沒有茶的練習</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/practice-with-water/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/practice-with-water/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>學茶與教學</category>
+    <description>蓋子一斜，水從縫邊淌出來，沿着手指流到茶盤上。幸好碗裏只是清水。</description>
+  </item>
+  <item>
+    <title>順在哪裏</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/learn-one-motion/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/learn-one-motion/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>學茶與教學</category>
+    <description>下課後問學生記得甚麼，最常聽到的答案是：「老師做得好順。」順在哪裏，卻說不上來。</description>
+  </item>
+  <item>
+    <title>問題太短</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/ask-a-teacher/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/ask-a-teacher/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>學茶與教學</category>
+    <description>手機亮起，訊息只有一句：老師，我的茶為甚麼不好喝？我盯着這句話，不知道該從哪裏答起。</description>
+  </item>
+  <item>
+    <title>差在哪一步</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/compare-with-a-classmate/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/compare-with-a-classmate/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>學茶與教學</category>
+    <description>兩隻蓋碗並排，同一包茶，倒出來一杯深一杯淺。桌邊總有人先問：誰泡得好？我想先問的是另一件事。</description>
+  </item>
+  <item>
+    <title>先讓他看夠</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/children-observe-tea/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/children-observe-tea/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>學茶與教學</category>
+    <description>孩子把一片乾葉翻來翻去，問它為甚麼捲着。這一問，比大人準備的任何講解都好。</description>
+  </item>
+  <item>
+    <title>學生那枝檸檬茶</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/youth-and-tea/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/youth-and-tea/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>學茶與教學</category>
+    <description>課室裏，茶盤旁放着一枝喝了一半的樽裝檸檬茶。我沒有叫人收起它，反而拿它做第一道題。</description>
+  </item>
+  <item>
+    <title>沒有人再點名</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/certificate-and-practice/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/certificate-and-practice/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>學茶與教學</category>
+    <description>最後一堂課收杯洗碗時，總有人問之後在家練甚麼。沒有人派功課的日子，學茶才真正開始。</description>
+  </item>
+  <item>
+    <title>名字最好聽</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/choose-a-tea-course/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/choose-a-tea-course/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>學茶與教學</category>
+    <description>入門、進階、專業、精讀，課程的名字一個比一個響亮。我會請人先把名字遮住，只看裏面寫了甚麼。</description>
+  </item>
+  <item>
+    <title>十五分鐘就夠</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/keep-learning/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/keep-learning/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>學茶與教學</category>
+    <description>茶課的筆記壓在一疊文件下面，幾星期沒翻過。這種日子我也有過，後來學會把事情縮小。</description>
+  </item>
+  <item>
+    <title>伙計看見了</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/yum-cha-table/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/yum-cha-table/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>文化與閱讀</category>
+    <description>壺蓋斜斜架在壺口，不用開口，伙計已經提着水壺走過來。這個動作，很多香港人從小看到大。</description>
+  </item>
+  <item>
+    <title>那個袋的顏色</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/hong-kong-milk-tea/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/hong-kong-milk-tea/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>文化與閱讀</category>
+    <description>茶餐廳櫃枱後掛着的布茶袋，顏色早已不是原來的白。一杯奶茶的功夫，大半就在那個袋裏。</description>
+  </item>
+  <item>
+    <title>那一線水</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/diancha-close-up/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/diancha-close-up/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>文化與閱讀</category>
+    <description>茶筅一停，盞邊先浮起一線水，白沫跟着往下縮。看見那一線水，就知道前面哪一步急了。</description>
+  </item>
+  <item>
+    <title>先想那隻手</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/museum-teacup/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/museum-teacup/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>文化與閱讀</category>
+    <description>玻璃櫃裏的杯子很安靜，像從沒裝過水。可它曾被人握過、喝過，看它之前，先想想那隻手。</description>
+  </item>
+  <item>
+    <title>問是哪一條村</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/forest-and-tea/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/forest-and-tea/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>文化與閱讀</category>
+    <description>有人問我，列入世界遺產的茶是不是會好喝一點。遺產保護的是一片林子和照顧它的人，沒有替哪一餅茶的味道擔保。</description>
+  </item>
+  <item>
+    <title>茶不用翻譯</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/tea-across-languages/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/tea-across-languages/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>文化與閱讀</category>
+    <description>我指一指茶壺，再指一指對方，揚一揚眉。他笑着點頭。那一刻我們還沒說上一句完整的話。</description>
+  </item>
+  <item>
+    <title>由一隻杯問起</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/family-tea-memory/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/family-tea-memory/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>文化與閱讀</category>
+    <description>問長輩「從前是怎樣的」，他多數笑一笑，答不上來。換成「家裏以前用哪隻杯」，話就停不下來。</description>
+  </item>
+  <item>
+    <title>好句旁邊的問號</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/reading-tea-writing/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/reading-tea-writing/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>文化與閱讀</category>
+    <description>我讀茶書，書邊常有鉛筆畫的小問號。多數畫在最動人的句子旁邊。</description>
+  </item>
+  <item>
+    <title>等泡沫散開</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/photograph-a-tea-table/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/photograph-a-tea-table/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>文化與閱讀</category>
+    <description>茶湯剛倒好，窗光落在杯沿，手已經伸向手機。按快門之前，我習慣先做幾件小事。</description>
+  </item>
+  <item>
+    <title>名錄記的是人</title>
+    <link>https://teabonvivant.github.io/tang-wei-tea/journal/heritage-in-the-everyday/</link>
+    <guid isPermaLink="true">https://teabonvivant.github.io/tang-wei-tea/journal/heritage-in-the-everyday/</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <category>文化與閱讀</category>
+    <description>課堂散了，水槽邊還有人在洗杯，一隻一隻倒扣在布上。我常覺得，傳承兩個字落到地上，大概就是這個聲音。</description>
+  </item>
+</channel>
+</rss>
